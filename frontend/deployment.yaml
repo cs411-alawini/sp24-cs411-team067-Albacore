@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: campus-cache-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: campus-cache
+  template:
+    metadata:
+      labels:
+        app: campus-cache
+    spec:
+      containers:
+      - name: campus-cache
+        image: localhost:5000/campus-cache-react:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+---
+# Explanation of Services: https://matthewpalmer.net/kubernetes-app-developer/articles/service-kubernetes-example-tutorial.html#:~:text=A%20deployment%20is%20responsible%20for,and%20pods%20could%20be%20replicated.
+apiVersion: v1
+kind: Service
+metadata:
+  name: campus-cache-service
+spec:
+  type: NodePort
+  selector:
+    app: campus-cache
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+    nodePort: 31000
