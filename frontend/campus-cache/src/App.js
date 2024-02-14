@@ -1,48 +1,42 @@
+import React, { useEffect, useState } from "react";
 import logo from './logo.svg';
 import './App.css';
 import axios from "axios";
 
-const HTTPCLIENT_BASE_URL = "http://localhost:8000/"
+const App = () => {
 
-const [sampleMsg, setSampleMsg] = useState("START");
+  const HTTPCLIENT_BASE_URL = "http://localhost:8000/";
 
-const httpClient = axios.create({
-  baseURL: HTTPCLIENT_BASE_URL,
-});
+  const [sampleMsg, setSampleMsg] = useState("START");
 
-httpClient.interceptors.response.use((response) => {
-  return response;
-}, (error) => {
-  return Promise.resolve({ error});
-});
+  const httpClient = axios.create({
+    baseURL: HTTPCLIENT_BASE_URL,
+  });
 
-const getRequest = (context) => {
-  httpClient
-    .get("/", formData, {
-      headers: { Authorization: "token " + localStorage.getItem("token") },
-    })
-    .then((response) => {
-      setSampleMsg("END");
-    })
-    .catch((error) => {
-      const msg = "Error on health check route" + error;
-      _log.error(msg);
-    });
-}
+  httpClient.interceptors.response.use((response) => {
+    return response;
+  }, (error) => {
+    return Promise.resolve({error});
+  });
 
+  const getRequest = () => {
+    httpClient
+      .get("/")
+      .then((response) => {
+        setSampleMsg(response.data);
+      })
+      .catch((error) => {
+      });
+  }
 
-
-
-function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-          msg here: {sampleMsg}
+          Status here: {sampleMsg}
         </p>
-        <button onclick="">Click</button>
+        <button onClick={()=>getRequest()}>Click to make API Request here</button>
         <a
           className="App-link"
           href="https://reactjs.org"

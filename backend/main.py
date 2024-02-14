@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 origins = ["*"]
 app.add_middleware(
+    ## What is cors? See: https://fastapi.tiangolo.com/tutorial/cors/
     CORSMiddleware,
     ## NOTE: allow origins is dangerous
     allow_origins=origins,
@@ -13,4 +14,4 @@ app.add_middleware(
 
 @app.get("/")
 async def root():
-    return {"message": "Hello Albacore"}
+    return "Response success from FastAPI backend!"

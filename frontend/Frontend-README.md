@@ -44,8 +44,8 @@ kubectl exec --stdin --tty campus-cache-react -- /bin/bash
 oyment`
 
 ## Run image locally and open
-`docker run -it -p 4000:3000 localhost:5000/campus-cache-react`
+`docker run -it -p 3000:3000 campus-cache-react`
 
-`open http://localhost:4000`
+`open http://localhost:3000`
 
 
