@@ -2,13 +2,16 @@ import React, { useEffect, useState } from "react";
 import logo from './logo.svg';
 import './App.css';
 import axios from "axios";
+import AuthenticationRouter from "./components/AuthenticationRouter";
 
 const App = () => {
 
   const HTTPCLIENT_BASE_URL = "http://localhost:8000/";
 
+  // React Hook separated by getter + setter
   const [sampleMsg, setSampleMsg] = useState("START");
 
+  // Axios is a simple http client library
   const httpClient = axios.create({
     baseURL: HTTPCLIENT_BASE_URL,
   });
@@ -31,21 +34,14 @@ const App = () => {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Status here: {sampleMsg}
         </p>
         <button onClick={()=>getRequest()}>Click to make API Request here</button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div>
+          <AuthenticationRouter>
+          </AuthenticationRouter>
+        </div>
     </div>
   );
 }
