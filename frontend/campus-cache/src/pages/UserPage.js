@@ -1,9 +1,10 @@
 import React from "react";
-import { UserModule } from "../components/User";
+// Created separate directory to prevent circular dependency
+import { UserModule } from "../components/User"; 
 const UserPage = () => {
     return (
         <>
-        <UserModule/>
+            <UserModule/>
         </>
     );
 };

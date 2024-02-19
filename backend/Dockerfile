@@ -1,5 +1,5 @@
 # Base Image
-FROM python:3.9-slim-buster
+FROM python3.9.13-slim-buster
 
 WORKDIR /app
 # Install deps and cache
