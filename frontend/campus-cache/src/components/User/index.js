@@ -1,1 +1,1 @@
-export { default as UserModule } from "./UserModule"
+export { default as CredentialsModule } from "./CredentialsModule"

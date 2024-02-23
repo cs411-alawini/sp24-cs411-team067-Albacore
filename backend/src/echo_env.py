@@ -6,6 +6,6 @@ dbpswd = os.environ['DB_PSWD']
 dbname = os.environ['DB_NAME']
 
 print("dbhost: " , dbhost)
-print("dbuser: " , dbhost)
-print("dbpswd: " , dbhost)
-print("dbname: " , dbhost)
+print("dbuser: " , dbuser)
+print("dbpswd: " , dbpswd)
+print("dbname: " , dbname)

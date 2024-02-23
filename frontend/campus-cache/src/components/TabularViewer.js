@@ -15,17 +15,17 @@ const TabularViewer = ({title, data}) => {
     ];
 
     useEffect(() => {
-        let tempData = []; // mutable
-        for (let i = 0; i < 5; i++) {
-            let tempObject = {};
-            for (let j = 0; j < 4; j++) {
-                tempObject[headers[j]["field"]] = data[i][j];
-            }
-            console.log("tempObject", tempObject);
-            tempData.push(tempObject);
-        }
-        console.log("tempData", tempData);
-        setTableData(tempData);
+        // let tempData = []; // mutable
+        // for (let i = 0; i < 5; i++) {
+        //     let tempObject = {};
+        //     for (let j = 0; j < 4; j++) {
+        //         tempObject[headers[j]["field"]] = data[i][j];
+        //     }
+        //     console.log("tempObject", tempObject);
+        //     tempData.push(tempObject);
+        // }
+        // console.log("tempData", tempData);
+        // setTableData(tempData);
     }, []);
 
 
@@ -34,13 +34,13 @@ const TabularViewer = ({title, data}) => {
             <p>
                 {title}
             </p>
-            <DataGrid
+            {/* <DataGrid
             getRowId={row=>row.netID}
             rows={tableData}
             columns={headers}
             pageSizeOptions={[5, 10]}
             checkboxSelection
-            />
+            /> */}
         </div>
     );
 }

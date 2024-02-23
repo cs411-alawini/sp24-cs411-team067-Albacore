@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { UserPage } from "../pages";
+import CredentialsPage from "../pages/CredentialsPage";
 
 // DECLARE ROUTES HERE
 
@@ -8,7 +8,7 @@ const AuthenticationRouter = () => {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<UserPage/>}/>
+                <Route path="/" element={<CredentialsPage/>}/>
             </Routes>
         </Router>
         

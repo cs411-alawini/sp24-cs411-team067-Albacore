@@ -8,7 +8,6 @@ const App = () => {
 
   return (
     <div className="App">
-        {/* <button onClick={()=>getRequest()}>Click to make API Request here</button> */}
         <div>
           <AuthenticationRouter>
           </AuthenticationRouter>
