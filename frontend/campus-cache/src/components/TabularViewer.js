@@ -6,41 +6,24 @@ import { DataGrid, GridRowsProp, GridColDef } from '@mui/x-data-grid';
 
 const TabularViewer = ({title, data}) => {
     const [tableData, setTableData] = useState([]);
-
-    const headers = [
-        {field: "netID", headerName: "NetID"},
-        {field: "password", headerName: "Password"},
-        {field: "permission", headerName: "Permissions"},
-        {field: "certification", headerName: "Certification"}
-    ];
-
+    const [headers, setHeaders] = useState([]);
     useEffect(() => {
-        // let tempData = []; // mutable
-        // for (let i = 0; i < 5; i++) {
-        //     let tempObject = {};
-        //     for (let j = 0; j < 4; j++) {
-        //         tempObject[headers[j]["field"]] = data[i][j];
-        //     }
-        //     console.log("tempObject", tempObject);
-        //     tempData.push(tempObject);
-        // }
-        // console.log("tempData", tempData);
-        // setTableData(tempData);
-    }, []);
-
+        setHeaders(data["table_headers"]);
+        setTableData(data["credentials"]);
+    });
 
     return (
         <div>
             <p>
                 {title}
             </p>
-            {/* <DataGrid
-            getRowId={row=>row.netID}
+            <DataGrid
+            getRowId={row=>row.netid}
             rows={tableData}
             columns={headers}
             pageSizeOptions={[5, 10]}
             checkboxSelection
-            /> */}
+            />
         </div>
     );
 }
@@ -48,7 +31,7 @@ const TabularViewer = ({title, data}) => {
 
 TabularViewer.propTypes = {
     title: PropTypes.string,
-    data: PropTypes.array
+    data: PropTypes.object
 };
 
 export default TabularViewer;

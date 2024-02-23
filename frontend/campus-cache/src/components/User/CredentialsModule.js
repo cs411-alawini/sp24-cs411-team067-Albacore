@@ -14,7 +14,8 @@ const CredentialsModule = () => {
       httpClient
         .get("/credentials", {headers: {}})
         .then((response) => {
-            setTableData(response.data["student"]);
+            console.log(response.data);
+            setTableData(response.data);
         })
         .catch((error) => {
         });
