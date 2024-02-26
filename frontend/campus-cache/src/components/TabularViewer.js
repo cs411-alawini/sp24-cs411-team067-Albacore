@@ -1,8 +1,26 @@
 import React, {useState, useEffect} from "react";
 import PropTypes from "prop-types";
-import { DataGrid, GridRowsProp, GridColDef } from '@mui/x-data-grid';
+import {
+    DataGrid,
+    GridToolbarContainer,
+    GridToolbarColumnsButton,
+    GridToolbarFilterButton,
+    GridToolbarExport,
+    GridToolbarDensitySelector,
+  } from '@mui/x-data-grid';
 
 // This is an example of a higher-order component using PropTypes as args
+
+// function CustomToolbar() {
+//     return (
+//       <GridToolbarContainer>
+//         <GridToolbarColumnsButton />
+//         <GridToolbarFilterButton />
+//         <GridToolbarDensitySelector />
+//         <GridToolbarExport />
+//       </GridToolbarContainer>
+//     );
+//   }
 
 const TabularViewer = ({title, data}) => {
     const [tableData, setTableData] = useState([]);

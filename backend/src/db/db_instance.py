@@ -20,7 +20,11 @@ mydb = mysql.connector.connect(
     database=dbname,
     pool_name="MySQLPool")
 
-cursor = mydb.cursor()
+# otherwise returns a list
+cursor = mydb.cursor(dictionary=True)
 
 def get_cursor():
     return cursor
+
+def get_db():
+    return mydb
