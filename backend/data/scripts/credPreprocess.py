@@ -3,7 +3,7 @@ import glob
 import os
 
 def getAllCSV(path):
-    pattern = os.path.join(path, "*.csv")
+    pattern = os.path.join(path, "*cred*.csv")
     return glob.glob(pattern)
 
 def mergeCSV(all_paths):
@@ -16,10 +16,10 @@ def mergeCSV(all_paths):
 
 def main():
     curDir  = os.getcwd()
-    dataPath = os.path.join(os.path.dirname(curDir), 'data')
+    dataPath = os.path.join(os.path.dirname(curDir), 'files')
     csv_paths = getAllCSV(dataPath)
     merge = mergeCSV(csv_paths)
-    merge.to_csv(os.path.join(dataPath, 'credentials.csv'))
+    merge.to_csv(os.path.join(dataPath, 'filtered_credentials.csv'))
 
 
 if __name__ == "__main__":
