@@ -1,0 +1,894 @@
+Term/Year Code|College|Dept|Degree|Major Code|Major Name|Conc code|Concentration Name (if any)|Fresh- man|Sopho- more|Junior|Senior|Non- degree Ugrad|Total Under grad|Full-Time Ugrad|Part-Time Ugrad|Grad 1 (master)|Grad 2 (doctoral)|Non- degree Grad|Total Grad|Full-Time Grad|Part-Time Grad|Profes-sional|Full-Time Professional|Part-Time Professional|Total|Full-Time Total|Part-Time Total|Academic Program Code
+120241 |Agricultural, Consumer & Environmental Sciences |306 |BS |5895 |Metropolitan Food & Enviro Sys |  |  |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KL5895BS
+120241 |Agricultural, Consumer & Environmental Sciences |306 |BS |6147 |SustainabilityinFood&EnviroSys |  |  |0|4|5|1|0|10|10|0|0|0|0|0|0|0|0|0|0|10|10|0|10KL6147BS
+120241 |Agricultural, Consumer & Environmental Sciences |306 |MS |5599 |Bioprocessing and Bioenergy |5166 |Professional Science Masters |0|0|0|0|0|0|0|0|3|0|0|3|3|0|0|0|0|3|3|0|1PKS5599MS
+120241 |Agricultural, Consumer & Environmental Sciences |342 |BS |5740 |Ag Ldrship, Ed & Communication |5736 |Agricultural Education |2|4|4|16|0|26|25|1|0|0|0|0|0|0|0|0|0|26|25|1|10KL5736BS
+120241 |Agricultural, Consumer & Environmental Sciences |342 |BS |5740 |Ag Ldrship, Ed & Communication |5737 |Org & Community Leadership |2|6|16|18|0|42|39|3|0|0|0|0|0|0|0|0|0|42|39|3|10KL5737BS
+120241 |Agricultural, Consumer & Environmental Sciences |342 |BS |5740 |Ag Ldrship, Ed & Communication |5738 |Ag Communications-Advertising |0|0|0|4|0|4|4|0|0|0|0|0|0|0|0|0|0|4|4|0|10KL5738BS
+120241 |Agricultural, Consumer & Environmental Sciences |342 |BS |5740 |Ag Ldrship, Ed & Communication |5739 |Ag Communications-Journalism |0|0|0|2|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KL5739BS
+120241 |Agricultural, Consumer & Environmental Sciences |342 |BS |5740 |Ag Ldrship, Ed & Communication |6080 |Agricultural Communications |9|5|7|13|0|34|33|1|0|0|0|0|0|0|0|0|0|34|33|1|10KL6080BS
+120241 |Agricultural, Consumer & Environmental Sciences |342 |MS |5740 |Ag Ldrship, Ed & Communication |  |  |0|0|0|0|0|0|0|0|10|0|0|10|10|0|0|0|0|10|10|0|10KS5740MS
+120241 |Agricultural, Consumer & Environmental Sciences |342 |MS |5740 |Ag Ldrship, Ed & Communication |  |  |0|0|0|0|0|0|0|0|16|0|0|16|5|11|0|0|0|16|5|11|10KS5740MSU
+120241 |Agricultural, Consumer & Environmental Sciences |342 |NDEG |5740 |Ag Ldrship, Ed & Communication |  |  |0|0|0|0|0|0|0|0|0|0|3|3|0|3|0|0|0|3|0|3|10KS5740NDEU
+120241 |Agricultural, Consumer & Environmental Sciences |470 |BS |0176 |Agr & Consumer Economics |5003 |Agri-Accounting |8|10|13|28|0|59|58|1|0|0|0|0|0|0|0|0|0|59|58|1|10KL5003BS
+120241 |Agricultural, Consumer & Environmental Sciences |470 |BS |0176 |Agr & Consumer Economics |5005 |Farm Management |1|2|4|8|0|15|15|0|0|0|0|0|0|0|0|0|0|15|15|0|10KL5005BS
+120241 |Agricultural, Consumer & Environmental Sciences |470 |BS |0176 |Agr & Consumer Economics |5006 |Agribusiness Markets & Mgmt |13|28|33|50|0|124|120|4|0|0|0|0|0|0|0|0|0|124|120|4|10KL5006BS
+120241 |Agricultural, Consumer & Environmental Sciences |470 |BS |0176 |Agr & Consumer Economics |5006 |Agribusiness Markets & Mgmt |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KL8037BS
+120241 |Agricultural, Consumer & Environmental Sciences |470 |BS |0176 |Agr & Consumer Economics |5007 |Consumer Economics & Finance |8|27|65|74|0|174|169|5|0|0|0|0|0|0|0|0|0|174|169|5|10KL5007BS
+120241 |Agricultural, Consumer & Environmental Sciences |470 |BS |0176 |Agr & Consumer Economics |5008 |Envirnmntal Economics & Policy |6|17|11|15|0|49|48|1|0|0|0|0|0|0|0|0|0|49|48|1|10KL5008BS
+120241 |Agricultural, Consumer & Environmental Sciences |470 |BS |0176 |Agr & Consumer Economics |5010 |Policy, Intl Trade, & Dvlpmt |6|2|3|9|0|20|20|0|0|0|0|0|0|0|0|0|0|20|20|0|10KL5010BS
+120241 |Agricultural, Consumer & Environmental Sciences |470 |BS |0176 |Agr & Consumer Economics |5011 |Public Policy and Law |16|12|11|21|0|60|60|0|0|0|0|0|0|0|0|0|0|60|60|0|10KL5011BS
+120241 |Agricultural, Consumer & Environmental Sciences |470 |BS |0176 |Agr & Consumer Economics |5136 |Financial Planning |20|40|42|66|0|168|163|5|0|0|0|0|0|0|0|0|0|168|163|5|10KL5136BS
+120241 |Agricultural, Consumer & Environmental Sciences |470 |BS |0176 |Agr & Consumer Economics |5316 |Finance in Agri-Business |8|8|15|25|0|56|56|0|0|0|0|0|0|0|0|0|0|56|56|0|10KL5316BS
+120241 |Agricultural, Consumer & Environmental Sciences |470 |MAAE |5870 |Agricultural & Applied Econ |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|1PKS5870MAAE
+120241 |Agricultural, Consumer & Environmental Sciences |470 |MAAE |5870 |Agricultural & Applied Econ |5869 |BS ACE/MAAE AAE |0|0|0|0|0|0|0|0|4|0|0|4|4|0|0|0|0|4|4|0|1PKS5869MAAE
+120241 |Agricultural, Consumer & Environmental Sciences |470 |MS |5273 |Agricultural & Applied Econ |  |  |0|0|0|0|0|0|0|0|10|0|0|10|9|1|0|0|0|10|9|1|10KS5273MS
+120241 |Agricultural, Consumer & Environmental Sciences |470 |PHD |5273 |Agricultural & Applied Econ |  |  |0|0|0|0|0|0|0|0|0|55|0|55|54|1|0|0|0|55|54|1|10KS5273PHD
+120241 |Agricultural, Consumer & Environmental Sciences |483 |NDEG |0067 |Nondegree |  |  |0|0|0|0|78|78|12|66|0|0|0|0|0|0|0|0|0|78|12|66|10KL0067NDEG
+120241 |Agricultural, Consumer & Environmental Sciences |483 |NONE |5621 |ACES Undeclared |  |  |44|28|13|1|0|86|85|1|0|0|0|0|0|0|0|0|0|86|85|1|10KL5621NONE
+120241 |Agricultural, Consumer & Environmental Sciences |538 |BS |0002 |Animal Sciences |5268 |Companion Animal & Equine Sci |9|14|22|49|0|94|91|3|0|0|0|0|0|0|0|0|0|94|91|3|10KL0002BS
+120241 |Agricultural, Consumer & Environmental Sciences |538 |BS |0002 |Animal Sciences |5269 |Science, Pre-Vet Med and Med |70|109|91|134|0|404|399|5|0|0|0|0|0|0|0|0|0|404|399|5|10KL0002BS
+120241 |Agricultural, Consumer & Environmental Sciences |538 |BS |0002 |Animal Sciences |5588 |Food Animal Prod & Mgmt |1|4|4|20|0|29|28|1|0|0|0|0|0|0|0|0|0|29|28|1|10KL0002BS
+120241 |Agricultural, Consumer & Environmental Sciences |538 |BS |5864 |Computer Sci & Animal Sci |  |  |0|2|2|2|0|6|6|0|0|0|0|0|0|0|0|0|0|6|6|0|10KL5864BS
+120241 |Agricultural, Consumer & Environmental Sciences |538 |MANSC |0002 |Animal Sciences |  |  |0|0|0|0|0|0|0|0|13|0|0|13|11|2|0|0|0|13|11|2|1PKS0002MANS
+120241 |Agricultural, Consumer & Environmental Sciences |538 |MANSC |0002 |Animal Sciences |  |  |0|0|0|0|0|0|0|0|9|0|0|9|4|5|0|0|0|9|4|5|1PKS0002MANU
+120241 |Agricultural, Consumer & Environmental Sciences |538 |MS |0002 |Animal Sciences |  |  |0|0|0|0|0|0|0|0|22|0|0|22|21|1|0|0|0|22|21|1|10KS0002MS
+120241 |Agricultural, Consumer & Environmental Sciences |538 |MS |4026 |Bioinformatics |5099 |Animal Science |0|0|0|0|0|0|0|0|5|0|0|5|4|1|0|0|0|5|4|1|10KS5099MS
+120241 |Agricultural, Consumer & Environmental Sciences |538 |NDEG |0002 |Animal Sciences |  |  |0|0|0|0|0|0|0|0|0|0|28|28|0|28|0|0|0|28|0|28|1PKS0002NDEU
+120241 |Agricultural, Consumer & Environmental Sciences |538 |PHD |0002 |Animal Sciences |  |  |0|0|0|0|0|0|0|0|0|42|0|42|42|0|0|0|0|42|42|0|10KS0002PHD
+120241 |Agricultural, Consumer & Environmental Sciences |698 |BS |0037 |Food Science & Human Nutrition |0038 |Food Science |0|7|8|42|0|57|54|3|0|0|0|0|0|0|0|0|0|57|54|3|10KL0038BS
+120241 |Agricultural, Consumer & Environmental Sciences |698 |BS |0037 |Food Science & Human Nutrition |0040 |Human Nutrition |0|7|9|23|0|39|38|1|0|0|0|0|0|0|0|0|0|39|38|1|10KL0040BS
+120241 |Agricultural, Consumer & Environmental Sciences |698 |BS |0037 |Food Science & Human Nutrition |0041 |Dietetics |0|0|7|18|0|25|25|0|0|0|0|0|0|0|0|0|0|25|25|0|10KL0041BS
+120241 |Agricultural, Consumer & Environmental Sciences |698 |BS |0037 |Food Science & Human Nutrition |0042 |Hospitality Management |0|1|4|15|0|20|20|0|0|0|0|0|0|0|0|0|0|20|20|0|10KL0042BS
+120241 |Agricultural, Consumer & Environmental Sciences |698 |BS |0184 |Food Science |  |  |10|9|7|9|0|35|35|0|0|0|0|0|0|0|0|0|0|35|35|0|10KL0184BS
+120241 |Agricultural, Consumer & Environmental Sciences |698 |BS |6139 |Dietetics and Nutrition |  |  |6|12|11|8|0|37|37|0|0|0|0|0|0|0|0|0|0|37|37|0|10KL6139BS
+120241 |Agricultural, Consumer & Environmental Sciences |698 |BS |6143 |Hospitality Management |  |  |7|8|9|2|0|26|26|0|0|0|0|0|0|0|0|0|0|26|26|0|10KL6143BS
+120241 |Agricultural, Consumer & Environmental Sciences |698 |BS |6144 |Nutrition & Health |  |  |12|6|10|2|0|30|30|0|0|0|0|0|0|0|0|0|0|30|30|0|10KL6144BS
+120241 |Agricultural, Consumer & Environmental Sciences |698 |MS |0037 |Food Science & Human Nutrition |  |  |0|0|0|0|0|0|0|0|43|0|0|43|0|43|0|0|0|43|0|43|10KS0037MSU
+120241 |Agricultural, Consumer & Environmental Sciences |698 |MS |0037 |Food Science & Human Nutrition |0038 |Food Science |0|0|0|0|0|0|0|0|26|0|0|26|26|0|0|0|0|26|26|0|10KS0037MS
+120241 |Agricultural, Consumer & Environmental Sciences |698 |MS |0037 |Food Science & Human Nutrition |0040 |Human Nutrition |0|0|0|0|0|0|0|0|7|0|0|7|3|4|0|0|0|7|3|4|10KS0037MS
+120241 |Agricultural, Consumer & Environmental Sciences |698 |MS |0037 |Food Science & Human Nutrition |5166 |Professional Science Masters |0|0|0|0|0|0|0|0|10|0|0|10|10|0|0|0|0|10|10|0|1PKS0037MS
+120241 |Agricultural, Consumer & Environmental Sciences |698 |MS |0037 |Food Science & Human Nutrition |6090 |Clinical & Community Nutrition |0|0|0|0|0|0|0|0|13|0|0|13|7|6|0|0|0|13|7|6|10KS0037MS
+120241 |Agricultural, Consumer & Environmental Sciences |698 |MS |0037 |Food Science & Human Nutrition |6090 |Clinical & Community Nutrition |0|0|0|0|0|0|0|0|4|0|0|4|2|2|0|0|0|4|2|2|10KS0037MSU
+120241 |Agricultural, Consumer & Environmental Sciences |698 |NDEG |0037 |Food Science & Human Nutrition |  |  |0|0|0|0|0|0|0|0|0|0|1|1|0|1|0|0|0|1|0|1|10KS0037NDEG
+120241 |Agricultural, Consumer & Environmental Sciences |698 |PHD |0037 |Food Science & Human Nutrition |0038 |Food Science |0|0|0|0|0|0|0|0|0|23|0|23|23|0|0|0|0|23|23|0|10KS0037PHD
+120241 |Agricultural, Consumer & Environmental Sciences |698 |PHD |0037 |Food Science & Human Nutrition |0040 |Human Nutrition |0|0|0|0|0|0|0|0|0|11|0|11|11|0|0|0|0|11|11|0|10KS0037PHD
+120241 |Agricultural, Consumer & Environmental Sciences |741 |BS |0025 |Technical Systems Management |  |  |0|0|1|10|0|11|10|1|0|0|0|0|0|0|0|0|0|11|10|1|10KL0025BS
+120241 |Agricultural, Consumer & Environmental Sciences |741 |BS |0025 |Technical Systems Management |  |  |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KL8037BS
+120241 |Agricultural, Consumer & Environmental Sciences |741 |BS |6028 |Engr Tech & Mgmt for Ag Sys |6002 |Ag Production & Processing |2|1|2|4|0|9|9|0|0|0|0|0|0|0|0|0|0|9|9|0|10KL6028BS
+120241 |Agricultural, Consumer & Environmental Sciences |741 |BS |6028 |Engr Tech & Mgmt for Ag Sys |6003 |Construction Management |2|14|25|35|0|76|75|1|0|0|0|0|0|0|0|0|0|76|75|1|10KL6028BS
+120241 |Agricultural, Consumer & Environmental Sciences |741 |BS |6028 |Engr Tech & Mgmt for Ag Sys |6004 |Digital & Precision Ag |2|3|10|6|0|21|21|0|0|0|0|0|0|0|0|0|0|21|21|0|10KL6028BS
+120241 |Agricultural, Consumer & Environmental Sciences |741 |BS |6028 |Engr Tech & Mgmt for Ag Sys |6004 |Digital & Precision Ag |0|1|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KL8037BS
+120241 |Agricultural, Consumer & Environmental Sciences |741 |BS |6028 |Engr Tech & Mgmt for Ag Sys |6005 |Energy and the Environment |1|2|10|30|0|43|42|1|0|0|0|0|0|0|0|0|0|43|42|1|10KL6028BS
+120241 |Agricultural, Consumer & Environmental Sciences |741 |BS |6028 |Engr Tech & Mgmt for Ag Sys |6005 |Energy and the Environment |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KL8037BS
+120241 |Agricultural, Consumer & Environmental Sciences |741 |BSAG |5163 |Agricultural & Biological Engr |  |  |10|17|8|5|0|40|40|0|0|0|0|0|0|0|0|0|0|40|40|0|10KL5163BSAG
+120241 |Agricultural, Consumer & Environmental Sciences |741 |MS |0025 |Technical Systems Management |  |  |0|0|0|0|0|0|0|0|2|0|0|2|1|1|0|0|0|2|1|1|10KS0025MS
+120241 |Agricultural, Consumer & Environmental Sciences |741 |MS |6028 |Engr Tech & Mgmt for Ag Sys |  |  |0|0|0|0|0|0|0|0|7|0|0|7|5|2|0|0|0|7|5|2|10KS6028MS
+120241 |Agricultural, Consumer & Environmental Sciences |741 |MS |6028 |Engr Tech & Mgmt for Ag Sys |5166 |Professional Science Masters |0|0|0|0|0|0|0|0|3|0|0|3|2|1|0|0|0|3|2|1|1PKS6028MS
+120241 |Agricultural, Consumer & Environmental Sciences |793 |BS |0048 |Human Development & Family St |  |  |27|40|48|58|0|173|172|1|0|0|0|0|0|0|0|0|0|173|172|1|10KL0048BS
+120241 |Agricultural, Consumer & Environmental Sciences |793 |BS |0048 |Human Development & Family St |0049 |Child and Adolescent Dev |0|0|0|25|0|25|24|1|0|0|0|0|0|0|0|0|0|25|24|1|10KL0049BS
+120241 |Agricultural, Consumer & Environmental Sciences |793 |BS |0048 |Human Development & Family St |0050 |Family Studies |0|0|0|9|0|9|9|0|0|0|0|0|0|0|0|0|0|9|9|0|10KL0050BS
+120241 |Agricultural, Consumer & Environmental Sciences |793 |PHD |5577 |Human Dvlpmt & Family Studies |  |  |0|0|0|0|0|0|0|0|0|24|0|24|24|0|0|0|0|24|24|0|10KS5577PHD
+120241 |Agricultural, Consumer & Environmental Sciences |802 |BS |0030 |Crop Sciences |0031 |Agroecology |0|0|4|3|0|7|7|0|0|0|0|0|0|0|0|0|0|7|7|0|10KL0031BS
+120241 |Agricultural, Consumer & Environmental Sciences |802 |BS |0030 |Crop Sciences |0032 |Plant Protection |0|0|0|4|0|4|4|0|0|0|0|0|0|0|0|0|0|4|4|0|10KL0032BS
+120241 |Agricultural, Consumer & Environmental Sciences |802 |BS |0030 |Crop Sciences |0033 |Crops |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KL0033BS
+120241 |Agricultural, Consumer & Environmental Sciences |802 |BS |0030 |Crop Sciences |0034 |Crop Agribusiness |0|1|6|7|0|14|14|0|0|0|0|0|0|0|0|0|0|14|14|0|10KL0034BS
+120241 |Agricultural, Consumer & Environmental Sciences |802 |BS |0030 |Crop Sciences |0035 |Plant Biotech & Molecular Bio |0|0|1|3|0|4|3|1|0|0|0|0|0|0|0|0|0|4|3|1|10KL0035BS
+120241 |Agricultural, Consumer & Environmental Sciences |802 |BS |0030 |Crop Sciences |0036 |Biological Sciences |0|0|0|2|0|2|0|2|0|0|0|0|0|0|0|0|0|2|0|2|10KL0036BS
+120241 |Agricultural, Consumer & Environmental Sciences |802 |BS |0030 |Crop Sciences |5560 |Horticultural Food Systems |0|0|4|3|0|7|7|0|0|0|0|0|0|0|0|0|0|7|7|0|10KL5560BS
+120241 |Agricultural, Consumer & Environmental Sciences |802 |BS |0177 |Agronomy |  |  |2|2|4|4|0|12|12|0|0|0|0|0|0|0|0|0|0|12|12|0|10KL0177BS
+120241 |Agricultural, Consumer & Environmental Sciences |802 |BS |5461 |Plant Biotechnology |  |  |3|10|6|13|0|32|32|0|0|0|0|0|0|0|0|0|0|32|32|0|10KL5461BS
+120241 |Agricultural, Consumer & Environmental Sciences |802 |BS |5623 |Computer Science&Crop Sciences |  |  |0|10|5|8|0|23|22|1|0|0|0|0|0|0|0|0|0|23|22|1|10KL5623BS
+120241 |Agricultural, Consumer & Environmental Sciences |802 |MS |0030 |Crop Sciences |  |  |0|0|0|0|0|0|0|0|26|0|0|26|25|1|0|0|0|26|25|1|10KS0030MS
+120241 |Agricultural, Consumer & Environmental Sciences |802 |MS |0030 |Crop Sciences |  |  |0|0|0|0|0|0|0|0|20|0|0|20|2|18|0|0|0|20|2|18|10KS0030MSU
+120241 |Agricultural, Consumer & Environmental Sciences |802 |MS |0030 |Crop Sciences |5883 |BS/MS Crop Sciences |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS5883MS
+120241 |Agricultural, Consumer & Environmental Sciences |802 |MS |4026 |Bioinformatics |5100 |Crop Science |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS5100MS
+120241 |Agricultural, Consumer & Environmental Sciences |802 |NDEG |0030 |Crop Sciences |  |  |0|0|0|0|0|0|0|0|0|0|2|2|0|2|0|0|0|2|0|2|10KS0030NDEG
+120241 |Agricultural, Consumer & Environmental Sciences |802 |NDEG |0063 |Horticulture |  |  |0|0|0|0|25|25|0|25|0|0|0|0|0|0|0|0|0|25|0|25|1PKL0063NDEU
+120241 |Agricultural, Consumer & Environmental Sciences |802 |PHD |0030 |Crop Sciences |  |  |0|0|0|0|0|0|0|0|0|48|0|48|45|3|0|0|0|48|45|3|10KS0030PHD
+120241 |Agricultural, Consumer & Environmental Sciences |875 |BS |0051 |Natural Resrcs & Environ Sci |0057 |Fish and Wildlife Conservation |0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KL0051BS
+120241 |Agricultural, Consumer & Environmental Sciences |875 |BS |0051 |Natural Resrcs & Environ Sci |5239 |Humn Dimnsns of the Environmnt |12|10|13|22|0|57|55|2|0|0|0|0|0|0|0|0|0|57|55|2|10KL0051BS
+120241 |Agricultural, Consumer & Environmental Sciences |875 |BS |0051 |Natural Resrcs & Environ Sci |5685 |Environmental Science & Mgmt |7|17|25|25|0|74|72|2|0|0|0|0|0|0|0|0|0|74|72|2|10KL0051BS
+120241 |Agricultural, Consumer & Environmental Sciences |875 |BS |0051 |Natural Resrcs & Environ Sci |5686 |Ecosys Stewardship & Rest Ecol |5|14|18|35|0|72|71|1|0|0|0|0|0|0|0|0|0|72|71|1|10KL0051BS
+120241 |Agricultural, Consumer & Environmental Sciences |875 |BS |0051 |Natural Resrcs & Environ Sci |5687 |Fish Wildlife Conserve Biol |9|17|31|35|0|92|92|0|0|0|0|0|0|0|0|0|0|92|92|0|10KL0051BS
+120241 |Agricultural, Consumer & Environmental Sciences |875 |MS |0190 |Natural Res & Env Sciences |  |  |0|0|0|0|0|0|0|0|55|0|0|55|49|6|0|0|0|55|49|6|10KS0190MS
+120241 |Agricultural, Consumer & Environmental Sciences |875 |MS |0190 |Natural Res & Env Sciences |  |  |0|0|0|0|0|0|0|0|49|0|0|49|3|46|0|0|0|49|3|46|10KS0190MSU
+120241 |Agricultural, Consumer & Environmental Sciences |875 |NDEG |0190 |Natural Res & Env Sciences |  |  |0|0|0|0|0|0|0|0|0|0|5|5|1|4|0|0|0|5|1|4|10KS0190NDEU
+120241 |Agricultural, Consumer & Environmental Sciences |875 |PHD |0190 |Natural Res & Env Sciences |  |  |0|0|0|0|0|0|0|0|0|43|0|43|42|1|0|0|0|43|42|1|10KS0190PHD
+120241 |Agricultural, Consumer & Environmental Sciences |971 |MS |0191 |Nutritional Sciences |  |  |0|0|0|0|0|0|0|0|15|0|0|15|14|1|0|0|0|15|14|1|10KS0191MS
+120241 |Agricultural, Consumer & Environmental Sciences |971 |PHD |0191 |Nutritional Sciences |  |  |0|0|0|0|0|0|0|0|0|28|0|28|27|1|0|0|0|28|27|1|10KS0191PHD
+120241 |Business |260 |BS |0075 |Finance |  |  |1|52|145|266|0|464|438|26|0|0|0|0|0|0|0|0|0|464|438|26|10KM0075BS
+120241 |Business |260 |BS |0075 |Finance |  |  |0|16|87|172|0|275|273|2|0|0|0|0|0|0|0|0|0|275|273|2|10KM8037BS
+120241 |Business |260 |BS |6076 |Finance + Data Science |  |  |0|10|35|36|0|81|81|0|0|0|0|0|0|0|0|0|0|81|81|0|10KM6076BS
+120241 |Business |260 |BS |6076 |Finance + Data Science |  |  |0|0|1|2|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KM8037BS
+120241 |Business |260 |MS |5624 |Finance |  |  |0|0|0|0|0|0|0|0|178|0|0|178|175|3|0|0|0|178|175|3|10KS5624MSK
+120241 |Business |260 |PHD |5624 |Finance |  |  |0|0|0|0|0|0|0|0|0|15|0|15|15|0|0|0|0|15|15|0|10KS5624PHD
+120241 |Business |346 |BS |0071 |Accountancy |  |  |0|37|139|248|0|424|409|15|0|0|0|0|0|0|0|0|0|424|409|15|10KM0071BS
+120241 |Business |346 |BS |0071 |Accountancy |  |  |1|16|78|175|0|270|264|6|0|0|0|0|0|0|0|0|0|270|264|6|10KM8037BS
+120241 |Business |346 |BS |6077 |Accountancy + Data Science |  |  |0|11|23|30|0|64|63|1|0|0|0|0|0|0|0|0|0|64|63|1|10KM6077BS
+120241 |Business |346 |BS |6077 |Accountancy + Data Science |  |  |0|0|3|0|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KM8037BS
+120241 |Business |346 |CERT |5187 |Taxation |  |  |0|0|0|0|0|0|0|0|1|0|0|1|0|1|0|0|0|1|0|1|1PKS5187CERU
+120241 |Business |346 |CERT |6017 |Accounting Data Analytics |  |  |0|0|0|0|0|0|0|0|13|0|0|13|1|12|0|0|0|13|1|12|1PKS6017CERU
+120241 |Business |346 |CERT |6140 |Accounting Foundations |  |  |0|0|0|0|0|0|0|0|13|0|0|13|1|12|0|0|0|13|1|12|1PKS6140CERU
+120241 |Business |346 |CERT |6141 |CPA Pathways |  |  |0|0|0|0|0|0|0|0|5|0|0|5|0|5|0|0|0|5|0|5|1PKS6141CERU
+120241 |Business |346 |MAS |5666 |Accountancy |5101 |Taxation |0|0|0|0|0|0|0|0|63|0|0|63|62|1|0|0|0|63|62|1|10KS5666MAS
+120241 |Business |346 |MAS |5666 |Accountancy |5899 |Financial Reporting& Assurance |0|0|0|0|0|0|0|0|103|0|0|103|99|4|0|0|0|103|99|4|10KS5666MAS
+120241 |Business |346 |MS |5666 |Accountancy |  |  |0|0|0|0|0|0|0|0|160|0|0|160|106|54|0|0|0|160|106|54|10KS5666MSK
+120241 |Business |346 |MS |5666 |Accountancy |  |  |0|0|0|0|0|0|0|0|376|0|0|376|28|348|0|0|0|376|28|348|1PKS5666MSU
+120241 |Business |346 |MS |5666 |Accountancy |5900 |Accountancy Analytics |0|0|0|0|0|0|0|0|8|0|0|8|0|8|0|0|0|8|0|8|1PKS5666MSU
+120241 |Business |346 |NDEG |5666 |Accountancy |  |  |0|0|0|0|0|0|0|0|0|0|16|16|0|16|0|0|0|16|0|16|1EKS5666NDEU
+120241 |Business |346 |NDEG |5666 |Accountancy |  |  |0|0|0|0|0|0|0|0|0|0|4|4|0|4|0|0|0|4|0|4|1PKS5666NDEU
+120241 |Business |346 |PHD |5666 |Accountancy |  |  |0|0|0|0|0|0|0|0|0|17|0|17|17|0|0|0|0|17|17|0|10KS5666PHD
+120241 |Business |902 |BS |1432 |Marketing |  |  |1|19|47|83|0|150|147|3|0|0|0|0|0|0|0|0|0|150|147|3|10KM1432BS
+120241 |Business |902 |BS |1432 |Marketing |  |  |0|13|47|128|0|188|172|16|0|0|0|0|0|0|0|0|0|188|172|16|10KM8037BS
+120241 |Business |902 |BS |5071 |Supply Chain Management |  |  |0|3|3|17|0|23|21|2|0|0|0|0|0|0|0|0|0|23|21|2|10KM5071BS
+120241 |Business |902 |BS |5071 |Supply Chain Management |  |  |0|0|12|41|0|53|52|1|0|0|0|0|0|0|0|0|0|53|52|1|10KM8037BS
+120241 |Business |902 |BS |5073 |Management |  |  |0|6|18|27|0|51|49|2|0|0|0|0|0|0|0|0|0|51|49|2|10KM5073BS
+120241 |Business |902 |BS |5073 |Management |  |  |0|2|10|18|0|30|29|1|0|0|0|0|0|0|0|0|0|30|29|1|10KM8037BS
+120241 |Business |902 |BS |5597 |Information Systems |  |  |0|4|12|45|0|61|55|6|0|0|0|0|0|0|0|0|0|61|55|6|10KM5597BS
+120241 |Business |902 |BS |5597 |Information Systems |  |  |0|3|8|47|0|58|53|5|0|0|0|0|0|0|0|0|0|58|53|5|10KM8037BS
+120241 |Business |902 |BS |5600 |Operations Management |  |  |0|5|7|11|0|23|23|0|0|0|0|0|0|0|0|0|0|23|23|0|10KM5600BS
+120241 |Business |902 |BS |5600 |Operations Management |  |  |0|4|5|7|0|16|15|1|0|0|0|0|0|0|0|0|0|16|15|1|10KM8037BS
+120241 |Business |902 |BS |5741 |STR BUS DEV & Entrepreneurship |  |  |0|0|1|5|0|6|5|1|0|0|0|0|0|0|0|0|0|6|5|1|10KM5741BS
+120241 |Business |902 |BS |5741 |STR BUS DEV & Entrepreneurship |  |  |0|0|0|7|0|7|6|1|0|0|0|0|0|0|0|0|0|7|6|1|10KM8037BS
+120241 |Business |902 |BS |6127 |Strategy, Innovation & Entrep |  |  |1|3|6|10|0|20|20|0|0|0|0|0|0|0|0|0|0|20|20|0|10KM6127BS
+120241 |Business |902 |BS |6127 |Strategy, Innovation & Entrep |  |  |0|0|2|3|0|5|5|0|0|0|0|0|0|0|0|0|0|5|5|0|10KM8037BS
+120241 |Business |902 |BS |6146 |Business + Data Science |  |  |0|1|2|1|0|4|4|0|0|0|0|0|0|0|0|0|0|4|4|0|10KM6146BS
+120241 |Business |902 |CERT |6011 |Strategic Leadership & Mgmt |  |  |0|0|0|0|0|0|0|0|51|0|0|51|0|51|0|0|0|51|0|51|1PKS6011CERU
+120241 |Business |902 |CERT |6012 |Managerial Econ & Bus Analysis |  |  |0|0|0|0|0|0|0|0|3|0|0|3|0|3|0|0|0|3|0|3|1PKS6012CERU
+120241 |Business |902 |CERT |6014 |Financial Management |  |  |0|0|0|0|0|0|0|0|5|0|0|5|0|5|0|0|0|5|0|5|1PKS6014CERU
+120241 |Business |902 |CERT |6016 |Value Chain Management |  |  |0|0|0|0|0|0|0|0|3|0|0|3|0|3|0|0|0|3|0|3|1PKS6016CERU
+120241 |Business |902 |CERT |6018 |Digital Marketing |  |  |0|0|0|0|0|0|0|0|10|0|0|10|0|10|0|0|0|10|0|10|1PKS6018CERU
+120241 |Business |902 |MS |5148 |Technology Management |  |  |0|0|0|0|0|0|0|0|137|0|0|137|137|0|0|0|0|137|137|0|10KS5148MSK
+120241 |Business |902 |MS |5590 |Management |  |  |0|0|0|0|0|0|0|0|85|0|0|85|85|0|0|0|0|85|85|0|1PKS5590MS
+120241 |Business |902 |MS |5590 |Management |  |  |0|0|0|0|0|0|0|0|769|0|0|769|209|560|0|0|0|769|209|560|1PKS5590MSU
+120241 |Business |902 |MS |5964 |Business Analytics |  |  |0|0|0|0|0|0|0|0|102|0|0|102|102|0|0|0|0|102|102|0|1PKS5964MS
+120241 |Business |902 |NDEG |5590 |Management |  |  |0|0|0|0|0|0|0|0|0|0|92|92|8|84|0|0|0|92|8|84|1EKS5590NDEU
+120241 |Business |902 |NDEG |5590 |Management |  |  |0|0|0|0|0|0|0|0|0|0|12|12|2|10|0|0|0|12|2|10|1PKS5590NDEU
+120241 |Business |902 |PHD |0079 |Business Administration |  |  |0|0|0|0|0|0|0|0|0|36|0|36|36|0|0|0|0|36|36|0|10KS0079PHD
+120241 |Business |952 |MBA |9875 |Business Administration (MBA) |  |  |0|0|0|0|0|0|0|0|3322|0|0|3322|1075|2247|0|0|0|3322|1075|2247|10KS9875MBAU
+120241 |Business |952 |MBA |9875 |Business Administration (MBA) |5986 |Entrpshp & Strategic Innov |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS9875MBAU
+120241 |Business |952 |NDEG |0067 |Nondegree |  |  |0|0|0|0|38|38|38|0|0|0|0|0|0|0|0|0|0|38|38|0|10KM0067NDEG
+120241 |Business |952 |NDEG |9875 |Business Administration (MBA) |  |  |0|0|0|0|0|0|0|0|0|0|1|1|0|1|0|0|0|1|0|1|10KS9875NDEU
+120241 |Business |952 |NDEG |9875 |Business Administration (MBA) |  |  |0|0|0|0|0|0|0|0|0|0|102|102|4|98|0|0|0|102|4|98|1EKS9875NDEU
+120241 |Business |952 |NDEG |9875 |Business Administration (MBA) |  |  |0|0|0|0|0|0|0|0|0|0|39|39|1|38|0|0|0|39|1|38|1PKS9875NDEU
+120241 |Business |952 |NONE |0070 |Business Undeclared |  |  |158|397|85|3|0|643|643|0|0|0|0|0|0|0|0|0|0|643|643|0|10KM0070NONE
+120241 |Education |335 |BS |5391 |Learning and Education Studies |  |  |3|4|1|0|0|8|8|0|0|0|0|0|0|0|0|0|0|8|8|0|10KN5391BS
+120241 |Education |335 |BS |5391 |Learning and Education Studies |5388 |Ed Equlty & Cltrl Understandng |0|0|1|2|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KN5391BS
+120241 |Education |335 |BS |5391 |Learning and Education Studies |5389 |Workplace Trng & Development |1|0|3|3|0|7|7|0|0|0|0|0|0|0|0|0|0|7|7|0|10KN5391BS
+120241 |Education |335 |BS |5391 |Learning and Education Studies |5417 |Dig. Env. Lrnng, Tchng, Agency |1|4|3|4|0|12|12|0|0|0|0|0|0|0|0|0|0|12|12|0|10KN5391BS
+120241 |Education |335 |NDEG |0067 |Nondegree |  |  |0|0|0|0|9|9|2|7|0|0|0|0|0|0|0|0|0|9|2|7|10KN0067NDEG
+120241 |Education |570 |BS |0093 |Special Education |  |  |13|15|14|40|0|82|80|2|0|0|0|0|0|0|0|0|0|82|80|2|10KN0093BS
+120241 |Education |570 |EDM |0093 |Special Education |  |  |0|0|0|0|0|0|0|0|11|0|0|11|9|2|0|0|0|11|9|2|10KS0093EDM
+120241 |Education |570 |EDM |0093 |Special Education |  |  |0|0|0|0|0|0|0|0|14|0|0|14|0|14|0|0|0|14|0|14|10KS0093EDMX
+120241 |Education |570 |NDEG |0093 |Special Education |  |  |0|0|0|0|0|0|0|0|0|0|1|1|0|1|0|0|0|1|0|1|10KS0093NDEU
+120241 |Education |570 |PHD |0093 |Special Education |  |  |0|0|0|0|0|0|0|0|0|24|0|24|14|10|0|0|0|24|14|10|10KS0093PHD
+120241 |Education |613 |BS |0094 |Early Childhood Education |  |  |16|16|18|27|0|77|77|0|0|0|0|0|0|0|0|0|0|77|77|0|10KN0094BS
+120241 |Education |613 |BS |0094 |Early Childhood Education |6135 |Prof Education Licensure |1|0|3|17|0|21|0|21|0|0|0|0|0|0|0|0|0|21|0|21|10KN6135BSU
+120241 |Education |613 |BS |0094 |Early Childhood Education |6136 |Prof Education Non-Licensure |0|0|6|7|0|13|0|13|0|0|0|0|0|0|0|0|0|13|0|13|10KN6136BSU
+120241 |Education |613 |BS |0095 |Elementary Education |  |  |46|62|79|133|0|320|320|0|0|0|0|0|0|0|0|0|0|320|320|0|10KN0095BS
+120241 |Education |613 |BS |5422 |Middle Grades Education |  |  |15|2|3|0|0|20|20|0|0|0|0|0|0|0|0|0|0|20|20|0|10KN5422BS
+120241 |Education |613 |BS |5422 |Middle Grades Education |5423 |Literacy |1|6|10|16|0|33|33|0|0|0|0|0|0|0|0|0|0|33|33|0|10KN5422BS
+120241 |Education |613 |BS |5422 |Middle Grades Education |5424 |Mathematics |0|3|13|24|0|40|38|2|0|0|0|0|0|0|0|0|0|40|38|2|10KN5422BS
+120241 |Education |613 |BS |5422 |Middle Grades Education |5425 |Science |0|1|1|5|0|7|7|0|0|0|0|0|0|0|0|0|0|7|7|0|10KN5422BS
+120241 |Education |613 |BS |5422 |Middle Grades Education |5426 |Social Science |1|2|1|5|0|9|9|0|0|0|0|0|0|0|0|0|0|9|9|0|10KN5422BS
+120241 |Education |613 |BS |6081 |Computer Science & Education |6069 |Learning Sciences |2|6|7|4|0|19|19|0|0|0|0|0|0|0|0|0|0|19|19|0|10KN6069BS
+120241 |Education |613 |BS |6081 |Computer Science & Education |6082 |Secondary Education |0|1|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KN6082BS
+120241 |Education |613 |BS |8527 |Secondary Education |5227 |Mathematics |8|10|1|0|0|19|19|0|0|0|0|0|0|0|0|0|0|19|19|0|10KN5227BS
+120241 |Education |613 |EDM |0095 |Elementary Education |  |  |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS0095EDM
+120241 |Education |613 |EDM |1144 |Curriculum and Instruction |  |  |0|0|0|0|0|0|0|0|28|0|0|28|12|16|0|0|0|28|12|16|10KS1144EDM
+120241 |Education |613 |EDM |1144 |Curriculum and Instruction |  |  |0|0|0|0|0|0|0|0|26|0|0|26|2|24|0|0|0|26|2|24|10KS1144EDMU
+120241 |Education |613 |EDM |1144 |Curriculum and Instruction |5866 |Bilingual-Bicultural Education |0|0|0|0|0|0|0|0|1|0|0|1|0|1|0|0|0|1|0|1|10KS1144EDM
+120241 |Education |613 |EDM |1144 |Curriculum and Instruction |5866 |Bilingual-Bicultural Education |0|0|0|0|0|0|0|0|10|0|0|10|1|9|0|0|0|10|1|9|10KS1144EDMU
+120241 |Education |613 |EDM |1144 |Curriculum and Instruction |5867 |Digital Learning |0|0|0|0|0|0|0|0|1|0|0|1|0|1|0|0|0|1|0|1|10KS1144EDM
+120241 |Education |613 |EDM |1144 |Curriculum and Instruction |5867 |Digital Learning |0|0|0|0|0|0|0|0|18|0|0|18|2|16|0|0|0|18|2|16|10KS1144EDMU
+120241 |Education |613 |EDM |5082 |Early Childhood Education |  |  |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS5082EDM
+120241 |Education |613 |EDM |8527 |Secondary Education |5224 |English |0|0|0|0|0|0|0|0|4|0|0|4|4|0|0|0|0|4|4|0|10KS8527EDM
+120241 |Education |613 |EDM |8527 |Secondary Education |5225 |Social Studies |0|0|0|0|0|0|0|0|4|0|0|4|4|0|0|0|0|4|4|0|10KS8527EDM
+120241 |Education |613 |EDM |8527 |Secondary Education |5226 |Sciences |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS8527EDM
+120241 |Education |613 |MA |1144 |Curriculum and Instruction |  |  |0|0|0|0|0|0|0|0|3|0|0|3|3|0|0|0|0|3|3|0|10KS1144MA
+120241 |Education |613 |MS |1144 |Curriculum and Instruction |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS1144MS
+120241 |Education |613 |NDEG |1144 |Curriculum and Instruction |  |  |0|0|0|0|0|0|0|0|0|0|2|2|0|2|0|0|0|2|0|2|10KS1144NDEG
+120241 |Education |613 |NDEG |1144 |Curriculum and Instruction |  |  |0|0|0|0|0|0|0|0|0|0|1|1|0|1|0|0|0|1|0|1|10KS1144NDEU
+120241 |Education |613 |NDEG |1144 |Curriculum and Instruction |  |  |0|0|0|0|0|0|0|0|0|0|17|17|0|17|0|0|0|17|0|17|1EKS1144NDEU
+120241 |Education |613 |PHD |1144 |Curriculum and Instruction |  |  |0|0|0|0|0|0|0|0|0|53|0|53|45|8|0|0|0|53|45|8|10KS1144PHD
+120241 |Education |616 |MS |5865 |Educational Psychology |  |  |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS5865MS
+120241 |Education |616 |MS |5998 |Mental Health Counseling |  |  |0|0|0|0|0|0|0|0|9|0|0|9|9|0|0|0|0|9|9|0|1PKS5998MS
+120241 |Education |616 |PHD |5865 |Educational Psychology |  |  |0|0|0|0|0|0|0|0|0|47|0|47|40|7|0|0|0|47|40|7|10KS5865PHD
+120241 |Education |616 |PHD |5865 |Educational Psychology |5867 |Digital Learning |0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|1|1|0|10KS5865PHD
+120241 |Education |760 |CAS |5399 |Educ Policy, Orgzn & Leadrshp |5097 |Educational Admin & Leadership |0|0|0|0|0|0|0|0|1|0|0|1|0|1|0|0|0|1|0|1|10KS5399CASX
+120241 |Education |760 |CAS |5399 |Educ Policy, Orgzn & Leadrshp |5508 |Diversity & Equity in Educ |0|0|0|0|0|0|0|0|1|0|0|1|0|1|0|0|0|1|0|1|10KS5399CAS
+120241 |Education |760 |CERT |6098 |International Ed Leadership |  |  |0|0|0|0|0|0|0|0|2|0|0|2|0|2|0|0|0|2|0|2|1PKS6098CERU
+120241 |Education |760 |CERT |6099 |Learning Design and Leadership |  |  |0|0|0|0|0|0|0|0|3|0|0|3|0|3|0|0|0|3|0|3|1PKS6099CERU
+120241 |Education |760 |CERT |6117 |Instruct Sys Design Mgmt Lead |  |  |0|0|0|0|0|0|0|0|4|0|0|4|0|4|0|0|0|4|0|4|1PKS6117CERU
+120241 |Education |760 |EDD |5399 |Educ Policy, Orgzn & Leadrshp |5096 |Higher Education |0|0|0|0|0|0|0|0|0|8|0|8|1|7|0|0|0|8|1|7|10KS5399EDD
+120241 |Education |760 |EDD |5399 |Educ Policy, Orgzn & Leadrshp |5097 |Educational Admin & Leadership |0|0|0|0|0|0|0|0|0|11|0|11|3|8|0|0|0|11|3|8|10KS5399EDD
+120241 |Education |760 |EDD |5399 |Educ Policy, Orgzn & Leadrshp |5097 |Educational Admin & Leadership |0|0|0|0|0|0|0|0|0|42|0|42|9|33|0|0|0|42|9|33|10KS5399EDDX
+120241 |Education |760 |EDD |5399 |Educ Policy, Orgzn & Leadrshp |5137 |Human Resource Development |0|0|0|0|0|0|0|0|0|4|0|4|1|3|0|0|0|4|1|3|10KS5399EDD
+120241 |Education |760 |EDD |5399 |Educ Policy, Orgzn & Leadrshp |5137 |Human Resource Development |0|0|0|0|0|0|0|0|0|44|0|44|9|35|0|0|0|44|9|35|10KS5399EDDU
+120241 |Education |760 |EDD |5399 |Educ Policy, Orgzn & Leadrshp |5407 |Learning Design and Leadership |0|0|0|0|0|0|0|0|0|6|0|6|0|6|0|0|0|6|0|6|10KS5399EDD
+120241 |Education |760 |EDD |5399 |Educ Policy, Orgzn & Leadrshp |5407 |Learning Design and Leadership |0|0|0|0|0|0|0|0|0|81|0|81|4|77|0|0|0|81|4|77|10KS5399EDDU
+120241 |Education |760 |EDD |5399 |Educ Policy, Orgzn & Leadrshp |5471 |Global Studies in Education |0|0|0|0|0|0|0|0|0|4|0|4|0|4|0|0|0|4|0|4|10KS5399EDD
+120241 |Education |760 |EDD |5399 |Educ Policy, Orgzn & Leadrshp |5471 |Global Studies in Education |0|0|0|0|0|0|0|0|0|55|0|55|5|50|0|0|0|55|5|50|10KS5399EDDU
+120241 |Education |760 |EDD |5399 |Educ Policy, Orgzn & Leadrshp |5508 |Diversity & Equity in Educ |0|0|0|0|0|0|0|0|0|11|0|11|1|10|0|0|0|11|1|10|10KS5399EDD
+120241 |Education |760 |EDD |5399 |Educ Policy, Orgzn & Leadrshp |5508 |Diversity & Equity in Educ |0|0|0|0|0|0|0|0|0|114|0|114|16|98|0|0|0|114|16|98|10KS5399EDDU
+120241 |Education |760 |EDM |5399 |Educ Policy, Orgzn & Leadrshp |5096 |Higher Education |0|0|0|0|0|0|0|0|9|0|0|9|2|7|0|0|0|9|2|7|10KS5399EDM
+120241 |Education |760 |EDM |5399 |Educ Policy, Orgzn & Leadrshp |5097 |Educational Admin & Leadership |0|0|0|0|0|0|0|0|16|0|0|16|0|16|0|0|0|16|0|16|10KS5399EDM
+120241 |Education |760 |EDM |5399 |Educ Policy, Orgzn & Leadrshp |5097 |Educational Admin & Leadership |0|0|0|0|0|0|0|0|16|0|0|16|0|16|0|0|0|16|0|16|10KS5399EDMX
+120241 |Education |760 |EDM |5399 |Educ Policy, Orgzn & Leadrshp |5137 |Human Resource Development |0|0|0|0|0|0|0|0|11|0|0|11|3|8|0|0|0|11|3|8|10KS5399EDM
+120241 |Education |760 |EDM |5399 |Educ Policy, Orgzn & Leadrshp |5137 |Human Resource Development |0|0|0|0|0|0|0|0|11|0|0|11|2|9|0|0|0|11|2|9|10KS5399EDMU
+120241 |Education |760 |EDM |5399 |Educ Policy, Orgzn & Leadrshp |5407 |Learning Design and Leadership |0|0|0|0|0|0|0|0|2|0|0|2|0|2|0|0|0|2|0|2|10KS5399EDM
+120241 |Education |760 |EDM |5399 |Educ Policy, Orgzn & Leadrshp |5407 |Learning Design and Leadership |0|0|0|0|0|0|0|0|24|0|0|24|1|23|0|0|0|24|1|23|10KS5399EDMU
+120241 |Education |760 |EDM |5399 |Educ Policy, Orgzn & Leadrshp |5471 |Global Studies in Education |0|0|0|0|0|0|0|0|4|0|0|4|1|3|0|0|0|4|1|3|10KS5399EDM
+120241 |Education |760 |EDM |5399 |Educ Policy, Orgzn & Leadrshp |5471 |Global Studies in Education |0|0|0|0|0|0|0|0|22|0|0|22|2|20|0|0|0|22|2|20|10KS5399EDMU
+120241 |Education |760 |EDM |5399 |Educ Policy, Orgzn & Leadrshp |5505 |Social Sciences & Ed Policy |0|0|0|0|0|0|0|0|2|0|0|2|1|1|0|0|0|2|1|1|10KS5399EDM
+120241 |Education |760 |EDM |5399 |Educ Policy, Orgzn & Leadrshp |5508 |Diversity & Equity in Educ |0|0|0|0|0|0|0|0|13|0|0|13|4|9|0|0|0|13|4|9|10KS5399EDM
+120241 |Education |760 |EDM |5399 |Educ Policy, Orgzn & Leadrshp |5508 |Diversity & Equity in Educ |0|0|0|0|0|0|0|0|73|0|0|73|7|66|0|0|0|73|7|66|10KS5399EDMU
+120241 |Education |760 |MA |5399 |Educ Policy, Orgzn & Leadrshp |5505 |Social Sciences & Ed Policy |0|0|0|0|0|0|0|0|3|0|0|3|1|2|0|0|0|3|1|2|10KS5399MA
+120241 |Education |760 |NDEG |5399 |Educ Policy, Orgzn & Leadrshp |  |  |0|0|0|0|0|0|0|0|0|0|5|5|1|4|0|0|0|5|1|4|10KS5399NDEG
+120241 |Education |760 |NDEG |5399 |Educ Policy, Orgzn & Leadrshp |  |  |0|0|0|0|0|0|0|0|0|0|5|5|0|5|0|0|0|5|0|5|10KS5399NDEU
+120241 |Education |760 |NDEG |5399 |Educ Policy, Orgzn & Leadrshp |  |  |0|0|0|0|0|0|0|0|0|0|54|54|0|54|0|0|0|54|0|54|1PKS5399NDEU
+120241 |Education |760 |NDEG |5399 |Educ Policy, Orgzn & Leadrshp |5508 |Diversity & Equity in Educ |0|0|0|0|0|0|0|0|0|0|1|1|0|1|0|0|0|1|0|1|10KS5399NDEU
+120241 |Education |760 |PHD |0209 |Ed Organization and Leadership |  |  |0|0|0|0|0|0|0|0|0|1|0|1|0|1|0|0|0|1|0|1|10KS0209PHD
+120241 |Education |760 |PHD |0220 |Educational Policy Studies |  |  |0|0|0|0|0|0|0|0|0|2|0|2|2|0|0|0|0|2|2|0|10KS0220PHD
+120241 |Education |760 |PHD |5399 |Educ Policy, Orgzn & Leadrshp |  |  |0|0|0|0|0|0|0|0|0|3|0|3|2|1|0|0|0|3|2|1|10KS5399PHD
+120241 |Education |760 |PHD |5399 |Educ Policy, Orgzn & Leadrshp |5096 |Higher Education |0|0|0|0|0|0|0|0|0|21|0|21|9|12|0|0|0|21|9|12|10KS5399PHD
+120241 |Education |760 |PHD |5399 |Educ Policy, Orgzn & Leadrshp |5097 |Educational Admin & Leadership |0|0|0|0|0|0|0|0|0|4|0|4|2|2|0|0|0|4|2|2|10KS5399PHD
+120241 |Education |760 |PHD |5399 |Educ Policy, Orgzn & Leadrshp |5137 |Human Resource Development |0|0|0|0|0|0|0|0|0|19|0|19|9|10|0|0|0|19|9|10|10KS5399PHD
+120241 |Education |760 |PHD |5399 |Educ Policy, Orgzn & Leadrshp |5407 |Learning Design and Leadership |0|0|0|0|0|0|0|0|0|7|0|7|3|4|0|0|0|7|3|4|10KS5399PHD
+120241 |Education |760 |PHD |5399 |Educ Policy, Orgzn & Leadrshp |5471 |Global Studies in Education |0|0|0|0|0|0|0|0|0|22|0|22|17|5|0|0|0|22|17|5|10KS5399PHD
+120241 |Education |760 |PHD |5399 |Educ Policy, Orgzn & Leadrshp |5505 |Social Sciences & Ed Policy |0|0|0|0|0|0|0|0|0|16|0|16|12|4|0|0|0|16|12|4|10KS5399PHD
+120241 |Education |760 |PHD |5399 |Educ Policy, Orgzn & Leadrshp |5506 |History of Education |0|0|0|0|0|0|0|0|0|5|0|5|3|2|0|0|0|5|3|2|10KS5399PHD
+120241 |Education |760 |PHD |5399 |Educ Policy, Orgzn & Leadrshp |5507 |Philosophy of Education |0|0|0|0|0|0|0|0|0|7|0|7|7|0|0|0|0|7|7|0|10KS5399PHD
+120241 |Grainger Engineering |227 |BS |5163 |Agricultural & Biological Engr |  |  |0|0|6|10|0|16|16|0|0|0|0|0|0|0|0|0|0|16|16|0|10KP5163BS
+120241 |Grainger Engineering |227 |BS |5163 |Agricultural & Biological Engr |5270 |Agricultural Engineering |0|0|0|12|0|12|12|0|0|0|0|0|0|0|0|0|0|12|12|0|10KP5163BS
+120241 |Grainger Engineering |227 |BS |5163 |Agricultural & Biological Engr |5271 |Biological Engineering |0|0|0|8|0|8|8|0|0|0|0|0|0|0|0|0|0|8|8|0|10KP5163BS
+120241 |Grainger Engineering |227 |MENGR |1211 |Engineering |5370 |Energy Systems |0|0|0|0|0|0|0|0|11|0|0|11|8|3|0|0|0|11|8|3|1PKS5370MENG
+120241 |Grainger Engineering |227 |MENGR |1211 |Engineering |5370 |Energy Systems |0|0|0|0|0|0|0|0|11|0|0|11|0|11|0|0|0|11|0|11|1PKS5370MENU
+120241 |Grainger Engineering |227 |MENGR |1211 |Engineering |5982 |Autonomy and Robotics |0|0|0|0|0|0|0|0|28|0|0|28|25|3|0|0|0|28|25|3|1PKS5982MENG
+120241 |Grainger Engineering |227 |MENGR |1211 |Engineering |6120 |Digital Agriculture |0|0|0|0|0|0|0|0|1|0|0|1|0|1|0|0|0|1|0|1|1PKS6120MENU
+120241 |Grainger Engineering |227 |MENGR |1211 |Engineering |6149 |Chemical Engineering Leadershp |0|0|0|0|0|0|0|0|2|0|0|2|0|2|0|0|0|2|0|2|1PKS6149MENG
+120241 |Grainger Engineering |227 |MENGR |1211 |Engineering |6149 |Chemical Engineering Leadershp |0|0|0|0|0|0|0|0|2|0|0|2|1|1|0|0|0|2|1|1|1PKS6149MENU
+120241 |Grainger Engineering |227 |MS |5163 |Agricultural & Biological Engr |  |  |0|0|0|0|0|0|0|0|11|0|0|11|10|1|0|0|0|11|10|1|10KS5163MS
+120241 |Grainger Engineering |227 |NDEG |0067 |Nondegree |  |  |0|0|0|0|94|94|77|17|0|0|0|0|0|0|0|0|0|94|77|17|10KP0067NDEG
+120241 |Grainger Engineering |227 |NDEG |1211 |Engineering |  |  |0|0|0|0|2|2|0|2|0|0|0|0|0|0|0|0|0|2|0|2|10KP1211NDEU
+120241 |Grainger Engineering |227 |NDEG |1211 |Engineering |  |  |0|0|0|0|0|0|0|0|0|0|34|34|0|34|0|0|0|34|0|34|10KS1211NDEU
+120241 |Grainger Engineering |227 |PHD |5163 |Agricultural & Biological Engr |  |  |0|0|0|0|0|0|0|0|0|43|0|43|42|1|0|0|0|43|42|1|10KS5163PHD
+120241 |Grainger Engineering |227 |PHD |5163 |Agricultural & Biological Engr |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|7|0|7|7|0|0|0|0|7|7|0|10KS5163PHD
+120241 |Grainger Engineering |227 |PHD |5163 |Agricultural & Biological Engr |6091 |Data Science and Engineering |0|0|0|0|0|0|0|0|0|2|0|2|2|0|0|0|0|2|2|0|10KS5163PHD
+120241 |Grainger Engineering |244 |BS |0121 |Engineering Physics |  |  |0|0|14|147|0|161|145|16|0|0|0|0|0|0|0|0|0|161|145|16|10KP0121BS
+120241 |Grainger Engineering |244 |BS |0240 |Physics |  |  |15|75|104|54|0|248|245|3|0|0|0|0|0|0|0|0|0|248|245|3|10KP0240BS
+120241 |Grainger Engineering |244 |MENGR |1211 |Engineering |6084 |Instrumentation & Applied Phys |0|0|0|0|0|0|0|0|13|0|0|13|13|0|0|0|0|13|13|0|1PKS6084MENG
+120241 |Grainger Engineering |244 |MS |0240 |Physics |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS0240MS
+120241 |Grainger Engineering |244 |PHD |0240 |Physics |  |  |0|0|0|0|0|0|0|0|0|307|0|307|301|6|0|0|0|307|301|6|10KS0240PHD
+120241 |Grainger Engineering |244 |PHD |0240 |Physics |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|6|0|6|6|0|0|0|0|6|6|0|10KS0240PHD
+120241 |Grainger Engineering |244 |PHD |0240 |Physics |6091 |Data Science and Engineering |0|0|0|0|0|0|0|0|0|2|0|2|2|0|0|0|0|2|2|0|10KS0240PHD
+120241 |Grainger Engineering |251 |BS |0106 |Civil Engineering |  |  |40|137|158|295|0|630|616|14|0|0|0|0|0|0|0|0|0|630|616|14|10KP0106BS
+120241 |Grainger Engineering |251 |BS |1233 |Environmental Engineering |  |  |0|0|10|7|0|17|17|0|0|0|0|0|0|0|0|0|0|17|17|0|10KP1233BS
+120241 |Grainger Engineering |251 |MS |0106 |Civil Engineering |  |  |0|0|0|0|0|0|0|0|152|0|0|152|138|14|0|0|0|152|138|14|10KS0106MS
+120241 |Grainger Engineering |251 |MS |0106 |Civil Engineering |  |  |0|0|0|0|0|0|0|0|76|0|0|76|4|72|0|0|0|76|4|72|10KS0106MSU
+120241 |Grainger Engineering |251 |MS |0231 |Environ Engr in Civil Engr |  |  |0|0|0|0|0|0|0|0|21|0|0|21|19|2|0|0|0|21|19|2|10KS0231MS
+120241 |Grainger Engineering |251 |MS |0231 |Environ Engr in Civil Engr |  |  |0|0|0|0|0|0|0|0|12|0|0|12|0|12|0|0|0|12|0|12|10KS0231MSU
+120241 |Grainger Engineering |251 |NDEG |0106 |Civil Engineering |  |  |0|0|0|0|6|6|6|0|0|0|0|0|0|0|0|0|0|6|6|0|10KP0106NDEX
+120241 |Grainger Engineering |251 |PHD |0106 |Civil Engineering |  |  |0|0|0|0|0|0|0|0|0|172|0|172|167|5|0|0|0|172|167|5|10KS0106PHD
+120241 |Grainger Engineering |251 |PHD |0106 |Civil Engineering |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|27|0|27|26|1|0|0|0|27|26|1|10KS0106PHD
+120241 |Grainger Engineering |251 |PHD |0106 |Civil Engineering |6091 |Data Science and Engineering |0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|1|1|0|10KS0106PHD
+120241 |Grainger Engineering |251 |PHD |0231 |Environ Engr in Civil Engr |  |  |0|0|0|0|0|0|0|0|0|48|0|48|48|0|0|0|0|48|48|0|10KS0231PHD
+120241 |Grainger Engineering |251 |PHD |0231 |Environ Engr in Civil Engr |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|7|0|7|6|1|0|0|0|7|6|1|10KS0231PHD
+120241 |Grainger Engineering |343 |BS |0408 |Bioengineering |  |  |10|55|71|199|0|335|323|12|0|0|0|0|0|0|0|0|0|335|323|12|10KP0408BS
+120241 |Grainger Engineering |343 |BS |6131 |Neural Engineering |  |  |3|14|4|0|0|21|21|0|0|0|0|0|0|0|0|0|0|21|21|0|10KP6131BS
+120241 |Grainger Engineering |343 |MENGR |0408 |Bioengineering |5542 |General Bioengineering |0|0|0|0|0|0|0|0|16|0|0|16|15|1|0|0|0|16|15|1|1PKS5542MENG
+120241 |Grainger Engineering |343 |MENGR |0408 |Bioengineering |5542 |General Bioengineering |0|0|0|0|0|0|0|0|22|0|0|22|7|15|0|0|0|22|7|15|1PKS5542MENU
+120241 |Grainger Engineering |343 |MENGR |0408 |Bioengineering |5545 |Bioinstrumentation |0|0|0|0|0|0|0|0|12|0|0|12|12|0|0|0|0|12|12|0|1PKS5545MENG
+120241 |Grainger Engineering |343 |MENGR |0408 |Bioengineering |5545 |Bioinstrumentation |0|0|0|0|0|0|0|0|6|0|0|6|2|4|0|0|0|6|2|4|1PKS5545MENU
+120241 |Grainger Engineering |343 |MS |0408 |Bioengineering |  |  |0|0|0|0|0|0|0|0|2|0|0|2|1|1|0|0|0|2|1|1|10KS0408MS
+120241 |Grainger Engineering |343 |MS |6019 |Biomedical Image Computing |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|1PKS6019MS
+120241 |Grainger Engineering |343 |MS |6019 |Biomedical Image Computing |  |  |0|0|0|0|0|0|0|0|2|0|0|2|0|2|0|0|0|2|0|2|1PKS6019MSU
+120241 |Grainger Engineering |343 |PHD |0408 |Bioengineering |  |  |0|0|0|0|0|0|0|0|0|114|0|114|112|2|0|0|0|114|112|2|10KS0408PHD
+120241 |Grainger Engineering |343 |PHD |0408 |Bioengineering |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|1|1|0|10KS0408PHD
+120241 |Grainger Engineering |343 |PHD |0408 |Bioengineering |6091 |Data Science and Engineering |0|0|0|0|0|0|0|0|0|3|0|3|2|1|0|0|0|3|2|1|10KS0408PHD
+120241 |Grainger Engineering |422 |BS |0127 |Industrial Engineering |  |  |18|46|66|144|0|274|261|13|0|0|0|0|0|0|0|0|0|274|261|13|10KP0127BS
+120241 |Grainger Engineering |422 |BS |5532 |Systems Engineering and Design |  |  |23|52|87|140|0|302|295|7|0|0|0|0|0|0|0|0|0|302|295|7|10KP5532BS
+120241 |Grainger Engineering |422 |MS |0127 |Industrial Engineering |  |  |0|0|0|0|0|0|0|0|33|0|0|33|30|3|0|0|0|33|30|3|10KS0127MS
+120241 |Grainger Engineering |422 |MS |0127 |Industrial Engineering |  |  |0|0|0|0|0|0|0|0|3|0|0|3|0|3|0|0|0|3|0|3|10KS0127MSU
+120241 |Grainger Engineering |422 |MS |0127 |Industrial Engineering |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|3|0|0|3|0|3|0|0|0|3|0|3|10KS0127MS
+120241 |Grainger Engineering |422 |MS |0127 |Industrial Engineering |5539 |Advanced Analytics in IESE |0|0|0|0|0|0|0|0|31|0|0|31|15|16|0|0|0|31|15|16|10KS0127MS
+120241 |Grainger Engineering |422 |MS |0127 |Industrial Engineering |5539 |Advanced Analytics in IESE |0|0|0|0|0|0|0|0|1|0|0|1|0|1|0|0|0|1|0|1|10KS0127MSU
+120241 |Grainger Engineering |422 |MS |3846 |Systems & Entrepreneurial Engr |  |  |0|0|0|0|0|0|0|0|7|0|0|7|7|0|0|0|0|7|7|0|10KS3846MS
+120241 |Grainger Engineering |422 |PHD |0127 |Industrial Engineering |  |  |0|0|0|0|0|0|0|0|0|50|0|50|45|5|0|0|0|50|45|5|10KS0127PHD
+120241 |Grainger Engineering |422 |PHD |0127 |Industrial Engineering |6091 |Data Science and Engineering |0|0|0|0|0|0|0|0|0|6|0|6|6|0|0|0|0|6|6|0|10KS0127PHD
+120241 |Grainger Engineering |422 |PHD |3846 |Systems & Entrepreneurial Engr |  |  |0|0|0|0|0|0|0|0|0|18|0|18|17|1|0|0|0|18|17|1|10KS3846PHD
+120241 |Grainger Engineering |434 |BS |0112 |Computer Science |  |  |21|146|296|749|0|1212|1129|83|0|0|0|0|0|0|0|0|0|1212|1129|83|10KP0112BS
+120241 |Grainger Engineering |434 |BS |0112 |Computer Science |1854 |CS:BS/MS Program |0|0|0|1|0|1|0|1|0|0|0|0|0|0|0|0|0|1|0|1|10KP1854BS
+120241 |Grainger Engineering |434 |BS |0112 |Computer Science |5458 |BS/MCS Computer Science |0|0|0|86|0|86|66|20|0|0|0|0|0|0|0|0|0|86|66|20|10KP5458BS
+120241 |Grainger Engineering |434 |CERT |6079 |Computing Fundamentals |  |  |0|0|0|0|0|0|0|0|5|0|0|5|0|5|0|0|0|5|0|5|10KS6079CERT
+120241 |Grainger Engineering |434 |CERT |6079 |Computing Fundamentals |  |  |0|0|0|0|0|0|0|0|18|0|0|18|0|18|0|0|0|18|0|18|10KS6079CERU
+120241 |Grainger Engineering |434 |MCS |0112 |Computer Science |  |  |0|0|0|0|0|0|0|0|452|0|0|452|408|44|0|0|0|452|408|44|10KS0112MCS
+120241 |Grainger Engineering |434 |MCS |0112 |Computer Science |  |  |0|0|0|0|0|0|0|0|25|0|0|25|6|19|0|0|0|25|6|19|10KS0112MCSX
+120241 |Grainger Engineering |434 |MCS |0112 |Computer Science |  |  |0|0|0|0|0|0|0|0|1305|0|0|1305|77|1228|0|0|0|1305|77|1228|1SKS0112MCSU
+120241 |Grainger Engineering |434 |MCS |0112 |Computer Science |5458 |BS/MCS Computer Science |0|0|0|0|0|0|0|0|59|0|0|59|59|0|0|0|0|59|59|0|10KS5458MCS
+120241 |Grainger Engineering |434 |MS |0112 |Computer Science |  |  |0|0|0|0|0|0|0|0|122|0|0|122|119|3|0|0|0|122|119|3|10KS0112MS
+120241 |Grainger Engineering |434 |MS |0112 |Computer Science |1854 |CS:BS/MS Program |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS1854MS
+120241 |Grainger Engineering |434 |MS |4026 |Bioinformatics |4028 |Computer Science |0|0|0|0|0|0|0|0|2|0|0|2|1|1|0|0|0|2|1|1|10KS4028MS
+120241 |Grainger Engineering |434 |NDEG |0112 |Computer Science |  |  |0|0|0|0|0|0|0|0|0|0|10|10|0|10|0|0|0|10|0|10|1SKS0112NDEU
+120241 |Grainger Engineering |434 |PHD |0112 |Computer Science |  |  |0|0|0|0|0|0|0|0|0|485|0|485|483|2|0|0|0|485|483|2|10KS0112PHD
+120241 |Grainger Engineering |434 |PHD |0112 |Computer Science |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|2|0|2|2|0|0|0|0|2|2|0|10KS0112PHD
+120241 |Grainger Engineering |545 |MS |5244 |Financial Engineering |  |  |0|0|0|0|0|0|0|0|13|0|0|13|9|4|0|0|0|13|9|4|10KS5244MS
+120241 |Grainger Engineering |545 |MS |5244 |Financial Engineering |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS5244MS
+120241 |Grainger Engineering |545 |MS |5244 |Financial Engineering |5539 |Advanced Analytics in IESE |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS5244MS
+120241 |Grainger Engineering |545 |MS |5244 |Financial Engineering |5877 |Data Analytics in Finance |0|0|0|0|0|0|0|0|9|0|0|9|9|0|0|0|0|9|9|0|10KS5244MS
+120241 |Grainger Engineering |545 |MS |5244 |Financial Engineering |6123 |Automated Trading Practices |0|0|0|0|0|0|0|0|7|0|0|7|7|0|0|0|0|7|7|0|10KS5244MS
+120241 |Grainger Engineering |545 |NONE |5333 |Engineering Undeclared |  |  |45|127|103|11|0|286|285|1|0|0|0|0|0|0|0|0|0|286|285|1|10KP5333NONE
+120241 |Grainger Engineering |615 |BS |4048 |Aerospace Engineering |  |  |20|125|139|343|0|627|609|18|0|0|0|0|0|0|0|0|0|627|609|18|10KP4048BS
+120241 |Grainger Engineering |615 |MENGR |1211 |Engineering |5862 |Aerospace Systems Engineering |0|0|0|0|0|0|0|0|4|0|0|4|3|1|0|0|0|4|3|1|1PKS5862MENG
+120241 |Grainger Engineering |615 |MENGR |1211 |Engineering |5862 |Aerospace Systems Engineering |0|0|0|0|0|0|0|0|8|0|0|8|0|8|0|0|0|8|0|8|1PKS5862MENU
+120241 |Grainger Engineering |615 |MS |4048 |Aerospace Engineering |  |  |0|0|0|0|0|0|0|0|76|0|0|76|62|14|0|0|0|76|62|14|10KS4048MS
+120241 |Grainger Engineering |615 |MS |4048 |Aerospace Engineering |  |  |0|0|0|0|0|0|0|0|51|0|0|51|1|50|0|0|0|51|1|50|10KS4048MSU
+120241 |Grainger Engineering |615 |MS |4048 |Aerospace Engineering |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS4048MS
+120241 |Grainger Engineering |615 |MS |4048 |Aerospace Engineering |5684 |BS/MS Aerospace Engineering |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS5684MS
+120241 |Grainger Engineering |615 |PHD |4048 |Aerospace Engineering |  |  |0|0|0|0|0|0|0|0|0|125|0|125|121|4|0|0|0|125|121|4|10KS4048PHD
+120241 |Grainger Engineering |615 |PHD |4048 |Aerospace Engineering |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|10|0|10|10|0|0|0|0|10|10|0|10KS4048PHD
+120241 |Grainger Engineering |855 |BS |5546 |Innov, Ldshp and Engr Entr |  |  |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KP5546BS
+120241 |Grainger Engineering |917 |BS |0118 |Engineering Mechanics |  |  |6|19|31|49|0|105|97|8|0|0|0|0|0|0|0|0|0|105|97|8|10KP0118BS
+120241 |Grainger Engineering |917 |BS |0133 |Mechanical Engineering |  |  |29|163|230|542|0|964|918|46|0|0|0|0|0|0|0|0|0|964|918|46|10KP0133BS
+120241 |Grainger Engineering |917 |MENGR |0133 |Mechanical Engineering |  |  |0|0|0|0|0|0|0|0|45|0|0|45|38|7|0|0|0|45|38|7|1PKS0133MENG
+120241 |Grainger Engineering |917 |MENGR |0133 |Mechanical Engineering |  |  |0|0|0|0|0|0|0|0|32|0|0|32|3|29|0|0|0|32|3|29|1PKS0133MENU
+120241 |Grainger Engineering |917 |MENGR |0133 |Mechanical Engineering |5861 |Entrepreneurship & Innovation |0|0|0|0|0|0|0|0|3|0|0|3|3|0|0|0|0|3|3|0|1PKS0133MENG
+120241 |Grainger Engineering |917 |MENGR |0133 |Mechanical Engineering |5861 |Entrepreneurship & Innovation |0|0|0|0|0|0|0|0|2|0|0|2|0|2|0|0|0|2|0|2|1PKS0133MENU
+120241 |Grainger Engineering |917 |MS |0133 |Mechanical Engineering |  |  |0|0|0|0|0|0|0|0|46|0|0|46|44|2|0|0|0|46|44|2|10KS0133MS
+120241 |Grainger Engineering |917 |MS |0133 |Mechanical Engineering |  |  |0|0|0|0|0|0|0|0|2|0|0|2|0|2|0|0|0|2|0|2|10KS0133MSU
+120241 |Grainger Engineering |917 |MS |0242 |Theoretical & Applied Mechans |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS0242MS
+120241 |Grainger Engineering |917 |NDEG |0133 |Mechanical Engineering |  |  |0|0|0|0|12|12|12|0|0|0|0|0|0|0|0|0|0|12|12|0|10KP0133NDEX
+120241 |Grainger Engineering |917 |PHD |0133 |Mechanical Engineering |  |  |0|0|0|0|0|0|0|0|0|256|0|256|256|0|0|0|0|256|256|0|10KS0133PHD
+120241 |Grainger Engineering |917 |PHD |0133 |Mechanical Engineering |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|16|0|16|16|0|0|0|0|16|16|0|10KS0133PHD
+120241 |Grainger Engineering |917 |PHD |0133 |Mechanical Engineering |6091 |Data Science and Engineering |0|0|0|0|0|0|0|0|0|11|0|11|11|0|0|0|0|11|11|0|10KS0133PHD
+120241 |Grainger Engineering |917 |PHD |0242 |Theoretical & Applied Mechans |  |  |0|0|0|0|0|0|0|0|0|12|0|12|12|0|0|0|0|12|12|0|10KS0242PHD
+120241 |Grainger Engineering |917 |PHD |0242 |Theoretical & Applied Mechans |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|2|0|2|2|0|0|0|0|2|2|0|10KS0242PHD
+120241 |Grainger Engineering |919 |BS |0130 |Materials Science & Engr |  |  |16|47|67|127|0|257|243|14|0|0|0|0|0|0|0|0|0|257|243|14|10KP0130BS
+120241 |Grainger Engineering |919 |MS |0130 |Materials Science & Engr |  |  |0|0|0|0|0|0|0|0|34|0|0|34|30|4|0|0|0|34|30|4|10KS0130MS
+120241 |Grainger Engineering |919 |MS |0130 |Materials Science & Engr |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS0130MS
+120241 |Grainger Engineering |919 |PHD |0130 |Materials Science & Engr |  |  |0|0|0|0|0|0|0|0|0|157|0|157|156|1|0|0|0|157|156|1|10KS0130PHD
+120241 |Grainger Engineering |919 |PHD |0130 |Materials Science & Engr |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|4|0|4|4|0|0|0|0|4|4|0|10KS0130PHD
+120241 |Grainger Engineering |919 |PHD |0130 |Materials Science & Engr |6091 |Data Science and Engineering |0|0|0|0|0|0|0|0|0|3|0|3|3|0|0|0|0|3|3|0|10KS0130PHD
+120241 |Grainger Engineering |933 |BS |0109 |Computer Engineering |  |  |34|201|307|790|0|1332|1230|102|0|0|0|0|0|0|0|0|0|1332|1230|102|10KP0109BS
+120241 |Grainger Engineering |933 |BS |0115 |Electrical Engineering |  |  |33|161|228|395|0|817|776|41|0|0|0|0|0|0|0|0|0|817|776|41|10KP0115BS
+120241 |Grainger Engineering |933 |MENGR |1200 |Electrical & Computer Engr |  |  |0|0|0|0|0|0|0|0|115|0|0|115|102|13|0|0|0|115|102|13|1PKS1200MENG
+120241 |Grainger Engineering |933 |MENGR |1200 |Electrical & Computer Engr |  |  |0|0|0|0|0|0|0|0|20|0|0|20|1|19|0|0|0|20|1|19|1PKS1200MENU
+120241 |Grainger Engineering |933 |MS |1200 |Electrical & Computer Engr |  |  |0|0|0|0|0|0|0|0|167|0|0|167|167|0|0|0|0|167|167|0|10KS1200MS
+120241 |Grainger Engineering |933 |NDEG |0109 |Computer Engineering |  |  |0|0|0|0|43|43|43|0|0|0|0|0|0|0|0|0|0|43|43|0|10KP0109NDEX
+120241 |Grainger Engineering |933 |NDEG |0115 |Electrical Engineering |  |  |0|0|0|0|29|29|29|0|0|0|0|0|0|0|0|0|0|29|29|0|10KP0115NDEX
+120241 |Grainger Engineering |933 |PHD |1200 |Electrical & Computer Engr |  |  |0|0|0|0|0|0|0|0|0|365|0|365|364|1|0|0|0|365|364|1|10KS1200PHD
+120241 |Grainger Engineering |933 |PHD |1200 |Electrical & Computer Engr |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|1|1|0|10KS1200PHD
+120241 |Grainger Engineering |933 |PHD |1200 |Electrical & Computer Engr |5861 |Entrepreneurship & Innovation |0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|1|1|0|10KS1200PHD
+120241 |Grainger Engineering |973 |BS |5183 |Nuclear, Plasma, Radiolgc Engr |  |  |8|24|14|4|0|50|50|0|0|0|0|0|0|0|0|0|0|50|50|0|10KP5183BS
+120241 |Grainger Engineering |973 |BS |5183 |Nuclear, Plasma, Radiolgc Engr |3913 |Power, Safety, and the Environ |1|5|8|27|0|41|39|2|0|0|0|0|0|0|0|0|0|41|39|2|10KP5183BS
+120241 |Grainger Engineering |973 |BS |5183 |Nuclear, Plasma, Radiolgc Engr |3914 |Plasma and Fusion Sci and Engr |0|4|9|19|0|32|32|0|0|0|0|0|0|0|0|0|0|32|32|0|10KP5183BS
+120241 |Grainger Engineering |973 |BS |5183 |Nuclear, Plasma, Radiolgc Engr |3915 |Radiol, Medical, & Instr Apps |0|0|1|7|0|8|7|1|0|0|0|0|0|0|0|0|0|8|7|1|10KP5183BS
+120241 |Grainger Engineering |973 |MENGR |1211 |Engineering |5863 |Plasma Engineering |0|0|0|0|0|0|0|0|5|0|0|5|2|3|0|0|0|5|2|3|1PKS5863MENG
+120241 |Grainger Engineering |973 |MS |5183 |Nuclear, Plasma, Radiolgc Engr |  |  |0|0|0|0|0|0|0|0|11|0|0|11|9|2|0|0|0|11|9|2|10KS5183MS
+120241 |Grainger Engineering |973 |PHD |5183 |Nuclear, Plasma, Radiolgc Engr |  |  |0|0|0|0|0|0|0|0|0|83|0|83|80|3|0|0|0|83|80|3|10KS5183PHD
+120241 |Grainger Engineering |973 |PHD |5183 |Nuclear, Plasma, Radiolgc Engr |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|5|0|5|5|0|0|0|0|5|5|0|10KS5183PHD
+120241 |Fine & Applied Arts |447 |NDEG |0067 |Nondegree |  |  |0|0|0|0|18|18|13|5|0|0|0|0|0|0|0|0|0|18|13|5|10KR0067NDEG
+120241 |Fine & Applied Arts |495 |AD |0265 |Music |  |  |0|0|0|0|0|0|0|0|8|0|0|8|8|0|0|0|0|8|8|0|10KS0265AD
+120241 |Fine & Applied Arts |495 |AMUSD |0265 |Music |  |  |0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|1|1|0|10KS0265AMUS
+120241 |Fine & Applied Arts |495 |AMUSD |0265 |Music |3930 |Choral Music |0|0|0|0|0|0|0|0|0|6|0|6|6|0|0|0|0|6|6|0|10KS0265AMUS
+120241 |Fine & Applied Arts |495 |AMUSD |0265 |Music |5110 |Performance and Literature |0|0|0|0|0|0|0|0|0|76|0|76|59|17|0|0|0|76|59|17|10KS0265AMUS
+120241 |Fine & Applied Arts |495 |AMUSD |0265 |Music |5111 |Music Composition |0|0|0|0|0|0|0|0|0|13|0|13|9|4|0|0|0|13|9|4|10KS0265AMUS
+120241 |Fine & Applied Arts |495 |AMUSD |0265 |Music |5117 |Vocal Coaching & Accompanying |0|0|0|0|0|0|0|0|0|6|0|6|4|2|0|0|0|6|4|2|10KS0265AMUS
+120241 |Fine & Applied Arts |495 |AMUSD |0265 |Music |5118 |Jazz Performance |0|0|0|0|0|0|0|0|0|22|0|22|19|3|0|0|0|22|19|3|10KS0265AMUS
+120241 |Fine & Applied Arts |495 |AMUSD |0265 |Music |5314 |Instrmntl Conducting Wind Band |0|0|0|0|0|0|0|0|0|3|0|3|2|1|0|0|0|3|2|1|10KS0265AMUS
+120241 |Fine & Applied Arts |495 |AMUSD |0265 |Music |5315 |Instrmntl Conducting Orchestra |0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|1|1|0|10KS0265AMUS
+120241 |Fine & Applied Arts |495 |BA |0265 |Music |  |  |11|24|19|20|0|74|70|4|0|0|0|0|0|0|0|0|0|74|70|4|10KR0265BA
+120241 |Fine & Applied Arts |495 |BMA |5646 |Lyric Theatre |  |  |4|5|2|4|0|15|15|0|0|0|0|0|0|0|0|0|0|15|15|0|10KR5646BMA
+120241 |Fine & Applied Arts |495 |BMA |5646 |Lyric Theatre |5644 |Creative |0|0|0|2|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KR5646BMA
+120241 |Fine & Applied Arts |495 |BMA |5646 |Lyric Theatre |5645 |Performance |0|0|2|11|0|13|13|0|0|0|0|0|0|0|0|0|0|13|13|0|10KR5646BMA
+120241 |Fine & Applied Arts |495 |BME |0168 |Music Education |  |  |23|15|0|2|0|40|40|0|0|0|0|0|0|0|0|0|0|40|40|0|10KR0168BME
+120241 |Fine & Applied Arts |495 |BME |0168 |Music Education |3930 |Choral Music |0|2|8|21|0|31|30|1|0|0|0|0|0|0|0|0|0|31|30|1|10KR3930BME
+120241 |Fine & Applied Arts |495 |BME |0168 |Music Education |3931 |Instrumental Music |1|5|9|47|0|62|60|2|0|0|0|0|0|0|0|0|0|62|60|2|10KR3931BME
+120241 |Fine & Applied Arts |495 |BME |0168 |Music Education |5593 |Technology |0|0|0|6|0|6|6|0|0|0|0|0|0|0|0|0|0|6|6|0|10KR5593BME
+120241 |Fine & Applied Arts |495 |BMUS |0157 |Voice |  |  |3|3|1|3|0|10|10|0|0|0|0|0|0|0|0|0|0|10|10|0|10KR0157BMUS
+120241 |Fine & Applied Arts |495 |BMUS |0158 |Instrumental Music |  |  |10|8|10|24|0|52|52|0|0|0|0|0|0|0|0|0|0|52|52|0|10KR0158BMUS
+120241 |Fine & Applied Arts |495 |BMUS |0159 |Music Composition |  |  |2|7|1|5|0|15|15|0|0|0|0|0|0|0|0|0|0|15|15|0|10KR0159BMUS
+120241 |Fine & Applied Arts |495 |BMUS |0161 |Open Studies |  |  |0|1|0|2|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KR0161BMUS
+120241 |Fine & Applied Arts |495 |BMUS |1481 |Musicology |  |  |0|0|2|0|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KR1481BMUS
+120241 |Fine & Applied Arts |495 |BMUS |5045 |Jazz Performance |  |  |2|3|2|5|0|12|12|0|0|0|0|0|0|0|0|0|0|12|12|0|10KR5045BMUS
+120241 |Fine & Applied Arts |495 |BS |5639 |Computer Science and Music |  |  |1|4|8|21|0|34|34|0|0|0|0|0|0|0|0|0|0|34|34|0|10KR5639BS
+120241 |Fine & Applied Arts |495 |MME |0168 |Music Education |  |  |0|0|0|0|0|0|0|0|12|0|0|12|7|5|0|0|0|12|7|5|10KS0168MME
+120241 |Fine & Applied Arts |495 |MMUS |0265 |Music |  |  |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS0265MMUS
+120241 |Fine & Applied Arts |495 |MMUS |0265 |Music |5110 |Performance and Literature |0|0|0|0|0|0|0|0|43|0|0|43|42|1|0|0|0|43|42|1|10KS0265MMUS
+120241 |Fine & Applied Arts |495 |MMUS |0265 |Music |5111 |Music Composition |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS0265MMUS
+120241 |Fine & Applied Arts |495 |MMUS |0265 |Music |5113 |Musicology |0|0|0|0|0|0|0|0|7|0|0|7|6|1|0|0|0|7|6|1|10KS0265MMUS
+120241 |Fine & Applied Arts |495 |MMUS |0265 |Music |5114 |Piano Pedagogy |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS0265MMUS
+120241 |Fine & Applied Arts |495 |MMUS |0265 |Music |5115 |Instrumental Conducting (Band) |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS0265MMUS
+120241 |Fine & Applied Arts |495 |MMUS |0265 |Music |5117 |Vocal Coaching & Accompanying |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS0265MMUS
+120241 |Fine & Applied Arts |495 |MMUS |0265 |Music |5118 |Jazz Performance |0|0|0|0|0|0|0|0|7|0|0|7|7|0|0|0|0|7|7|0|10KS0265MMUS
+120241 |Fine & Applied Arts |495 |PHD |0168 |Music Education |  |  |0|0|0|0|0|0|0|0|0|7|0|7|6|1|0|0|0|7|6|1|10KS0168PHD
+120241 |Fine & Applied Arts |495 |PHD |1481 |Musicology |  |  |0|0|0|0|0|0|0|0|0|13|0|13|11|2|0|0|0|13|11|2|10KS1481PHD
+120241 |Fine & Applied Arts |495 |PHD |1481 |Musicology |5080 |Medieval Studies |0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|1|1|0|10KS1481PHD
+120241 |Fine & Applied Arts |526 |BASA |5665 |Studio Art |  |  |5|2|1|0|0|8|8|0|0|0|0|0|0|0|0|0|0|8|8|0|10KR5665BASA
+120241 |Fine & Applied Arts |526 |BASA |5665 |Studio Art |0257 |Painting |0|1|2|4|0|7|7|0|0|0|0|0|0|0|0|0|0|7|7|0|10KR5665BASA
+120241 |Fine & Applied Arts |526 |BASA |5665 |Studio Art |0258 |Photography |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KR5665BASA
+120241 |Fine & Applied Arts |526 |BASA |5665 |Studio Art |0259 |Printmaking |0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KR5665BASA
+120241 |Fine & Applied Arts |526 |BASA |5665 |Studio Art |0260 |Sculpture |1|0|0|1|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KR5665BASA
+120241 |Fine & Applied Arts |526 |BASA |5665 |Studio Art |5647 |New Media |0|0|4|2|0|6|6|0|0|0|0|0|0|0|0|0|0|6|6|0|10KR5665BASA
+120241 |Fine & Applied Arts |526 |BASA |5665 |Studio Art |5648 |General Studio Art |0|3|2|3|0|8|8|0|0|0|0|0|0|0|0|0|0|8|8|0|10KR5665BASA
+120241 |Fine & Applied Arts |526 |BASA |5665 |Studio Art |5902 |Fashion |0|1|3|4|0|8|8|0|0|0|0|0|0|0|0|0|0|8|8|0|10KR5665BASA
+120241 |Fine & Applied Arts |526 |BFA |0148 |Graphic Design |  |  |37|36|53|78|0|204|198|6|0|0|0|0|0|0|0|0|0|204|198|6|10KR0148BFA
+120241 |Fine & Applied Arts |526 |BFA |0150 |History of Art |  |  |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KR0150BFA
+120241 |Fine & Applied Arts |526 |BFA |0151 |Photography |  |  |0|0|1|8|0|9|8|1|0|0|0|0|0|0|0|0|0|9|8|1|10KR0151BFA
+120241 |Fine & Applied Arts |526 |BFA |0153 |Painting |  |  |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KR0153BFA
+120241 |Fine & Applied Arts |526 |BFA |0169 |Art Education |  |  |4|4|10|20|0|38|38|0|0|0|0|0|0|0|0|0|0|38|38|0|10KR0169BFA
+120241 |Fine & Applied Arts |526 |BFA |5720 |Art and Art History |  |  |1|3|3|3|0|10|10|0|0|0|0|0|0|0|0|0|0|10|10|0|10KR5720BFA
+120241 |Fine & Applied Arts |526 |BFA |6142 |Industrial Design |  |  |26|31|43|69|0|169|162|7|0|0|0|0|0|0|0|0|0|169|162|7|10KR6142BFA
+120241 |Fine & Applied Arts |526 |BFASA |5665 |Studio Art |  |  |10|4|2|0|0|16|16|0|0|0|0|0|0|0|0|0|0|16|16|0|10KR5665BFAS
+120241 |Fine & Applied Arts |526 |BFASA |5665 |Studio Art |0257 |Painting |0|2|5|3|0|10|10|0|0|0|0|0|0|0|0|0|0|10|10|0|10KR5665BFAS
+120241 |Fine & Applied Arts |526 |BFASA |5665 |Studio Art |0258 |Photography |1|0|2|2|0|5|5|0|0|0|0|0|0|0|0|0|0|5|5|0|10KR5665BFAS
+120241 |Fine & Applied Arts |526 |BFASA |5665 |Studio Art |0259 |Printmaking |0|0|0|2|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KR5665BFAS
+120241 |Fine & Applied Arts |526 |BFASA |5665 |Studio Art |0260 |Sculpture |1|0|3|0|0|4|4|0|0|0|0|0|0|0|0|0|0|4|4|0|10KR5665BFAS
+120241 |Fine & Applied Arts |526 |BFASA |5665 |Studio Art |5647 |New Media |0|0|1|3|0|4|4|0|0|0|0|0|0|0|0|0|0|4|4|0|10KR5665BFAS
+120241 |Fine & Applied Arts |526 |BFASA |5665 |Studio Art |5648 |General Studio Art |1|5|3|5|0|14|13|1|0|0|0|0|0|0|0|0|0|14|13|1|10KR5665BFAS
+120241 |Fine & Applied Arts |526 |BFASA |5665 |Studio Art |5902 |Fashion |0|1|5|1|0|7|7|0|0|0|0|0|0|0|0|0|0|7|7|0|10KR5665BFAS
+120241 |Fine & Applied Arts |526 |EDM |0169 |Art Education |  |  |0|0|0|0|0|0|0|0|5|0|0|5|4|1|0|0|0|5|4|1|10KS0169EDM
+120241 |Fine & Applied Arts |526 |MA |0250 |Art History |  |  |0|0|0|0|0|0|0|0|4|0|0|4|3|1|0|0|0|4|3|1|10KS0250MA
+120241 |Fine & Applied Arts |526 |MFA |0252 |Art and Design |  |  |0|0|0|0|0|0|0|0|5|0|0|5|5|0|0|0|0|5|5|0|10KS0252MFA
+120241 |Fine & Applied Arts |526 |MFA |0252 |Art and Design |0255 |Industrial Design |0|0|0|0|0|0|0|0|11|0|0|11|9|2|0|0|0|11|9|2|10KS0255MFA
+120241 |Fine & Applied Arts |526 |MFA |0252 |Art and Design |0257 |Painting |0|0|0|0|0|0|0|0|5|0|0|5|5|0|0|0|0|5|5|0|10KS0257MFA
+120241 |Fine & Applied Arts |526 |MFA |0252 |Art and Design |0258 |Photography |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS0258MFA
+120241 |Fine & Applied Arts |526 |MFA |0252 |Art and Design |5920 |Design for Responsible Innov |0|0|0|0|0|0|0|0|6|0|0|6|6|0|0|0|0|6|6|0|10KS5920MFA
+120241 |Fine & Applied Arts |526 |NONE |4090 |Art Undeclared |  |  |5|1|1|0|0|7|7|0|0|0|0|0|0|0|0|0|0|7|7|0|10KR4090NONE
+120241 |Fine & Applied Arts |526 |PHD |0169 |Art Education |  |  |0|0|0|0|0|0|0|0|0|18|0|18|16|2|0|0|0|18|16|2|10KS0169PHD
+120241 |Fine & Applied Arts |526 |PHD |0250 |Art History |  |  |0|0|0|0|0|0|0|0|0|7|0|7|7|0|0|0|0|7|7|0|10KS0250PHD
+120241 |Fine & Applied Arts |526 |PHD |0250 |Art History |5080 |Medieval Studies |0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|1|1|0|10KS0250PHD
+120241 |Fine & Applied Arts |569 |BLA |0156 |Landscape Architecture |  |  |5|9|23|28|0|65|62|3|0|0|0|0|0|0|0|0|0|65|62|3|10KR0156BLA
+120241 |Fine & Applied Arts |569 |MLA |0156 |Landscape Architecture |  |  |0|0|0|0|0|0|0|0|29|0|0|29|28|1|0|0|0|29|28|1|10KS0156MLA
+120241 |Fine & Applied Arts |569 |MSUD |5721 |Sustainable Urban Design |  |  |0|0|0|0|0|0|0|0|5|0|0|5|5|0|0|0|0|5|5|0|1PKS5721MSUD
+120241 |Fine & Applied Arts |569 |PHD |0156 |Landscape Architecture |  |  |0|0|0|0|0|0|0|0|0|12|0|12|11|1|0|0|0|12|11|1|10KS0156PHD
+120241 |Fine & Applied Arts |644 |BS |5749 |Sustainable Design |  |  |4|12|37|42|0|95|92|3|0|0|0|0|0|0|0|0|0|95|92|3|10KR5749BS
+120241 |Fine & Applied Arts |733 |BA |5504 |Urban Studies and Planning |  |  |8|10|4|1|0|23|23|0|0|0|0|0|0|0|0|0|0|23|23|0|10KR5504BA
+120241 |Fine & Applied Arts |733 |BA |5504 |Urban Studies and Planning |5564 |Sustainability |1|3|8|6|0|18|18|0|0|0|0|0|0|0|0|0|0|18|18|0|10KR5504BA
+120241 |Fine & Applied Arts |733 |BA |5504 |Urban Studies and Planning |5564 |Sustainability |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KR5907BA
+120241 |Fine & Applied Arts |733 |BA |5504 |Urban Studies and Planning |5565 |Policy and Planning |0|7|8|24|0|39|37|2|0|0|0|0|0|0|0|0|0|39|37|2|10KR5504BA
+120241 |Fine & Applied Arts |733 |BA |5504 |Urban Studies and Planning |5567 |Social Justice |0|1|1|3|0|5|5|0|0|0|0|0|0|0|0|0|0|5|5|0|10KR5504BA
+120241 |Fine & Applied Arts |733 |BA |5504 |Urban Studies and Planning |5907 |BA USP / MUP UP |0|0|0|2|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KR5907BA
+120241 |Fine & Applied Arts |733 |MS |5638 |Sustainable Urban Management |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|1PKS5638MS
+120241 |Fine & Applied Arts |733 |MUP |0155 |Urban Planning |  |  |0|0|0|0|0|0|0|0|44|0|0|44|42|2|0|0|0|44|42|2|10KS0155MUP
+120241 |Fine & Applied Arts |733 |MUP |0155 |Urban Planning |5907 |BA USP / MUP UP |0|0|0|0|0|0|0|0|5|0|0|5|5|0|0|0|0|5|5|0|10KS5907MUP
+120241 |Fine & Applied Arts |733 |PHD |0274 |Regional Planning |  |  |0|0|0|0|0|0|0|0|0|14|0|14|14|0|0|0|0|14|14|0|10KS0274PHD
+120241 |Fine & Applied Arts |767 |BS |0146 |Architectural Studies |  |  |0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KR0146BS
+120241 |Fine & Applied Arts |767 |BS |4091 |Architectural Studies |  |  |59|109|112|142|0|422|405|17|0|0|0|0|0|0|0|0|0|422|405|17|10KR4091BS
+120241 |Fine & Applied Arts |767 |MARCH |5642 |Architecture |0247 |Architecture - 2 Yr |0|0|0|0|0|0|0|0|117|0|0|117|117|0|0|0|0|117|117|0|10KS0247MARC
+120241 |Fine & Applied Arts |767 |MARCH |5642 |Architecture |0248 |Architecture Track 3 |0|0|0|0|0|0|0|0|15|0|0|15|15|0|0|0|0|15|15|0|10KS0248MARC
+120241 |Fine & Applied Arts |767 |MS |4091 |Architectural Studies |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS4091MS
+120241 |Fine & Applied Arts |767 |PHD |5642 |Architecture |  |  |0|0|0|0|0|0|0|0|0|11|0|11|11|0|0|0|0|11|11|0|10KS5642PHD
+120241 |Fine & Applied Arts |801 |BA |0261 |Dance |  |  |0|0|3|3|0|6|6|0|0|0|0|0|0|0|0|0|0|6|6|0|10KR0261BA
+120241 |Fine & Applied Arts |801 |BA |0261 |Dance |  |  |1|1|0|2|0|4|4|0|0|0|0|0|0|0|0|0|0|4|4|0|1DKR0261BA
+120241 |Fine & Applied Arts |801 |BFA |0261 |Dance |  |  |9|3|7|15|0|34|34|0|0|0|0|0|0|0|0|0|0|34|34|0|10KR0261BFA
+120241 |Fine & Applied Arts |801 |MFA |0261 |Dance |  |  |0|0|0|0|0|0|0|0|11|0|0|11|11|0|0|0|0|11|11|0|10KS0261MFA
+120241 |Fine & Applied Arts |883 |BFA |0162 |Theatre |3980 |Stage Management |4|7|2|6|0|19|19|0|0|0|0|0|0|0|0|0|0|19|19|0|10KR3980BFA
+120241 |Fine & Applied Arts |883 |BFA |0162 |Theatre |3985 |Theatre Studies |1|2|1|5|0|9|9|0|0|0|0|0|0|0|0|0|0|9|9|0|10KR3985BFA
+120241 |Fine & Applied Arts |883 |BFA |0162 |Theatre |4081 |Acting |7|12|15|24|0|58|58|0|0|0|0|0|0|0|0|0|0|58|58|0|10KR4081BFA
+120241 |Fine & Applied Arts |883 |BFA |0162 |Theatre |4082 |Costume Design and Technology |1|1|5|2|0|9|9|0|0|0|0|0|0|0|0|0|0|9|9|0|10KR4082BFA
+120241 |Fine & Applied Arts |883 |BFA |0162 |Theatre |4083 |Scenic Technology |1|2|3|5|0|11|10|1|0|0|0|0|0|0|0|0|0|11|10|1|10KR4083BFA
+120241 |Fine & Applied Arts |883 |BFA |0162 |Theatre |4084 |Lighting Design and Technology |1|2|3|2|0|8|8|0|0|0|0|0|0|0|0|0|0|8|8|0|10KR4084BFA
+120241 |Fine & Applied Arts |883 |BFA |0162 |Theatre |4085 |Sound Design and Technology |3|0|3|3|0|9|9|0|0|0|0|0|0|0|0|0|0|9|9|0|10KR4085BFA
+120241 |Fine & Applied Arts |883 |BFA |0162 |Theatre |4086 |Scenic Design |0|2|0|1|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KR4086BFA
+120241 |Fine & Applied Arts |883 |BFA |0162 |Theatre |5896 |Arts & Entertainment Technolgy |0|1|2|2|0|5|4|1|0|0|0|0|0|0|0|0|0|5|4|1|10KR5896BFA
+120241 |Fine & Applied Arts |883 |MA |0162 |Theatre |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS0162MA
+120241 |Fine & Applied Arts |883 |MFA |0162 |Theatre |  |  |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS0162MFA
+120241 |Fine & Applied Arts |883 |MFA |0162 |Theatre |0271 |Design and Technology |0|0|0|0|0|0|0|0|40|0|0|40|40|0|0|0|0|40|40|0|10KS0271MFA
+120241 |Fine & Applied Arts |883 |MFA |0162 |Theatre |0272 |Acting |0|0|0|0|0|0|0|0|9|0|0|9|9|0|0|0|0|9|9|0|10KS0272MFA
+120241 |Fine & Applied Arts |883 |PHD |0162 |Theatre |  |  |0|0|0|0|0|0|0|0|0|8|0|8|8|0|0|0|0|8|8|0|10KS0162PHD
+120241 |Graduate CoSchool of Social Workege |486 |NDEG |0067 |Nondegree |  |  |0|0|0|0|0|0|0|0|0|0|4|4|0|4|0|0|0|4|0|4|10KS0067NDEG
+120241 |Media |238 |PHD |5202 |Communications and Media |  |  |0|0|0|0|0|0|0|0|0|36|0|36|32|4|0|0|0|36|32|4|10KS5202PHD
+120241 |Media |408 |BS |0277 |Advertising |  |  |31|112|211|249|0|603|563|40|0|0|0|0|0|0|0|0|0|603|563|40|10KT0277BS
+120241 |Media |408 |BS |5673 |Computer Science & Advertising |  |  |2|12|22|33|0|69|64|5|0|0|0|0|0|0|0|0|0|69|64|5|10KT5673BS
+120241 |Media |408 |MS |0277 |Advertising |  |  |0|0|0|0|0|0|0|0|30|0|0|30|24|6|0|0|0|30|24|6|10KS0277MS
+120241 |Media |408 |MS |5420 |Strategic Brand Communication |  |  |0|0|0|0|0|0|0|0|36|0|0|36|27|9|0|0|0|36|27|9|1PKS5420MSU
+120241 |Media |408 |MS |6159 |Advertising |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS6159MS
+120241 |Media |408 |NDEG |5420 |Strategic Brand Communication |  |  |0|0|0|0|0|0|0|0|0|0|3|3|1|2|0|0|0|3|1|2|1PKS5420NDEU
+120241 |Media |436 |BS |5201 |Media and Cinema Studies |  |  |21|39|35|42|0|137|133|4|0|0|0|0|0|0|0|0|0|137|133|4|10KT5201BS
+120241 |Media |642 |BS |0278 |Journalism |  |  |25|31|35|52|0|143|142|1|0|0|0|0|0|0|0|0|0|143|142|1|10KT0278BS
+120241 |Media |642 |MS |0278 |Journalism |  |  |0|0|0|0|0|0|0|0|6|0|0|6|2|4|0|0|0|6|2|4|10KS0278MS
+120241 |Media |934 |NDEG |0067 |Nondegree |  |  |0|0|0|0|17|17|2|15|0|0|0|0|0|0|0|0|0|17|2|15|10KT0067NDEG
+120241 |Law |853 |JD |0385 |Law |  |  |0|0|0|0|0|0|0|0|0|0|0|0|0|0|518|507|11|518|507|11|10KU0385JD
+120241 |Law |853 |JSD |0281 |Law |  |  |0|0|0|0|0|0|0|0|0|8|0|8|8|0|0|0|0|8|8|0|10KS0281JSD
+120241 |Law |853 |LLM |0281 |Law |  |  |0|0|0|0|0|0|0|0|98|0|0|98|95|3|0|0|0|98|95|3|10KS0281LLM
+120241 |Law |853 |LLM |0281 |Law |5620 |Corp Commercial Law & Trade |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS0281LLM
+120241 |Law |853 |MSL |5223 |Law |  |  |0|0|0|0|0|0|0|0|5|0|0|5|2|3|0|0|0|5|2|3|10KS5223MSL
+120241 |Law |853 |NDEG |0385 |Law |  |  |0|0|0|0|0|0|0|0|0|0|0|0|0|0|6|6|0|6|6|0|10KU0385NDEG
+120241 |Liberal Arts & Science |241 |BALAS |0340 |Anthropology |  |  |0|0|3|4|0|7|6|1|0|0|0|0|0|0|0|0|0|7|6|1|10KV0340BALA
+120241 |Liberal Arts & Science |241 |BALAS |0340 |Anthropology |5043 |Socioculturl & Linguistic Anth |0|1|8|13|0|22|22|0|0|0|0|0|0|0|0|0|0|22|22|0|10KV0340BALA
+120241 |Liberal Arts & Science |241 |BALAS |0340 |Anthropology |5043 |Socioculturl & Linguistic Anth |0|0|0|4|0|4|4|0|0|0|0|0|0|0|0|0|0|4|4|0|10KV8037BALA
+120241 |Liberal Arts & Science |241 |BALAS |0340 |Anthropology |5536 |Archaeology |0|2|3|7|0|12|12|0|0|0|0|0|0|0|0|0|0|12|12|0|10KV0340BALA
+120241 |Liberal Arts & Science |241 |BALAS |0340 |Anthropology |5536 |Archaeology |0|0|0|2|0|2|1|1|0|0|0|0|0|0|0|0|0|2|1|1|10KV8037BALA
+120241 |Liberal Arts & Science |241 |BALAS |0340 |Anthropology |5537 |Human Evolutionary Biology |0|1|5|10|0|16|14|2|0|0|0|0|0|0|0|0|0|16|14|2|10KV0340BALA
+120241 |Liberal Arts & Science |241 |BALAS |0340 |Anthropology |5537 |Human Evolutionary Biology |0|0|1|1|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KV8037BALA
+120241 |Liberal Arts & Science |241 |BSLAS |5348 |Computer Sci & Anthropology |  |  |0|3|11|10|0|24|24|0|0|0|0|0|0|0|0|0|0|24|24|0|10KV5348BSLA
+120241 |Liberal Arts & Science |241 |BSLAS |5348 |Computer Sci & Anthropology |  |  |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV8037BSLA
+120241 |Liberal Arts & Science |241 |NONE |0340 |Anthropology |  |  |8|12|7|1|0|28|28|0|0|0|0|0|0|0|0|0|0|28|28|0|10KV0340NONE
+120241 |Liberal Arts & Science |241 |PHD |0340 |Anthropology |  |  |0|0|0|0|0|0|0|0|0|44|0|44|39|5|0|0|0|44|39|5|10KS0340PHD
+120241 |Liberal Arts & Science |253 |BSLAS |0334 |Atmospheric Sciences |  |  |9|6|12|24|0|51|48|3|0|0|0|0|0|0|0|0|0|51|48|3|10KV0334BSLA
+120241 |Liberal Arts & Science |253 |BSLAS |0334 |Atmospheric Sciences |  |  |1|0|0|1|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KV8037BSLA
+120241 |Liberal Arts & Science |253 |MS |0334 |Atmospheric Sciences |  |  |0|0|0|0|0|0|0|0|22|0|0|22|20|2|0|0|0|22|20|2|10KS0334MS
+120241 |Liberal Arts & Science |253 |MS |0334 |Atmospheric Sciences |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS0334MS
+120241 |Liberal Arts & Science |253 |MS |6046 |Weather Climate Risk Analytics |  |  |0|0|0|0|0|0|0|0|18|0|0|18|0|18|0|0|0|18|0|18|1PKS6046MSU
+120241 |Liberal Arts & Science |253 |NDEG |6046 |Weather Climate Risk Analytics |  |  |0|0|0|0|0|0|0|0|0|0|21|21|0|21|0|0|0|21|0|21|10KS6046NDEU
+120241 |Liberal Arts & Science |253 |PHD |0334 |Atmospheric Sciences |  |  |0|0|0|0|0|0|0|0|0|26|0|26|25|1|0|0|0|26|25|1|10KS0334PHD
+120241 |Liberal Arts & Science |257 |BSLAS |0439 |Mathematics |  |  |0|1|4|35|0|40|34|6|0|0|0|0|0|0|0|0|0|40|34|6|10KV0439BSLA
+120241 |Liberal Arts & Science |257 |BSLAS |0439 |Mathematics |  |  |0|1|12|24|0|37|36|1|0|0|0|0|0|0|0|0|0|37|36|1|10KV8037BSLA
+120241 |Liberal Arts & Science |257 |BSLAS |0439 |Mathematics |3895 |Applied Mathematics |0|0|4|20|0|24|16|8|0|0|0|0|0|0|0|0|0|24|16|8|10KV3895BSLA
+120241 |Liberal Arts & Science |257 |BSLAS |0439 |Mathematics |3895 |Applied Mathematics |0|1|0|12|0|13|8|5|0|0|0|0|0|0|0|0|0|13|8|5|10KV8037BSLA
+120241 |Liberal Arts & Science |257 |BSLAS |0439 |Mathematics |3896 |Graduate Preparation |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV8037BSLA
+120241 |Liberal Arts & Science |257 |BSLAS |0439 |Mathematics |3897 |Mathematics Teaching Option |0|0|4|14|0|18|18|0|0|0|0|0|0|0|0|0|0|18|18|0|10KV3897BSLA
+120241 |Liberal Arts & Science |257 |BSLAS |0439 |Mathematics |3897 |Mathematics Teaching Option |0|0|0|2|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KV8037BSLA
+120241 |Liberal Arts & Science |257 |BSLAS |0439 |Mathematics |6092 |Data Optimization |0|0|0|20|0|20|16|4|0|0|0|0|0|0|0|0|0|20|16|4|10KV6092BSLA
+120241 |Liberal Arts & Science |257 |BSLAS |0439 |Mathematics |6092 |Data Optimization |0|0|2|10|0|12|8|4|0|0|0|0|0|0|0|0|0|12|8|4|10KV8037BSLA
+120241 |Liberal Arts & Science |257 |BSLAS |0439 |Mathematics |6093 |Math Doctoral Preparation |0|1|0|8|0|9|8|1|0|0|0|0|0|0|0|0|0|9|8|1|10KV6093BSLA
+120241 |Liberal Arts & Science |257 |BSLAS |0439 |Mathematics |6093 |Math Doctoral Preparation |0|0|2|0|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KV8037BSLA
+120241 |Liberal Arts & Science |257 |BSLAS |0461 |Actuarial Science |  |  |7|35|45|61|0|148|139|9|0|0|0|0|0|0|0|0|0|148|139|9|10KV0461BSLA
+120241 |Liberal Arts & Science |257 |BSLAS |0461 |Actuarial Science |  |  |0|0|9|30|0|39|33|6|0|0|0|0|0|0|0|0|0|39|33|6|10KV8037BSLA
+120241 |Liberal Arts & Science |257 |BSLAS |1438 |Math & Computer Science |  |  |6|20|68|179|0|273|245|28|0|0|0|0|0|0|0|0|0|273|245|28|10KV1438BSLA
+120241 |Liberal Arts & Science |257 |BSLAS |1438 |Math & Computer Science |  |  |0|0|1|12|0|13|10|3|0|0|0|0|0|0|0|0|0|13|10|3|10KV8037BSLA
+120241 |Liberal Arts & Science |257 |MS |0290 |Teaching of Mathematics |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS0290MS
+120241 |Liberal Arts & Science |257 |MS |0327 |Applied Mathematics |  |  |0|0|0|0|0|0|0|0|7|0|0|7|7|0|0|0|0|7|7|0|10KS0327MS
+120241 |Liberal Arts & Science |257 |MS |0439 |Mathematics |  |  |0|0|0|0|0|0|0|0|19|0|0|19|18|1|0|0|0|19|18|1|10KS0439MS
+120241 |Liberal Arts & Science |257 |MS |0461 |Actuarial Science |  |  |0|0|0|0|0|0|0|0|16|0|0|16|14|2|0|0|0|16|14|2|10KS0461MS
+120241 |Liberal Arts & Science |257 |MS |6078 |Predictive Analytic Risk Mgmt |  |  |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|1PKS6078MS
+120241 |Liberal Arts & Science |257 |MS |6078 |Predictive Analytic Risk Mgmt |6070 |Financial & Insurance Analytic |0|0|0|0|0|0|0|0|34|0|0|34|33|1|0|0|0|34|33|1|1PKS6078MS
+120241 |Liberal Arts & Science |257 |MS |6078 |Predictive Analytic Risk Mgmt |6071 |Enterprise Risk Management |0|0|0|0|0|0|0|0|11|0|0|11|10|1|0|0|0|11|10|1|1PKS6078MS
+120241 |Liberal Arts & Science |257 |NONE |0439 |Mathematics |  |  |33|125|120|67|0|345|341|4|0|0|0|0|0|0|0|0|0|345|341|4|10KV0439NONE
+120241 |Liberal Arts & Science |257 |PHD |0439 |Mathematics |  |  |0|0|0|0|0|0|0|0|0|129|0|129|119|10|0|0|0|129|119|10|10KS0439PHD
+120241 |Liberal Arts & Science |257 |PHD |0439 |Mathematics |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|3|0|3|3|0|0|0|0|3|3|0|10KS0439PHD
+120241 |Liberal Arts & Science |257 |PHD |0439 |Mathematics |5626 |Actuarial Sci & Risk Analytics |0|0|0|0|0|0|0|0|0|6|0|6|6|0|0|0|0|6|6|0|10KS0439PHD
+120241 |Liberal Arts & Science |265 |BSLAS |5313 |Earth, Soc, Env Sustainability |  |  |21|35|20|6|0|82|82|0|0|0|0|0|0|0|0|0|0|82|82|0|10KV5313BSLA
+120241 |Liberal Arts & Science |265 |BSLAS |5313 |Earth, Soc, Env Sustainability |  |  |0|0|1|3|0|4|3|1|0|0|0|0|0|0|0|0|0|4|3|1|10KV5313BSLU
+120241 |Liberal Arts & Science |265 |BSLAS |5313 |Earth, Soc, Env Sustainability |  |  |0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV8037BSLA
+120241 |Liberal Arts & Science |265 |BSLAS |5313 |Earth, Soc, Env Sustainability |5103 |Society and the Environment |1|5|17|27|0|50|48|2|0|0|0|0|0|0|0|0|0|50|48|2|10KV5313BSLA
+120241 |Liberal Arts & Science |265 |BSLAS |5313 |Earth, Soc, Env Sustainability |5103 |Society and the Environment |0|2|4|5|0|11|8|3|0|0|0|0|0|0|0|0|0|11|8|3|10KV5313BSLU
+120241 |Liberal Arts & Science |265 |BSLAS |5313 |Earth, Soc, Env Sustainability |5103 |Society and the Environment |0|0|3|10|0|13|12|1|0|0|0|0|0|0|0|0|0|13|12|1|10KV8037BSLA
+120241 |Liberal Arts & Science |265 |BSLAS |5313 |Earth, Soc, Env Sustainability |5104 |Science of the Earth System |0|6|11|10|0|27|25|2|0|0|0|0|0|0|0|0|0|27|25|2|10KV5313BSLA
+120241 |Liberal Arts & Science |265 |BSLAS |5313 |Earth, Soc, Env Sustainability |5104 |Science of the Earth System |0|0|0|4|0|4|1|3|0|0|0|0|0|0|0|0|0|4|1|3|10KV5313BSLU
+120241 |Liberal Arts & Science |265 |BSLAS |5313 |Earth, Soc, Env Sustainability |5104 |Science of the Earth System |0|0|1|2|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KV8037BSLA
+120241 |Liberal Arts & Science |292 |MS |0314 |Biology |0315 |Ecology, Ethology, Evolution |0|0|0|0|0|0|0|0|3|0|0|3|3|0|0|0|0|3|3|0|10KS0315MS
+120241 |Liberal Arts & Science |292 |PHD |0314 |Biology |0315 |Ecology, Ethology, Evolution |0|0|0|0|0|0|0|0|0|16|0|16|16|0|0|0|0|16|16|0|10KS0315PHD
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |  |  |0|2|15|4|0|21|21|0|0|0|0|0|0|0|0|0|0|21|21|0|10KV5535BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |  |  |2|6|3|4|0|15|15|0|0|0|0|0|0|0|0|0|0|15|15|0|10KV8037BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5568 |Behavioral Neuroscience |1|4|12|38|0|55|49|6|0|0|0|0|0|0|0|0|0|55|49|6|10KV5535BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5569 |Clinical/Community Psychology |7|22|66|170|0|265|247|18|0|0|0|0|0|0|0|0|0|265|247|18|10KV5535BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5569 |Clinical/Community Psychology |2|1|12|23|0|38|38|0|0|0|0|0|0|0|0|0|0|38|38|0|10KV8037BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5570 |Cognitive Psychology |0|0|4|18|0|22|18|4|0|0|0|0|0|0|0|0|0|22|18|4|10KV5535BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5570 |Cognitive Psychology |0|1|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV8037BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5571 |Developmental Psychology |0|4|17|39|0|60|58|2|0|0|0|0|0|0|0|0|0|60|58|2|10KV5535BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5571 |Developmental Psychology |0|0|3|7|0|10|9|1|0|0|0|0|0|0|0|0|0|10|9|1|10KV8037BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5572 |Organizational Psychology |1|5|26|66|0|98|87|11|0|0|0|0|0|0|0|0|0|98|87|11|10KV5535BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5572 |Organizational Psychology |0|0|3|9|0|12|10|2|0|0|0|0|0|0|0|0|0|12|10|2|10KV8037BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5627 |Intradisciplinary Psychology |0|9|49|160|0|218|198|20|0|0|0|0|0|0|0|0|0|218|198|20|10KV5535BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5627 |Intradisciplinary Psychology |1|6|7|34|0|48|46|2|0|0|0|0|0|0|0|0|0|48|46|2|10KV8037BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5628 |Diversity Science |0|0|2|2|0|4|4|0|0|0|0|0|0|0|0|0|0|4|4|0|10KV5535BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5629 |Cognitive Neuroscience |1|1|4|34|0|40|38|2|0|0|0|0|0|0|0|0|0|40|38|2|10KV5535BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5629 |Cognitive Neuroscience |0|0|2|2|0|4|3|1|0|0|0|0|0|0|0|0|0|4|3|1|10KV8037BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5630 |Social Psychology |1|1|12|25|0|39|36|3|0|0|0|0|0|0|0|0|0|39|36|3|10KV5535BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5630 |Social Psychology |0|0|0|8|0|8|7|1|0|0|0|0|0|0|0|0|0|8|7|1|10KV8037BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5631 |Personality Psychology |1|0|3|16|0|20|20|0|0|0|0|0|0|0|0|0|0|20|20|0|10KV5535BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5535 |Psychology |5631 |Personality Psychology |0|0|1|2|0|3|2|1|0|0|0|0|0|0|0|0|0|3|2|1|10KV8037BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5876 |Brain and Cognitive Science |  |  |9|30|49|47|0|135|134|1|0|0|0|0|0|0|0|0|0|135|134|1|10KV5876BSLA
+120241 |Liberal Arts & Science |299 |BSLAS |5876 |Brain and Cognitive Science |  |  |0|2|1|5|0|8|7|1|0|0|0|0|0|0|0|0|0|8|7|1|10KV8037BSLA
+120241 |Liberal Arts & Science |299 |MS |5625 |Psychological Science |  |  |0|0|0|0|0|0|0|0|16|0|0|16|14|2|0|0|0|16|14|2|1PKS5625MS
+120241 |Liberal Arts & Science |299 |NONE |5535 |Psychology |  |  |176|314|297|65|0|852|846|6|0|0|0|0|0|0|0|0|0|852|846|6|10KV5535NONE
+120241 |Liberal Arts & Science |299 |PHD |5535 |Psychology |  |  |0|0|0|0|0|0|0|0|0|128|0|128|123|5|0|0|0|128|123|5|10KS5535PHD
+120241 |Liberal Arts & Science |303 |BALAS |1008 |African American Studies |  |  |5|3|0|6|0|14|12|2|0|0|0|0|0|0|0|0|0|14|12|2|10KV1008BALA
+120241 |Liberal Arts & Science |324 |BALAS |0344 |Sociology |  |  |37|58|49|43|0|187|182|5|0|0|0|0|0|0|0|0|0|187|182|5|10KV0344BALA
+120241 |Liberal Arts & Science |324 |BALAS |0344 |Sociology |  |  |0|2|5|10|0|17|17|0|0|0|0|0|0|0|0|0|0|17|17|0|10KV8037BALA
+120241 |Liberal Arts & Science |324 |PHD |0344 |Sociology |  |  |0|0|0|0|0|0|0|0|0|35|0|35|31|4|0|0|0|35|31|4|10KS0344PHD
+120241 |Liberal Arts & Science |361 |MS |0324 |Entomology |  |  |0|0|0|0|0|0|0|0|12|0|0|12|11|1|0|0|0|12|11|1|10KS0324MS
+120241 |Liberal Arts & Science |361 |PHD |0324 |Entomology |  |  |0|0|0|0|0|0|0|0|0|19|0|19|18|1|0|0|0|19|18|1|10KS0324PHD
+120241 |Liberal Arts & Science |362 |BALAS |0285 |E Asian Languages & Cultures |  |  |4|7|7|9|0|27|23|4|0|0|0|0|0|0|0|0|0|27|23|4|10KV0285BALA
+120241 |Liberal Arts & Science |362 |BALAS |0285 |E Asian Languages & Cultures |  |  |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV8037BALA
+120241 |Liberal Arts & Science |362 |MA |0285 |E Asian Languages & Cultures |  |  |0|0|0|0|0|0|0|0|12|0|0|12|10|2|0|0|0|12|10|2|10KS0285MA
+120241 |Liberal Arts & Science |362 |PHD |0285 |E Asian Languages & Cultures |  |  |0|0|0|0|0|0|0|0|0|26|0|26|25|1|0|0|0|26|25|1|10KS0285PHD
+120241 |Liberal Arts & Science |377 |MS |0320 |Plant Biology |  |  |0|0|0|0|0|0|0|0|3|0|0|3|3|0|0|0|0|3|3|0|10KS0320MS
+120241 |Liberal Arts & Science |377 |PHD |0320 |Plant Biology |  |  |0|0|0|0|0|0|0|0|0|19|0|19|18|1|0|0|0|19|18|1|10KS0320PHD
+120241 |Liberal Arts & Science |377 |PHD |0320 |Plant Biology |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|2|0|2|2|0|0|0|0|2|2|0|10KS0320PHD
+120241 |Liberal Arts & Science |383 |BSLAS |0438 |Integrative Biology |  |  |0|55|167|214|0|436|419|17|0|0|0|0|0|0|0|0|0|436|419|17|10KV0438BSLA
+120241 |Liberal Arts & Science |383 |BSLAS |0438 |Integrative Biology |  |  |0|2|5|13|0|20|19|1|0|0|0|0|0|0|0|0|0|20|19|1|10KV8037BSLA
+120241 |Liberal Arts & Science |383 |BSLAS |0438 |Integrative Biology |5028 |Honors Integrative Biology |0|2|15|36|0|53|50|3|0|0|0|0|0|0|0|0|0|53|50|3|10KV5028BSLA
+120241 |Liberal Arts & Science |383 |BSLAS |0438 |Integrative Biology |5028 |Honors Integrative Biology |0|0|0|3|0|3|2|1|0|0|0|0|0|0|0|0|0|3|2|1|10KV8037BSLA
+120241 |Liberal Arts & Science |383 |BSLAS |0438 |Integrative Biology |6160 |BSLAS/MS Integrative Biology |0|0|0|17|0|17|17|0|0|0|0|0|0|0|0|0|0|17|17|0|10KV6160BSLA
+120241 |Liberal Arts & Science |383 |MS |5107 |Ecol, Evol, Conservation Biol |  |  |0|0|0|0|0|0|0|0|5|0|0|5|5|0|0|0|0|5|5|0|10KS5107MS
+120241 |Liberal Arts & Science |383 |MS |5278 |Teaching of Biological Science |  |  |0|0|0|0|0|0|0|0|3|0|0|3|0|3|0|0|0|3|0|3|10KS5278MSU
+120241 |Liberal Arts & Science |383 |MS |6936 |Integrative Biology |  |  |0|0|0|0|0|0|0|0|11|0|0|11|10|1|0|0|0|11|10|1|1PKS6936MS
+120241 |Liberal Arts & Science |383 |PHD |5107 |Ecol, Evol, Conservation Biol |  |  |0|0|0|0|0|0|0|0|0|36|0|36|35|1|0|0|0|36|35|1|10KS5107PHD
+120241 |Liberal Arts & Science |397 |NONE |0314 |Biology |  |  |154|242|28|4|0|428|427|1|0|0|0|0|0|0|0|0|0|428|427|1|10KV0314NONE
+120241 |Liberal Arts & Science |404 |BALAS |5526 |Asian American Studies |  |  |0|2|0|0|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KV5526BALA
+120241 |Liberal Arts & Science |405 |BALAS |0074 |Economics |  |  |53|174|231|252|0|710|679|31|0|0|0|0|0|0|0|0|0|710|679|31|10KV0074BALA
+120241 |Liberal Arts & Science |405 |BALAS |0074 |Economics |  |  |0|3|37|41|0|81|78|3|0|0|0|0|0|0|0|0|0|81|78|3|10KV8037BALA
+120241 |Liberal Arts & Science |405 |BSLAS |5321 |Econometrics & Quant Econ |  |  |2|16|40|87|0|145|135|10|0|0|0|0|0|0|0|0|0|145|135|10|10KV5321BSLA
+120241 |Liberal Arts & Science |405 |BSLAS |5321 |Econometrics & Quant Econ |  |  |0|0|3|12|0|15|15|0|0|0|0|0|0|0|0|0|0|15|15|0|10KV8037BSLA
+120241 |Liberal Arts & Science |405 |BSLAS |5667 |Computer Science & Economics |  |  |1|21|60|125|0|207|187|20|0|0|0|0|0|0|0|0|0|207|187|20|10KV5667BSLA
+120241 |Liberal Arts & Science |405 |BSLAS |5667 |Computer Science & Economics |  |  |0|0|0|5|0|5|4|1|0|0|0|0|0|0|0|0|0|5|4|1|10KV8037BSLA
+120241 |Liberal Arts & Science |405 |MS |5591 |Economics |3925 |Policy Economics |0|0|0|0|0|0|0|0|100|0|0|100|87|13|0|0|0|100|87|13|10KS3925MS
+120241 |Liberal Arts & Science |405 |PHD |5591 |Economics |  |  |0|0|0|0|0|0|0|0|0|84|0|84|82|2|0|0|0|84|82|2|10KS5591PHD
+120241 |Liberal Arts & Science |413 |BS |0335 |Chemistry |  |  |13|53|39|50|0|155|150|5|0|0|0|0|0|0|0|0|0|155|150|5|10KV0335BS
+120241 |Liberal Arts & Science |413 |BS |0335 |Chemistry |5023 |Environmental Chemistry |0|0|1|2|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KV5023BS
+120241 |Liberal Arts & Science |413 |BSLAS |0335 |Chemistry |  |  |13|46|85|108|0|252|245|7|0|0|0|0|0|0|0|0|0|252|245|7|10KV0335BSLA
+120241 |Liberal Arts & Science |413 |BSLAS |0335 |Chemistry |  |  |0|0|1|16|0|17|15|2|0|0|0|0|0|0|0|0|0|17|15|2|10KV8037BSLA
+120241 |Liberal Arts & Science |413 |BSLAS |0335 |Chemistry |3918 |Chemistry Teaching Option |0|0|0|1|0|1|0|1|0|0|0|0|0|0|0|0|0|1|0|1|10KV3918BSLA
+120241 |Liberal Arts & Science |413 |BSLAS |5350 |Computer Sci & Chemistry |  |  |0|3|4|20|0|27|26|1|0|0|0|0|0|0|0|0|0|27|26|1|10KV5350BSLA
+120241 |Liberal Arts & Science |413 |MS |0335 |Chemistry |  |  |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS0335MS
+120241 |Liberal Arts & Science |413 |PHD |0335 |Chemistry |  |  |0|0|0|0|0|0|0|0|0|257|0|257|257|0|0|0|0|257|257|0|10KS0335PHD
+120241 |Liberal Arts & Science |415 |BSLAS |0323 |Neuroscience |  |  |16|48|22|14|0|100|100|0|0|0|0|0|0|0|0|0|0|100|100|0|10KV0323BSLA
+120241 |Liberal Arts & Science |415 |BSLAS |0323 |Neuroscience |  |  |0|1|2|4|0|7|7|0|0|0|0|0|0|0|0|0|0|7|7|0|10KV8037BSLA
+120241 |Liberal Arts & Science |415 |BSLAS |0433 |Molecular and Cellular Biology |  |  |0|66|212|383|0|661|638|23|0|0|0|0|0|0|0|0|0|661|638|23|10KV0433BSLA
+120241 |Liberal Arts & Science |415 |BSLAS |0433 |Molecular and Cellular Biology |  |  |0|0|5|31|0|36|33|3|0|0|0|0|0|0|0|0|0|36|33|3|10KV8037BSLA
+120241 |Liberal Arts & Science |415 |BSLAS |0433 |Molecular and Cellular Biology |5121 |Honors |0|4|17|48|0|69|65|4|0|0|0|0|0|0|0|0|0|69|65|4|10KV0433BSLA
+120241 |Liberal Arts & Science |415 |BSLAS |0433 |Molecular and Cellular Biology |5121 |Honors |0|0|0|4|0|4|4|0|0|0|0|0|0|0|0|0|0|4|4|0|10KV8037BSLA
+120241 |Liberal Arts & Science |415 |MS |0433 |Molecular and Cellular Biology |  |  |0|0|0|0|0|0|0|0|6|0|0|6|6|0|0|0|0|6|6|0|10KS0433MS
+120241 |Liberal Arts & Science |415 |NONE |3854 |Molecular&Cell Bio-undeclared |  |  |0|0|0|0|0|0|0|0|0|1|0|1|0|1|0|0|0|1|0|1|10KS3854NONE
+120241 |Liberal Arts & Science |415 |PHD |0319 |Biophysics & Computnl Biology |  |  |0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|1|1|0|10KS0319PHD
+120241 |Liberal Arts & Science |415 |PHD |5414 |Biophysics & Quant Biology |  |  |0|0|0|0|0|0|0|0|0|45|0|45|41|4|0|0|0|45|41|4|10KS5414PHD
+120241 |Liberal Arts & Science |415 |PHD |5414 |Biophysics & Quant Biology |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|4|0|4|4|0|0|0|0|4|4|0|10KS5414PHD
+120241 |Liberal Arts & Science |430 |BSLAS |0333 |Astronomy |  |  |5|9|15|17|0|46|44|2|0|0|0|0|0|0|0|0|0|46|44|2|10KV0333BSLA
+120241 |Liberal Arts & Science |430 |BSLAS |0333 |Astronomy |  |  |0|0|1|3|0|4|4|0|0|0|0|0|0|0|0|0|0|4|4|0|10KV8037BSLA
+120241 |Liberal Arts & Science |430 |BSLAS |5349 |Computer Sci & Astronomy |  |  |1|9|13|19|0|42|39|3|0|0|0|0|0|0|0|0|0|42|39|3|10KV5349BSLA
+120241 |Liberal Arts & Science |430 |BSLAS |6072 |Astrophysics |  |  |12|35|18|19|0|84|82|2|0|0|0|0|0|0|0|0|0|84|82|2|10KV6072BSLA
+120241 |Liberal Arts & Science |430 |BSLAS |6072 |Astrophysics |  |  |0|0|2|4|0|6|6|0|0|0|0|0|0|0|0|0|0|6|6|0|10KV8037BSLA
+120241 |Liberal Arts & Science |430 |BSLAS |6075 |Astronomy + Data Science |  |  |2|2|7|5|0|16|16|0|0|0|0|0|0|0|0|0|0|16|16|0|10KV6075BSLA
+120241 |Liberal Arts & Science |430 |PHD |0333 |Astronomy |  |  |0|0|0|0|0|0|0|0|0|28|0|28|26|2|0|0|0|28|26|2|10KS0333PHD
+120241 |Liberal Arts & Science |430 |PHD |0333 |Astronomy |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|4|0|4|3|1|0|0|0|4|3|1|10KS0333PHD
+120241 |Liberal Arts & Science |438 |BS |0318 |Biochemistry |  |  |14|85|79|111|0|289|280|9|0|0|0|0|0|0|0|0|0|289|280|9|10KV0318BS
+120241 |Liberal Arts & Science |438 |PHD |0318 |Biochemistry |  |  |0|0|0|0|0|0|0|0|0|68|0|68|68|0|0|0|0|68|68|0|10KS0318PHD
+120241 |Liberal Arts & Science |451 |BALAS |0342 |History |  |  |32|60|65|65|0|222|219|3|0|0|0|0|0|0|0|0|0|222|219|3|10KV0342BALA
+120241 |Liberal Arts & Science |451 |BALAS |0342 |History |  |  |1|4|14|15|0|34|33|1|0|0|0|0|0|0|0|0|0|34|33|1|10KV8037BALA
+120241 |Liberal Arts & Science |451 |BALAS |0342 |History |5280 |Social Science: History Tchng |0|0|8|45|0|53|53|0|0|0|0|0|0|0|0|0|0|53|53|0|10KV0342BALA
+120241 |Liberal Arts & Science |451 |BALAS |0342 |History |5280 |Social Science: History Tchng |0|0|0|5|0|5|5|0|0|0|0|0|0|0|0|0|0|5|5|0|10KV8037BALA
+120241 |Liberal Arts & Science |451 |MA |0342 |History |  |  |0|0|0|0|0|0|0|0|4|0|0|4|4|0|0|0|0|4|4|0|10KS0342MA
+120241 |Liberal Arts & Science |451 |PHD |0342 |History |  |  |0|0|0|0|0|0|0|0|0|55|0|55|53|2|0|0|0|55|53|2|10KS0342PHD
+120241 |Liberal Arts & Science |451 |PHD |0342 |History |5080 |Medieval Studies |0|0|0|0|0|0|0|0|0|3|0|3|3|0|0|0|0|3|3|0|10KS0342PHD
+120241 |Liberal Arts & Science |461 |MA |0283 |African Studies |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS0283MA
+120241 |Liberal Arts & Science |489 |BALAS |5164 |Communication |  |  |57|110|166|177|0|510|495|15|0|0|0|0|0|0|0|0|0|510|495|15|10KV5164BALA
+120241 |Liberal Arts & Science |489 |BALAS |5164 |Communication |  |  |0|1|5|6|0|12|11|1|0|0|0|0|0|0|0|0|0|12|11|1|10KV8037BALA
+120241 |Liberal Arts & Science |489 |MA |5164 |Communication |  |  |0|0|0|0|0|0|0|0|8|0|0|8|7|1|0|0|0|8|7|1|10KS5164MA
+120241 |Liberal Arts & Science |489 |MS |5285 |Health Communication |  |  |0|0|0|0|0|0|0|0|25|0|0|25|0|25|0|0|0|25|0|25|10KS5285MSU
+120241 |Liberal Arts & Science |489 |NDEG |5285 |Health Communication |  |  |0|0|0|0|0|0|0|0|0|0|7|7|3|4|0|0|0|7|3|4|1PKS5285NDEU
+120241 |Liberal Arts & Science |489 |PHD |5164 |Communication |  |  |0|0|0|0|0|0|0|0|0|39|0|39|37|2|0|0|0|39|37|2|10KS5164PHD
+120241 |Liberal Arts & Science |490 |BALAS |5197 |Religion |  |  |1|0|1|1|0|3|2|1|0|0|0|0|0|0|0|0|0|3|2|1|10KV5197BALA
+120241 |Liberal Arts & Science |490 |MA |5197 |Religion |  |  |0|0|0|0|0|0|0|0|6|0|0|6|5|1|0|0|0|6|5|1|10KS5197MA
+120241 |Liberal Arts & Science |499 |BALAS |0311 |English |  |  |0|5|34|39|0|78|76|2|0|0|0|0|0|0|0|0|0|78|76|2|10KV0311BALA
+120241 |Liberal Arts & Science |499 |BALAS |0311 |English |  |  |0|0|1|14|0|15|15|0|0|0|0|0|0|0|0|0|0|15|15|0|10KV8037BALA
+120241 |Liberal Arts & Science |499 |BALAS |0311 |English |3916 |English Teaching Option |0|0|17|35|0|52|51|1|0|0|0|0|0|0|0|0|0|52|51|1|10KV3916BALA
+120241 |Liberal Arts & Science |499 |BALAS |0311 |English |3916 |English Teaching Option |0|0|0|3|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KV8037BALA
+120241 |Liberal Arts & Science |499 |BALAS |0311 |English |5735 |Topics in English |0|0|2|6|0|8|8|0|0|0|0|0|0|0|0|0|0|8|8|0|10KV5735BALA
+120241 |Liberal Arts & Science |499 |BALAS |0311 |English |5735 |Topics in English |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV8037BALA
+120241 |Liberal Arts & Science |499 |BALAS |0311 |English |5748 |English Concentration |24|45|31|15|0|115|115|0|0|0|0|0|0|0|0|0|0|115|115|0|10KV0311BALA
+120241 |Liberal Arts & Science |499 |BALAS |0311 |English |5748 |English Concentration |0|0|3|1|0|4|4|0|0|0|0|0|0|0|0|0|0|4|4|0|10KV8037BALA
+120241 |Liberal Arts & Science |499 |BALAS |5347 |Creative Writing |  |  |16|20|24|21|0|81|78|3|0|0|0|0|0|0|0|0|0|81|78|3|10KV5347BALA
+120241 |Liberal Arts & Science |499 |BALAS |5347 |Creative Writing |  |  |0|1|3|3|0|7|7|0|0|0|0|0|0|0|0|0|0|7|7|0|10KV8037BALA
+120241 |Liberal Arts & Science |499 |MA |0311 |English |  |  |0|0|0|0|0|0|0|0|7|0|0|7|7|0|0|0|0|7|7|0|10KS0311MA
+120241 |Liberal Arts & Science |499 |MFA |1136 |Creative Writing |  |  |0|0|0|0|0|0|0|0|17|0|0|17|15|2|0|0|0|17|15|2|10KS1136MFA
+120241 |Liberal Arts & Science |499 |NONE |0311 |English |  |  |6|6|2|1|0|15|15|0|0|0|0|0|0|0|0|0|0|15|15|0|10KV0311NONE
+120241 |Liberal Arts & Science |499 |PHD |0311 |English |  |  |0|0|0|0|0|0|0|0|0|51|0|51|48|3|0|0|0|51|48|3|10KS0311PHD
+120241 |Liberal Arts & Science |499 |PHD |0311 |English |5080 |Medieval Studies |0|0|0|0|0|0|0|0|0|4|0|4|3|1|0|0|0|4|3|1|10KS0311PHD
+120241 |Liberal Arts & Science |499 |PHD |0311 |English |5139 |Writing Studies |0|0|0|0|0|0|0|0|0|6|0|6|5|1|0|0|0|6|5|1|10KS0311PHD
+120241 |Liberal Arts & Science |514 |BALAS |0308 |Classics |5893 |Classical Civilizations |0|1|2|0|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KV0308BALA
+120241 |Liberal Arts & Science |514 |BALAS |0308 |Classics |5894 |Classical Languages |0|1|2|1|0|4|4|0|0|0|0|0|0|0|0|0|0|4|4|0|10KV0308BALA
+120241 |Liberal Arts & Science |514 |BALAS |0308 |Classics |5894 |Classical Languages |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV8037BALA
+120241 |Liberal Arts & Science |514 |MA |0308 |Classics |  |  |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS0308MA
+120241 |Liberal Arts & Science |514 |MA |0308 |Classics |0310 |Latin |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS0310MA
+120241 |Liberal Arts & Science |514 |MA |0345 |Teaching of Latin |  |  |0|0|0|0|0|0|0|0|3|0|0|3|3|0|0|0|0|3|3|0|10KS0345MA
+120241 |Liberal Arts & Science |514 |NONE |0308 |Classics |  |  |3|1|4|0|0|8|8|0|0|0|0|0|0|0|0|0|0|8|8|0|10KV0308NONE
+120241 |Liberal Arts & Science |514 |PHD |0347 |Classical Philology |  |  |0|0|0|0|0|0|0|0|0|9|0|9|8|1|0|0|0|9|8|1|10KS0347PHD
+120241 |Liberal Arts & Science |514 |PHD |0347 |Classical Philology |5080 |Medieval Studies |0|0|0|0|0|0|0|0|0|2|0|2|2|0|0|0|0|2|2|0|10KS0347PHD
+120241 |Liberal Arts & Science |553 |BALAS |4097 |Russian, E Eur, Eurasian St |  |  |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV4097BALA
+120241 |Liberal Arts & Science |553 |MA |4097 |Russian, E Eur, Eurasian St |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS4097MA
+120241 |Liberal Arts & Science |563 |BALAS |5215 |Global Studies |  |  |11|29|24|28|0|92|90|2|0|0|0|0|0|0|0|0|0|92|90|2|10KV5215BALA
+120241 |Liberal Arts & Science |563 |BALAS |5215 |Global Studies |  |  |0|1|2|9|0|12|12|0|0|0|0|0|0|0|0|0|0|12|12|0|10KV8037BALA
+120241 |Liberal Arts & Science |580 |BALAS |0150 |History of Art |  |  |2|6|5|1|0|14|14|0|0|0|0|0|0|0|0|0|0|14|14|0|10KV0150BALA
+120241 |Liberal Arts & Science |580 |BALAS |0463 |Individual Plans of Study |  |  |0|1|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV0463BALA
+120241 |Liberal Arts & Science |580 |BALAS |3865 |Interdisciplinary |5353 |Jewish Studies |0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV5353BALA
+120241 |Liberal Arts & Science |580 |BALAS |5215 |Global Studies |  |  |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV5215BALA
+120241 |Liberal Arts & Science |580 |BALAS |5215 |Global Studies |  |  |0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV8037BALA
+120241 |Liberal Arts & Science |580 |BS |0240 |Physics |  |  |0|0|5|26|0|31|29|2|0|0|0|0|0|0|0|0|0|31|29|2|10KV0240BS
+120241 |Liberal Arts & Science |580 |BSLAS |0240 |Physics |  |  |0|0|1|6|0|7|7|0|0|0|0|0|0|0|0|0|0|7|7|0|10KV0240BSLA
+120241 |Liberal Arts & Science |580 |BSLAS |0240 |Physics |  |  |0|0|0|3|0|3|1|2|0|0|0|0|0|0|0|0|0|3|1|2|10KV8037BSLA
+120241 |Liberal Arts & Science |580 |BSLAS |0463 |Individual Plans of Study |  |  |0|0|0|3|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KV0463BSLA
+120241 |Liberal Arts & Science |580 |NDEG |0067 |Nondegree |  |  |0|0|0|0|103|103|57|46|0|0|0|0|0|0|0|0|0|103|57|46|10KV0067NDEG
+120241 |Liberal Arts & Science |580 |NONE |0390 |General Curriculum |  |  |12|53|83|27|0|175|172|3|0|0|0|0|0|0|0|0|0|175|172|3|10KV0390NONE
+120241 |Liberal Arts & Science |580 |NONE |5246 |LAS - Undeclared |  |  |76|50|9|0|0|135|135|0|0|0|0|0|0|0|0|0|0|135|135|0|10KV5246NONE
+120241 |Liberal Arts & Science |583 |BSLAS |0329 |Statistics |  |  |17|65|114|173|0|369|334|35|0|0|0|0|0|0|0|0|0|369|334|35|10KV0329BSLA
+120241 |Liberal Arts & Science |583 |BSLAS |0329 |Statistics |  |  |0|0|11|53|0|64|52|12|0|0|0|0|0|0|0|0|0|64|52|12|10KV8037BSLA
+120241 |Liberal Arts & Science |583 |BSLAS |0464 |Statistics & Computer Science |  |  |1|23|84|207|0|315|283|32|0|0|0|0|0|0|0|0|0|315|283|32|10KV0464BSLA
+120241 |Liberal Arts & Science |583 |BSLAS |0464 |Statistics & Computer Science |  |  |0|0|0|9|0|9|8|1|0|0|0|0|0|0|0|0|0|9|8|1|10KV8037BSLA
+120241 |Liberal Arts & Science |583 |MS |0329 |Statistics |  |  |0|0|0|0|0|0|0|0|73|0|0|73|53|20|0|0|0|73|53|20|10KS0329MS
+120241 |Liberal Arts & Science |583 |MS |0329 |Statistics |0331 |Applied |0|0|0|0|0|0|0|0|8|0|0|8|8|0|0|0|0|8|8|0|10KS0331MS
+120241 |Liberal Arts & Science |583 |MS |0329 |Statistics |5165 |Analytics |0|0|0|0|0|0|0|0|56|0|0|56|37|19|0|0|0|56|37|19|10KS5165MS
+120241 |Liberal Arts & Science |583 |PHD |0329 |Statistics |  |  |0|0|0|0|0|0|0|0|0|59|0|59|55|4|0|0|0|59|55|4|10KS0329PHD
+120241 |Liberal Arts & Science |583 |PHD |0329 |Statistics |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|1|1|0|10KS0329PHD
+120241 |Liberal Arts & Science |583 |PHD |0329 |Statistics |6091 |Data Science and Engineering |0|0|0|0|0|0|0|0|0|1|0|1|0|1|0|0|0|1|0|1|10KS0329PHD
+120241 |Liberal Arts & Science |584 |PHD |4094 |Cell and Developmental Biology |  |  |0|0|0|0|0|0|0|0|0|47|0|47|46|1|0|0|0|47|46|1|10KS4094PHD
+120241 |Liberal Arts & Science |585 |BA |0297 |Teaching of Spanish |  |  |0|0|1|10|0|11|11|0|0|0|0|0|0|0|0|0|0|11|11|0|10KV0297BA
+120241 |Liberal Arts & Science |585 |BALAS |0307 |Spanish |  |  |2|8|10|13|0|33|30|3|0|0|0|0|0|0|0|0|0|33|30|3|10KV0307BALA
+120241 |Liberal Arts & Science |585 |BALAS |0307 |Spanish |  |  |0|1|0|2|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KV8037BALA
+120241 |Liberal Arts & Science |585 |MA |0307 |Spanish |5122 |Spanish Linguistics |0|0|0|0|0|0|0|0|8|0|0|8|8|0|0|0|0|8|8|0|10KS0307MA
+120241 |Liberal Arts & Science |585 |MA |0307 |Spanish |5363 |Spanish Literatures & Cultures |0|0|0|0|0|0|0|0|8|0|0|8|8|0|0|0|0|8|8|0|10KS0307MA
+120241 |Liberal Arts & Science |585 |PHD |0307 |Spanish |  |  |0|0|0|0|0|0|0|0|0|30|0|30|30|0|0|0|0|30|30|0|10KS0307PHD
+120241 |Liberal Arts & Science |585 |PHD |0307 |Spanish |5367 |Sec Lang Acquis & Teacher Ed |0|0|0|0|0|0|0|0|0|2|0|2|1|1|0|0|0|2|1|1|10KS0307PHD
+120241 |Liberal Arts & Science |604 |PHD |0325 |Molecular & Integrative Physi |  |  |0|0|0|0|0|0|0|0|0|31|0|31|31|0|0|0|0|31|31|0|10KS0325PHD
+120241 |Liberal Arts & Science |655 |BS |0336 |Geology |  |  |0|5|6|10|0|21|21|0|0|0|0|0|0|0|0|0|0|21|21|0|10KV0336BS
+120241 |Liberal Arts & Science |655 |BS |0336 |Geology |3880 |Geophysics |0|0|0|2|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KV3880BS
+120241 |Liberal Arts & Science |655 |BS |0336 |Geology |3881 |Environmental Geology |0|0|1|1|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KV3881BS
+120241 |Liberal Arts & Science |655 |BSLAS |0336 |Geology |  |  |1|1|3|6|0|11|11|0|0|0|0|0|0|0|0|0|0|11|11|0|10KV0336BSLA
+120241 |Liberal Arts & Science |655 |BSLAS |0336 |Geology |3882 |Earth & Environmental Sciences |0|0|1|2|0|3|2|1|0|0|0|0|0|0|0|0|0|3|2|1|10KV3882BSLA
+120241 |Liberal Arts & Science |655 |BSLAS |0336 |Geology |3882 |Earth & Environmental Sciences |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV8037BSLA
+120241 |Liberal Arts & Science |655 |MS |0336 |Geology |  |  |0|0|0|0|0|0|0|0|9|0|0|9|9|0|0|0|0|9|9|0|10KS0336MS
+120241 |Liberal Arts & Science |655 |MS |6059 |Environmental Geology |  |  |0|0|0|0|0|0|0|0|7|0|0|7|0|7|0|0|0|7|0|7|1PKS6059MSU
+120241 |Liberal Arts & Science |655 |NDEG |6059 |Environmental Geology |  |  |0|0|0|0|0|0|0|0|0|0|8|8|0|8|0|0|0|8|0|8|1PKS6059NDEU
+120241 |Liberal Arts & Science |655 |PHD |0336 |Geology |  |  |0|0|0|0|0|0|0|0|0|20|0|20|16|4|0|0|0|20|16|4|10KS0336PHD
+120241 |Liberal Arts & Science |670 |MA |5203 |European Union Studies |  |  |0|0|0|0|0|0|0|0|3|0|0|3|3|0|0|0|0|3|3|0|10KS5203MA
+120241 |Liberal Arts & Science |680 |BALAS |1279 |Gender and Women's Studies |  |  |8|10|10|5|0|33|33|0|0|0|0|0|0|0|0|0|0|33|33|0|10KV1279BALA
+120241 |Liberal Arts & Science |680 |BALAS |1279 |Gender and Women's Studies |  |  |0|0|2|0|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KV8037BALA
+120241 |Liberal Arts & Science |687 |BS |0300 |Chemical Engineering |  |  |13|56|91|261|0|421|410|11|0|0|0|0|0|0|0|0|0|421|410|11|10KV0300BS
+120241 |Liberal Arts & Science |687 |BS |0300 |Chemical Engineering |5029 |Biomolecular Engineering |0|1|0|9|0|10|9|1|0|0|0|0|0|0|0|0|0|10|9|1|10KV5029BS
+120241 |Liberal Arts & Science |687 |PHD |0300 |Chemical Engineering |  |  |0|0|0|0|0|0|0|0|0|121|0|121|120|1|0|0|0|121|120|1|10KS0300PHD
+120241 |Liberal Arts & Science |687 |PHD |0300 |Chemical Engineering |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|7|0|7|7|0|0|0|0|7|7|0|10KS0300PHD
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |  |  |1|4|7|8|0|20|19|1|0|0|0|0|0|0|0|0|0|20|19|1|10KV0343BALA
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |  |  |0|1|9|1|0|11|11|0|0|0|0|0|0|0|0|0|0|11|11|0|10KV8037BALA
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |5472 |Civic Leadership |0|1|2|0|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KV0343BALA
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |5659 |General Political Science |0|3|22|48|0|73|68|5|0|0|0|0|0|0|0|0|0|73|68|5|10KV0343BALA
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |5659 |General Political Science |0|4|13|19|0|36|36|0|0|0|0|0|0|0|0|0|0|36|36|0|10KV8037BALA
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |5660 |Citizen Politics |0|0|11|9|0|20|19|1|0|0|0|0|0|0|0|0|0|20|19|1|10KV0343BALA
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |5660 |Citizen Politics |0|0|1|10|0|11|11|0|0|0|0|0|0|0|0|0|0|11|11|0|10KV8037BALA
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |5661 |Public Policy & Democratic Ins |0|2|3|37|0|42|35|7|0|0|0|0|0|0|0|0|0|42|35|7|10KV0343BALA
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |5661 |Public Policy & Democratic Ins |0|0|5|10|0|15|15|0|0|0|0|0|0|0|0|0|0|15|15|0|10KV8037BALA
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |5662 |World Politics |0|0|5|7|0|12|12|0|0|0|0|0|0|0|0|0|0|12|12|0|10KV0343BALA
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |5662 |World Politics |0|0|0|5|0|5|4|1|0|0|0|0|0|0|0|0|0|5|4|1|10KV8037BALA
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |5663 |Law and Power |0|4|43|61|0|108|102|6|0|0|0|0|0|0|0|0|0|108|102|6|10KV0343BALA
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |5663 |Law and Power |0|1|6|21|0|28|28|0|0|0|0|0|0|0|0|0|0|28|28|0|10KV8037BALA
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |5664 |International Relations |0|5|9|37|0|51|46|5|0|0|0|0|0|0|0|0|0|51|46|5|10KV0343BALA
+120241 |Liberal Arts & Science |710 |BALAS |0343 |Political Science |5664 |International Relations |0|0|3|19|0|22|22|0|0|0|0|0|0|0|0|0|0|22|22|0|10KV8037BALA
+120241 |Liberal Arts & Science |710 |NONE |0343 |Political Science |  |  |94|189|112|26|0|421|420|1|0|0|0|0|0|0|0|0|0|421|420|1|10KV0343NONE
+120241 |Liberal Arts & Science |710 |PHD |0343 |Political Science |  |  |0|0|0|0|0|0|0|0|0|50|0|50|45|5|0|0|0|50|45|5|10KS0343PHD
+120241 |Liberal Arts & Science |715 |BALAS |0332 |Philosophy |  |  |13|22|25|26|0|86|83|3|0|0|0|0|0|0|0|0|0|86|83|3|10KV0332BALA
+120241 |Liberal Arts & Science |715 |BALAS |0332 |Philosophy |  |  |0|0|1|3|0|4|3|1|0|0|0|0|0|0|0|0|0|4|3|1|10KV8037BALA
+120241 |Liberal Arts & Science |715 |BSLAS |5679 |Computer Science & Philosophy |  |  |3|13|28|40|0|84|80|4|0|0|0|0|0|0|0|0|0|84|80|4|10KV5679BSLA
+120241 |Liberal Arts & Science |715 |PHD |0332 |Philosophy |  |  |0|0|0|0|0|0|0|0|0|28|0|28|25|3|0|0|0|28|25|3|10KS0332PHD
+120241 |Liberal Arts & Science |729 |MA |0286 |Latin American Studies |  |  |0|0|0|0|0|0|0|0|5|0|0|5|5|0|0|0|0|5|5|0|10KS0286MA
+120241 |Liberal Arts & Science |771 |BALAS |5868 |Comparative & World Literature |  |  |1|2|0|0|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KV5868BALA
+120241 |Liberal Arts & Science |771 |BALAS |5868 |Comparative & World Literature |3905 |World Literature |0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV8037BALA
+120241 |Liberal Arts & Science |771 |PHD |1120 |Comparative Literature |  |  |0|0|0|0|0|0|0|0|0|18|0|18|17|1|0|0|0|18|17|1|10KS1120PHD
+120241 |Liberal Arts & Science |771 |PHD |1120 |Comparative Literature |5080 |Medieval Studies |0|0|0|0|0|0|0|0|0|2|0|2|2|0|0|0|0|2|2|0|10KS1120PHD
+120241 |Liberal Arts & Science |787 |MA |5346 |Translation and Interpreting |  |  |0|0|0|0|0|0|0|0|11|0|0|11|11|0|0|0|0|11|11|0|10KS5346MA
+120241 |Liberal Arts & Science |787 |MA |5346 |Translation and Interpreting |  |  |0|0|0|0|0|0|0|0|20|0|0|20|1|19|0|0|0|20|1|19|10KS5346MAU
+120241 |Liberal Arts & Science |864 |BALAS |0301 |Linguistics |  |  |4|15|15|25|0|59|55|4|0|0|0|0|0|0|0|0|0|59|55|4|10KV0301BALA
+120241 |Liberal Arts & Science |864 |BALAS |0301 |Linguistics |  |  |0|1|0|3|0|4|3|1|0|0|0|0|0|0|0|0|0|4|3|1|10KV8037BALA
+120241 |Liberal Arts & Science |864 |BALAS |6039 |Linguistics and Teaching ESL |  |  |4|1|4|4|0|13|13|0|0|0|0|0|0|0|0|0|0|13|13|0|10KV6039BALA
+120241 |Liberal Arts & Science |864 |BSLAS |5351 |Computer Sci & Linguistics |  |  |1|11|33|49|0|94|88|6|0|0|0|0|0|0|0|0|0|94|88|6|10KV5351BSLA
+120241 |Liberal Arts & Science |864 |BSLAS |5351 |Computer Sci & Linguistics |  |  |0|0|0|4|0|4|3|1|0|0|0|0|0|0|0|0|0|4|3|1|10KV8037BSLA
+120241 |Liberal Arts & Science |864 |MA |0299 |Teaching of English Sec Lang |  |  |0|0|0|0|0|0|0|0|23|0|0|23|22|1|0|0|0|23|22|1|10KS0299MA
+120241 |Liberal Arts & Science |864 |PHD |0301 |Linguistics |  |  |0|0|0|0|0|0|0|0|0|34|0|34|33|1|0|0|0|34|33|1|10KS0301PHD
+120241 |Liberal Arts & Science |864 |PHD |0301 |Linguistics |5367 |Sec Lang Acquis & Teacher Ed |0|0|0|0|0|0|0|0|0|2|0|2|2|0|0|0|0|2|2|0|10KS0301PHD
+120241 |Liberal Arts & Science |872 |BALAS |5330 |Geography & Geographic Info Sc |3884 |Human Geography |0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV5330BALA
+120241 |Liberal Arts & Science |872 |BALAS |5330 |Geography & Geographic Info Sc |3886 |Geographic Information Science |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV5330BALA
+120241 |Liberal Arts & Science |872 |BALAS |5330 |Geography & Geographic Info Sc |5677 |General Geography |0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV5330BALA
+120241 |Liberal Arts & Science |872 |BALAS |5330 |Geography & Geographic Info Sc |5677 |General Geography |0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV8037BALA
+120241 |Liberal Arts & Science |872 |BSLAS |5676 |Computer Science & Geog & GIS |  |  |1|4|6|7|0|18|17|1|0|0|0|0|0|0|0|0|0|18|17|1|10KV5676BSLA
+120241 |Liberal Arts & Science |872 |BSLAS |5694 |Geography & Geographic Info Sc |  |  |0|0|2|0|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KV5694BSLA
+120241 |Liberal Arts & Science |872 |BSLAS |5694 |Geography & Geographic Info Sc |3886 |Geographic Information Science |1|8|14|18|0|41|40|1|0|0|0|0|0|0|0|0|0|41|40|1|10KV5694BSLA
+120241 |Liberal Arts & Science |872 |BSLAS |5694 |Geography & Geographic Info Sc |3886 |Geographic Information Science |0|0|1|3|0|4|4|0|0|0|0|0|0|0|0|0|0|4|4|0|10KV8037BSLA
+120241 |Liberal Arts & Science |872 |MA |0341 |Geography |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS0341MA
+120241 |Liberal Arts & Science |872 |MS |5856 |Geography |3886 |Geographic Information Science |0|0|0|0|0|0|0|0|7|0|0|7|6|1|0|0|0|7|6|1|1PKS5856MS
+120241 |Liberal Arts & Science |872 |MS |6073 |CyberGIS & Geospatial Data Sci |  |  |0|0|0|0|0|0|0|0|9|0|0|9|1|8|0|0|0|9|1|8|1PKS6073MSU
+120241 |Liberal Arts & Science |872 |NDEG |6073 |CyberGIS & Geospatial Data Sci |  |  |0|0|0|0|0|0|0|0|0|0|3|3|0|3|0|0|0|3|0|3|1PKS6073NDEU
+120241 |Liberal Arts & Science |872 |NONE |5330 |Geography & Geographic Info Sc |  |  |1|0|4|2|0|7|7|0|0|0|0|0|0|0|0|0|0|7|7|0|10KV5330NONE
+120241 |Liberal Arts & Science |872 |PHD |0341 |Geography |  |  |0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|1|1|0|10KS0341PHD
+120241 |Liberal Arts & Science |872 |PHD |5856 |Geography |  |  |0|0|0|0|0|0|0|0|0|27|0|27|23|4|0|0|0|27|23|4|10KS5856PHD
+120241 |Liberal Arts & Science |872 |PHD |5856 |Geography |5511 |Computational Sci & Engr |0|0|0|0|0|0|0|0|0|2|0|2|2|0|0|0|0|2|2|0|10KS5856PHD
+120241 |Liberal Arts & Science |927 |BA |0296 |Teaching of German |  |  |0|0|0|2|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KV0296BA
+120241 |Liberal Arts & Science |927 |BALAS |1292 |Germanic Studies |5548 |German Bus & Commercial St |0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV1292BALA
+120241 |Liberal Arts & Science |927 |BALAS |1292 |Germanic Studies |5586 |German Culture and Literature |0|0|0|3|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KV1292BALA
+120241 |Liberal Arts & Science |927 |MA |0303 |German |  |  |0|0|0|0|0|0|0|0|3|0|0|3|3|0|0|0|0|3|3|0|10KS0303MA
+120241 |Liberal Arts & Science |927 |NDEG |0303 |German |  |  |0|0|0|0|0|0|0|0|0|0|1|1|1|0|0|0|0|1|1|0|10KS0303NDEG
+120241 |Liberal Arts & Science |927 |PHD |0303 |German |  |  |0|0|0|0|0|0|0|0|0|6|0|6|4|2|0|0|0|6|4|2|10KS0303PHD
+120241 |Liberal Arts & Science |927 |PHD |0303 |German |5080 |Medieval Studies |0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|1|1|0|10KS0303PHD
+120241 |Liberal Arts & Science |948 |PHD |0322 |Microbiology |  |  |0|0|0|0|0|0|0|0|0|58|0|58|58|0|0|0|0|58|58|0|10KS0322PHD
+120241 |Liberal Arts & Science |954 |MA |5312 |S Asian & Middle Eastern St |  |  |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS5312MA
+120241 |Liberal Arts & Science |958 |BALAS |5459 |Slavic Studies |  |  |0|1|2|0|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KV5459BALA
+120241 |Liberal Arts & Science |958 |PHD |0302 |Slavic Languages & Literature |  |  |0|0|0|0|0|0|0|0|0|13|0|13|13|0|0|0|0|13|13|0|10KS0302PHD
+120241 |Liberal Arts & Science |968 |PHD |0323 |Neuroscience |  |  |0|0|0|0|0|0|0|0|0|51|0|51|50|1|0|0|0|51|50|1|10KS0323PHD
+120241 |Liberal Arts & Science |982 |BALAS |5167 |Latina/Latino Studies |  |  |0|1|3|4|0|8|8|0|0|0|0|0|0|0|0|0|0|8|8|0|10KV5167BALA
+120241 |Liberal Arts & Science |982 |BALAS |5167 |Latina/Latino Studies |  |  |0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV8037BALA
+120241 |Liberal Arts & Science |985 |BA |0295 |Teaching of French |  |  |0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV0295BA
+120241 |Liberal Arts & Science |985 |BALAS |0304 |French |  |  |1|2|0|0|0|3|3|0|0|0|0|0|0|0|0|0|0|3|3|0|10KV0304BALA
+120241 |Liberal Arts & Science |985 |BALAS |0304 |French |  |  |0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV8037BALA
+120241 |Liberal Arts & Science |985 |BALAS |0304 |French |3876 |French Studies |1|0|0|3|0|4|4|0|0|0|0|0|0|0|0|0|0|4|4|0|10KV3876BALA
+120241 |Liberal Arts & Science |985 |BALAS |0305 |Italian |  |  |1|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KV0305BALA
+120241 |Liberal Arts & Science |985 |MA |0304 |French |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS0304MA
+120241 |Liberal Arts & Science |985 |MA |0305 |Italian |  |  |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|10KS0305MA
+120241 |Liberal Arts & Science |985 |NDEG |0304 |French |  |  |0|0|0|0|0|0|0|0|0|0|2|2|1|1|0|0|0|2|1|1|10KS0304NDEG
+120241 |Liberal Arts & Science |985 |PHD |0304 |French |  |  |0|0|0|0|0|0|0|0|0|14|0|14|13|1|0|0|0|14|13|1|10KS0304PHD
+120241 |Liberal Arts & Science |985 |PHD |0305 |Italian |  |  |0|0|0|0|0|0|0|0|0|4|0|4|3|1|0|0|0|4|3|1|10KS0305PHD
+120241 |General Studies |605 |NONE |5083 |Undeclared |  |  |917|675|117|8|0|1717|1715|2|0|0|0|0|0|0|0|0|0|1717|1715|2|10KW5083NONE
+120241 |Applied Health Science |581 |BS |0349 |Community Health |  |  |45|45|19|4|0|113|112|1|0|0|0|0|0|0|0|0|0|113|112|1|10KY0349BS
+120241 |Applied Health Science |581 |BS |0349 |Community Health |0473 |Health Education |1|14|27|46|0|88|86|2|0|0|0|0|0|0|0|0|0|88|86|2|10KY0473BS
+120241 |Applied Health Science |581 |BS |0349 |Community Health |0474 |Health Planning & Admin |6|25|52|128|0|211|207|4|0|0|0|0|0|0|0|0|0|211|207|4|10KY0474BS
+120241 |Applied Health Science |581 |BS |0349 |Community Health |0495 |Rehab & Disability Studies |3|4|12|16|0|35|33|2|0|0|0|0|0|0|0|0|0|35|33|2|10KY0495BS
+120241 |Applied Health Science |581 |BS |0351 |Kinesiology |  |  |64|134|185|236|0|619|607|12|0|0|0|0|0|0|0|0|0|619|607|12|10KY0351BS
+120241 |Applied Health Science |581 |BS |0351 |Kinesiology |4049 |Teacher Education K-12 |0|0|5|18|0|23|23|0|0|0|0|0|0|0|0|0|0|23|23|0|10KY4049BS
+120241 |Applied Health Science |581 |BS |5460 |Interdisciplinary Health Sci |  |  |33|61|25|2|0|121|120|1|0|0|0|0|0|0|0|0|0|121|120|1|10KY5460BS
+120241 |Applied Health Science |581 |BS |5460 |Interdisciplinary Health Sci |5219 |Health and Aging |4|18|24|59|0|105|105|0|0|0|0|0|0|0|0|0|0|105|105|0|10KY5460BS
+120241 |Applied Health Science |581 |BS |5460 |Interdisciplinary Health Sci |5220 |Health Behavior Change |5|13|23|95|0|136|136|0|0|0|0|0|0|0|0|0|0|136|136|0|10KY5460BS
+120241 |Applied Health Science |581 |BS |5460 |Interdisciplinary Health Sci |5221 |Health Diversity |1|19|45|90|0|155|154|1|0|0|0|0|0|0|0|0|0|155|154|1|10KY5460BS
+120241 |Applied Health Science |581 |BS |5460 |Interdisciplinary Health Sci |6145 |Health Technology |2|11|7|8|0|28|28|0|0|0|0|0|0|0|0|0|0|28|28|0|10KY5460BS
+120241 |Applied Health Science |581 |MHAD |1300 |Health Administration |  |  |0|0|0|0|0|0|0|0|23|0|0|23|23|0|0|0|0|23|23|0|1PKS1300MHAD
+120241 |Applied Health Science |581 |MPH |1630 |Public Health |  |  |0|0|0|0|0|0|0|0|4|0|0|4|4|0|0|0|0|4|4|0|10KS1630MPH
+120241 |Applied Health Science |581 |MPH |1630 |Public Health |5913 |BS i-Health/MPH Public Health |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|1PKS5913MPH
+120241 |Applied Health Science |581 |MPH |1630 |Public Health |5914 |BS ComHealth/MPH PublicHealth |0|0|0|0|0|0|0|0|8|0|0|8|8|0|0|0|0|8|8|0|1PKS5914MPH
+120241 |Applied Health Science |581 |MPH |1630 |Public Health |5915 |BS Kinesiology/MPH PubicHealth |0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|1|1|0|1PKS5915MPH
+120241 |Applied Health Science |581 |MPH |5884 |Epidemiology |  |  |0|0|0|0|0|0|0|0|13|0|0|13|10|3|0|0|0|13|10|3|1PKS5884MPH
+120241 |Applied Health Science |581 |MPH |5884 |Epidemiology |6036 |BS Community Health/MPH Epidem |0|0|0|0|0|0|0|0|3|0|0|3|3|0|0|0|0|3|3|0|1PKS6036MPH
+120241 |Applied Health Science |581 |MS |0349 |Community Health |  |  |0|0|0|0|0|0|0|0|9|0|0|9|9|0|0|0|0|9|9|0|10KS0349MS
+120241 |Applied Health Science |581 |MS |0351 |Kinesiology |  |  |0|0|0|0|0|0|0|0|13|0|0|13|12|1|0|0|0|13|12|1|10KS0351MS
+120241 |Applied Health Science |581 |MS |5875 |Health Technology |  |  |0|0|0|0|0|0|0|0|6|0|0|6|6|0|0|0|0|6|6|0|1PKS5875MS
+120241 |Applied Health Science |581 |PHD |0349 |Community Health |  |  |0|0|0|0|0|0|0|0|0|40|0|40|38|2|0|0|0|40|38|2|10KS0349PHD
+120241 |Applied Health Science |581 |PHD |0351 |Kinesiology |  |  |0|0|0|0|0|0|0|0|0|47|0|47|45|2|0|0|0|47|45|2|10KS0351PHD
+120241 |Applied Health Science |679 |AUD |1053 |Audiology |  |  |0|0|0|0|0|0|0|0|0|24|0|24|23|1|0|0|0|24|23|1|10KS1053AUD
+120241 |Applied Health Science |679 |BS |0354 |Speech & Hearing Science |  |  |9|25|5|0|0|39|39|0|0|0|0|0|0|0|0|0|0|39|39|0|10KY0354BS
+120241 |Applied Health Science |679 |BS |0354 |Speech & Hearing Science |4067 |Audiology |0|2|2|8|0|12|12|0|0|0|0|0|0|0|0|0|0|12|12|0|10KY4067BS
+120241 |Applied Health Science |679 |BS |0354 |Speech & Hearing Science |4068 |Speech-Language Pathology |1|20|42|98|0|161|160|1|0|0|0|0|0|0|0|0|0|161|160|1|10KY4068BS
+120241 |Applied Health Science |679 |BS |0354 |Speech & Hearing Science |5465 |Cultural-Linguistic Diversity |0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|10KY5465BS
+120241 |Applied Health Science |679 |MA |0354 |Speech & Hearing Science |  |  |0|0|0|0|0|0|0|0|48|0|0|48|48|0|0|0|0|48|48|0|10KS0354MA
+120241 |Applied Health Science |679 |PHD |0354 |Speech & Hearing Science |  |  |0|0|0|0|0|0|0|0|0|14|0|14|13|1|0|0|0|14|13|1|10KS0354PHD
+120241 |Applied Health Science |682 |NDEG |0067 |Nondegree |  |  |0|0|0|0|36|36|3|33|0|0|0|0|0|0|0|0|0|36|3|33|10KY0067NDEG
+120241 |Applied Health Science |714 |BS |4043 |Recreation, Sport, and Tourism |  |  |1|6|5|1|0|13|12|1|0|0|0|0|0|0|0|0|0|13|12|1|10KY4043BS
+120241 |Applied Health Science |714 |BS |4043 |Recreation, Sport, and Tourism |4044 |Recreation Management |0|0|4|6|0|10|10|0|0|0|0|0|0|0|0|0|0|10|10|0|10KY4044BS
+120241 |Applied Health Science |714 |BS |4043 |Recreation, Sport, and Tourism |4045 |Tourism Management |2|2|4|11|0|19|18|1|0|0|0|0|0|0|0|0|0|19|18|1|10KY4045BS
+120241 |Applied Health Science |714 |BS |4043 |Recreation, Sport, and Tourism |5266 |Sport Management |24|50|88|105|0|267|260|7|0|0|0|0|0|0|0|0|0|267|260|7|10KY5266BS
+120241 |Applied Health Science |714 |BS |4043 |Recreation, Sport, and Tourism |5880 |BS/MS Recreation,Sport&Tourism |0|0|0|2|0|2|2|0|0|0|0|0|0|0|0|0|0|2|2|0|10KY5880BS
+120241 |Applied Health Science |714 |MS |4043 |Recreation, Sport, and Tourism |  |  |0|0|0|0|0|0|0|0|23|0|0|23|19|4|0|0|0|23|19|4|10KS4043MS
+120241 |Applied Health Science |714 |MS |4043 |Recreation, Sport, and Tourism |  |  |0|0|0|0|0|0|0|0|23|0|0|23|8|15|0|0|0|23|8|15|10KS4043MSU
+120241 |Applied Health Science |714 |MS |4043 |Recreation, Sport, and Tourism |5880 |BS/MS Recreation,Sport&Tourism |0|0|0|0|0|0|0|0|3|0|0|3|3|0|0|0|0|3|3|0|10KS5880MS
+120241 |Applied Health Science |714 |NDEG |4043 |Recreation, Sport, and Tourism |  |  |0|0|0|0|0|0|0|0|0|0|4|4|2|2|0|0|0|4|2|2|1PKS4043NDEU
+120241 |Applied Health Science |714 |PHD |4043 |Recreation, Sport, and Tourism |  |  |0|0|0|0|0|0|0|0|0|31|0|31|30|1|0|0|0|31|30|1|10KS4043PHD
+120241 |Applied Health Science |754 |NDEG |0067 |Nondegree |5464 |Info Accessibility Dsgn&Policy |0|0|0|0|0|0|0|0|0|0|14|14|0|14|0|0|0|14|0|14|1PKS5464NDEU
+120241 |Veterinary Medicine |282 |MS |5216 |VMS - Pathobiology |  |  |0|0|0|0|0|0|0|0|5|0|0|5|3|2|0|0|0|5|3|2|10KS5216MS
+120241 |Veterinary Medicine |282 |PHD |5216 |VMS - Pathobiology |  |  |0|0|0|0|0|0|0|0|0|53|0|53|50|3|0|0|0|53|50|3|10KS5216PHD
+120241 |Veterinary Medicine |444 |DVM |0480 |Veterinary Medicine |  |  |0|0|0|0|0|0|0|0|0|0|0|0|0|0|566|556|10|566|556|10|10LC0480DVM
+120241 |Veterinary Medicine |444 |MVS |5921 |Livestock Systems Health |  |  |0|0|0|0|0|0|0|0|7|0|0|7|5|2|0|0|0|7|5|2|10KS5921MVS
+120241 |Veterinary Medicine |444 |MVS |5921 |Livestock Systems Health |  |  |0|0|0|0|0|0|0|0|62|0|0|62|17|45|0|0|0|62|17|45|1PKS5921MVSU
+120241 |Veterinary Medicine |444 |NDEG |0480 |Veterinary Medicine |  |  |0|0|0|0|0|0|0|0|0|0|0|0|0|0|26|0|26|26|0|26|10LC0480NDEU
+120241 |Veterinary Medicine |598 |MS |0359 |VMS-Veterinary Clinical Medcne |  |  |0|0|0|0|0|0|0|0|42|0|0|42|28|14|0|0|0|42|28|14|10KS0359MS
+120241 |Veterinary Medicine |873 |MS |5274 |VMS - Comparative Biosciences |  |  |0|0|0|0|0|0|0|0|2|0|0|2|2|0|0|0|0|2|2|0|10KS5274MS
+120241 |Veterinary Medicine |873 |PHD |5274 |VMS - Comparative Biosciences |  |  |0|0|0|0|0|0|0|0|0|30|0|30|30|0|0|0|0|30|30|0|10KS5274PHD
+120241 |Labor & Employment Relations |568 |CERT |5715 |Human Resource Management |  |  |0|0|0|0|0|0|0|0|3|0|0|3|0|3|0|0|0|3|0|3|1PKS5715CERU
+120241 |Labor & Employment Relations |568 |CERT |6125 |Fundamentals of Human Resource |  |  |0|0|0|0|0|0|0|0|1|0|0|1|0|1|0|0|0|1|0|1|1PKS6125CERU
+120241 |Labor & Employment Relations |568 |CERT |6126 |Compensation Best Practices |  |  |0|0|0|0|0|0|0|0|2|0|0|2|0|2|0|0|0|2|0|2|1PKS6126CERU
+120241 |Labor & Employment Relations |568 |MHRIR |0364 |Human Res & Industrial Rels |  |  |0|0|0|0|0|0|0|0|110|0|0|110|99|11|0|0|0|110|99|11|10KS0364MHRI
+120241 |Labor & Employment Relations |568 |MHRIR |0364 |Human Res & Industrial Rels |  |  |0|0|0|0|0|0|0|0|95|0|0|95|10|85|0|0|0|95|10|85|10KS0364MHRU
+120241 |Labor & Employment Relations |568 |PHD |0364 |Human Res & Industrial Rels |  |  |0|0|0|0|0|0|0|0|0|15|0|15|15|0|0|0|0|15|15|0|10KS0364PHD
+120241 |School of Social Work |783 |BSW |0365 |Social Work |  |  |35|61|68|74|0|238|237|1|0|0|0|0|0|0|0|0|0|238|237|1|10LL0365BSW
+120241 |School of Social Work |783 |BSW |0365 |Social Work |  |  |0|0|12|10|0|22|20|2|0|0|0|0|0|0|0|0|0|22|20|2|10LL0365BSWX
+120241 |School of Social Work |783 |MSW |0365 |Social Work |5510 |Advanced Clinical Practice |0|0|0|0|0|0|0|0|129|0|0|129|125|4|0|0|0|129|125|4|10KS0365MSW
+120241 |School of Social Work |783 |MSW |0365 |Social Work |5510 |Advanced Clinical Practice |0|0|0|0|0|0|0|0|214|0|0|214|35|179|0|0|0|214|35|179|10KS0365MSWX
+120241 |School of Social Work |783 |MSW |0365 |Social Work |5559 |Leadership and Social Change |0|0|0|0|0|0|0|0|12|0|0|12|11|1|0|0|0|12|11|1|10KS0365MSW
+120241 |School of Social Work |783 |MSW |0365 |Social Work |5559 |Leadership and Social Change |0|0|0|0|0|0|0|0|35|0|0|35|6|29|0|0|0|35|6|29|10KS0365MSWX
+120241 |School of Social Work |783 |NDEG |0365 |Social Work |  |  |0|0|0|0|0|0|0|0|0|0|9|9|5|4|0|0|0|9|5|4|10KS0365NDEG
+120241 |School of Social Work |783 |NDEG |0365 |Social Work |  |  |0|0|0|0|1|1|0|1|0|0|0|0|0|0|0|0|0|1|0|1|10LL0365NDEG
+120241 |School of Social Work |783 |PHD |0365 |Social Work |  |  |0|0|0|0|0|0|0|0|0|31|0|31|31|0|0|0|0|31|31|0|10KS0365PHD
+120241 |Center Innovation in Teaching & Learning  |641 |NDEG |1249 |Nondegree-CE |  |  |0|0|0|0|0|0|0|0|0|0|111|111|2|109|0|0|0|111|2|109|10LN1249NDEJ
+120241 |Center Innovation in Teaching & Learning  |641 |NDEG |1249 |Nondegree-CE |  |  |0|0|0|0|78|78|0|78|0|0|0|0|0|0|0|0|0|78|0|78|10LN1249NDEX
+120241 |School of Information Sciences |468 |PHD |5094 |Informatics |  |  |0|0|0|0|0|0|0|0|0|70|0|70|65|5|0|0|0|70|65|5|10KS5094PHD
+120241 |School of Information Sciences |992 |BS |5695 |Information Sciences |  |  |4|65|157|181|0|407|395|12|0|0|0|0|0|0|0|0|0|407|395|12|10LP5695BS
+120241 |School of Information Sciences |992 |BS |6074 |Information Sciences + DS |  |  |5|46|65|70|0|186|179|7|0|0|0|0|0|0|0|0|0|186|179|7|10LP6074BS
+120241 |School of Information Sciences |992 |CAS |0370 |Library & Information Science |  |  |0|0|0|0|0|0|0|0|2|0|0|2|1|1|0|0|0|2|1|1|10KS0370CAS
+120241 |School of Information Sciences |992 |CAS |0370 |Library & Information Science |  |  |0|0|0|0|0|0|0|0|8|0|0|8|2|6|0|0|0|8|2|6|10KS0370CASU
+120241 |School of Information Sciences |992 |MS |0370 |Library & Information Science |  |  |0|0|0|0|0|0|0|0|204|0|0|204|165|39|0|0|0|204|165|39|10KS0370MS
+120241 |School of Information Sciences |992 |MS |0370 |Library & Information Science |  |  |0|0|0|0|0|0|0|0|374|0|0|374|100|274|0|0|0|374|100|274|10KS0370MSU
+120241 |School of Information Sciences |992 |MS |4026 |Bioinformatics |5956 |Information Sciences |0|0|0|0|0|0|0|0|3|0|0|3|3|0|0|0|0|3|3|0|10KS5956MS
+120241 |School of Information Sciences |992 |MS |5581 |Information Management |  |  |0|0|0|0|0|0|0|0|232|0|0|232|157|75|0|0|0|232|157|75|1PKS5581MS
+120241 |School of Information Sciences |992 |NDEG |0370 |Library & Information Science |  |  |0|0|0|0|0|0|0|0|0|0|52|52|1|51|0|0|0|52|1|51|10KS0370NDEU
+120241 |School of Information Sciences |992 |NDEG |5695 |Information Sciences |  |  |0|0|0|0|6|6|0|6|0|0|0|0|0|0|0|0|0|6|0|6|10LP5695NDEG
+120241 |School of Information Sciences |992 |PHD |0370 |Library & Information Science |  |  |0|0|0|0|0|0|0|0|0|8|0|8|7|1|0|0|0|8|7|1|10KS0370PHD
+120241 |School of Information Sciences |992 |PHD |5695 |Information Sciences |  |  |0|0|0|0|0|0|0|0|0|113|0|113|106|7|0|0|0|113|106|7|10KS5695PHD
+120241 |Carle Illinois Medicine|869 |MD |5641 |Medicine - Carle Illinois COM |  |  |0|0|0|0|0|0|0|0|0|0|0|0|0|0|208|200|8|208|200|8|10LT5641MD
+120241 |Provost & VC Acad Affairs|593 |NDEG |0067 |Nondegree |  |  |0|0|0|0|3|3|0|3|0|0|0|0|0|0|0|0|0|3|0|3|10NB0067NDEG
+ ||||||||||||||||||||||||||||
+ ||||||||||||||||||||||||||||
