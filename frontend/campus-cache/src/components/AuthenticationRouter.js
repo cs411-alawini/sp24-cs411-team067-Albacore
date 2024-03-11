@@ -8,6 +8,7 @@ const AuthenticationRouter = () => {
     return (
         <Router>
             <Routes>
+                <Route path="/" element={<p>Landing Page</p>}/>
                 <Route path="/credentials" element={<CredentialsPage/>}/>
             </Routes>
         </Router>

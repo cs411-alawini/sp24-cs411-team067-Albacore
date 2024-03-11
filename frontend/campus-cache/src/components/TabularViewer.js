@@ -1,26 +1,11 @@
 import React, {useState, useEffect} from "react";
 import PropTypes from "prop-types";
 import {
-    DataGrid,
-    GridToolbarContainer,
-    GridToolbarColumnsButton,
-    GridToolbarFilterButton,
-    GridToolbarExport,
-    GridToolbarDensitySelector,
-  } from '@mui/x-data-grid';
+    DataGrid
+} from '@mui/x-data-grid';
+import EmptyRowDisplay from "./EmptyRowDisplay";
 
 // This is an example of a higher-order component using PropTypes as args
-
-// function CustomToolbar() {
-//     return (
-//       <GridToolbarContainer>
-//         <GridToolbarColumnsButton />
-//         <GridToolbarFilterButton />
-//         <GridToolbarDensitySelector />
-//         <GridToolbarExport />
-//       </GridToolbarContainer>
-//     );
-//   }
 
 const TabularViewer = ({title, data}) => {
     const [tableData, setTableData] = useState([]);
@@ -31,18 +16,16 @@ const TabularViewer = ({title, data}) => {
     });
 
     return (
-        <div>
-            <p>
-                {title}
-            </p>
-            <DataGrid
-            getRowId={row=>row.netid}
-            rows={tableData}
-            columns={headers}
-            pageSizeOptions={[5, 10]}
-            checkboxSelection
-            />
-        </div>
+        <DataGrid
+        autoHeight
+        getRowId={row=>row.netid}
+        rows={tableData}
+        columns={headers}
+        // pageSizeOptions={[5, 10]}
+        slots={{ noRowsOverlay: EmptyRowDisplay }}
+        sx={{ '--DataGrid-overlayHeight': '300px' }}
+        checkboxSelection
+        />
     );
 }
 

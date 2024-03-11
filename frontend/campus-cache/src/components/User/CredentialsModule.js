@@ -29,9 +29,6 @@ const CredentialsModule = () => {
 
     return (
         <div>
-          <button onClick={getRequest}>
-            Click me
-          </button>
           <TabularViewer title={"Credentials"} data={tableData}/>
         </div>
     );
