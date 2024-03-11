@@ -11,8 +11,12 @@ const TabularViewer = ({title, data}) => {
     const [tableData, setTableData] = useState([]);
     const [headers, setHeaders] = useState([]);
     useEffect(() => {
-        setHeaders(data["table_headers"]);
-        setTableData(data["credentials"]);
+        if (data == undefined || data["credentials"].length <= 0) {
+        } else {
+            const editableTable = 
+            setHeaders(data["table_headers"]);
+            setTableData(data["credentials"]);
+        } 
     });
 
     return (
