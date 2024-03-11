@@ -7,7 +7,7 @@ from fastapi.responses import JSONResponse
 
 router = APIRouter()
 
-class MajorID(BaseModel):
+class Major(BaseModel):
     majorid: int
     majorname: str
     deptname: str

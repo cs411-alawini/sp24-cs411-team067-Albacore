@@ -1,6 +1,16 @@
-// Pure Javascript
+import {
+    GridRowModes,
+    GridActionsCellItem
+  } from '@mui/x-data-grid';
+  import EditIcon from '@mui/icons-material/Edit';
+  import DeleteIcon from '@mui/icons-material/DeleteOutlined';
+  import SaveIcon from '@mui/icons-material/Save';
+  import CancelIcon from '@mui/icons-material/Close';
 
-const EditableColumn = {   field: 'actions',
+
+function EditableColumn(handleSaveClick, handleCancelClick, handleDeleteClick, handleEditClick, rowModesModel){
+    return {
+    field: 'actions',
     type: 'actions',
     headerName: 'Actions',
     width: 100,
@@ -44,4 +54,8 @@ const EditableColumn = {   field: 'actions',
         />,
       ];
     },
-  };
+    }
+};
+
+export default EditableColumn;
+

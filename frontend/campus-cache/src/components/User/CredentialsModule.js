@@ -6,30 +6,21 @@ import { httpClient } from "../../infra";
 
 const CredentialsModule = () => {
     // React Hook separated by getter + setter
-    
-    const [tableData, setTableData] = useState({});
     // Axios is a simple http client library
   
     const getRequest = () => {
-      httpClient
+      return httpClient
         .get("/credentials", {headers: {}})
-        .then((response) => {
-            console.log(response.data);
-            setTableData(response.data);
-        })
-        .catch((error) => {
-        });
     }
 
     // const memoizedData = useMemo(()=> getRequest, [])
 
     useEffect(() => {
-        getRequest()
     }, []);
 
     return (
         <div>
-          <TabularViewer title={"Credentials"} data={tableData}/>
+          <TabularViewer title={"Credentials"} getDataFunc={getRequest}/>
         </div>
     );
 }
