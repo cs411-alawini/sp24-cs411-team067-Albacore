@@ -27,11 +27,13 @@ async def get_credentials():
 async def update_credential(netid: str, user: Credential):
     cursor = get_cursor()
     conn = get_db_conn()
-    update_cmd = ("UPDATE students SET password = %s, majorid = %s WHERE netid = %s")
+    update_cmd = ("UPDATE students SET password = %s, majorid = %s WHERE netid = %s;")
+    print(update_cmd)
+    print("Password: ", user.password)
     params = (user.password, user.majorid, user.netid)
     try:
         cursor.execute(update_cmd, params)
-        conn.commit()
+        conn.commit() 
         return {"Message: ": "Successful update"}
     except Error as e:
         conn.rollback()

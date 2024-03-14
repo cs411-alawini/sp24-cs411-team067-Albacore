@@ -78,7 +78,17 @@ const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentif
 
     const processRowUpdate = (newRow) => {
       const updatedRow = { ...newRow, isNew: false };
-      setTableData(tableData.map((row) => (row.id === newRow.id ? updatedRow : row)));
+      const idToUpdate = tableData.findIndex((row) => row.id === newRow.id);
+      const rowToUpdate = tableData[idToUpdate];
+      var body = {};
+      for (const cell in updatedRow) {
+        body[cell] = updatedRow[cell];
+      }
+      updateData(idToUpdate, body).then((response) => {
+        console.log("Went through");
+      })
+      .catch((error) => {
+      });
       return updatedRow;
     };
       
@@ -105,6 +115,7 @@ const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentif
     useEffect(() => {
       grabData().then((response) => {
           setTableData(response.data[title]);
+          console.log(response.data);
       })
       .catch((error) => {
       });

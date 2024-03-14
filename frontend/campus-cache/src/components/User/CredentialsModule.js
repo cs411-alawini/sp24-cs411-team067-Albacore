@@ -9,7 +9,7 @@ const CredentialsModule = () => {
 
     const headers = [
       {"field": "netid", "headerName": "NetID", "editable": false},
-      {"field": "password", "headerName": "Password",  "editable": false},
+      {"field": "password", "headerName": "Password",  "editable": true},
       {"field": "majorid", "headerName" : "MajorID", "editable": false}]
   
     const getRequest = () => {
@@ -17,9 +17,9 @@ const CredentialsModule = () => {
         .get("/credentials", {headers: {}})
     }
 
-    const putRequest = (netid, body) => { // Remember 'Put' is idempotent
+    const putRequest = (id, body) => { // Remember 'Put' is idempotent
       return httpClient
-        .put("/credentials/", body);
+        .put("/credentials/" + id , body);
     } 
 
     useEffect(() => {
