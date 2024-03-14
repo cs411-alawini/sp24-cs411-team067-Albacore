@@ -26,5 +26,5 @@ cursor = mydb.cursor(dictionary=True)
 def get_cursor():
     return cursor
 
-def get_db():
+def get_db_conn():
     return mydb
