@@ -1,11 +1,23 @@
 import React, {useState, useEffect, useMemo} from "react";
 import PropTypes from "prop-types";
-import {DataGrid,GridRowModes,GridActionsCellItem,GridRowEditStopReasons} from '@mui/x-data-grid';
+import {DataGrid,GridRowModes,GridActionsCellItem,GridRowEditStopReasons, GridToolbar, GridToolbarContainer, GridToolbarExport, GridToolbarColumnsButton, GridToolbarFilterButton, GridToolbarDensitySelector} from '@mui/x-data-grid';
 import EmptyRowDisplay from "./EmptyRowDisplay";
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/DeleteOutlined';
 import SaveIcon from '@mui/icons-material/Save';
 import CancelIcon from '@mui/icons-material/Close';
+import FileUploadButton from "./FileUploadButton";
+
+const CustomToolbar = () => {
+  return (
+    <GridToolbarContainer>
+      <GridToolbarColumnsButton/>
+      <GridToolbarFilterButton/>
+      <GridToolbarDensitySelector/>
+      <GridToolbarExport/>
+    </GridToolbarContainer>
+  );
+}
 
 const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentifier}) => {
 
@@ -131,13 +143,14 @@ const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentif
             editMode="row"
             columns={columns}
             pageSizeOptions={[5, 10]}
-            slots={{ noRowsOverlay: EmptyRowDisplay }}
+            slots={{ noRowsOverlay: EmptyRowDisplay,  toolbar: CustomToolbar }}
             rowModesModel={rowModesModel}
             processRowUpdate={processRowUpdate}
             onRowEditStop={handleRowEditStop}
             onRowModesModelChange={handleRowModesModelChange}
             checkboxSelection
             pagination
+            
           />
         </div>
       </div>

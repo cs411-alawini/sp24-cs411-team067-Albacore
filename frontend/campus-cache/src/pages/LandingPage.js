@@ -1,10 +1,11 @@
 import React from "react";
-import LoginBar from "./LoginBar";
+
+import NavBar from "../components/NavBar";
 
 const LandingPage = () => {
     return (
         <>
-            <LoginBar/>
+            <NavBar/>
             <p>
                 Welcome, User!
             </p>

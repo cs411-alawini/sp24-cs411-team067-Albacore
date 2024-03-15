@@ -7,8 +7,7 @@ const InventoryModule = () => {
     const headers = [
       {field: "item_id", headerName: "ItemID", editable: false, type: 'number'},
       {field: "item_name", headerName: "ItemName", editable: true},
-      {field: "availability", headerName : "Availability", editable: true, type: 'singleSelect',
-      valueOptions: ['true','false']},
+      {field: "availability", headerName : "Availability", editable: true, type: 'boolean'},
       {field: "condition", headerName: "Condition", editable: true, type: 'singleSelect',
       valueOptions: ['Excellent', 'Good', 'Poor']},
       {field: "bldg_name", headerName: "Building", editable: true, type: 'singleSelect',

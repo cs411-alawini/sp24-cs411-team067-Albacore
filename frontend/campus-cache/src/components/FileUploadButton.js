@@ -33,7 +33,7 @@ const FileUploadButton = () => {
         },
       }}
     >
-      Upload file
+      Upload CSV
       <VisuallyHiddenInput
         accept=".csv" 
         type="file" />

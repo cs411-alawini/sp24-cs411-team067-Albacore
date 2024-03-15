@@ -1,6 +1,6 @@
 import React from "react";
 import { InventoryModule } from "../components/Inventory";
-import LoginBar from "../components/LoginBar";
+import LoginBar from "../components/NavBar";
 // Created separate directory to prevent circular dependency
 
 const InventoryPage = () => {
