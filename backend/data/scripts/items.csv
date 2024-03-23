@@ -1,0 +1,42 @@
+item_name,facility_id,availability,item_quantity,duration
+'SanDisk 8GB Clip Jam MP3 Player',3,True,10,24
+'DBPower MK-101 Portable DVD Player',3,True,10,24
+'USB-C Charger 20W',3,True,10,24
+'Apple 96W USB-C Power Adapter',3,True,5,12
+'Micro USB Cable',3,True,5,12
+'Logitech Wireless Presenter',3,True,5,72
+'Projection Screen - Small',3,True,1,24
+'Apple Mini DisplayPort to VGA Adapter',3,True,2,12
+'Belkin Mini DisplayPort to HDMI Adapter',3,True,3,12
+'Belkin USB C to HDMI Adapter',3,True,2,12
+'Apple 85W MagSafe 2 Power Adapter',3,True,1,12
+'Apple Lightning to USB Cable',3,True,3,12
+'Stereo X/Y Microphone with Lightning Connector',5,True,3,48
+'Zniaraki 4K Video Camera Camdorder',5,True,2,48
+'Portable Drawing Tablet S640',5,True,2,48
+'Sennheiser HD 599',5,True,2,6
+'Sony WH-XB910N',5,True,2,12
+'Apple Pencil',5,True,3,12
+'Fender Frontman 10G 10W Guitar Combo',5,True,1,4
+'Rockville 20 Watt Guitar Amplifier',5,True,2,4
+'Juki TL-200Qi Sewing and Quilting Machine',5,True,1,12
+'MP Mini MK3 25-Key Midi Controller',5,True,2,12
+'Gemini GTR-300 Portable Bluetooth Speaker',5,True,2,12
+'RODE NT1-Kit Large-Diaphragm Condenser',5,True,2,12
+'Blue Snowball USB Microphone',5,True,2,12
+'Zoom H6 Handy Recorder',5,True,3,6
+'Samsung External CD / DVD Player',5,True,4,6
+'LG External CD / DVD Player',5,True,5,6
+'Mini DisplayPort to VGA Adapter',5,True,5,6
+'Mini DisplayPort to HDMI Adapter',5,True,5,6
+'USB-C to HDMI-Adapter',5,True,5,6
+'USB-C to USB-A Adapter',5,True,5,6
+'Apple Lightning to USB Cable',5,True,5,6
+'USB-C to USB-C Cable',5,True,5,6
+'Micro USB to USB Cable',5,True,5,3
+'USB AC Power Adapter',5,True,4,3
+'USB-C Compact Wall Charger',5,True,1,6
+'Donner Wireless Page Turner Pedal',5,True,2,6
+'Piano Room',4,True,2,3
+'Group Room',4,True,2,3
+'Video Room',4,True,2,3
