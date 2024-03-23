@@ -8,21 +8,26 @@ const CredentialsModule = () => {
     // Axios is a simple http client library
 
     const headers = [
-      {"field": "netid", "headerName": "NetID"},
-      {"field": "password", "headerName": "Password"},
-      {"field": "majorid", "headerName" : "MajorID"}]
+      {"field": "netid", "headerName": "NetID", "editable": false},
+      {"field": "password", "headerName": "Password",  "editable": true},
+      {"field": "majorid", "headerName" : "MajorID", "editable": false}]
   
     const getRequest = () => {
       return httpClient
         .get("/credentials", {headers: {}})
     }
 
+    const putRequest = (id, body) => { // Remember 'Put' is idempotent
+      return httpClient
+        .put("/credentials/" + id , body);
+    } 
+
     useEffect(() => {
     }, []);
 
     return (
         <div>
-          <TabularViewer title={"Credentials"} grabData={getRequest} tableHeaders={headers}/>
+          <TabularViewer title={"credentials"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"netid"}/>
         </div>
     );
 }

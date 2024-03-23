@@ -1,11 +1,14 @@
 import os
 from fastapi import FastAPI
-from .routers import credentials
+from .routers import credentials, inventory, facilities
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
 app.include_router(credentials.router)
+app.include_router(inventory.router)
+app.include_router(facilities.router)
+
 origins = ["*"]
 app.add_middleware(
     ## What is cors? See: https://fastapi.tiangolo.com/tutorial/cors/

@@ -4,11 +4,13 @@ import Button from '@mui/material/Button';
 import {  Link as RouterLink  } from 'react-router-dom';
 import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import { useNavigate } from "react-router-dom";
 
-const LoginBar = () => {
+const NavBar = () => {
     const [drawerOpen, setDrawerOpen] = useState(false);
     return (
         <Box sx={{ flexGrow: 1 }}>
+            
             <AppBar position="static">
                 <Toolbar>
                 <IconButton
@@ -21,10 +23,10 @@ const LoginBar = () => {
                 >
                     <MenuIcon />
                 </IconButton>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                    Campus-Cache
+                <Typography variant="h6" component="div" sx={{ flexGrow: 2 }}>
+                    Campus Cache
                 </Typography>
-                <Button color="inherit">Login</Button>
+                <Button color="inherit" onClick={()=>window.location.href="/login"}>Login</Button>
                 </Toolbar>
             </AppBar>
             <Drawer anchor="left" open={drawerOpen} onClose={() => setDrawerOpen(false)}>
@@ -50,4 +52,4 @@ const LoginBar = () => {
   );
 }
 
-export default LoginBar;
+export default NavBar;
