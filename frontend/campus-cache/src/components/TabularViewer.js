@@ -86,7 +86,7 @@ const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentif
 
     const handleEditClick = (id) => () => {
         setRowModesModel({ ...rowModesModel, [id]: { mode: GridRowModes.Edit } });
-      };
+    };
 
     const processRowUpdate = (newRow) => {
       const updatedRow = { ...newRow, isNew: false };
@@ -150,7 +150,6 @@ const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentif
             onRowModesModelChange={handleRowModesModelChange}
             checkboxSelection
             pagination
-            
           />
         </div>
       </div>
