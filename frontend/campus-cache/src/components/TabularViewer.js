@@ -11,7 +11,6 @@ import FileUploadButton from "./FileUploadButton";
 const CustomToolbar = () => {
   return (
     <GridToolbarContainer>
-      <GridToolbarColumnsButton/>
       <GridToolbarFilterButton/>
       <GridToolbarDensitySelector/>
       <GridToolbarExport/>
@@ -96,9 +95,7 @@ const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentif
       for (const cell in updatedRow) {
         body[cell] = updatedRow[cell];
       }
-      updateData(idToUpdate, body).then((response) => {
-        console.log("Went through");
-      })
+      updateData(idToUpdate, body).then((response) => {})
       .catch((error) => {
       });
       return updatedRow;
@@ -123,6 +120,18 @@ const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentif
         setTableData(tableData.filter((row) => row.netid !== id));
       }
     };
+
+    const checkLocalStorageItem = (key) => {
+      // Try to get the item from local storage
+      const item = localStorage.getItem(key);
+      if (item === null) {
+        console.log(`${key} does not exist in local storage.`);
+        return false;
+      } else {
+        console.log(`${key} exists in local storage.`);
+        return true;
+      }
+    }
 
     useEffect(() => {
       grabData().then((response) => {

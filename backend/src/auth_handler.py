@@ -1,0 +1,35 @@
+# Following: https://testdriven.io/blog/fastapi-jwt-auth/
+
+import time
+from typing import Dict
+from datetime import datetime, timedelta
+import jwt
+from decouple import config
+JWT_SECRET = config("SECRET")
+JWT_ALGORITHM = config("ALGO")
+
+
+def token_response(token: str):
+    return {
+        "access_token": token
+    }
+
+def signJWT(user_id: str):
+    current_time = datetime.now()
+    expirary_date = current_time + timedelta(days=7)
+    expirary_date_str = expirary_date.strftime("%Y-%m-%d %H:%M:%S")
+    payload = {
+        "user_id": user_id,
+        "expires": expirary_date_str
+    }
+    token = jwt.encode(payload, JWT_SECRET, algorithm=JWT_ALGORITHM)
+    return token_response(token)
+
+def decodeJWT(token: str) -> dict:
+    try:
+        current_time = datetime.now()
+        decoded_token = jwt.decode(token, JWT_SECRET, algorithms=[JWT_ALGORITHM])
+        return decoded_token if decoded_token["expires"] >= current_time else None
+    except:
+        print("Error w/ JWT")
+        return None
