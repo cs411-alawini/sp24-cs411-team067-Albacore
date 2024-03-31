@@ -13,8 +13,9 @@ const CredentialsModule = () => {
       {"field": "majorid", "headerName" : "MajorID", "editable": false}]
   
     const getRequest = () => {
+      const jwtToken = localStorage.getItem("JWTToken");
       return httpClient
-        .get("/credentials", {headers: {}})
+        .get("/credentials", {headers: {Authorization: "token " + jwtToken}})
     }
 
     const putRequest = (id, body) => { // Remember 'Put' is idempotent

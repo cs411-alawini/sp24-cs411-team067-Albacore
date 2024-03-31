@@ -60,10 +60,8 @@ async def user_login(user: CredentialLogin = Body(...)):
 
 def check_user(data: CredentialLogin):
     curr_user = data
-    print("users: ", users)
     for user in users:
-        print("[DOUGHNUT2] user.netid: ", user["netid"])
         if user["netid"] == curr_user.netid and user["password"] == curr_user.password:
-            print("check user true!!!")
+            print("Successful user login!")
             return True
     return False

@@ -28,8 +28,12 @@ def signJWT(user_id: str):
 def decodeJWT(token: str) -> dict:
     try:
         current_time = datetime.now()
+        print("b4 decoder")
         decoded_token = jwt.decode(token, JWT_SECRET, algorithms=[JWT_ALGORITHM])
-        return decoded_token if decoded_token["expires"] >= current_time else None
+        print("log decoded passed")
+        print("expires: ", decoded_token["expires"])
+        current_time_str = current_time.strftime("%Y-%m-%d %H:%M:%S")
+        return decoded_token if decoded_token["expires"] >= current_time_str else None
     except:
-        print("Error w/ JWT")
+        print("Invalid Token w/ JWT") # TODO: Raise HTTP exception
         return None

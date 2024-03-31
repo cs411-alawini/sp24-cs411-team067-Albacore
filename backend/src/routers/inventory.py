@@ -1,9 +1,10 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 from typing import Any, Union, List
 from pydantic import BaseModel
 from ..db import db_instance
 from ..db.db_instance import get_cursor
 from fastapi.responses import JSONResponse
+from ..auth_bearer import JWTBearer
 
 router = APIRouter()
 
@@ -16,7 +17,7 @@ class Inventory(BaseModel):
     location_id: int
     duration: int
 
-@router.get("/api/inventory")
+@router.get("/api/inventory", dependencies=[Depends(JWTBearer())])
 async def get_inventory():
     cursor = get_cursor()
     cursor.execute("SELECT * FROM Inventory JOIN Facilities ON Inventory.LocationID = Facilities.LocationID;")
@@ -33,6 +34,3 @@ def translate_condition(condition):
         return "Excellent"
     else:
         return "Unknown"
-    
-# def translate_to_hours(duration):
-#     return f"{duration} hours" 

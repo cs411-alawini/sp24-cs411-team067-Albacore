@@ -16,8 +16,9 @@ const InventoryModule = () => {
     ]
   
     const getRequest = () => {
+      const jwtToken = localStorage.getItem("JWTToken");
       return httpClient
-        .get("/inventory", {headers: {}})
+        .get("/inventory",{headers: {Authorization: "Bearer " + jwtToken}})
     }
 
     useEffect(() => {
