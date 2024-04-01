@@ -15,7 +15,7 @@ def generate_unique_item_id():
 
 # Read the input CSV using pandas
 def read_items_csv(csv_path):
-    return pd.read_csv(csv_path)
+    return pd.read_csv(csv_path, dtype={'availability': 'bool'})
 
 # Generate items based on the CSV data
 def generate_items(df):
@@ -32,7 +32,6 @@ def generate_items(df):
     
     # Apply a lambda function to add a condition value for each item
     conditions = [0, 1, 2]
-    df_expanded['availability'] = df_expanded.apply(lambda _: 1, axis=1)
     df_expanded['condition'] = df_expanded.apply(lambda _: random.choice(conditions), axis=1)
     
     # Specify the order of columns, now including the availability as a boolean and the condition
