@@ -2,7 +2,7 @@ import React, { useEffect} from "react";
 import TabularViewer from "../TabularViewer";
 import { httpClient } from "../../infra";
 
-const InventoryModule = () => {
+const InventoryModuleAdmin = () => {
 
     const headers = [
       {field: "item_id", headerName: "ItemID", editable: false, type: 'number'},
@@ -26,8 +26,9 @@ const InventoryModule = () => {
 
     return (
         <div>
+          <p>Admin</p>
           <TabularViewer title={"Inventory"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
         </div>
     );
 }
-export default InventoryModule;
+export default InventoryModuleAdmin;

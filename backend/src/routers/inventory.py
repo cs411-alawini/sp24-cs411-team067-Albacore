@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends
-from typing import Any, Union, List
+from typing import Any, Union, List, Optional
 from pydantic import BaseModel
 from ..db import db_instance
 from ..db.db_instance import get_cursor
@@ -13,9 +13,9 @@ class Inventory(BaseModel):
     bldg_name: str
     item_name: str
     availability: bool
-    condition: str
+    condition: Optional[str] = None
     location_id: int
-    duration: int
+    duration: Optional[int] = None
 
 @router.get("/api/inventory", dependencies=[Depends(JWTBearer())])
 async def get_inventory():
