@@ -22,21 +22,12 @@ facilities = {
     11:chem_list
 }
 
-# Function to generate a unique item ID
-def generate_unique_item_id():
-    global item_id_counter
-    item_id_counter += 1
-    return item_id_counter
-
 # Read the input CSV using pandas
 def read_items_csv(csv_path):
     return pd.read_csv(csv_path)
 
 # Generate items based on the CSV data
 def generate_items(df):
-    global item_id_counter
-    # Reset item_id_counter for each run
-    item_id_counter = 0
     df['repeat_times'] = df['LocationID'].apply(lambda row: len(facilities.get(row, [])))
     df_expanded = df.loc[df.index.repeat(df['repeat_times'])].reset_index(drop=True)
     df_expanded["UniqueID"] = df_expanded.groupby(['ItemID']).cumcount()
