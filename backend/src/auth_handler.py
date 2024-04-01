@@ -14,15 +14,16 @@ def token_response(token: str):
         "access_token": token
     }
 
-def signJWT(user_id: str):
+def signJWT(user_id: str, isAdmin: bool=False):
     current_time = datetime.now()
     expirary_date = current_time + timedelta(days=7)
     expirary_date_str = expirary_date.strftime("%Y-%m-%d %H:%M:%S")
     payload = {
         "user_id": user_id,
         "expires": expirary_date_str,
-        "role": "admin" # TODO: change this
+        "role": "admin" if isAdmin else "student" # TODO: change this
     }
+    print("payload: ", payload)
     token = jwt.encode(payload, JWT_SECRET, algorithm=JWT_ALGORITHM)
     return token_response(token)
 

@@ -13,7 +13,7 @@ router = APIRouter()
 class Credential(BaseModel):
     netid: str
     password: SecretStr
-    majorid: int
+    permission: int
 
 class CredentialLogin(BaseModel):
     netid: str = Field(...)
@@ -32,36 +32,47 @@ users = [{"netid": "jdoe1","password": "seven"}]
 @router.get("/api/credentials")
 async def get_credentials():
     cursor = get_cursor()
-    cursor.execute("SELECT * from students")
+    cursor.execute("SELECT * from Credentials")
     rows = cursor.fetchall()
-    credentials = [Credential(netid=row['netid'], password=row['password'], majorid=row['majorid']) for row in rows]
+    credentials = [Credential(netid=row['netID'], password=row['password'], permission=row['permission']) for row in rows]
     return JSONResponse(content={"credentials": [jsonable_encoder(credential.dict()) for credential in credentials]})
 
-@router.put("/api/credentials/{netid}")
-async def update_credential(netid: str, user: Credential):
-    cursor = get_cursor()
-    conn = get_db_conn()
-    update_cmd = ("UPDATE students SET password = %s, majorid = %s WHERE netid = %s;")
-    params = (user.password.get_secret_value(), user.majorid, user.netid)
-    try:
-        cursor.execute(update_cmd, params)
-        conn.commit() 
-        return {"Message: ": "Successful update"}
-    except Error as e:
-        conn.rollback()
-        raise HTTPException(status_code=500, detail=f"Failed to update user: {e}")
+# @router.put("/api/credentials/{netid}")
+# async def update_credential(netid: str, user: Credential):
+#     cursor = get_cursor()
+#     conn = get_db_conn()
+#     update_cmd = ("UPDATE students SET password = %s, majorid = %s WHERE netid = %s;")
+#     params = (user.password.get_secret_value(), user.majorid, user.netid)
+#     try:
+#         cursor.execute(update_cmd, params)
+#         conn.commit() 
+#         return {"Message: ": "Successful update"}
+#     except Error as e:
+#         conn.rollback()
+#         raise HTTPException(status_code=500, detail=f"Failed to update user: {e}")
 
 @router.post("/api/user/login", tags=["user"])
 async def user_login(user: CredentialLogin = Body(...)):
-    print("user info", user)
-    if check_user(user):
-        print("successful token!!!")
-        return signJWT(user.netid)
+    print("This has been run")
+    role = check_user(user)
+    if role >= 0:
+        if (role == 1):
+            return signJWT(user.netid, True)
+        else:
+            return signJWT(user.netid, False)
 
+# 0 = Student, 1 = Admin, -1 = Error
 def check_user(data: CredentialLogin):
     curr_user = data
-    for user in users:
-        if user["netid"] == curr_user.netid and user["password"] == curr_user.password:
-            print("Successful user login!")
-            return True
-    return False
+    print("currUser: ", curr_user)
+    cursor = get_cursor()
+    query = "SELECT * from Credentials WHERE netID = %s"
+    params = (curr_user.netid,)
+    cursor.execute(query, params)
+    rows = cursor.fetchall()
+    credentials = [Credential(netid=row['netID'], password=row['password'], permission=row['permission']) for row in rows]
+    for user in credentials:
+        if user.netid == curr_user.netid and user.password.get_secret_value() == curr_user.password:
+            print("User success...")
+            return user.permission
+    return -1

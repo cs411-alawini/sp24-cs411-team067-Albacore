@@ -18,7 +18,7 @@ const CustomToolbar = () => {
   );
 }
 
-const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentifier}) => {
+const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueIdentifier}) => {
 
     const [tableData, setTableData] = useState([]);
     const [rowModesModel, setRowModesModel] = useState({});
@@ -166,7 +166,7 @@ const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentif
     );
 }
 
-TabularViewer.propTypes = {
+TabularViewerAdmin.propTypes = {
     title: PropTypes.string,
     grabData: PropTypes.func,
     updateData: PropTypes.func,
@@ -174,4 +174,4 @@ TabularViewer.propTypes = {
     uniqueIdentifier: PropTypes.string
 };
 
-export default TabularViewer;
+export default TabularViewerAdmin;

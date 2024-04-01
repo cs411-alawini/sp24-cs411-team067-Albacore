@@ -1,6 +1,6 @@
 import React, { useEffect} from "react";
-import TabularViewer from "../TabularViewer";
 import { httpClient } from "../../infra";
+import TabularViewerAdmin from "../TabularViewerAdmin";
 
 const InventoryModuleAdmin = () => {
 
@@ -27,7 +27,7 @@ const InventoryModuleAdmin = () => {
     return (
         <div>
           <p>Admin</p>
-          <TabularViewer title={"Inventory"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
+          <TabularViewerAdmin title={"Inventory"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
         </div>
     );
 }

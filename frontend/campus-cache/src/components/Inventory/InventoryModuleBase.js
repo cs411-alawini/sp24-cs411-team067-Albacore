@@ -1,6 +1,6 @@
 import React, { useEffect} from "react";
-import TabularViewer from "../TabularViewer";
 import { httpClient } from "../../infra";
+import TabularViewerBase from "../TabularViewerBase";
 
 const InventoryModuleBase = () => {
 
@@ -12,7 +12,7 @@ const InventoryModuleBase = () => {
       valueOptions: ['Excellent', 'Good', 'Poor']},
       {field: "bldg_name", headerName: "Building", editable: true, type: 'singleSelect',
       valueOptions: ['Sidney Lu', 'SCD', 'English Building','Music & Arts Library']}, // should query from facilities
-      {field: "duration", headerName: "Duration (Hrs)", editable: true, type: 'number'}
+      {field: "duration", headerName: "Duration", editable: true, type: 'number', align: 'center', headerAlign: 'center'}
     ]
   
     const getRequest = () => {
@@ -26,8 +26,8 @@ const InventoryModuleBase = () => {
 
     return (
         <div>
-            <p>Base</p>
-            <TabularViewer title={"Inventory"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
+            <p>Student</p>
+            <TabularViewerBase title={"Inventory"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
         </div>
     );
 }

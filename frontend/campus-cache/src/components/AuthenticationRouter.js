@@ -6,7 +6,6 @@ import LandingPage from "../pages/LandingPage";
 import LoginPage from "../pages/LoginPage";
 
 // DECLARE ROUTES HERE
-
 const AuthenticationRouter = () => {
     return (
         <Router>
