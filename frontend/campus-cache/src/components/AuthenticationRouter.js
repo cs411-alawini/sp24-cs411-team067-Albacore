@@ -6,7 +6,6 @@ import LandingPage from "../pages/LandingPage";
 import LoginPage from "../pages/LoginPage";
 
 // DECLARE ROUTES HERE
-
 const AuthenticationRouter = () => {
     return (
         <Router>
@@ -14,6 +13,7 @@ const AuthenticationRouter = () => {
                 <Route path="/" element={<LandingPage/>}/>
                 <Route path="/credentials" element={<CredentialsPage/>}/>
                 <Route path="/inventory" element={<InventoryPage/>}/>
+                <Route path="/facilities" element={<CredentialsPage/>}/>
                 <Route path="/login" element={<LoginPage/>}/>
             </Routes>
         </Router>

@@ -11,7 +11,6 @@ import FileUploadButton from "./FileUploadButton";
 const CustomToolbar = () => {
   return (
     <GridToolbarContainer>
-      <GridToolbarColumnsButton/>
       <GridToolbarFilterButton/>
       <GridToolbarDensitySelector/>
       <GridToolbarExport/>
@@ -19,7 +18,7 @@ const CustomToolbar = () => {
   );
 }
 
-const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentifier}) => {
+const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueIdentifier}) => {
 
     const [tableData, setTableData] = useState([]);
     const [rowModesModel, setRowModesModel] = useState({});
@@ -86,7 +85,7 @@ const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentif
 
     const handleEditClick = (id) => () => {
         setRowModesModel({ ...rowModesModel, [id]: { mode: GridRowModes.Edit } });
-      };
+    };
 
     const processRowUpdate = (newRow) => {
       const updatedRow = { ...newRow, isNew: false };
@@ -96,9 +95,7 @@ const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentif
       for (const cell in updatedRow) {
         body[cell] = updatedRow[cell];
       }
-      updateData(idToUpdate, body).then((response) => {
-        console.log("Went through");
-      })
+      updateData(idToUpdate, body).then((response) => {})
       .catch((error) => {
       });
       return updatedRow;
@@ -123,6 +120,18 @@ const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentif
         setTableData(tableData.filter((row) => row.netid !== id));
       }
     };
+
+    const checkLocalStorageItem = (key) => {
+      // Try to get the item from local storage
+      const item = localStorage.getItem(key);
+      if (item === null) {
+        console.log(`${key} does not exist in local storage.`);
+        return false;
+      } else {
+        console.log(`${key} exists in local storage.`);
+        return true;
+      }
+    }
 
     useEffect(() => {
       grabData().then((response) => {
@@ -150,7 +159,6 @@ const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentif
             onRowModesModelChange={handleRowModesModelChange}
             checkboxSelection
             pagination
-            
           />
         </div>
       </div>
@@ -158,7 +166,7 @@ const TabularViewer = ({title, grabData, updateData, tableHeaders, uniqueIdentif
     );
 }
 
-TabularViewer.propTypes = {
+TabularViewerAdmin.propTypes = {
     title: PropTypes.string,
     grabData: PropTypes.func,
     updateData: PropTypes.func,
@@ -166,4 +174,4 @@ TabularViewer.propTypes = {
     uniqueIdentifier: PropTypes.string
 };
 
-export default TabularViewer;
+export default TabularViewerAdmin;

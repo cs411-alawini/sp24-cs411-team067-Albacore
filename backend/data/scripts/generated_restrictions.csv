@@ -1,0 +1,2681 @@
+MajorID,ItemID,ItemName,LocationID,Availability,Condition,Duration
+8,1,3D Printer,1,1,1,4
+33,1,3D Printer,1,1,1,4
+36,1,3D Printer,1,1,1,4
+50,1,3D Printer,1,1,1,4
+59,1,3D Printer,1,1,1,4
+65,1,3D Printer,1,1,1,4
+73,1,3D Printer,1,1,1,4
+91,1,3D Printer,1,1,1,4
+92,1,3D Printer,1,1,1,4
+94,1,3D Printer,1,1,1,4
+95,1,3D Printer,1,1,1,4
+96,1,3D Printer,1,1,1,4
+97,1,3D Printer,1,1,1,4
+101,1,3D Printer,1,1,1,4
+102,1,3D Printer,1,1,1,4
+108,1,3D Printer,1,1,1,4
+136,1,3D Printer,1,1,1,4
+142,1,3D Printer,1,1,1,4
+168,1,3D Printer,1,1,1,4
+171,1,3D Printer,1,1,1,4
+187,1,3D Printer,1,1,1,4
+191,1,3D Printer,1,1,1,4
+199,1,3D Printer,1,1,1,4
+232,1,3D Printer,1,1,1,4
+233,1,3D Printer,1,1,1,4
+245,1,3D Printer,1,1,1,4
+8,2,3D Printer,1,1,2,2
+33,2,3D Printer,1,1,2,2
+36,2,3D Printer,1,1,2,2
+50,2,3D Printer,1,1,2,2
+59,2,3D Printer,1,1,2,2
+65,2,3D Printer,1,1,2,2
+73,2,3D Printer,1,1,2,2
+91,2,3D Printer,1,1,2,2
+92,2,3D Printer,1,1,2,2
+94,2,3D Printer,1,1,2,2
+95,2,3D Printer,1,1,2,2
+96,2,3D Printer,1,1,2,2
+97,2,3D Printer,1,1,2,2
+101,2,3D Printer,1,1,2,2
+102,2,3D Printer,1,1,2,2
+108,2,3D Printer,1,1,2,2
+136,2,3D Printer,1,1,2,2
+142,2,3D Printer,1,1,2,2
+168,2,3D Printer,1,1,2,2
+171,2,3D Printer,1,1,2,2
+187,2,3D Printer,1,1,2,2
+191,2,3D Printer,1,1,2,2
+199,2,3D Printer,1,1,2,2
+232,2,3D Printer,1,1,2,2
+233,2,3D Printer,1,1,2,2
+245,2,3D Printer,1,1,2,2
+8,3,3D Printer,1,1,2,24
+33,3,3D Printer,1,1,2,24
+36,3,3D Printer,1,1,2,24
+50,3,3D Printer,1,1,2,24
+59,3,3D Printer,1,1,2,24
+65,3,3D Printer,1,1,2,24
+73,3,3D Printer,1,1,2,24
+91,3,3D Printer,1,1,2,24
+92,3,3D Printer,1,1,2,24
+94,3,3D Printer,1,1,2,24
+95,3,3D Printer,1,1,2,24
+96,3,3D Printer,1,1,2,24
+97,3,3D Printer,1,1,2,24
+101,3,3D Printer,1,1,2,24
+102,3,3D Printer,1,1,2,24
+108,3,3D Printer,1,1,2,24
+136,3,3D Printer,1,1,2,24
+142,3,3D Printer,1,1,2,24
+168,3,3D Printer,1,1,2,24
+171,3,3D Printer,1,1,2,24
+187,3,3D Printer,1,1,2,24
+191,3,3D Printer,1,1,2,24
+199,3,3D Printer,1,1,2,24
+232,3,3D Printer,1,1,2,24
+233,3,3D Printer,1,1,2,24
+245,3,3D Printer,1,1,2,24
+8,4,3D Printer,1,1,1,2
+33,4,3D Printer,1,1,1,2
+36,4,3D Printer,1,1,1,2
+50,4,3D Printer,1,1,1,2
+59,4,3D Printer,1,1,1,2
+65,4,3D Printer,1,1,1,2
+73,4,3D Printer,1,1,1,2
+91,4,3D Printer,1,1,1,2
+92,4,3D Printer,1,1,1,2
+94,4,3D Printer,1,1,1,2
+95,4,3D Printer,1,1,1,2
+96,4,3D Printer,1,1,1,2
+97,4,3D Printer,1,1,1,2
+101,4,3D Printer,1,1,1,2
+102,4,3D Printer,1,1,1,2
+108,4,3D Printer,1,1,1,2
+136,4,3D Printer,1,1,1,2
+142,4,3D Printer,1,1,1,2
+168,4,3D Printer,1,1,1,2
+171,4,3D Printer,1,1,1,2
+187,4,3D Printer,1,1,1,2
+191,4,3D Printer,1,1,1,2
+199,4,3D Printer,1,1,1,2
+232,4,3D Printer,1,1,1,2
+233,4,3D Printer,1,1,1,2
+245,4,3D Printer,1,1,1,2
+8,5,3D Printer,1,1,2,24
+33,5,3D Printer,1,1,2,24
+36,5,3D Printer,1,1,2,24
+50,5,3D Printer,1,1,2,24
+59,5,3D Printer,1,1,2,24
+65,5,3D Printer,1,1,2,24
+73,5,3D Printer,1,1,2,24
+91,5,3D Printer,1,1,2,24
+92,5,3D Printer,1,1,2,24
+94,5,3D Printer,1,1,2,24
+95,5,3D Printer,1,1,2,24
+96,5,3D Printer,1,1,2,24
+97,5,3D Printer,1,1,2,24
+101,5,3D Printer,1,1,2,24
+102,5,3D Printer,1,1,2,24
+108,5,3D Printer,1,1,2,24
+136,5,3D Printer,1,1,2,24
+142,5,3D Printer,1,1,2,24
+168,5,3D Printer,1,1,2,24
+171,5,3D Printer,1,1,2,24
+187,5,3D Printer,1,1,2,24
+191,5,3D Printer,1,1,2,24
+199,5,3D Printer,1,1,2,24
+232,5,3D Printer,1,1,2,24
+233,5,3D Printer,1,1,2,24
+245,5,3D Printer,1,1,2,24
+8,6,3D Printer,1,1,1,24
+33,6,3D Printer,1,1,1,24
+36,6,3D Printer,1,1,1,24
+50,6,3D Printer,1,1,1,24
+59,6,3D Printer,1,1,1,24
+65,6,3D Printer,1,1,1,24
+73,6,3D Printer,1,1,1,24
+91,6,3D Printer,1,1,1,24
+92,6,3D Printer,1,1,1,24
+94,6,3D Printer,1,1,1,24
+95,6,3D Printer,1,1,1,24
+96,6,3D Printer,1,1,1,24
+97,6,3D Printer,1,1,1,24
+101,6,3D Printer,1,1,1,24
+102,6,3D Printer,1,1,1,24
+108,6,3D Printer,1,1,1,24
+136,6,3D Printer,1,1,1,24
+142,6,3D Printer,1,1,1,24
+168,6,3D Printer,1,1,1,24
+171,6,3D Printer,1,1,1,24
+187,6,3D Printer,1,1,1,24
+191,6,3D Printer,1,1,1,24
+199,6,3D Printer,1,1,1,24
+232,6,3D Printer,1,1,1,24
+233,6,3D Printer,1,1,1,24
+245,6,3D Printer,1,1,1,24
+8,7,3D Printer,1,0,1,2
+33,7,3D Printer,1,0,1,2
+36,7,3D Printer,1,0,1,2
+50,7,3D Printer,1,0,1,2
+59,7,3D Printer,1,0,1,2
+65,7,3D Printer,1,0,1,2
+73,7,3D Printer,1,0,1,2
+91,7,3D Printer,1,0,1,2
+92,7,3D Printer,1,0,1,2
+94,7,3D Printer,1,0,1,2
+95,7,3D Printer,1,0,1,2
+96,7,3D Printer,1,0,1,2
+97,7,3D Printer,1,0,1,2
+101,7,3D Printer,1,0,1,2
+102,7,3D Printer,1,0,1,2
+108,7,3D Printer,1,0,1,2
+136,7,3D Printer,1,0,1,2
+142,7,3D Printer,1,0,1,2
+168,7,3D Printer,1,0,1,2
+171,7,3D Printer,1,0,1,2
+187,7,3D Printer,1,0,1,2
+191,7,3D Printer,1,0,1,2
+199,7,3D Printer,1,0,1,2
+232,7,3D Printer,1,0,1,2
+233,7,3D Printer,1,0,1,2
+245,7,3D Printer,1,0,1,2
+8,8,3D Printer,1,1,1,2
+33,8,3D Printer,1,1,1,2
+36,8,3D Printer,1,1,1,2
+50,8,3D Printer,1,1,1,2
+59,8,3D Printer,1,1,1,2
+65,8,3D Printer,1,1,1,2
+73,8,3D Printer,1,1,1,2
+91,8,3D Printer,1,1,1,2
+92,8,3D Printer,1,1,1,2
+94,8,3D Printer,1,1,1,2
+95,8,3D Printer,1,1,1,2
+96,8,3D Printer,1,1,1,2
+97,8,3D Printer,1,1,1,2
+101,8,3D Printer,1,1,1,2
+102,8,3D Printer,1,1,1,2
+108,8,3D Printer,1,1,1,2
+136,8,3D Printer,1,1,1,2
+142,8,3D Printer,1,1,1,2
+168,8,3D Printer,1,1,1,2
+171,8,3D Printer,1,1,1,2
+187,8,3D Printer,1,1,1,2
+191,8,3D Printer,1,1,1,2
+199,8,3D Printer,1,1,1,2
+232,8,3D Printer,1,1,1,2
+233,8,3D Printer,1,1,1,2
+245,8,3D Printer,1,1,1,2
+8,9,3D Printer,1,1,1,2
+33,9,3D Printer,1,1,1,2
+36,9,3D Printer,1,1,1,2
+50,9,3D Printer,1,1,1,2
+59,9,3D Printer,1,1,1,2
+65,9,3D Printer,1,1,1,2
+73,9,3D Printer,1,1,1,2
+91,9,3D Printer,1,1,1,2
+92,9,3D Printer,1,1,1,2
+94,9,3D Printer,1,1,1,2
+95,9,3D Printer,1,1,1,2
+96,9,3D Printer,1,1,1,2
+97,9,3D Printer,1,1,1,2
+101,9,3D Printer,1,1,1,2
+102,9,3D Printer,1,1,1,2
+108,9,3D Printer,1,1,1,2
+136,9,3D Printer,1,1,1,2
+142,9,3D Printer,1,1,1,2
+168,9,3D Printer,1,1,1,2
+171,9,3D Printer,1,1,1,2
+187,9,3D Printer,1,1,1,2
+191,9,3D Printer,1,1,1,2
+199,9,3D Printer,1,1,1,2
+232,9,3D Printer,1,1,1,2
+233,9,3D Printer,1,1,1,2
+245,9,3D Printer,1,1,1,2
+8,10,3D Printer,1,0,2,24
+33,10,3D Printer,1,0,2,24
+36,10,3D Printer,1,0,2,24
+50,10,3D Printer,1,0,2,24
+59,10,3D Printer,1,0,2,24
+65,10,3D Printer,1,0,2,24
+73,10,3D Printer,1,0,2,24
+91,10,3D Printer,1,0,2,24
+92,10,3D Printer,1,0,2,24
+94,10,3D Printer,1,0,2,24
+95,10,3D Printer,1,0,2,24
+96,10,3D Printer,1,0,2,24
+97,10,3D Printer,1,0,2,24
+101,10,3D Printer,1,0,2,24
+102,10,3D Printer,1,0,2,24
+108,10,3D Printer,1,0,2,24
+136,10,3D Printer,1,0,2,24
+142,10,3D Printer,1,0,2,24
+168,10,3D Printer,1,0,2,24
+171,10,3D Printer,1,0,2,24
+187,10,3D Printer,1,0,2,24
+191,10,3D Printer,1,0,2,24
+199,10,3D Printer,1,0,2,24
+232,10,3D Printer,1,0,2,24
+233,10,3D Printer,1,0,2,24
+245,10,3D Printer,1,0,2,24
+8,11,3D Printer,1,0,1,2
+33,11,3D Printer,1,0,1,2
+36,11,3D Printer,1,0,1,2
+50,11,3D Printer,1,0,1,2
+59,11,3D Printer,1,0,1,2
+65,11,3D Printer,1,0,1,2
+73,11,3D Printer,1,0,1,2
+91,11,3D Printer,1,0,1,2
+92,11,3D Printer,1,0,1,2
+94,11,3D Printer,1,0,1,2
+95,11,3D Printer,1,0,1,2
+96,11,3D Printer,1,0,1,2
+97,11,3D Printer,1,0,1,2
+101,11,3D Printer,1,0,1,2
+102,11,3D Printer,1,0,1,2
+108,11,3D Printer,1,0,1,2
+136,11,3D Printer,1,0,1,2
+142,11,3D Printer,1,0,1,2
+168,11,3D Printer,1,0,1,2
+171,11,3D Printer,1,0,1,2
+187,11,3D Printer,1,0,1,2
+191,11,3D Printer,1,0,1,2
+199,11,3D Printer,1,0,1,2
+232,11,3D Printer,1,0,1,2
+233,11,3D Printer,1,0,1,2
+245,11,3D Printer,1,0,1,2
+8,12,3D Printer,1,1,1,4
+33,12,3D Printer,1,1,1,4
+36,12,3D Printer,1,1,1,4
+50,12,3D Printer,1,1,1,4
+59,12,3D Printer,1,1,1,4
+65,12,3D Printer,1,1,1,4
+73,12,3D Printer,1,1,1,4
+91,12,3D Printer,1,1,1,4
+92,12,3D Printer,1,1,1,4
+94,12,3D Printer,1,1,1,4
+95,12,3D Printer,1,1,1,4
+96,12,3D Printer,1,1,1,4
+97,12,3D Printer,1,1,1,4
+101,12,3D Printer,1,1,1,4
+102,12,3D Printer,1,1,1,4
+108,12,3D Printer,1,1,1,4
+136,12,3D Printer,1,1,1,4
+142,12,3D Printer,1,1,1,4
+168,12,3D Printer,1,1,1,4
+171,12,3D Printer,1,1,1,4
+187,12,3D Printer,1,1,1,4
+191,12,3D Printer,1,1,1,4
+199,12,3D Printer,1,1,1,4
+232,12,3D Printer,1,1,1,4
+233,12,3D Printer,1,1,1,4
+245,12,3D Printer,1,1,1,4
+8,13,3D Printer,1,0,2,2
+33,13,3D Printer,1,0,2,2
+36,13,3D Printer,1,0,2,2
+50,13,3D Printer,1,0,2,2
+59,13,3D Printer,1,0,2,2
+65,13,3D Printer,1,0,2,2
+73,13,3D Printer,1,0,2,2
+91,13,3D Printer,1,0,2,2
+92,13,3D Printer,1,0,2,2
+94,13,3D Printer,1,0,2,2
+95,13,3D Printer,1,0,2,2
+96,13,3D Printer,1,0,2,2
+97,13,3D Printer,1,0,2,2
+101,13,3D Printer,1,0,2,2
+102,13,3D Printer,1,0,2,2
+108,13,3D Printer,1,0,2,2
+136,13,3D Printer,1,0,2,2
+142,13,3D Printer,1,0,2,2
+168,13,3D Printer,1,0,2,2
+171,13,3D Printer,1,0,2,2
+187,13,3D Printer,1,0,2,2
+191,13,3D Printer,1,0,2,2
+199,13,3D Printer,1,0,2,2
+232,13,3D Printer,1,0,2,2
+233,13,3D Printer,1,0,2,2
+245,13,3D Printer,1,0,2,2
+8,14,3D Printer,1,1,1,2
+33,14,3D Printer,1,1,1,2
+36,14,3D Printer,1,1,1,2
+50,14,3D Printer,1,1,1,2
+59,14,3D Printer,1,1,1,2
+65,14,3D Printer,1,1,1,2
+73,14,3D Printer,1,1,1,2
+91,14,3D Printer,1,1,1,2
+92,14,3D Printer,1,1,1,2
+94,14,3D Printer,1,1,1,2
+95,14,3D Printer,1,1,1,2
+96,14,3D Printer,1,1,1,2
+97,14,3D Printer,1,1,1,2
+101,14,3D Printer,1,1,1,2
+102,14,3D Printer,1,1,1,2
+108,14,3D Printer,1,1,1,2
+136,14,3D Printer,1,1,1,2
+142,14,3D Printer,1,1,1,2
+168,14,3D Printer,1,1,1,2
+171,14,3D Printer,1,1,1,2
+187,14,3D Printer,1,1,1,2
+191,14,3D Printer,1,1,1,2
+199,14,3D Printer,1,1,1,2
+232,14,3D Printer,1,1,1,2
+233,14,3D Printer,1,1,1,2
+245,14,3D Printer,1,1,1,2
+8,15,3D Printer,1,0,1,2
+33,15,3D Printer,1,0,1,2
+36,15,3D Printer,1,0,1,2
+50,15,3D Printer,1,0,1,2
+59,15,3D Printer,1,0,1,2
+65,15,3D Printer,1,0,1,2
+73,15,3D Printer,1,0,1,2
+91,15,3D Printer,1,0,1,2
+92,15,3D Printer,1,0,1,2
+94,15,3D Printer,1,0,1,2
+95,15,3D Printer,1,0,1,2
+96,15,3D Printer,1,0,1,2
+97,15,3D Printer,1,0,1,2
+101,15,3D Printer,1,0,1,2
+102,15,3D Printer,1,0,1,2
+108,15,3D Printer,1,0,1,2
+136,15,3D Printer,1,0,1,2
+142,15,3D Printer,1,0,1,2
+168,15,3D Printer,1,0,1,2
+171,15,3D Printer,1,0,1,2
+187,15,3D Printer,1,0,1,2
+191,15,3D Printer,1,0,1,2
+199,15,3D Printer,1,0,1,2
+232,15,3D Printer,1,0,1,2
+233,15,3D Printer,1,0,1,2
+245,15,3D Printer,1,0,1,2
+8,16,3D Printer,1,0,2,4
+33,16,3D Printer,1,0,2,4
+36,16,3D Printer,1,0,2,4
+50,16,3D Printer,1,0,2,4
+59,16,3D Printer,1,0,2,4
+65,16,3D Printer,1,0,2,4
+73,16,3D Printer,1,0,2,4
+91,16,3D Printer,1,0,2,4
+92,16,3D Printer,1,0,2,4
+94,16,3D Printer,1,0,2,4
+95,16,3D Printer,1,0,2,4
+96,16,3D Printer,1,0,2,4
+97,16,3D Printer,1,0,2,4
+101,16,3D Printer,1,0,2,4
+102,16,3D Printer,1,0,2,4
+108,16,3D Printer,1,0,2,4
+136,16,3D Printer,1,0,2,4
+142,16,3D Printer,1,0,2,4
+168,16,3D Printer,1,0,2,4
+171,16,3D Printer,1,0,2,4
+187,16,3D Printer,1,0,2,4
+191,16,3D Printer,1,0,2,4
+199,16,3D Printer,1,0,2,4
+232,16,3D Printer,1,0,2,4
+233,16,3D Printer,1,0,2,4
+245,16,3D Printer,1,0,2,4
+8,17,laser cutter,1,1,2,2
+33,17,laser cutter,1,1,2,2
+36,17,laser cutter,1,1,2,2
+50,17,laser cutter,1,1,2,2
+59,17,laser cutter,1,1,2,2
+65,17,laser cutter,1,1,2,2
+73,17,laser cutter,1,1,2,2
+91,17,laser cutter,1,1,2,2
+92,17,laser cutter,1,1,2,2
+94,17,laser cutter,1,1,2,2
+95,17,laser cutter,1,1,2,2
+96,17,laser cutter,1,1,2,2
+97,17,laser cutter,1,1,2,2
+101,17,laser cutter,1,1,2,2
+102,17,laser cutter,1,1,2,2
+108,17,laser cutter,1,1,2,2
+136,17,laser cutter,1,1,2,2
+142,17,laser cutter,1,1,2,2
+168,17,laser cutter,1,1,2,2
+171,17,laser cutter,1,1,2,2
+187,17,laser cutter,1,1,2,2
+191,17,laser cutter,1,1,2,2
+199,17,laser cutter,1,1,2,2
+232,17,laser cutter,1,1,2,2
+233,17,laser cutter,1,1,2,2
+245,17,laser cutter,1,1,2,2
+8,18,water jet cutter,1,1,2,24
+33,18,water jet cutter,1,1,2,24
+36,18,water jet cutter,1,1,2,24
+50,18,water jet cutter,1,1,2,24
+59,18,water jet cutter,1,1,2,24
+65,18,water jet cutter,1,1,2,24
+73,18,water jet cutter,1,1,2,24
+91,18,water jet cutter,1,1,2,24
+92,18,water jet cutter,1,1,2,24
+94,18,water jet cutter,1,1,2,24
+95,18,water jet cutter,1,1,2,24
+96,18,water jet cutter,1,1,2,24
+97,18,water jet cutter,1,1,2,24
+101,18,water jet cutter,1,1,2,24
+102,18,water jet cutter,1,1,2,24
+108,18,water jet cutter,1,1,2,24
+136,18,water jet cutter,1,1,2,24
+142,18,water jet cutter,1,1,2,24
+168,18,water jet cutter,1,1,2,24
+171,18,water jet cutter,1,1,2,24
+187,18,water jet cutter,1,1,2,24
+191,18,water jet cutter,1,1,2,24
+199,18,water jet cutter,1,1,2,24
+232,18,water jet cutter,1,1,2,24
+233,18,water jet cutter,1,1,2,24
+245,18,water jet cutter,1,1,2,24
+8,19,soldering station,1,0,1,4
+33,19,soldering station,1,0,1,4
+36,19,soldering station,1,0,1,4
+50,19,soldering station,1,0,1,4
+59,19,soldering station,1,0,1,4
+65,19,soldering station,1,0,1,4
+73,19,soldering station,1,0,1,4
+91,19,soldering station,1,0,1,4
+92,19,soldering station,1,0,1,4
+94,19,soldering station,1,0,1,4
+95,19,soldering station,1,0,1,4
+96,19,soldering station,1,0,1,4
+97,19,soldering station,1,0,1,4
+101,19,soldering station,1,0,1,4
+102,19,soldering station,1,0,1,4
+108,19,soldering station,1,0,1,4
+136,19,soldering station,1,0,1,4
+142,19,soldering station,1,0,1,4
+168,19,soldering station,1,0,1,4
+171,19,soldering station,1,0,1,4
+187,19,soldering station,1,0,1,4
+191,19,soldering station,1,0,1,4
+199,19,soldering station,1,0,1,4
+232,19,soldering station,1,0,1,4
+233,19,soldering station,1,0,1,4
+245,19,soldering station,1,0,1,4
+8,20,table saw,1,1,1,2
+33,20,table saw,1,1,1,2
+36,20,table saw,1,1,1,2
+50,20,table saw,1,1,1,2
+59,20,table saw,1,1,1,2
+65,20,table saw,1,1,1,2
+73,20,table saw,1,1,1,2
+91,20,table saw,1,1,1,2
+92,20,table saw,1,1,1,2
+94,20,table saw,1,1,1,2
+95,20,table saw,1,1,1,2
+96,20,table saw,1,1,1,2
+97,20,table saw,1,1,1,2
+101,20,table saw,1,1,1,2
+102,20,table saw,1,1,1,2
+108,20,table saw,1,1,1,2
+136,20,table saw,1,1,1,2
+142,20,table saw,1,1,1,2
+168,20,table saw,1,1,1,2
+171,20,table saw,1,1,1,2
+187,20,table saw,1,1,1,2
+191,20,table saw,1,1,1,2
+199,20,table saw,1,1,1,2
+232,20,table saw,1,1,1,2
+233,20,table saw,1,1,1,2
+245,20,table saw,1,1,1,2
+8,21,miter saw,1,1,2,4
+33,21,miter saw,1,1,2,4
+36,21,miter saw,1,1,2,4
+50,21,miter saw,1,1,2,4
+59,21,miter saw,1,1,2,4
+65,21,miter saw,1,1,2,4
+73,21,miter saw,1,1,2,4
+91,21,miter saw,1,1,2,4
+92,21,miter saw,1,1,2,4
+94,21,miter saw,1,1,2,4
+95,21,miter saw,1,1,2,4
+96,21,miter saw,1,1,2,4
+97,21,miter saw,1,1,2,4
+101,21,miter saw,1,1,2,4
+102,21,miter saw,1,1,2,4
+108,21,miter saw,1,1,2,4
+136,21,miter saw,1,1,2,4
+142,21,miter saw,1,1,2,4
+168,21,miter saw,1,1,2,4
+171,21,miter saw,1,1,2,4
+187,21,miter saw,1,1,2,4
+191,21,miter saw,1,1,2,4
+199,21,miter saw,1,1,2,4
+232,21,miter saw,1,1,2,4
+233,21,miter saw,1,1,2,4
+245,21,miter saw,1,1,2,4
+8,22,band saw,1,0,1,2
+33,22,band saw,1,0,1,2
+36,22,band saw,1,0,1,2
+50,22,band saw,1,0,1,2
+59,22,band saw,1,0,1,2
+65,22,band saw,1,0,1,2
+73,22,band saw,1,0,1,2
+91,22,band saw,1,0,1,2
+92,22,band saw,1,0,1,2
+94,22,band saw,1,0,1,2
+95,22,band saw,1,0,1,2
+96,22,band saw,1,0,1,2
+97,22,band saw,1,0,1,2
+101,22,band saw,1,0,1,2
+102,22,band saw,1,0,1,2
+108,22,band saw,1,0,1,2
+136,22,band saw,1,0,1,2
+142,22,band saw,1,0,1,2
+168,22,band saw,1,0,1,2
+171,22,band saw,1,0,1,2
+187,22,band saw,1,0,1,2
+191,22,band saw,1,0,1,2
+199,22,band saw,1,0,1,2
+232,22,band saw,1,0,1,2
+233,22,band saw,1,0,1,2
+245,22,band saw,1,0,1,2
+8,23,belt sander,1,1,1,4
+33,23,belt sander,1,1,1,4
+36,23,belt sander,1,1,1,4
+50,23,belt sander,1,1,1,4
+59,23,belt sander,1,1,1,4
+65,23,belt sander,1,1,1,4
+73,23,belt sander,1,1,1,4
+91,23,belt sander,1,1,1,4
+92,23,belt sander,1,1,1,4
+94,23,belt sander,1,1,1,4
+95,23,belt sander,1,1,1,4
+96,23,belt sander,1,1,1,4
+97,23,belt sander,1,1,1,4
+101,23,belt sander,1,1,1,4
+102,23,belt sander,1,1,1,4
+108,23,belt sander,1,1,1,4
+136,23,belt sander,1,1,1,4
+142,23,belt sander,1,1,1,4
+168,23,belt sander,1,1,1,4
+171,23,belt sander,1,1,1,4
+187,23,belt sander,1,1,1,4
+191,23,belt sander,1,1,1,4
+199,23,belt sander,1,1,1,4
+232,23,belt sander,1,1,1,4
+233,23,belt sander,1,1,1,4
+245,23,belt sander,1,1,1,4
+8,24,cnc router,1,0,2,2
+33,24,cnc router,1,0,2,2
+36,24,cnc router,1,0,2,2
+50,24,cnc router,1,0,2,2
+59,24,cnc router,1,0,2,2
+65,24,cnc router,1,0,2,2
+73,24,cnc router,1,0,2,2
+91,24,cnc router,1,0,2,2
+92,24,cnc router,1,0,2,2
+94,24,cnc router,1,0,2,2
+95,24,cnc router,1,0,2,2
+96,24,cnc router,1,0,2,2
+97,24,cnc router,1,0,2,2
+101,24,cnc router,1,0,2,2
+102,24,cnc router,1,0,2,2
+108,24,cnc router,1,0,2,2
+136,24,cnc router,1,0,2,2
+142,24,cnc router,1,0,2,2
+168,24,cnc router,1,0,2,2
+171,24,cnc router,1,0,2,2
+187,24,cnc router,1,0,2,2
+191,24,cnc router,1,0,2,2
+199,24,cnc router,1,0,2,2
+232,24,cnc router,1,0,2,2
+233,24,cnc router,1,0,2,2
+245,24,cnc router,1,0,2,2
+8,25,drill,1,1,2,4
+33,25,drill,1,1,2,4
+36,25,drill,1,1,2,4
+50,25,drill,1,1,2,4
+59,25,drill,1,1,2,4
+65,25,drill,1,1,2,4
+73,25,drill,1,1,2,4
+91,25,drill,1,1,2,4
+92,25,drill,1,1,2,4
+94,25,drill,1,1,2,4
+95,25,drill,1,1,2,4
+96,25,drill,1,1,2,4
+97,25,drill,1,1,2,4
+101,25,drill,1,1,2,4
+102,25,drill,1,1,2,4
+108,25,drill,1,1,2,4
+136,25,drill,1,1,2,4
+142,25,drill,1,1,2,4
+168,25,drill,1,1,2,4
+171,25,drill,1,1,2,4
+187,25,drill,1,1,2,4
+191,25,drill,1,1,2,4
+199,25,drill,1,1,2,4
+232,25,drill,1,1,2,4
+233,25,drill,1,1,2,4
+245,25,drill,1,1,2,4
+8,26,drill,1,1,2,4
+33,26,drill,1,1,2,4
+36,26,drill,1,1,2,4
+50,26,drill,1,1,2,4
+59,26,drill,1,1,2,4
+65,26,drill,1,1,2,4
+73,26,drill,1,1,2,4
+91,26,drill,1,1,2,4
+92,26,drill,1,1,2,4
+94,26,drill,1,1,2,4
+95,26,drill,1,1,2,4
+96,26,drill,1,1,2,4
+97,26,drill,1,1,2,4
+101,26,drill,1,1,2,4
+102,26,drill,1,1,2,4
+108,26,drill,1,1,2,4
+136,26,drill,1,1,2,4
+142,26,drill,1,1,2,4
+168,26,drill,1,1,2,4
+171,26,drill,1,1,2,4
+187,26,drill,1,1,2,4
+191,26,drill,1,1,2,4
+199,26,drill,1,1,2,4
+232,26,drill,1,1,2,4
+233,26,drill,1,1,2,4
+245,26,drill,1,1,2,4
+8,27,drill,1,1,2,2
+33,27,drill,1,1,2,2
+36,27,drill,1,1,2,2
+50,27,drill,1,1,2,2
+59,27,drill,1,1,2,2
+65,27,drill,1,1,2,2
+73,27,drill,1,1,2,2
+91,27,drill,1,1,2,2
+92,27,drill,1,1,2,2
+94,27,drill,1,1,2,2
+95,27,drill,1,1,2,2
+96,27,drill,1,1,2,2
+97,27,drill,1,1,2,2
+101,27,drill,1,1,2,2
+102,27,drill,1,1,2,2
+108,27,drill,1,1,2,2
+136,27,drill,1,1,2,2
+142,27,drill,1,1,2,2
+168,27,drill,1,1,2,2
+171,27,drill,1,1,2,2
+187,27,drill,1,1,2,2
+191,27,drill,1,1,2,2
+199,27,drill,1,1,2,2
+232,27,drill,1,1,2,2
+233,27,drill,1,1,2,2
+245,27,drill,1,1,2,2
+8,28,drill,1,1,1,2
+33,28,drill,1,1,1,2
+36,28,drill,1,1,1,2
+50,28,drill,1,1,1,2
+59,28,drill,1,1,1,2
+65,28,drill,1,1,1,2
+73,28,drill,1,1,1,2
+91,28,drill,1,1,1,2
+92,28,drill,1,1,1,2
+94,28,drill,1,1,1,2
+95,28,drill,1,1,1,2
+96,28,drill,1,1,1,2
+97,28,drill,1,1,1,2
+101,28,drill,1,1,1,2
+102,28,drill,1,1,1,2
+108,28,drill,1,1,1,2
+136,28,drill,1,1,1,2
+142,28,drill,1,1,1,2
+168,28,drill,1,1,1,2
+171,28,drill,1,1,1,2
+187,28,drill,1,1,1,2
+191,28,drill,1,1,1,2
+199,28,drill,1,1,1,2
+232,28,drill,1,1,1,2
+233,28,drill,1,1,1,2
+245,28,drill,1,1,1,2
+8,29,battery,1,1,1,168
+33,29,battery,1,1,1,168
+36,29,battery,1,1,1,168
+50,29,battery,1,1,1,168
+59,29,battery,1,1,1,168
+65,29,battery,1,1,1,168
+73,29,battery,1,1,1,168
+91,29,battery,1,1,1,168
+92,29,battery,1,1,1,168
+94,29,battery,1,1,1,168
+95,29,battery,1,1,1,168
+96,29,battery,1,1,1,168
+97,29,battery,1,1,1,168
+101,29,battery,1,1,1,168
+102,29,battery,1,1,1,168
+108,29,battery,1,1,1,168
+136,29,battery,1,1,1,168
+142,29,battery,1,1,1,168
+168,29,battery,1,1,1,168
+171,29,battery,1,1,1,168
+187,29,battery,1,1,1,168
+191,29,battery,1,1,1,168
+199,29,battery,1,1,1,168
+232,29,battery,1,1,1,168
+233,29,battery,1,1,1,168
+245,29,battery,1,1,1,168
+8,30,battery,1,1,1,2
+33,30,battery,1,1,1,2
+36,30,battery,1,1,1,2
+50,30,battery,1,1,1,2
+59,30,battery,1,1,1,2
+65,30,battery,1,1,1,2
+73,30,battery,1,1,1,2
+91,30,battery,1,1,1,2
+92,30,battery,1,1,1,2
+94,30,battery,1,1,1,2
+95,30,battery,1,1,1,2
+96,30,battery,1,1,1,2
+97,30,battery,1,1,1,2
+101,30,battery,1,1,1,2
+102,30,battery,1,1,1,2
+108,30,battery,1,1,1,2
+136,30,battery,1,1,1,2
+142,30,battery,1,1,1,2
+168,30,battery,1,1,1,2
+171,30,battery,1,1,1,2
+187,30,battery,1,1,1,2
+191,30,battery,1,1,1,2
+199,30,battery,1,1,1,2
+232,30,battery,1,1,1,2
+233,30,battery,1,1,1,2
+245,30,battery,1,1,1,2
+8,31,battery,1,1,1,2
+33,31,battery,1,1,1,2
+36,31,battery,1,1,1,2
+50,31,battery,1,1,1,2
+59,31,battery,1,1,1,2
+65,31,battery,1,1,1,2
+73,31,battery,1,1,1,2
+91,31,battery,1,1,1,2
+92,31,battery,1,1,1,2
+94,31,battery,1,1,1,2
+95,31,battery,1,1,1,2
+96,31,battery,1,1,1,2
+97,31,battery,1,1,1,2
+101,31,battery,1,1,1,2
+102,31,battery,1,1,1,2
+108,31,battery,1,1,1,2
+136,31,battery,1,1,1,2
+142,31,battery,1,1,1,2
+168,31,battery,1,1,1,2
+171,31,battery,1,1,1,2
+187,31,battery,1,1,1,2
+191,31,battery,1,1,1,2
+199,31,battery,1,1,1,2
+232,31,battery,1,1,1,2
+233,31,battery,1,1,1,2
+245,31,battery,1,1,1,2
+8,32,battery,1,1,2,2
+33,32,battery,1,1,2,2
+36,32,battery,1,1,2,2
+50,32,battery,1,1,2,2
+59,32,battery,1,1,2,2
+65,32,battery,1,1,2,2
+73,32,battery,1,1,2,2
+91,32,battery,1,1,2,2
+92,32,battery,1,1,2,2
+94,32,battery,1,1,2,2
+95,32,battery,1,1,2,2
+96,32,battery,1,1,2,2
+97,32,battery,1,1,2,2
+101,32,battery,1,1,2,2
+102,32,battery,1,1,2,2
+108,32,battery,1,1,2,2
+136,32,battery,1,1,2,2
+142,32,battery,1,1,2,2
+168,32,battery,1,1,2,2
+171,32,battery,1,1,2,2
+187,32,battery,1,1,2,2
+191,32,battery,1,1,2,2
+199,32,battery,1,1,2,2
+232,32,battery,1,1,2,2
+233,32,battery,1,1,2,2
+245,32,battery,1,1,2,2
+8,33,battery,1,1,2,2
+33,33,battery,1,1,2,2
+36,33,battery,1,1,2,2
+50,33,battery,1,1,2,2
+59,33,battery,1,1,2,2
+65,33,battery,1,1,2,2
+73,33,battery,1,1,2,2
+91,33,battery,1,1,2,2
+92,33,battery,1,1,2,2
+94,33,battery,1,1,2,2
+95,33,battery,1,1,2,2
+96,33,battery,1,1,2,2
+97,33,battery,1,1,2,2
+101,33,battery,1,1,2,2
+102,33,battery,1,1,2,2
+108,33,battery,1,1,2,2
+136,33,battery,1,1,2,2
+142,33,battery,1,1,2,2
+168,33,battery,1,1,2,2
+171,33,battery,1,1,2,2
+187,33,battery,1,1,2,2
+191,33,battery,1,1,2,2
+199,33,battery,1,1,2,2
+232,33,battery,1,1,2,2
+233,33,battery,1,1,2,2
+245,33,battery,1,1,2,2
+8,34,battery,1,0,1,168
+33,34,battery,1,0,1,168
+36,34,battery,1,0,1,168
+50,34,battery,1,0,1,168
+59,34,battery,1,0,1,168
+65,34,battery,1,0,1,168
+73,34,battery,1,0,1,168
+91,34,battery,1,0,1,168
+92,34,battery,1,0,1,168
+94,34,battery,1,0,1,168
+95,34,battery,1,0,1,168
+96,34,battery,1,0,1,168
+97,34,battery,1,0,1,168
+101,34,battery,1,0,1,168
+102,34,battery,1,0,1,168
+108,34,battery,1,0,1,168
+136,34,battery,1,0,1,168
+142,34,battery,1,0,1,168
+168,34,battery,1,0,1,168
+171,34,battery,1,0,1,168
+187,34,battery,1,0,1,168
+191,34,battery,1,0,1,168
+199,34,battery,1,0,1,168
+232,34,battery,1,0,1,168
+233,34,battery,1,0,1,168
+245,34,battery,1,0,1,168
+8,35,battery,1,1,1,4
+33,35,battery,1,1,1,4
+36,35,battery,1,1,1,4
+50,35,battery,1,1,1,4
+59,35,battery,1,1,1,4
+65,35,battery,1,1,1,4
+73,35,battery,1,1,1,4
+91,35,battery,1,1,1,4
+92,35,battery,1,1,1,4
+94,35,battery,1,1,1,4
+95,35,battery,1,1,1,4
+96,35,battery,1,1,1,4
+97,35,battery,1,1,1,4
+101,35,battery,1,1,1,4
+102,35,battery,1,1,1,4
+108,35,battery,1,1,1,4
+136,35,battery,1,1,1,4
+142,35,battery,1,1,1,4
+168,35,battery,1,1,1,4
+171,35,battery,1,1,1,4
+187,35,battery,1,1,1,4
+191,35,battery,1,1,1,4
+199,35,battery,1,1,1,4
+232,35,battery,1,1,1,4
+233,35,battery,1,1,1,4
+245,35,battery,1,1,1,4
+8,36,battery,1,0,2,24
+33,36,battery,1,0,2,24
+36,36,battery,1,0,2,24
+50,36,battery,1,0,2,24
+59,36,battery,1,0,2,24
+65,36,battery,1,0,2,24
+73,36,battery,1,0,2,24
+91,36,battery,1,0,2,24
+92,36,battery,1,0,2,24
+94,36,battery,1,0,2,24
+95,36,battery,1,0,2,24
+96,36,battery,1,0,2,24
+97,36,battery,1,0,2,24
+101,36,battery,1,0,2,24
+102,36,battery,1,0,2,24
+108,36,battery,1,0,2,24
+136,36,battery,1,0,2,24
+142,36,battery,1,0,2,24
+168,36,battery,1,0,2,24
+171,36,battery,1,0,2,24
+187,36,battery,1,0,2,24
+191,36,battery,1,0,2,24
+199,36,battery,1,0,2,24
+232,36,battery,1,0,2,24
+233,36,battery,1,0,2,24
+245,36,battery,1,0,2,24
+8,37,clamp,1,1,2,24
+33,37,clamp,1,1,2,24
+36,37,clamp,1,1,2,24
+50,37,clamp,1,1,2,24
+59,37,clamp,1,1,2,24
+65,37,clamp,1,1,2,24
+73,37,clamp,1,1,2,24
+91,37,clamp,1,1,2,24
+92,37,clamp,1,1,2,24
+94,37,clamp,1,1,2,24
+95,37,clamp,1,1,2,24
+96,37,clamp,1,1,2,24
+97,37,clamp,1,1,2,24
+101,37,clamp,1,1,2,24
+102,37,clamp,1,1,2,24
+108,37,clamp,1,1,2,24
+136,37,clamp,1,1,2,24
+142,37,clamp,1,1,2,24
+168,37,clamp,1,1,2,24
+171,37,clamp,1,1,2,24
+187,37,clamp,1,1,2,24
+191,37,clamp,1,1,2,24
+199,37,clamp,1,1,2,24
+232,37,clamp,1,1,2,24
+233,37,clamp,1,1,2,24
+245,37,clamp,1,1,2,24
+8,38,pliers,1,1,2,24
+33,38,pliers,1,1,2,24
+36,38,pliers,1,1,2,24
+50,38,pliers,1,1,2,24
+59,38,pliers,1,1,2,24
+65,38,pliers,1,1,2,24
+73,38,pliers,1,1,2,24
+91,38,pliers,1,1,2,24
+92,38,pliers,1,1,2,24
+94,38,pliers,1,1,2,24
+95,38,pliers,1,1,2,24
+96,38,pliers,1,1,2,24
+97,38,pliers,1,1,2,24
+101,38,pliers,1,1,2,24
+102,38,pliers,1,1,2,24
+108,38,pliers,1,1,2,24
+136,38,pliers,1,1,2,24
+142,38,pliers,1,1,2,24
+168,38,pliers,1,1,2,24
+171,38,pliers,1,1,2,24
+187,38,pliers,1,1,2,24
+191,38,pliers,1,1,2,24
+199,38,pliers,1,1,2,24
+232,38,pliers,1,1,2,24
+233,38,pliers,1,1,2,24
+245,38,pliers,1,1,2,24
+8,39,scissors,1,1,2,2
+33,39,scissors,1,1,2,2
+36,39,scissors,1,1,2,2
+50,39,scissors,1,1,2,2
+59,39,scissors,1,1,2,2
+65,39,scissors,1,1,2,2
+73,39,scissors,1,1,2,2
+91,39,scissors,1,1,2,2
+92,39,scissors,1,1,2,2
+94,39,scissors,1,1,2,2
+95,39,scissors,1,1,2,2
+96,39,scissors,1,1,2,2
+97,39,scissors,1,1,2,2
+101,39,scissors,1,1,2,2
+102,39,scissors,1,1,2,2
+108,39,scissors,1,1,2,2
+136,39,scissors,1,1,2,2
+142,39,scissors,1,1,2,2
+168,39,scissors,1,1,2,2
+171,39,scissors,1,1,2,2
+187,39,scissors,1,1,2,2
+191,39,scissors,1,1,2,2
+199,39,scissors,1,1,2,2
+232,39,scissors,1,1,2,2
+233,39,scissors,1,1,2,2
+245,39,scissors,1,1,2,2
+8,40,clamp,1,0,2,2
+33,40,clamp,1,0,2,2
+36,40,clamp,1,0,2,2
+50,40,clamp,1,0,2,2
+59,40,clamp,1,0,2,2
+65,40,clamp,1,0,2,2
+73,40,clamp,1,0,2,2
+91,40,clamp,1,0,2,2
+92,40,clamp,1,0,2,2
+94,40,clamp,1,0,2,2
+95,40,clamp,1,0,2,2
+96,40,clamp,1,0,2,2
+97,40,clamp,1,0,2,2
+101,40,clamp,1,0,2,2
+102,40,clamp,1,0,2,2
+108,40,clamp,1,0,2,2
+136,40,clamp,1,0,2,2
+142,40,clamp,1,0,2,2
+168,40,clamp,1,0,2,2
+171,40,clamp,1,0,2,2
+187,40,clamp,1,0,2,2
+191,40,clamp,1,0,2,2
+199,40,clamp,1,0,2,2
+232,40,clamp,1,0,2,2
+233,40,clamp,1,0,2,2
+245,40,clamp,1,0,2,2
+8,41,pliers,1,1,1,2
+33,41,pliers,1,1,1,2
+36,41,pliers,1,1,1,2
+50,41,pliers,1,1,1,2
+59,41,pliers,1,1,1,2
+65,41,pliers,1,1,1,2
+73,41,pliers,1,1,1,2
+91,41,pliers,1,1,1,2
+92,41,pliers,1,1,1,2
+94,41,pliers,1,1,1,2
+95,41,pliers,1,1,1,2
+96,41,pliers,1,1,1,2
+97,41,pliers,1,1,1,2
+101,41,pliers,1,1,1,2
+102,41,pliers,1,1,1,2
+108,41,pliers,1,1,1,2
+136,41,pliers,1,1,1,2
+142,41,pliers,1,1,1,2
+168,41,pliers,1,1,1,2
+171,41,pliers,1,1,1,2
+187,41,pliers,1,1,1,2
+191,41,pliers,1,1,1,2
+199,41,pliers,1,1,1,2
+232,41,pliers,1,1,1,2
+233,41,pliers,1,1,1,2
+245,41,pliers,1,1,1,2
+8,42,scissors,1,1,1,2
+33,42,scissors,1,1,1,2
+36,42,scissors,1,1,1,2
+50,42,scissors,1,1,1,2
+59,42,scissors,1,1,1,2
+65,42,scissors,1,1,1,2
+73,42,scissors,1,1,1,2
+91,42,scissors,1,1,1,2
+92,42,scissors,1,1,1,2
+94,42,scissors,1,1,1,2
+95,42,scissors,1,1,1,2
+96,42,scissors,1,1,1,2
+97,42,scissors,1,1,1,2
+101,42,scissors,1,1,1,2
+102,42,scissors,1,1,1,2
+108,42,scissors,1,1,1,2
+136,42,scissors,1,1,1,2
+142,42,scissors,1,1,1,2
+168,42,scissors,1,1,1,2
+171,42,scissors,1,1,1,2
+187,42,scissors,1,1,1,2
+191,42,scissors,1,1,1,2
+199,42,scissors,1,1,1,2
+232,42,scissors,1,1,1,2
+233,42,scissors,1,1,1,2
+245,42,scissors,1,1,1,2
+8,43,clamp,1,1,1,2
+33,43,clamp,1,1,1,2
+36,43,clamp,1,1,1,2
+50,43,clamp,1,1,1,2
+59,43,clamp,1,1,1,2
+65,43,clamp,1,1,1,2
+73,43,clamp,1,1,1,2
+91,43,clamp,1,1,1,2
+92,43,clamp,1,1,1,2
+94,43,clamp,1,1,1,2
+95,43,clamp,1,1,1,2
+96,43,clamp,1,1,1,2
+97,43,clamp,1,1,1,2
+101,43,clamp,1,1,1,2
+102,43,clamp,1,1,1,2
+108,43,clamp,1,1,1,2
+136,43,clamp,1,1,1,2
+142,43,clamp,1,1,1,2
+168,43,clamp,1,1,1,2
+171,43,clamp,1,1,1,2
+187,43,clamp,1,1,1,2
+191,43,clamp,1,1,1,2
+199,43,clamp,1,1,1,2
+232,43,clamp,1,1,1,2
+233,43,clamp,1,1,1,2
+245,43,clamp,1,1,1,2
+8,44,pliers,1,1,2,2
+33,44,pliers,1,1,2,2
+36,44,pliers,1,1,2,2
+50,44,pliers,1,1,2,2
+59,44,pliers,1,1,2,2
+65,44,pliers,1,1,2,2
+73,44,pliers,1,1,2,2
+91,44,pliers,1,1,2,2
+92,44,pliers,1,1,2,2
+94,44,pliers,1,1,2,2
+95,44,pliers,1,1,2,2
+96,44,pliers,1,1,2,2
+97,44,pliers,1,1,2,2
+101,44,pliers,1,1,2,2
+102,44,pliers,1,1,2,2
+108,44,pliers,1,1,2,2
+136,44,pliers,1,1,2,2
+142,44,pliers,1,1,2,2
+168,44,pliers,1,1,2,2
+171,44,pliers,1,1,2,2
+187,44,pliers,1,1,2,2
+191,44,pliers,1,1,2,2
+199,44,pliers,1,1,2,2
+232,44,pliers,1,1,2,2
+233,44,pliers,1,1,2,2
+245,44,pliers,1,1,2,2
+8,45,scissors,1,1,2,2
+33,45,scissors,1,1,2,2
+36,45,scissors,1,1,2,2
+50,45,scissors,1,1,2,2
+59,45,scissors,1,1,2,2
+65,45,scissors,1,1,2,2
+73,45,scissors,1,1,2,2
+91,45,scissors,1,1,2,2
+92,45,scissors,1,1,2,2
+94,45,scissors,1,1,2,2
+95,45,scissors,1,1,2,2
+96,45,scissors,1,1,2,2
+97,45,scissors,1,1,2,2
+101,45,scissors,1,1,2,2
+102,45,scissors,1,1,2,2
+108,45,scissors,1,1,2,2
+136,45,scissors,1,1,2,2
+142,45,scissors,1,1,2,2
+168,45,scissors,1,1,2,2
+171,45,scissors,1,1,2,2
+187,45,scissors,1,1,2,2
+191,45,scissors,1,1,2,2
+199,45,scissors,1,1,2,2
+232,45,scissors,1,1,2,2
+233,45,scissors,1,1,2,2
+245,45,scissors,1,1,2,2
+8,46,clamp,1,1,2,24
+33,46,clamp,1,1,2,24
+36,46,clamp,1,1,2,24
+50,46,clamp,1,1,2,24
+59,46,clamp,1,1,2,24
+65,46,clamp,1,1,2,24
+73,46,clamp,1,1,2,24
+91,46,clamp,1,1,2,24
+92,46,clamp,1,1,2,24
+94,46,clamp,1,1,2,24
+95,46,clamp,1,1,2,24
+96,46,clamp,1,1,2,24
+97,46,clamp,1,1,2,24
+101,46,clamp,1,1,2,24
+102,46,clamp,1,1,2,24
+108,46,clamp,1,1,2,24
+136,46,clamp,1,1,2,24
+142,46,clamp,1,1,2,24
+168,46,clamp,1,1,2,24
+171,46,clamp,1,1,2,24
+187,46,clamp,1,1,2,24
+191,46,clamp,1,1,2,24
+199,46,clamp,1,1,2,24
+232,46,clamp,1,1,2,24
+233,46,clamp,1,1,2,24
+245,46,clamp,1,1,2,24
+8,47,pliers,1,1,1,4
+33,47,pliers,1,1,1,4
+36,47,pliers,1,1,1,4
+50,47,pliers,1,1,1,4
+59,47,pliers,1,1,1,4
+65,47,pliers,1,1,1,4
+73,47,pliers,1,1,1,4
+91,47,pliers,1,1,1,4
+92,47,pliers,1,1,1,4
+94,47,pliers,1,1,1,4
+95,47,pliers,1,1,1,4
+96,47,pliers,1,1,1,4
+97,47,pliers,1,1,1,4
+101,47,pliers,1,1,1,4
+102,47,pliers,1,1,1,4
+108,47,pliers,1,1,1,4
+136,47,pliers,1,1,1,4
+142,47,pliers,1,1,1,4
+168,47,pliers,1,1,1,4
+171,47,pliers,1,1,1,4
+187,47,pliers,1,1,1,4
+191,47,pliers,1,1,1,4
+199,47,pliers,1,1,1,4
+232,47,pliers,1,1,1,4
+233,47,pliers,1,1,1,4
+245,47,pliers,1,1,1,4
+8,48,scissors,1,0,1,4
+33,48,scissors,1,0,1,4
+36,48,scissors,1,0,1,4
+50,48,scissors,1,0,1,4
+59,48,scissors,1,0,1,4
+65,48,scissors,1,0,1,4
+73,48,scissors,1,0,1,4
+91,48,scissors,1,0,1,4
+92,48,scissors,1,0,1,4
+94,48,scissors,1,0,1,4
+95,48,scissors,1,0,1,4
+96,48,scissors,1,0,1,4
+97,48,scissors,1,0,1,4
+101,48,scissors,1,0,1,4
+102,48,scissors,1,0,1,4
+108,48,scissors,1,0,1,4
+136,48,scissors,1,0,1,4
+142,48,scissors,1,0,1,4
+168,48,scissors,1,0,1,4
+171,48,scissors,1,0,1,4
+187,48,scissors,1,0,1,4
+191,48,scissors,1,0,1,4
+199,48,scissors,1,0,1,4
+232,48,scissors,1,0,1,4
+233,48,scissors,1,0,1,4
+245,48,scissors,1,0,1,4
+8,49,clamp,1,0,1,24
+33,49,clamp,1,0,1,24
+36,49,clamp,1,0,1,24
+50,49,clamp,1,0,1,24
+59,49,clamp,1,0,1,24
+65,49,clamp,1,0,1,24
+73,49,clamp,1,0,1,24
+91,49,clamp,1,0,1,24
+92,49,clamp,1,0,1,24
+94,49,clamp,1,0,1,24
+95,49,clamp,1,0,1,24
+96,49,clamp,1,0,1,24
+97,49,clamp,1,0,1,24
+101,49,clamp,1,0,1,24
+102,49,clamp,1,0,1,24
+108,49,clamp,1,0,1,24
+136,49,clamp,1,0,1,24
+142,49,clamp,1,0,1,24
+168,49,clamp,1,0,1,24
+171,49,clamp,1,0,1,24
+187,49,clamp,1,0,1,24
+191,49,clamp,1,0,1,24
+199,49,clamp,1,0,1,24
+232,49,clamp,1,0,1,24
+233,49,clamp,1,0,1,24
+245,49,clamp,1,0,1,24
+8,50,pliers,1,1,2,24
+33,50,pliers,1,1,2,24
+36,50,pliers,1,1,2,24
+50,50,pliers,1,1,2,24
+59,50,pliers,1,1,2,24
+65,50,pliers,1,1,2,24
+73,50,pliers,1,1,2,24
+91,50,pliers,1,1,2,24
+92,50,pliers,1,1,2,24
+94,50,pliers,1,1,2,24
+95,50,pliers,1,1,2,24
+96,50,pliers,1,1,2,24
+97,50,pliers,1,1,2,24
+101,50,pliers,1,1,2,24
+102,50,pliers,1,1,2,24
+108,50,pliers,1,1,2,24
+136,50,pliers,1,1,2,24
+142,50,pliers,1,1,2,24
+168,50,pliers,1,1,2,24
+171,50,pliers,1,1,2,24
+187,50,pliers,1,1,2,24
+191,50,pliers,1,1,2,24
+199,50,pliers,1,1,2,24
+232,50,pliers,1,1,2,24
+233,50,pliers,1,1,2,24
+245,50,pliers,1,1,2,24
+8,51,scissors,1,1,2,2
+33,51,scissors,1,1,2,2
+36,51,scissors,1,1,2,2
+50,51,scissors,1,1,2,2
+59,51,scissors,1,1,2,2
+65,51,scissors,1,1,2,2
+73,51,scissors,1,1,2,2
+91,51,scissors,1,1,2,2
+92,51,scissors,1,1,2,2
+94,51,scissors,1,1,2,2
+95,51,scissors,1,1,2,2
+96,51,scissors,1,1,2,2
+97,51,scissors,1,1,2,2
+101,51,scissors,1,1,2,2
+102,51,scissors,1,1,2,2
+108,51,scissors,1,1,2,2
+136,51,scissors,1,1,2,2
+142,51,scissors,1,1,2,2
+168,51,scissors,1,1,2,2
+171,51,scissors,1,1,2,2
+187,51,scissors,1,1,2,2
+191,51,scissors,1,1,2,2
+199,51,scissors,1,1,2,2
+232,51,scissors,1,1,2,2
+233,51,scissors,1,1,2,2
+245,51,scissors,1,1,2,2
+8,52,clamp,1,1,1,168
+33,52,clamp,1,1,1,168
+36,52,clamp,1,1,1,168
+50,52,clamp,1,1,1,168
+59,52,clamp,1,1,1,168
+65,52,clamp,1,1,1,168
+73,52,clamp,1,1,1,168
+91,52,clamp,1,1,1,168
+92,52,clamp,1,1,1,168
+94,52,clamp,1,1,1,168
+95,52,clamp,1,1,1,168
+96,52,clamp,1,1,1,168
+97,52,clamp,1,1,1,168
+101,52,clamp,1,1,1,168
+102,52,clamp,1,1,1,168
+108,52,clamp,1,1,1,168
+136,52,clamp,1,1,1,168
+142,52,clamp,1,1,1,168
+168,52,clamp,1,1,1,168
+171,52,clamp,1,1,1,168
+187,52,clamp,1,1,1,168
+191,52,clamp,1,1,1,168
+199,52,clamp,1,1,1,168
+232,52,clamp,1,1,1,168
+233,52,clamp,1,1,1,168
+245,52,clamp,1,1,1,168
+8,53,pliers,1,1,1,2
+33,53,pliers,1,1,1,2
+36,53,pliers,1,1,1,2
+50,53,pliers,1,1,1,2
+59,53,pliers,1,1,1,2
+65,53,pliers,1,1,1,2
+73,53,pliers,1,1,1,2
+91,53,pliers,1,1,1,2
+92,53,pliers,1,1,1,2
+94,53,pliers,1,1,1,2
+95,53,pliers,1,1,1,2
+96,53,pliers,1,1,1,2
+97,53,pliers,1,1,1,2
+101,53,pliers,1,1,1,2
+102,53,pliers,1,1,1,2
+108,53,pliers,1,1,1,2
+136,53,pliers,1,1,1,2
+142,53,pliers,1,1,1,2
+168,53,pliers,1,1,1,2
+171,53,pliers,1,1,1,2
+187,53,pliers,1,1,1,2
+191,53,pliers,1,1,1,2
+199,53,pliers,1,1,1,2
+232,53,pliers,1,1,1,2
+233,53,pliers,1,1,1,2
+245,53,pliers,1,1,1,2
+8,54,scissors,1,0,2,2
+33,54,scissors,1,0,2,2
+36,54,scissors,1,0,2,2
+50,54,scissors,1,0,2,2
+59,54,scissors,1,0,2,2
+65,54,scissors,1,0,2,2
+73,54,scissors,1,0,2,2
+91,54,scissors,1,0,2,2
+92,54,scissors,1,0,2,2
+94,54,scissors,1,0,2,2
+95,54,scissors,1,0,2,2
+96,54,scissors,1,0,2,2
+97,54,scissors,1,0,2,2
+101,54,scissors,1,0,2,2
+102,54,scissors,1,0,2,2
+108,54,scissors,1,0,2,2
+136,54,scissors,1,0,2,2
+142,54,scissors,1,0,2,2
+168,54,scissors,1,0,2,2
+171,54,scissors,1,0,2,2
+187,54,scissors,1,0,2,2
+191,54,scissors,1,0,2,2
+199,54,scissors,1,0,2,2
+232,54,scissors,1,0,2,2
+233,54,scissors,1,0,2,2
+245,54,scissors,1,0,2,2
+8,55,clamp,1,1,1,24
+33,55,clamp,1,1,1,24
+36,55,clamp,1,1,1,24
+50,55,clamp,1,1,1,24
+59,55,clamp,1,1,1,24
+65,55,clamp,1,1,1,24
+73,55,clamp,1,1,1,24
+91,55,clamp,1,1,1,24
+92,55,clamp,1,1,1,24
+94,55,clamp,1,1,1,24
+95,55,clamp,1,1,1,24
+96,55,clamp,1,1,1,24
+97,55,clamp,1,1,1,24
+101,55,clamp,1,1,1,24
+102,55,clamp,1,1,1,24
+108,55,clamp,1,1,1,24
+136,55,clamp,1,1,1,24
+142,55,clamp,1,1,1,24
+168,55,clamp,1,1,1,24
+171,55,clamp,1,1,1,24
+187,55,clamp,1,1,1,24
+191,55,clamp,1,1,1,24
+199,55,clamp,1,1,1,24
+232,55,clamp,1,1,1,24
+233,55,clamp,1,1,1,24
+245,55,clamp,1,1,1,24
+8,56,pliers,1,0,1,24
+33,56,pliers,1,0,1,24
+36,56,pliers,1,0,1,24
+50,56,pliers,1,0,1,24
+59,56,pliers,1,0,1,24
+65,56,pliers,1,0,1,24
+73,56,pliers,1,0,1,24
+91,56,pliers,1,0,1,24
+92,56,pliers,1,0,1,24
+94,56,pliers,1,0,1,24
+95,56,pliers,1,0,1,24
+96,56,pliers,1,0,1,24
+97,56,pliers,1,0,1,24
+101,56,pliers,1,0,1,24
+102,56,pliers,1,0,1,24
+108,56,pliers,1,0,1,24
+136,56,pliers,1,0,1,24
+142,56,pliers,1,0,1,24
+168,56,pliers,1,0,1,24
+171,56,pliers,1,0,1,24
+187,56,pliers,1,0,1,24
+191,56,pliers,1,0,1,24
+199,56,pliers,1,0,1,24
+232,56,pliers,1,0,1,24
+233,56,pliers,1,0,1,24
+245,56,pliers,1,0,1,24
+8,57,scissors,1,0,1,2
+33,57,scissors,1,0,1,2
+36,57,scissors,1,0,1,2
+50,57,scissors,1,0,1,2
+59,57,scissors,1,0,1,2
+65,57,scissors,1,0,1,2
+73,57,scissors,1,0,1,2
+91,57,scissors,1,0,1,2
+92,57,scissors,1,0,1,2
+94,57,scissors,1,0,1,2
+95,57,scissors,1,0,1,2
+96,57,scissors,1,0,1,2
+97,57,scissors,1,0,1,2
+101,57,scissors,1,0,1,2
+102,57,scissors,1,0,1,2
+108,57,scissors,1,0,1,2
+136,57,scissors,1,0,1,2
+142,57,scissors,1,0,1,2
+168,57,scissors,1,0,1,2
+171,57,scissors,1,0,1,2
+187,57,scissors,1,0,1,2
+191,57,scissors,1,0,1,2
+199,57,scissors,1,0,1,2
+232,57,scissors,1,0,1,2
+233,57,scissors,1,0,1,2
+245,57,scissors,1,0,1,2
+8,58,clamp,1,1,1,4
+33,58,clamp,1,1,1,4
+36,58,clamp,1,1,1,4
+50,58,clamp,1,1,1,4
+59,58,clamp,1,1,1,4
+65,58,clamp,1,1,1,4
+73,58,clamp,1,1,1,4
+91,58,clamp,1,1,1,4
+92,58,clamp,1,1,1,4
+94,58,clamp,1,1,1,4
+95,58,clamp,1,1,1,4
+96,58,clamp,1,1,1,4
+97,58,clamp,1,1,1,4
+101,58,clamp,1,1,1,4
+102,58,clamp,1,1,1,4
+108,58,clamp,1,1,1,4
+136,58,clamp,1,1,1,4
+142,58,clamp,1,1,1,4
+168,58,clamp,1,1,1,4
+171,58,clamp,1,1,1,4
+187,58,clamp,1,1,1,4
+191,58,clamp,1,1,1,4
+199,58,clamp,1,1,1,4
+232,58,clamp,1,1,1,4
+233,58,clamp,1,1,1,4
+245,58,clamp,1,1,1,4
+8,59,pliers,1,1,1,4
+33,59,pliers,1,1,1,4
+36,59,pliers,1,1,1,4
+50,59,pliers,1,1,1,4
+59,59,pliers,1,1,1,4
+65,59,pliers,1,1,1,4
+73,59,pliers,1,1,1,4
+91,59,pliers,1,1,1,4
+92,59,pliers,1,1,1,4
+94,59,pliers,1,1,1,4
+95,59,pliers,1,1,1,4
+96,59,pliers,1,1,1,4
+97,59,pliers,1,1,1,4
+101,59,pliers,1,1,1,4
+102,59,pliers,1,1,1,4
+108,59,pliers,1,1,1,4
+136,59,pliers,1,1,1,4
+142,59,pliers,1,1,1,4
+168,59,pliers,1,1,1,4
+171,59,pliers,1,1,1,4
+187,59,pliers,1,1,1,4
+191,59,pliers,1,1,1,4
+199,59,pliers,1,1,1,4
+232,59,pliers,1,1,1,4
+233,59,pliers,1,1,1,4
+245,59,pliers,1,1,1,4
+8,60,scissors,1,1,1,2
+33,60,scissors,1,1,1,2
+36,60,scissors,1,1,1,2
+50,60,scissors,1,1,1,2
+59,60,scissors,1,1,1,2
+65,60,scissors,1,1,1,2
+73,60,scissors,1,1,1,2
+91,60,scissors,1,1,1,2
+92,60,scissors,1,1,1,2
+94,60,scissors,1,1,1,2
+95,60,scissors,1,1,1,2
+96,60,scissors,1,1,1,2
+97,60,scissors,1,1,1,2
+101,60,scissors,1,1,1,2
+102,60,scissors,1,1,1,2
+108,60,scissors,1,1,1,2
+136,60,scissors,1,1,1,2
+142,60,scissors,1,1,1,2
+168,60,scissors,1,1,1,2
+171,60,scissors,1,1,1,2
+187,60,scissors,1,1,1,2
+191,60,scissors,1,1,1,2
+199,60,scissors,1,1,1,2
+232,60,scissors,1,1,1,2
+233,60,scissors,1,1,1,2
+245,60,scissors,1,1,1,2
+8,61,clamp,1,1,2,2
+33,61,clamp,1,1,2,2
+36,61,clamp,1,1,2,2
+50,61,clamp,1,1,2,2
+59,61,clamp,1,1,2,2
+65,61,clamp,1,1,2,2
+73,61,clamp,1,1,2,2
+91,61,clamp,1,1,2,2
+92,61,clamp,1,1,2,2
+94,61,clamp,1,1,2,2
+95,61,clamp,1,1,2,2
+96,61,clamp,1,1,2,2
+97,61,clamp,1,1,2,2
+101,61,clamp,1,1,2,2
+102,61,clamp,1,1,2,2
+108,61,clamp,1,1,2,2
+136,61,clamp,1,1,2,2
+142,61,clamp,1,1,2,2
+168,61,clamp,1,1,2,2
+171,61,clamp,1,1,2,2
+187,61,clamp,1,1,2,2
+191,61,clamp,1,1,2,2
+199,61,clamp,1,1,2,2
+232,61,clamp,1,1,2,2
+233,61,clamp,1,1,2,2
+245,61,clamp,1,1,2,2
+8,62,pliers,1,0,1,24
+33,62,pliers,1,0,1,24
+36,62,pliers,1,0,1,24
+50,62,pliers,1,0,1,24
+59,62,pliers,1,0,1,24
+65,62,pliers,1,0,1,24
+73,62,pliers,1,0,1,24
+91,62,pliers,1,0,1,24
+92,62,pliers,1,0,1,24
+94,62,pliers,1,0,1,24
+95,62,pliers,1,0,1,24
+96,62,pliers,1,0,1,24
+97,62,pliers,1,0,1,24
+101,62,pliers,1,0,1,24
+102,62,pliers,1,0,1,24
+108,62,pliers,1,0,1,24
+136,62,pliers,1,0,1,24
+142,62,pliers,1,0,1,24
+168,62,pliers,1,0,1,24
+171,62,pliers,1,0,1,24
+187,62,pliers,1,0,1,24
+191,62,pliers,1,0,1,24
+199,62,pliers,1,0,1,24
+232,62,pliers,1,0,1,24
+233,62,pliers,1,0,1,24
+245,62,pliers,1,0,1,24
+8,63,scissors,1,1,1,2
+33,63,scissors,1,1,1,2
+36,63,scissors,1,1,1,2
+50,63,scissors,1,1,1,2
+59,63,scissors,1,1,1,2
+65,63,scissors,1,1,1,2
+73,63,scissors,1,1,1,2
+91,63,scissors,1,1,1,2
+92,63,scissors,1,1,1,2
+94,63,scissors,1,1,1,2
+95,63,scissors,1,1,1,2
+96,63,scissors,1,1,1,2
+97,63,scissors,1,1,1,2
+101,63,scissors,1,1,1,2
+102,63,scissors,1,1,1,2
+108,63,scissors,1,1,1,2
+136,63,scissors,1,1,1,2
+142,63,scissors,1,1,1,2
+168,63,scissors,1,1,1,2
+171,63,scissors,1,1,1,2
+187,63,scissors,1,1,1,2
+191,63,scissors,1,1,1,2
+199,63,scissors,1,1,1,2
+232,63,scissors,1,1,1,2
+233,63,scissors,1,1,1,2
+245,63,scissors,1,1,1,2
+8,64,clamp,1,1,2,2
+33,64,clamp,1,1,2,2
+36,64,clamp,1,1,2,2
+50,64,clamp,1,1,2,2
+59,64,clamp,1,1,2,2
+65,64,clamp,1,1,2,2
+73,64,clamp,1,1,2,2
+91,64,clamp,1,1,2,2
+92,64,clamp,1,1,2,2
+94,64,clamp,1,1,2,2
+95,64,clamp,1,1,2,2
+96,64,clamp,1,1,2,2
+97,64,clamp,1,1,2,2
+101,64,clamp,1,1,2,2
+102,64,clamp,1,1,2,2
+108,64,clamp,1,1,2,2
+136,64,clamp,1,1,2,2
+142,64,clamp,1,1,2,2
+168,64,clamp,1,1,2,2
+171,64,clamp,1,1,2,2
+187,64,clamp,1,1,2,2
+191,64,clamp,1,1,2,2
+199,64,clamp,1,1,2,2
+232,64,clamp,1,1,2,2
+233,64,clamp,1,1,2,2
+245,64,clamp,1,1,2,2
+8,65,pliers,1,0,1,2
+33,65,pliers,1,0,1,2
+36,65,pliers,1,0,1,2
+50,65,pliers,1,0,1,2
+59,65,pliers,1,0,1,2
+65,65,pliers,1,0,1,2
+73,65,pliers,1,0,1,2
+91,65,pliers,1,0,1,2
+92,65,pliers,1,0,1,2
+94,65,pliers,1,0,1,2
+95,65,pliers,1,0,1,2
+96,65,pliers,1,0,1,2
+97,65,pliers,1,0,1,2
+101,65,pliers,1,0,1,2
+102,65,pliers,1,0,1,2
+108,65,pliers,1,0,1,2
+136,65,pliers,1,0,1,2
+142,65,pliers,1,0,1,2
+168,65,pliers,1,0,1,2
+171,65,pliers,1,0,1,2
+187,65,pliers,1,0,1,2
+191,65,pliers,1,0,1,2
+199,65,pliers,1,0,1,2
+232,65,pliers,1,0,1,2
+233,65,pliers,1,0,1,2
+245,65,pliers,1,0,1,2
+8,66,scissors,1,1,1,4
+33,66,scissors,1,1,1,4
+36,66,scissors,1,1,1,4
+50,66,scissors,1,1,1,4
+59,66,scissors,1,1,1,4
+65,66,scissors,1,1,1,4
+73,66,scissors,1,1,1,4
+91,66,scissors,1,1,1,4
+92,66,scissors,1,1,1,4
+94,66,scissors,1,1,1,4
+95,66,scissors,1,1,1,4
+96,66,scissors,1,1,1,4
+97,66,scissors,1,1,1,4
+101,66,scissors,1,1,1,4
+102,66,scissors,1,1,1,4
+108,66,scissors,1,1,1,4
+136,66,scissors,1,1,1,4
+142,66,scissors,1,1,1,4
+168,66,scissors,1,1,1,4
+171,66,scissors,1,1,1,4
+187,66,scissors,1,1,1,4
+191,66,scissors,1,1,1,4
+199,66,scissors,1,1,1,4
+232,66,scissors,1,1,1,4
+233,66,scissors,1,1,1,4
+245,66,scissors,1,1,1,4
+8,67,hammer,1,1,1,4
+33,67,hammer,1,1,1,4
+36,67,hammer,1,1,1,4
+50,67,hammer,1,1,1,4
+59,67,hammer,1,1,1,4
+65,67,hammer,1,1,1,4
+73,67,hammer,1,1,1,4
+91,67,hammer,1,1,1,4
+92,67,hammer,1,1,1,4
+94,67,hammer,1,1,1,4
+95,67,hammer,1,1,1,4
+96,67,hammer,1,1,1,4
+97,67,hammer,1,1,1,4
+101,67,hammer,1,1,1,4
+102,67,hammer,1,1,1,4
+108,67,hammer,1,1,1,4
+136,67,hammer,1,1,1,4
+142,67,hammer,1,1,1,4
+168,67,hammer,1,1,1,4
+171,67,hammer,1,1,1,4
+187,67,hammer,1,1,1,4
+191,67,hammer,1,1,1,4
+199,67,hammer,1,1,1,4
+232,67,hammer,1,1,1,4
+233,67,hammer,1,1,1,4
+245,67,hammer,1,1,1,4
+8,68,allen keys,1,1,2,4
+33,68,allen keys,1,1,2,4
+36,68,allen keys,1,1,2,4
+50,68,allen keys,1,1,2,4
+59,68,allen keys,1,1,2,4
+65,68,allen keys,1,1,2,4
+73,68,allen keys,1,1,2,4
+91,68,allen keys,1,1,2,4
+92,68,allen keys,1,1,2,4
+94,68,allen keys,1,1,2,4
+95,68,allen keys,1,1,2,4
+96,68,allen keys,1,1,2,4
+97,68,allen keys,1,1,2,4
+101,68,allen keys,1,1,2,4
+102,68,allen keys,1,1,2,4
+108,68,allen keys,1,1,2,4
+136,68,allen keys,1,1,2,4
+142,68,allen keys,1,1,2,4
+168,68,allen keys,1,1,2,4
+171,68,allen keys,1,1,2,4
+187,68,allen keys,1,1,2,4
+191,68,allen keys,1,1,2,4
+199,68,allen keys,1,1,2,4
+232,68,allen keys,1,1,2,4
+233,68,allen keys,1,1,2,4
+245,68,allen keys,1,1,2,4
+8,69,hammer,1,0,2,4
+33,69,hammer,1,0,2,4
+36,69,hammer,1,0,2,4
+50,69,hammer,1,0,2,4
+59,69,hammer,1,0,2,4
+65,69,hammer,1,0,2,4
+73,69,hammer,1,0,2,4
+91,69,hammer,1,0,2,4
+92,69,hammer,1,0,2,4
+94,69,hammer,1,0,2,4
+95,69,hammer,1,0,2,4
+96,69,hammer,1,0,2,4
+97,69,hammer,1,0,2,4
+101,69,hammer,1,0,2,4
+102,69,hammer,1,0,2,4
+108,69,hammer,1,0,2,4
+136,69,hammer,1,0,2,4
+142,69,hammer,1,0,2,4
+168,69,hammer,1,0,2,4
+171,69,hammer,1,0,2,4
+187,69,hammer,1,0,2,4
+191,69,hammer,1,0,2,4
+199,69,hammer,1,0,2,4
+232,69,hammer,1,0,2,4
+233,69,hammer,1,0,2,4
+245,69,hammer,1,0,2,4
+8,70,allen keys,1,0,2,2
+33,70,allen keys,1,0,2,2
+36,70,allen keys,1,0,2,2
+50,70,allen keys,1,0,2,2
+59,70,allen keys,1,0,2,2
+65,70,allen keys,1,0,2,2
+73,70,allen keys,1,0,2,2
+91,70,allen keys,1,0,2,2
+92,70,allen keys,1,0,2,2
+94,70,allen keys,1,0,2,2
+95,70,allen keys,1,0,2,2
+96,70,allen keys,1,0,2,2
+97,70,allen keys,1,0,2,2
+101,70,allen keys,1,0,2,2
+102,70,allen keys,1,0,2,2
+108,70,allen keys,1,0,2,2
+136,70,allen keys,1,0,2,2
+142,70,allen keys,1,0,2,2
+168,70,allen keys,1,0,2,2
+171,70,allen keys,1,0,2,2
+187,70,allen keys,1,0,2,2
+191,70,allen keys,1,0,2,2
+199,70,allen keys,1,0,2,2
+232,70,allen keys,1,0,2,2
+233,70,allen keys,1,0,2,2
+245,70,allen keys,1,0,2,2
+8,71,hammer,1,0,1,2
+33,71,hammer,1,0,1,2
+36,71,hammer,1,0,1,2
+50,71,hammer,1,0,1,2
+59,71,hammer,1,0,1,2
+65,71,hammer,1,0,1,2
+73,71,hammer,1,0,1,2
+91,71,hammer,1,0,1,2
+92,71,hammer,1,0,1,2
+94,71,hammer,1,0,1,2
+95,71,hammer,1,0,1,2
+96,71,hammer,1,0,1,2
+97,71,hammer,1,0,1,2
+101,71,hammer,1,0,1,2
+102,71,hammer,1,0,1,2
+108,71,hammer,1,0,1,2
+136,71,hammer,1,0,1,2
+142,71,hammer,1,0,1,2
+168,71,hammer,1,0,1,2
+171,71,hammer,1,0,1,2
+187,71,hammer,1,0,1,2
+191,71,hammer,1,0,1,2
+199,71,hammer,1,0,1,2
+232,71,hammer,1,0,1,2
+233,71,hammer,1,0,1,2
+245,71,hammer,1,0,1,2
+8,72,allen keys,1,1,1,2
+33,72,allen keys,1,1,1,2
+36,72,allen keys,1,1,1,2
+50,72,allen keys,1,1,1,2
+59,72,allen keys,1,1,1,2
+65,72,allen keys,1,1,1,2
+73,72,allen keys,1,1,1,2
+91,72,allen keys,1,1,1,2
+92,72,allen keys,1,1,1,2
+94,72,allen keys,1,1,1,2
+95,72,allen keys,1,1,1,2
+96,72,allen keys,1,1,1,2
+97,72,allen keys,1,1,1,2
+101,72,allen keys,1,1,1,2
+102,72,allen keys,1,1,1,2
+108,72,allen keys,1,1,1,2
+136,72,allen keys,1,1,1,2
+142,72,allen keys,1,1,1,2
+168,72,allen keys,1,1,1,2
+171,72,allen keys,1,1,1,2
+187,72,allen keys,1,1,1,2
+191,72,allen keys,1,1,1,2
+199,72,allen keys,1,1,1,2
+232,72,allen keys,1,1,1,2
+233,72,allen keys,1,1,1,2
+245,72,allen keys,1,1,1,2
+8,73,hammer,1,1,2,2
+33,73,hammer,1,1,2,2
+36,73,hammer,1,1,2,2
+50,73,hammer,1,1,2,2
+59,73,hammer,1,1,2,2
+65,73,hammer,1,1,2,2
+73,73,hammer,1,1,2,2
+91,73,hammer,1,1,2,2
+92,73,hammer,1,1,2,2
+94,73,hammer,1,1,2,2
+95,73,hammer,1,1,2,2
+96,73,hammer,1,1,2,2
+97,73,hammer,1,1,2,2
+101,73,hammer,1,1,2,2
+102,73,hammer,1,1,2,2
+108,73,hammer,1,1,2,2
+136,73,hammer,1,1,2,2
+142,73,hammer,1,1,2,2
+168,73,hammer,1,1,2,2
+171,73,hammer,1,1,2,2
+187,73,hammer,1,1,2,2
+191,73,hammer,1,1,2,2
+199,73,hammer,1,1,2,2
+232,73,hammer,1,1,2,2
+233,73,hammer,1,1,2,2
+245,73,hammer,1,1,2,2
+8,74,allen keys,1,1,1,4
+33,74,allen keys,1,1,1,4
+36,74,allen keys,1,1,1,4
+50,74,allen keys,1,1,1,4
+59,74,allen keys,1,1,1,4
+65,74,allen keys,1,1,1,4
+73,74,allen keys,1,1,1,4
+91,74,allen keys,1,1,1,4
+92,74,allen keys,1,1,1,4
+94,74,allen keys,1,1,1,4
+95,74,allen keys,1,1,1,4
+96,74,allen keys,1,1,1,4
+97,74,allen keys,1,1,1,4
+101,74,allen keys,1,1,1,4
+102,74,allen keys,1,1,1,4
+108,74,allen keys,1,1,1,4
+136,74,allen keys,1,1,1,4
+142,74,allen keys,1,1,1,4
+168,74,allen keys,1,1,1,4
+171,74,allen keys,1,1,1,4
+187,74,allen keys,1,1,1,4
+191,74,allen keys,1,1,1,4
+199,74,allen keys,1,1,1,4
+232,74,allen keys,1,1,1,4
+233,74,allen keys,1,1,1,4
+245,74,allen keys,1,1,1,4
+8,75,hammer,1,0,1,2
+33,75,hammer,1,0,1,2
+36,75,hammer,1,0,1,2
+50,75,hammer,1,0,1,2
+59,75,hammer,1,0,1,2
+65,75,hammer,1,0,1,2
+73,75,hammer,1,0,1,2
+91,75,hammer,1,0,1,2
+92,75,hammer,1,0,1,2
+94,75,hammer,1,0,1,2
+95,75,hammer,1,0,1,2
+96,75,hammer,1,0,1,2
+97,75,hammer,1,0,1,2
+101,75,hammer,1,0,1,2
+102,75,hammer,1,0,1,2
+108,75,hammer,1,0,1,2
+136,75,hammer,1,0,1,2
+142,75,hammer,1,0,1,2
+168,75,hammer,1,0,1,2
+171,75,hammer,1,0,1,2
+187,75,hammer,1,0,1,2
+191,75,hammer,1,0,1,2
+199,75,hammer,1,0,1,2
+232,75,hammer,1,0,1,2
+233,75,hammer,1,0,1,2
+245,75,hammer,1,0,1,2
+8,76,allen keys,1,0,1,4
+33,76,allen keys,1,0,1,4
+36,76,allen keys,1,0,1,4
+50,76,allen keys,1,0,1,4
+59,76,allen keys,1,0,1,4
+65,76,allen keys,1,0,1,4
+73,76,allen keys,1,0,1,4
+91,76,allen keys,1,0,1,4
+92,76,allen keys,1,0,1,4
+94,76,allen keys,1,0,1,4
+95,76,allen keys,1,0,1,4
+96,76,allen keys,1,0,1,4
+97,76,allen keys,1,0,1,4
+101,76,allen keys,1,0,1,4
+102,76,allen keys,1,0,1,4
+108,76,allen keys,1,0,1,4
+136,76,allen keys,1,0,1,4
+142,76,allen keys,1,0,1,4
+168,76,allen keys,1,0,1,4
+171,76,allen keys,1,0,1,4
+187,76,allen keys,1,0,1,4
+191,76,allen keys,1,0,1,4
+199,76,allen keys,1,0,1,4
+232,76,allen keys,1,0,1,4
+233,76,allen keys,1,0,1,4
+245,76,allen keys,1,0,1,4
+8,77,high power water jet cutter,1,1,1,2
+33,77,high power water jet cutter,1,1,1,2
+36,77,high power water jet cutter,1,1,1,2
+50,77,high power water jet cutter,1,1,1,2
+59,77,high power water jet cutter,1,1,1,2
+65,77,high power water jet cutter,1,1,1,2
+73,77,high power water jet cutter,1,1,1,2
+91,77,high power water jet cutter,1,1,1,2
+92,77,high power water jet cutter,1,1,1,2
+94,77,high power water jet cutter,1,1,1,2
+95,77,high power water jet cutter,1,1,1,2
+96,77,high power water jet cutter,1,1,1,2
+97,77,high power water jet cutter,1,1,1,2
+101,77,high power water jet cutter,1,1,1,2
+102,77,high power water jet cutter,1,1,1,2
+108,77,high power water jet cutter,1,1,1,2
+136,77,high power water jet cutter,1,1,1,2
+142,77,high power water jet cutter,1,1,1,2
+168,77,high power water jet cutter,1,1,1,2
+171,77,high power water jet cutter,1,1,1,2
+187,77,high power water jet cutter,1,1,1,2
+191,77,high power water jet cutter,1,1,1,2
+199,77,high power water jet cutter,1,1,1,2
+232,77,high power water jet cutter,1,1,1,2
+233,77,high power water jet cutter,1,1,1,2
+245,77,high power water jet cutter,1,1,1,2
+8,78,mill,1,1,1,4
+33,78,mill,1,1,1,4
+36,78,mill,1,1,1,4
+50,78,mill,1,1,1,4
+59,78,mill,1,1,1,4
+65,78,mill,1,1,1,4
+73,78,mill,1,1,1,4
+91,78,mill,1,1,1,4
+92,78,mill,1,1,1,4
+94,78,mill,1,1,1,4
+95,78,mill,1,1,1,4
+96,78,mill,1,1,1,4
+97,78,mill,1,1,1,4
+101,78,mill,1,1,1,4
+102,78,mill,1,1,1,4
+108,78,mill,1,1,1,4
+136,78,mill,1,1,1,4
+142,78,mill,1,1,1,4
+168,78,mill,1,1,1,4
+171,78,mill,1,1,1,4
+187,78,mill,1,1,1,4
+191,78,mill,1,1,1,4
+199,78,mill,1,1,1,4
+232,78,mill,1,1,1,4
+233,78,mill,1,1,1,4
+245,78,mill,1,1,1,4
+8,79,welding machine,1,1,1,4
+33,79,welding machine,1,1,1,4
+36,79,welding machine,1,1,1,4
+50,79,welding machine,1,1,1,4
+59,79,welding machine,1,1,1,4
+65,79,welding machine,1,1,1,4
+73,79,welding machine,1,1,1,4
+91,79,welding machine,1,1,1,4
+92,79,welding machine,1,1,1,4
+94,79,welding machine,1,1,1,4
+95,79,welding machine,1,1,1,4
+96,79,welding machine,1,1,1,4
+97,79,welding machine,1,1,1,4
+101,79,welding machine,1,1,1,4
+102,79,welding machine,1,1,1,4
+108,79,welding machine,1,1,1,4
+136,79,welding machine,1,1,1,4
+142,79,welding machine,1,1,1,4
+168,79,welding machine,1,1,1,4
+171,79,welding machine,1,1,1,4
+187,79,welding machine,1,1,1,4
+191,79,welding machine,1,1,1,4
+199,79,welding machine,1,1,1,4
+232,79,welding machine,1,1,1,4
+233,79,welding machine,1,1,1,4
+245,79,welding machine,1,1,1,4
+8,80,EDM machine,1,0,2,4
+33,80,EDM machine,1,0,2,4
+36,80,EDM machine,1,0,2,4
+50,80,EDM machine,1,0,2,4
+59,80,EDM machine,1,0,2,4
+65,80,EDM machine,1,0,2,4
+73,80,EDM machine,1,0,2,4
+91,80,EDM machine,1,0,2,4
+92,80,EDM machine,1,0,2,4
+94,80,EDM machine,1,0,2,4
+95,80,EDM machine,1,0,2,4
+96,80,EDM machine,1,0,2,4
+97,80,EDM machine,1,0,2,4
+101,80,EDM machine,1,0,2,4
+102,80,EDM machine,1,0,2,4
+108,80,EDM machine,1,0,2,4
+136,80,EDM machine,1,0,2,4
+142,80,EDM machine,1,0,2,4
+168,80,EDM machine,1,0,2,4
+171,80,EDM machine,1,0,2,4
+187,80,EDM machine,1,0,2,4
+191,80,EDM machine,1,0,2,4
+199,80,EDM machine,1,0,2,4
+232,80,EDM machine,1,0,2,4
+233,80,EDM machine,1,0,2,4
+245,80,EDM machine,1,0,2,4
+32,772,Hot Plates with Magnetic Stirrers,11,1,2,72
+49,772,Hot Plates with Magnetic Stirrers,11,1,2,72
+63,772,Hot Plates with Magnetic Stirrers,11,1,2,72
+32,773,Test Tubes,11,1,0,72
+49,773,Test Tubes,11,1,0,72
+63,773,Test Tubes,11,1,0,72
+32,774,Balances,11,1,1,48
+49,774,Balances,11,1,1,48
+63,774,Balances,11,1,1,48
+32,775,UV-Vis Spectrophotometers,11,1,2,72
+49,775,UV-Vis Spectrophotometers,11,1,2,72
+63,775,UV-Vis Spectrophotometers,11,1,2,72
+32,776,Desiccators,11,0,2,72
+49,776,Desiccators,11,0,2,72
+63,776,Desiccators,11,0,2,72
+32,777,Hot Plates with Magnetic Stirrers,11,0,0,72
+49,777,Hot Plates with Magnetic Stirrers,11,0,0,72
+63,777,Hot Plates with Magnetic Stirrers,11,0,0,72
+32,778,Round Bottom Flasks,11,0,1,72
+49,778,Round Bottom Flasks,11,0,1,72
+63,778,Round Bottom Flasks,11,0,1,72
+32,779,Micropipettes,11,1,2,48
+49,779,Micropipettes,11,1,2,48
+63,779,Micropipettes,11,1,2,48
+32,780,Volumetric Flasks,11,1,0,72
+49,780,Volumetric Flasks,11,1,0,72
+63,780,Volumetric Flasks,11,1,0,72
+32,781,Griffin Beakers,11,1,1,72
+49,781,Griffin Beakers,11,1,1,72
+63,781,Griffin Beakers,11,1,1,72
+32,782,Burette,11,0,2,48
+49,782,Burette,11,0,2,48
+63,782,Burette,11,0,2,48
+32,783,Polypropylene Beakers,11,1,2,72
+49,783,Polypropylene Beakers,11,1,2,72
+63,783,Polypropylene Beakers,11,1,2,72
+32,784,Spatulas,11,1,2,72
+49,784,Spatulas,11,1,2,72
+63,784,Spatulas,11,1,2,72
+32,785,Crucibles,11,0,1,72
+49,785,Crucibles,11,0,1,72
+63,785,Crucibles,11,0,1,72
+32,786,Buchner Funnels,11,0,2,72
+49,786,Buchner Funnels,11,0,2,72
+63,786,Buchner Funnels,11,0,2,72
+32,787,Burette,11,0,1,48
+49,787,Burette,11,0,1,48
+63,787,Burette,11,0,1,48
+32,788,Magnetic Stir Bars,11,1,1,72
+49,788,Magnetic Stir Bars,11,1,1,72
+63,788,Magnetic Stir Bars,11,1,1,72
+32,789,Lab Coats,11,1,2,24
+49,789,Lab Coats,11,1,2,24
+63,789,Lab Coats,11,1,2,24
+32,790,Desiccators,11,1,2,72
+49,790,Desiccators,11,1,2,72
+63,790,Desiccators,11,1,2,72
+32,791,Round Bottom Flasks,11,0,2,72
+49,791,Round Bottom Flasks,11,0,2,72
+63,791,Round Bottom Flasks,11,0,2,72
+32,792,Allihn Condensers,11,1,2,72
+49,792,Allihn Condensers,11,1,2,72
+63,792,Allihn Condensers,11,1,2,72
+32,793,Stirring Rods,11,0,2,72
+49,793,Stirring Rods,11,0,2,72
+63,793,Stirring Rods,11,0,2,72
+32,794,Graham Condensers,11,0,0,72
+49,794,Graham Condensers,11,0,0,72
+63,794,Graham Condensers,11,0,0,72
+32,795,Berzelius Beakers,11,1,1,72
+49,795,Berzelius Beakers,11,1,1,72
+63,795,Berzelius Beakers,11,1,1,72
+32,796,Spatulas,11,1,1,72
+49,796,Spatulas,11,1,1,72
+63,796,Spatulas,11,1,1,72
+32,797,Crucibles,11,1,1,72
+49,797,Crucibles,11,1,1,72
+63,797,Crucibles,11,1,1,72
+32,798,Thermometers,11,0,2,48
+49,798,Thermometers,11,0,2,48
+63,798,Thermometers,11,0,2,48
+32,799,Volumetric Pipettes,11,1,1,48
+49,799,Volumetric Pipettes,11,1,1,48
+63,799,Volumetric Pipettes,11,1,1,48
+32,800,Safety Goggles,11,1,2,24
+49,800,Safety Goggles,11,1,2,24
+63,800,Safety Goggles,11,1,2,24
+32,801,UV-Vis Spectrophotometers,11,0,2,72
+49,801,UV-Vis Spectrophotometers,11,0,2,72
+63,801,UV-Vis Spectrophotometers,11,0,2,72
+32,802,Allihn Condensers,11,1,2,72
+49,802,Allihn Condensers,11,1,2,72
+63,802,Allihn Condensers,11,1,2,72
+32,803,Magnetic Stir Bars,11,0,2,72
+49,803,Magnetic Stir Bars,11,0,2,72
+63,803,Magnetic Stir Bars,11,0,2,72
+32,804,Polypropylene Beakers,11,0,2,72
+49,804,Polypropylene Beakers,11,0,2,72
+63,804,Polypropylene Beakers,11,0,2,72
+32,805,Liebig Condensers,11,1,1,72
+49,805,Liebig Condensers,11,1,1,72
+63,805,Liebig Condensers,11,1,1,72
+32,806,Allihn Condensers,11,1,1,72
+49,806,Allihn Condensers,11,1,1,72
+63,806,Allihn Condensers,11,1,1,72
+32,807,Erlenmeyer Flasks,11,1,2,72
+49,807,Erlenmeyer Flasks,11,1,2,72
+63,807,Erlenmeyer Flasks,11,1,2,72
+32,808,Buchner Funnels,11,1,1,72
+49,808,Buchner Funnels,11,1,1,72
+63,808,Buchner Funnels,11,1,1,72
+32,809,Filter Paper,11,0,0,24
+49,809,Filter Paper,11,0,0,24
+63,809,Filter Paper,11,0,0,24
+32,810,Graduated Pipettes,11,1,2,48
+49,810,Graduated Pipettes,11,1,2,48
+63,810,Graduated Pipettes,11,1,2,48
+32,811,Filter Paper,11,1,1,24
+49,811,Filter Paper,11,1,1,24
+63,811,Filter Paper,11,1,1,24
+32,812,Stirring Rods,11,0,2,72
+49,812,Stirring Rods,11,0,2,72
+63,812,Stirring Rods,11,0,2,72
+32,813,Graham Condensers,11,1,2,72
+49,813,Graham Condensers,11,1,2,72
+63,813,Graham Condensers,11,1,2,72
+32,814,Erlenmeyer Flasks,11,0,2,72
+49,814,Erlenmeyer Flasks,11,0,2,72
+63,814,Erlenmeyer Flasks,11,0,2,72
+32,815,Buchner Funnels,11,1,1,72
+49,815,Buchner Funnels,11,1,1,72
+63,815,Buchner Funnels,11,1,1,72
+32,816,Filter Paper,11,0,0,24
+49,816,Filter Paper,11,0,0,24
+63,816,Filter Paper,11,0,0,24
+32,817,Thermometers,11,1,2,48
+49,817,Thermometers,11,1,2,48
+63,817,Thermometers,11,1,2,48
+32,818,Mortar and Pestle,11,1,1,72
+49,818,Mortar and Pestle,11,1,1,72
+63,818,Mortar and Pestle,11,1,1,72
+32,819,Safety Goggles,11,1,2,24
+49,819,Safety Goggles,11,1,2,24
+63,819,Safety Goggles,11,1,2,24
+32,820,Bunsen Burners,11,1,2,72
+49,820,Bunsen Burners,11,1,2,72
+63,820,Bunsen Burners,11,1,2,72
+32,821,pH Meter,11,0,2,48
+49,821,pH Meter,11,0,2,48
+63,821,pH Meter,11,0,2,48
+32,822,Test Tubes,11,1,1,72
+49,822,Test Tubes,11,1,1,72
+63,822,Test Tubes,11,1,1,72
+32,823,pH Meter,11,1,1,48
+49,823,pH Meter,11,1,1,48
+63,823,pH Meter,11,1,1,48
+32,824,Micropipettes,11,1,2,48
+49,824,Micropipettes,11,1,2,48
+63,824,Micropipettes,11,1,2,48
+32,825,Allihn Condensers,11,1,1,72
+49,825,Allihn Condensers,11,1,1,72
+63,825,Allihn Condensers,11,1,1,72
+32,826,Graduated Pipettes,11,1,1,48
+49,826,Graduated Pipettes,11,1,1,48
+63,826,Graduated Pipettes,11,1,1,48
+32,827,Volumetric Flasks,11,1,2,72
+49,827,Volumetric Flasks,11,1,2,72
+63,827,Volumetric Flasks,11,1,2,72
+32,828,Balances,11,0,2,48
+49,828,Balances,11,0,2,48
+63,828,Balances,11,0,2,48
+32,829,Gloves,11,0,2,24
+49,829,Gloves,11,0,2,24
+63,829,Gloves,11,0,2,24
+32,830,UV-Vis Spectrophotometers,11,0,2,72
+49,830,UV-Vis Spectrophotometers,11,0,2,72
+63,830,UV-Vis Spectrophotometers,11,0,2,72
+32,831,Graham Condensers,11,1,0,72
+49,831,Graham Condensers,11,1,0,72
+63,831,Graham Condensers,11,1,0,72
+32,832,Erlenmeyer Flasks,11,1,2,72
+49,832,Erlenmeyer Flasks,11,1,2,72
+63,832,Erlenmeyer Flasks,11,1,2,72
+32,833,Test Tubes,11,0,2,72
+49,833,Test Tubes,11,0,2,72
+63,833,Test Tubes,11,0,2,72
+32,834,Hot Plates with Magnetic Stirrers,11,1,1,72
+49,834,Hot Plates with Magnetic Stirrers,11,1,1,72
+63,834,Hot Plates with Magnetic Stirrers,11,1,1,72
+32,835,Micropipettes,11,1,2,48
+49,835,Micropipettes,11,1,2,48
+63,835,Micropipettes,11,1,2,48
+32,836,Griffin Beakers,11,0,2,72
+49,836,Griffin Beakers,11,0,2,72
+63,836,Griffin Beakers,11,0,2,72
+32,837,Polypropylene Beakers,11,1,2,72
+49,837,Polypropylene Beakers,11,1,2,72
+63,837,Polypropylene Beakers,11,1,2,72
+32,838,Bunsen Burners,11,0,2,72
+49,838,Bunsen Burners,11,0,2,72
+63,838,Bunsen Burners,11,0,2,72
+32,839,Test Tubes,11,1,2,72
+49,839,Test Tubes,11,1,2,72
+63,839,Test Tubes,11,1,2,72
+32,840,Stirring Rods,11,0,1,72
+49,840,Stirring Rods,11,0,1,72
+63,840,Stirring Rods,11,0,1,72
+32,841,Griffin Beakers,11,1,1,72
+49,841,Griffin Beakers,11,1,1,72
+63,841,Griffin Beakers,11,1,1,72
+32,842,Glass Slides,11,1,2,24
+49,842,Glass Slides,11,1,2,24
+63,842,Glass Slides,11,1,2,24
+32,843,Filter Paper,11,0,2,24
+49,843,Filter Paper,11,0,2,24
+63,843,Filter Paper,11,0,2,24
+32,844,Stirring Rods,11,0,2,72
+49,844,Stirring Rods,11,0,2,72
+63,844,Stirring Rods,11,0,2,72
+32,845,Filter Paper,11,1,2,24
+49,845,Filter Paper,11,1,2,24
+63,845,Filter Paper,11,1,2,24
+32,846,Liebig Condensers,11,1,2,72
+49,846,Liebig Condensers,11,1,2,72
+63,846,Liebig Condensers,11,1,2,72
+32,847,Stirring Rods,11,1,2,72
+49,847,Stirring Rods,11,1,2,72
+63,847,Stirring Rods,11,1,2,72
+32,848,Filter Paper,11,1,2,24
+49,848,Filter Paper,11,1,2,24
+63,848,Filter Paper,11,1,2,24
+32,849,Filter Paper,11,0,2,24
+49,849,Filter Paper,11,0,2,24
+63,849,Filter Paper,11,0,2,24
+32,850,Magnetic Stir Bars,11,1,2,72
+49,850,Magnetic Stir Bars,11,1,2,72
+63,850,Magnetic Stir Bars,11,1,2,72
+32,851,Spatulas,11,0,2,72
+49,851,Spatulas,11,0,2,72
+63,851,Spatulas,11,0,2,72
+32,852,Burette,11,1,2,48
+49,852,Burette,11,1,2,48
+63,852,Burette,11,1,2,48
+32,853,Mortar and Pestle,11,1,1,72
+49,853,Mortar and Pestle,11,1,1,72
+63,853,Mortar and Pestle,11,1,1,72
+32,854,Graduated Pipettes,11,1,1,48
+49,854,Graduated Pipettes,11,1,1,48
+63,854,Graduated Pipettes,11,1,1,48
+32,855,Buchner Funnels,11,0,0,72
+49,855,Buchner Funnels,11,0,0,72
+63,855,Buchner Funnels,11,0,0,72
+32,856,Filter Paper,11,1,2,24
+49,856,Filter Paper,11,1,2,24
+63,856,Filter Paper,11,1,2,24
+32,857,Round Bottom Flasks,11,1,0,72
+49,857,Round Bottom Flasks,11,1,0,72
+63,857,Round Bottom Flasks,11,1,0,72
+32,858,Buchner Funnels,11,1,1,72
+49,858,Buchner Funnels,11,1,1,72
+63,858,Buchner Funnels,11,1,1,72
+32,859,Safety Goggles,11,1,2,24
+49,859,Safety Goggles,11,1,2,24
+63,859,Safety Goggles,11,1,2,24
+32,860,Volumetric Flasks,11,1,1,72
+49,860,Volumetric Flasks,11,1,1,72
+63,860,Volumetric Flasks,11,1,1,72
+32,861,Desiccators,11,1,2,72
+49,861,Desiccators,11,1,2,72
+63,861,Desiccators,11,1,2,72
+32,862,Thermometers,11,0,0,48
+49,862,Thermometers,11,0,0,48
+63,862,Thermometers,11,0,0,48
+32,863,Lab Coats,11,1,0,24
+49,863,Lab Coats,11,1,0,24
+63,863,Lab Coats,11,1,0,24
+32,864,Polypropylene Beakers,11,1,2,72
+49,864,Polypropylene Beakers,11,1,2,72
+63,864,Polypropylene Beakers,11,1,2,72
+32,865,Analytical Balances,11,1,1,48
+49,865,Analytical Balances,11,1,1,48
+63,865,Analytical Balances,11,1,1,48
+32,866,Desiccators,11,1,1,72
+49,866,Desiccators,11,1,1,72
+63,866,Desiccators,11,1,1,72
+32,867,Mortar and Pestle,11,1,2,72
+49,867,Mortar and Pestle,11,1,2,72
+63,867,Mortar and Pestle,11,1,2,72
+32,868,Graham Condensers,11,1,2,72
+49,868,Graham Condensers,11,1,2,72
+63,868,Graham Condensers,11,1,2,72
+32,869,Volumetric Flasks,11,1,1,72
+49,869,Volumetric Flasks,11,1,1,72
+63,869,Volumetric Flasks,11,1,1,72
+32,870,Bunsen Burners,11,0,2,72
+49,870,Bunsen Burners,11,0,2,72
+63,870,Bunsen Burners,11,0,2,72
+32,871,Micropipettes,11,0,0,48
+49,871,Micropipettes,11,0,0,48
+63,871,Micropipettes,11,0,0,48
+32,872,pH Meter,11,0,0,48
+49,872,pH Meter,11,0,0,48
+63,872,pH Meter,11,0,0,48
+32,873,Liebig Condensers,11,1,2,72
+49,873,Liebig Condensers,11,1,2,72
+63,873,Liebig Condensers,11,1,2,72
+32,874,Thermometers,11,1,2,48
+49,874,Thermometers,11,1,2,48
+63,874,Thermometers,11,1,2,48
+32,875,Berzelius Beakers,11,1,2,72
+49,875,Berzelius Beakers,11,1,2,72
+63,875,Berzelius Beakers,11,1,2,72
+32,876,Magnetic Stir Bars,11,1,2,72
+49,876,Magnetic Stir Bars,11,1,2,72
+63,876,Magnetic Stir Bars,11,1,2,72
+32,877,Buchner Funnels,11,0,2,72
+49,877,Buchner Funnels,11,0,2,72
+63,877,Buchner Funnels,11,0,2,72
+32,878,Mortar and Pestle,11,1,2,72
+49,878,Mortar and Pestle,11,1,2,72
+63,878,Mortar and Pestle,11,1,2,72
+32,879,Graham Condensers,11,1,1,72
+49,879,Graham Condensers,11,1,1,72
+63,879,Graham Condensers,11,1,1,72
+32,880,pH Meter,11,0,2,48
+49,880,pH Meter,11,0,2,48
+63,880,pH Meter,11,0,2,48
+32,881,Safety Goggles,11,0,1,24
+49,881,Safety Goggles,11,0,1,24
+63,881,Safety Goggles,11,0,1,24
+32,882,Filter Paper,11,0,1,24
+49,882,Filter Paper,11,0,1,24
+63,882,Filter Paper,11,0,1,24
+32,883,Spatulas,11,0,0,72
+49,883,Spatulas,11,0,0,72
+63,883,Spatulas,11,0,0,72
+32,884,Desiccators,11,1,0,72
+49,884,Desiccators,11,1,0,72
+63,884,Desiccators,11,1,0,72
+32,885,UV-Vis Spectrophotometers,11,1,2,72
+49,885,UV-Vis Spectrophotometers,11,1,2,72
+63,885,UV-Vis Spectrophotometers,11,1,2,72
+32,886,Desiccators,11,1,2,72
+49,886,Desiccators,11,1,2,72
+63,886,Desiccators,11,1,2,72
+32,887,Erlenmeyer Flasks,11,1,2,72
+49,887,Erlenmeyer Flasks,11,1,2,72
+63,887,Erlenmeyer Flasks,11,1,2,72
+32,888,Hot Plates with Magnetic Stirrers,11,1,1,72
+49,888,Hot Plates with Magnetic Stirrers,11,1,1,72
+63,888,Hot Plates with Magnetic Stirrers,11,1,1,72
+32,889,Polypropylene Beakers,11,0,1,72
+49,889,Polypropylene Beakers,11,0,1,72
+63,889,Polypropylene Beakers,11,0,1,72
+32,890,Polypropylene Beakers,11,1,1,72
+49,890,Polypropylene Beakers,11,1,1,72
+63,890,Polypropylene Beakers,11,1,1,72
+32,891,Allihn Condensers,11,1,1,72
+49,891,Allihn Condensers,11,1,1,72
+63,891,Allihn Condensers,11,1,1,72
+32,892,Spatulas,11,1,2,72
+49,892,Spatulas,11,1,2,72
+63,892,Spatulas,11,1,2,72
+32,893,pH Meter,11,1,2,48
+49,893,pH Meter,11,1,2,48
+63,893,pH Meter,11,1,2,48
+32,894,Balances,11,1,2,48
+49,894,Balances,11,1,2,48
+63,894,Balances,11,1,2,48
+32,895,Burette,11,0,1,48
+49,895,Burette,11,0,1,48
+63,895,Burette,11,0,1,48
+32,896,Graham Condensers,11,0,2,72
+49,896,Graham Condensers,11,0,2,72
+63,896,Graham Condensers,11,0,2,72
+32,897,Buchner Funnels,11,1,2,72
+49,897,Buchner Funnels,11,1,2,72
+63,897,Buchner Funnels,11,1,2,72
+32,898,Volumetric Pipettes,11,1,2,48
+49,898,Volumetric Pipettes,11,1,2,48
+63,898,Volumetric Pipettes,11,1,2,48
+32,899,Graham Condensers,11,1,2,72
+49,899,Graham Condensers,11,1,2,72
+63,899,Graham Condensers,11,1,2,72
+32,900,Bunsen Burners,11,0,1,72
+49,900,Bunsen Burners,11,0,1,72
+63,900,Bunsen Burners,11,0,1,72
+32,901,Filter Paper,11,1,1,24
+49,901,Filter Paper,11,1,1,24
+63,901,Filter Paper,11,1,1,24
+32,902,UV-Vis Spectrophotometers,11,1,1,72
+49,902,UV-Vis Spectrophotometers,11,1,1,72
+63,902,UV-Vis Spectrophotometers,11,1,1,72
+32,903,Stirring Rods,11,0,2,72
+49,903,Stirring Rods,11,0,2,72
+63,903,Stirring Rods,11,0,2,72
+32,904,Liebig Condensers,11,0,0,72
+49,904,Liebig Condensers,11,0,0,72
+63,904,Liebig Condensers,11,0,0,72
+32,905,Erlenmeyer Flasks,11,1,1,72
+49,905,Erlenmeyer Flasks,11,1,1,72
+63,905,Erlenmeyer Flasks,11,1,1,72
+32,906,Griffin Beakers,11,1,0,72
+49,906,Griffin Beakers,11,1,0,72
+63,906,Griffin Beakers,11,1,0,72
+32,907,Graham Condensers,11,1,0,72
+49,907,Graham Condensers,11,1,0,72
+63,907,Graham Condensers,11,1,0,72
+32,908,Desiccators,11,1,2,72
+49,908,Desiccators,11,1,2,72
+63,908,Desiccators,11,1,2,72
+32,909,Analytical Balances,11,1,2,48
+49,909,Analytical Balances,11,1,2,48
+63,909,Analytical Balances,11,1,2,48
+32,910,Analytical Balances,11,1,1,48
+49,910,Analytical Balances,11,1,1,48
+63,910,Analytical Balances,11,1,1,48
+32,911,Spatulas,11,1,0,72
+49,911,Spatulas,11,1,0,72
+63,911,Spatulas,11,1,0,72
+32,912,Hot Plates with Magnetic Stirrers,11,1,1,72
+49,912,Hot Plates with Magnetic Stirrers,11,1,1,72
+63,912,Hot Plates with Magnetic Stirrers,11,1,1,72
+32,913,Gloves,11,0,1,24
+49,913,Gloves,11,0,1,24
+63,913,Gloves,11,0,1,24
+32,914,pH Meter,11,1,1,48
+49,914,pH Meter,11,1,1,48
+63,914,pH Meter,11,1,1,48
+32,915,Balances,11,1,1,48
+49,915,Balances,11,1,1,48
+63,915,Balances,11,1,1,48
+32,916,Lab Coats,11,0,1,24
+49,916,Lab Coats,11,0,1,24
+63,916,Lab Coats,11,0,1,24
+32,917,Micropipettes,11,0,2,48
+49,917,Micropipettes,11,0,2,48
+63,917,Micropipettes,11,0,2,48
+32,918,Volumetric Flasks,11,1,2,72
+49,918,Volumetric Flasks,11,1,2,72
+63,918,Volumetric Flasks,11,1,2,72
+32,919,Analytical Balances,11,1,0,48
+49,919,Analytical Balances,11,1,0,48
+63,919,Analytical Balances,11,1,0,48
+32,920,Gloves,11,0,1,24
+49,920,Gloves,11,0,1,24
+63,920,Gloves,11,0,1,24
+32,921,Magnetic Stir Bars,11,0,2,72
+49,921,Magnetic Stir Bars,11,0,2,72
+63,921,Magnetic Stir Bars,11,0,2,72
+32,922,Mortar and Pestle,11,1,2,72
+49,922,Mortar and Pestle,11,1,2,72
+63,922,Mortar and Pestle,11,1,2,72
+32,923,Glass Slides,11,0,2,24
+49,923,Glass Slides,11,0,2,24
+63,923,Glass Slides,11,0,2,24
+32,924,Gloves,11,0,2,24
+49,924,Gloves,11,0,2,24
+63,924,Gloves,11,0,2,24
+32,925,Analytical Balances,11,1,1,48
+49,925,Analytical Balances,11,1,1,48
+63,925,Analytical Balances,11,1,1,48
+32,926,Spatulas,11,1,0,72
+49,926,Spatulas,11,1,0,72
+63,926,Spatulas,11,1,0,72
+32,927,Desiccators,11,0,2,72
+49,927,Desiccators,11,0,2,72
+63,927,Desiccators,11,0,2,72
+32,928,Round Bottom Flasks,11,1,0,72
+49,928,Round Bottom Flasks,11,1,0,72
+63,928,Round Bottom Flasks,11,1,0,72
+32,929,Volumetric Pipettes,11,1,2,48
+49,929,Volumetric Pipettes,11,1,2,48
+63,929,Volumetric Pipettes,11,1,2,48
+32,930,Polypropylene Beakers,11,0,2,72
+49,930,Polypropylene Beakers,11,0,2,72
+63,930,Polypropylene Beakers,11,0,2,72
+32,931,Spatulas,11,1,2,72
+49,931,Spatulas,11,1,2,72
+63,931,Spatulas,11,1,2,72
+32,932,Polypropylene Beakers,11,1,1,72
+49,932,Polypropylene Beakers,11,1,1,72
+63,932,Polypropylene Beakers,11,1,1,72
+32,933,Spatulas,11,1,2,72
+49,933,Spatulas,11,1,2,72
+63,933,Spatulas,11,1,2,72
+32,934,Graduated Pipettes,11,1,1,48
+49,934,Graduated Pipettes,11,1,1,48
+63,934,Graduated Pipettes,11,1,1,48
+32,935,Glass Slides,11,1,2,24
+49,935,Glass Slides,11,1,2,24
+63,935,Glass Slides,11,1,2,24
+32,936,Desiccators,11,0,2,72
+49,936,Desiccators,11,0,2,72
+63,936,Desiccators,11,0,2,72
+32,937,Safety Goggles,11,1,1,24
+49,937,Safety Goggles,11,1,1,24
+63,937,Safety Goggles,11,1,1,24
+32,938,Lab Coats,11,1,2,24
+49,938,Lab Coats,11,1,2,24
+63,938,Lab Coats,11,1,2,24
+32,939,Buchner Funnels,11,0,2,72
+49,939,Buchner Funnels,11,0,2,72
+63,939,Buchner Funnels,11,0,2,72
+32,940,Micropipettes,11,0,1,48
+49,940,Micropipettes,11,0,1,48
+63,940,Micropipettes,11,0,1,48
+32,941,Hot Plates with Magnetic Stirrers,11,1,0,72
+49,941,Hot Plates with Magnetic Stirrers,11,1,0,72
+63,941,Hot Plates with Magnetic Stirrers,11,1,0,72
+32,942,Test Tubes,11,1,1,72
+49,942,Test Tubes,11,1,1,72
+63,942,Test Tubes,11,1,1,72
+32,943,UV-Vis Spectrophotometers,11,0,0,72
+49,943,UV-Vis Spectrophotometers,11,0,0,72
+63,943,UV-Vis Spectrophotometers,11,0,0,72
+32,944,Micropipettes,11,1,0,48
+49,944,Micropipettes,11,1,0,48
+63,944,Micropipettes,11,1,0,48
+32,945,Test Tubes,11,0,2,72
+49,945,Test Tubes,11,0,2,72
+63,945,Test Tubes,11,0,2,72
+32,946,Stirring Rods,11,1,0,72
+49,946,Stirring Rods,11,1,0,72
+63,946,Stirring Rods,11,1,0,72
+32,947,Volumetric Pipettes,11,0,1,48
+49,947,Volumetric Pipettes,11,0,1,48
+63,947,Volumetric Pipettes,11,0,1,48
+32,948,Volumetric Pipettes,11,1,2,48
+49,948,Volumetric Pipettes,11,1,2,48
+63,948,Volumetric Pipettes,11,1,2,48
+32,949,Thermometers,11,1,0,48
+49,949,Thermometers,11,1,0,48
+63,949,Thermometers,11,1,0,48
+32,950,Erlenmeyer Flasks,11,1,2,72
+49,950,Erlenmeyer Flasks,11,1,2,72
+63,950,Erlenmeyer Flasks,11,1,2,72
+32,951,Bunsen Burners,11,0,1,72
+49,951,Bunsen Burners,11,0,1,72
+63,951,Bunsen Burners,11,0,1,72
+32,952,Erlenmeyer Flasks,11,1,1,72
+49,952,Erlenmeyer Flasks,11,1,1,72
+63,952,Erlenmeyer Flasks,11,1,1,72
+32,953,Magnetic Stir Bars,11,0,2,72
+49,953,Magnetic Stir Bars,11,0,2,72
+63,953,Magnetic Stir Bars,11,0,2,72
+32,954,Round Bottom Flasks,11,1,2,72
+49,954,Round Bottom Flasks,11,1,2,72
+63,954,Round Bottom Flasks,11,1,2,72
+32,955,Bunsen Burners,11,1,2,72
+49,955,Bunsen Burners,11,1,2,72
+63,955,Bunsen Burners,11,1,2,72
+32,956,Allihn Condensers,11,0,2,72
+49,956,Allihn Condensers,11,0,2,72
+63,956,Allihn Condensers,11,0,2,72
+32,957,pH Meter,11,1,2,48
+49,957,pH Meter,11,1,2,48
+63,957,pH Meter,11,1,2,48
+32,958,Desiccators,11,1,1,72
+49,958,Desiccators,11,1,1,72
+63,958,Desiccators,11,1,1,72
+32,959,Volumetric Flasks,11,1,1,72
+49,959,Volumetric Flasks,11,1,1,72
+63,959,Volumetric Flasks,11,1,1,72
+32,960,Filter Paper,11,1,2,24
+49,960,Filter Paper,11,1,2,24
+63,960,Filter Paper,11,1,2,24
+32,961,Berzelius Beakers,11,0,2,72
+49,961,Berzelius Beakers,11,0,2,72
+63,961,Berzelius Beakers,11,0,2,72
+32,962,pH Meter,11,0,2,48
+49,962,pH Meter,11,0,2,48
+63,962,pH Meter,11,0,2,48
+32,963,Safety Goggles,11,1,1,24
+49,963,Safety Goggles,11,1,1,24
+63,963,Safety Goggles,11,1,1,24
+32,964,Graham Condensers,11,1,1,72
+49,964,Graham Condensers,11,1,1,72
+63,964,Graham Condensers,11,1,1,72
+32,965,Desiccators,11,1,2,72
+49,965,Desiccators,11,1,2,72
+63,965,Desiccators,11,1,2,72
+32,966,Griffin Beakers,11,1,1,72
+49,966,Griffin Beakers,11,1,1,72
+63,966,Griffin Beakers,11,1,1,72
+32,967,Liebig Condensers,11,1,2,72
+49,967,Liebig Condensers,11,1,2,72
+63,967,Liebig Condensers,11,1,2,72
+32,968,Balances,11,1,2,48
+49,968,Balances,11,1,2,48
+63,968,Balances,11,1,2,48
+32,969,Liebig Condensers,11,1,1,72
+49,969,Liebig Condensers,11,1,1,72
+63,969,Liebig Condensers,11,1,1,72
+32,970,Magnetic Stir Bars,11,1,2,72
+49,970,Magnetic Stir Bars,11,1,2,72
+63,970,Magnetic Stir Bars,11,1,2,72
+32,971,Burette,11,1,2,48
+49,971,Burette,11,1,2,48
+63,971,Burette,11,1,2,48

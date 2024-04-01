@@ -1,1 +1,2 @@
-export { default as InventoryModule } from "./InventoryModule";
+export { default as InventoryModuleAdmin } from "./InventoryModuleAdmin";
+export { default as InventoryModuleBase} from "./InventoryModuleBase";

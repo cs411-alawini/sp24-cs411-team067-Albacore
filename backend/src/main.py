@@ -2,6 +2,7 @@ import os
 from fastapi import FastAPI
 from .routers import credentials, inventory, facilities
 from fastapi.middleware.cors import CORSMiddleware
+import jwt
 
 app = FastAPI()
 

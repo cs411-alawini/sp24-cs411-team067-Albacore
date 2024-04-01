@@ -1,8 +1,8 @@
 import React, { useEffect} from "react";
-import TabularViewer from "../TabularViewer";
 import { httpClient } from "../../infra";
+import TabularViewerBase from "../TabularViewerBase";
 
-const InventoryModule = () => {
+const InventoryModuleBase = () => {
 
     const headers = [
       {field: "item_id", headerName: "ItemID", editable: false, type: 'number'},
@@ -12,12 +12,13 @@ const InventoryModule = () => {
       valueOptions: ['Excellent', 'Good', 'Poor']},
       {field: "bldg_name", headerName: "Building", editable: true, type: 'singleSelect',
       valueOptions: ['Sidney Lu', 'SCD', 'English Building','Music & Arts Library']}, // should query from facilities
-      {field: "duration", headerName: "Duration (Hrs)", editable: true, type: 'number'}
+      {field: "duration", headerName: "Duration", editable: true, type: 'number', align: 'center', headerAlign: 'center'}
     ]
   
     const getRequest = () => {
+      const jwtToken = localStorage.getItem("JWTToken");
       return httpClient
-        .get("/inventory", {headers: {}})
+        .get("/inventory",{headers: {Authorization: "Bearer " + jwtToken}})
     }
 
     useEffect(() => {
@@ -25,8 +26,9 @@ const InventoryModule = () => {
 
     return (
         <div>
-          <TabularViewer title={"Inventory"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
+            <p>Student</p>
+            <TabularViewerBase title={"Inventory"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
         </div>
     );
 }
-export default InventoryModule;
+export default InventoryModuleBase;

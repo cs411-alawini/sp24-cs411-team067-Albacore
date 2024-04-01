@@ -1,7 +1,8 @@
 
 import React, { useEffect} from "react";
-import TabularViewer from "../TabularViewer";
+import TabularViewer from "../TabularViewerAdmin";
 import { httpClient } from "../../infra";
+import TabularViewerAdmin from "../TabularViewerAdmin";
 
 const CredentialsModule = () => {
     // React Hook separated by getter + setter
@@ -10,11 +11,12 @@ const CredentialsModule = () => {
     const headers = [
       {"field": "netid", "headerName": "NetID", "editable": false},
       {"field": "password", "headerName": "Password",  "editable": true},
-      {"field": "majorid", "headerName" : "MajorID", "editable": false}]
+      {"field": "permission", "headerName" : "Permission", "editable": false}]
   
     const getRequest = () => {
+      const jwtToken = localStorage.getItem("JWTToken");
       return httpClient
-        .get("/credentials", {headers: {}})
+        .get("/credentials", {headers: {Authorization: "Bearer " + jwtToken}})
     }
 
     const putRequest = (id, body) => { // Remember 'Put' is idempotent
@@ -27,7 +29,7 @@ const CredentialsModule = () => {
 
     return (
         <div>
-          <TabularViewer title={"credentials"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"netid"}/>
+          <TabularViewerAdmin title={"credentials"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"netid"}/>
         </div>
     );
 }

@@ -18,7 +18,7 @@ class Facility(BaseModel):
 @router.get("/api/facilities")
 async def get_facilities():
     cursor = get_cursor()
-    cursor.execute("SELECT * from Inventory")
+    cursor.execute("SELECT * from Facilities")
     rows = cursor.fetchall()
     facilities = [Facility(location_id=row['LocationID'], bldg_name=row['BldgName'], floor_section=row['FloorSection'], longitude=row['Longitude'], latitude=row['Latitude'], map_url=row['MapURL']) for row in rows]
     return JSONResponse(content={"Facilities": [facility.dict() for facility in facilities]})
