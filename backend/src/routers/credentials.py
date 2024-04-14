@@ -32,29 +32,33 @@ users = [{"netid": "jdoe1","password": "seven"}]
 @router.get("/api/credentials")
 async def get_credentials():
     cursor = get_cursor()
-    cursor.execute("SELECT * from Credentials")
-    rows = cursor.fetchall()
-    credentials = [Credential(netid=row['netID'], password=row['password'], permission=row['permission']) for row in rows]
+    cursor.callproc("GetAllCredentials")
+    credentials = []
+    for result in cursor.stored_results():
+        records = result.fetchall()
+        for record in records:
+            credentials.append(Credential(netid=record['netID'], password=record['password'], permission=record['permission']))
     return JSONResponse(content={"credentials": [jsonable_encoder(credential.dict()) for credential in credentials]})
 
-# @router.put("/api/credentials/{netid}")
-# async def update_credential(netid: str, user: Credential):
-#     cursor = get_cursor()
-#     conn = get_db_conn()
-#     update_cmd = ("UPDATE students SET password = %s, majorid = %s WHERE netid = %s;")
-#     params = (user.password.get_secret_value(), user.majorid, user.netid)
-#     try:
-#         cursor.execute(update_cmd, params)
-#         conn.commit() 
-#         return {"Message: ": "Successful update"}
-#     except Error as e:
-#         conn.rollback()
-#         raise HTTPException(status_code=500, detail=f"Failed to update user: {e}")
+@router.put("/api/credentials/{netid}")
+async def update_credential(netid: str, user: Credential):
+    cursor = get_cursor()
+    conn = get_db_conn()
+    update_cmd = ("UPDATE students SET password = %s, majorid = %s WHERE netid = %s;")
+    params = (user.password.get_secret_value(), user.majorid, user.netid)
+    try:
+        cursor.execute(update_cmd, params)
+        conn.commit() 
+        return {"Message: ": "Successful update"}
+    except Error as e:
+        conn.rollback()
+        raise HTTPException(status_code=500, detail=f"Failed to update user: {e}")
 
 @router.post("/api/user/login", tags=["user"])
 async def user_login(user: CredentialLogin = Body(...)):
     print("This has been run")
     role = check_user(user)
+    print("role: ", role)
     if role >= 0:
         if (role == 1):
             return signJWT(user.netid, True)

@@ -23,7 +23,7 @@ const InventoryPage = () => {
                 }
             }
         }
-        window.addEventListener('storage', () => {checkToken()});
+        window.addEventListener('storage', checkToken);
 
         return () => {
             window.removeEventListener('storage', checkToken);
