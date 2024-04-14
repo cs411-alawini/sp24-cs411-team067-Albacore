@@ -32,22 +32,12 @@ users = [{"netid": "jdoe1","password": "seven"}]
 @router.get("/api/credentials")
 async def get_credentials():
     cursor = get_cursor()
-    # cursor.execute("SELECT * from Credentials")
     cursor.callproc("GetAllCredentials")
     credentials = []
-    acc = 0
-    # print("stored result size: ", len(cursor.stored_results()))
-    # for result in cursor.stored_results():
-    #     print("acc: ", acc)
-    #     acc += 1
-    #     print("xoxoxo")
-    #     print(result)
-    #     print(type(result))
-    #     records = result.fetchall()
-    #     print("Type of records: ", type(records[0]))
-    #     print("Total # of records", len(records))
-    #     for record in records:
-    #         credentials.append(Credential(netid=record['netID'], password=record['password'], permission=record['permission']))
+    for result in cursor.stored_results():
+        records = result.fetchall()
+        for record in records:
+            credentials.append(Credential(netid=record['netID'], password=record['password'], permission=record['permission']))
     return JSONResponse(content={"credentials": [jsonable_encoder(credential.dict()) for credential in credentials]})
 
 @router.put("/api/credentials/{netid}")
