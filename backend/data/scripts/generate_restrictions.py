@@ -32,7 +32,7 @@ def generate_items(df):
     df_expanded = df.loc[df.index.repeat(df['repeat_times'])].reset_index(drop=True)
     df_expanded["UniqueID"] = df_expanded.groupby(['ItemID']).cumcount()
     df_expanded['MajorID'] = df_expanded.apply(lambda row: facilities[row['LocationID']][row['UniqueID']], axis=1)
-    df_expanded = df_expanded[['MajorID','ItemID', 'ItemName', 'LocationID', 'Availability', 'Condition', 'Duration']]
+    df_expanded = df_expanded[['ItemID', 'MajorID']]
     
     return df_expanded
 

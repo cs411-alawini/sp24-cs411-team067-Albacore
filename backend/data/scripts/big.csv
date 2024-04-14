@@ -970,3 +970,32 @@ ItemID,ItemName,Availability,Condition,LocationID,Duration
 969,"Liebig Condensers",1,1,11,72
 970,"Magnetic Stir Bars",1,2,11,72
 971,Burette,1,2,11,48
+972,"Public Computer",1,2,3,NULL
+973,"Public Computer",1,1,10,NULL
+974,"Public Computer",1,2,9,NULL
+975,"Public Computer",0,1,10,NULL
+976,"Public Computer",1,2,3,NULL
+977,"Public Computer",1,0,3,NULL
+978,"Public Computer",1,1,9,NULL
+979,"Public Computer",1,0,6,NULL
+980,"Public Computer",1,2,3,NULL
+981,"Public Computer",1,1,3,NULL
+982,"Public Computer",1,1,10,NULL
+983,"Public Computer",0,2,10,NULL
+984,"Public Computer",1,2,10,NULL
+985,"Public Computer",1,0,10,NULL
+986,"Public Computer",0,1,9,NULL
+987,"Public Computer",0,1,9,NULL
+988,"Public Computer",1,1,9,NULL
+989,"Public Computer",0,2,10,NULL
+990,"Public Computer",1,1,3,NULL
+991,"Public Computer",1,1,9,NULL
+992,"Public Computer",1,1,6,NULL
+993,"Public Computer",1,1,10,NULL
+994,"Public Computer",1,2,10,NULL
+995,"Public Computer",1,2,3,NULL
+996,"Public Computer",1,1,9,NULL
+997,"Public Computer",0,2,3,NULL
+998,"Public Computer",1,0,9,NULL
+999,"Public Computer",0,1,9,NULL
+1000,"Public Computer",0,2,6,NULL
