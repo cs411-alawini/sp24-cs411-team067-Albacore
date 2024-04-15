@@ -23,10 +23,6 @@ const InventoryModuleBase = () => {
       .get("/inventory",{headers: {Authorization: "Bearer " + jwtToken}})
   }
 
-  useEffect(() => {
-    // console.log("userisAdmin: " + context.state.isAdmin);
-  }, []);
-
   return (
       <div>
           <p>Student</p>

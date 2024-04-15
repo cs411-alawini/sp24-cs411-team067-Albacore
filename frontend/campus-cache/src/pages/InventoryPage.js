@@ -8,6 +8,12 @@ import { AppContext } from "../App";
 
 const InventoryPage = () => {
     const context = useContext(AppContext);   
+    useEffect(() => {
+        if (!context.state.loggedIn) {
+            console.log(context.state);
+            window.location.href = "/unauthorized"
+        }
+      }, []);
     return (
         <>
             <LoginBar/>

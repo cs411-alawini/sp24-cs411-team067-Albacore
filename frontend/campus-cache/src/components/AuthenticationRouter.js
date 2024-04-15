@@ -4,6 +4,7 @@ import CredentialsPage from "../pages/CredentialsPage";
 import InventoryPage from "../pages/InventoryPage";
 import LandingPage from "../pages/LandingPage";
 import LoginPage from "../pages/LoginPage";
+import UnauthorizedPage from "../pages/UnauthorizedPage";
 
 // DECLARE ROUTES HERE
 const AuthenticationRouter = () => {
@@ -15,6 +16,7 @@ const AuthenticationRouter = () => {
                 <Route path="/inventory" element={<InventoryPage/>}/>
                 <Route path="/facilities" element={<CredentialsPage/>}/>
                 <Route path="/login" element={<LoginPage/>}/>
+                <Route path="/unauthorized" element={<UnauthorizedPage/>}/>
             </Routes>
         </Router>
         
