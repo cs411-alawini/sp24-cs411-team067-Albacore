@@ -60,7 +60,7 @@ async def user_login(user: CredentialLogin = Body(...)):
     role = check_user(user)
     print("role: ", role)
     if role >= 0:
-        if (role == 1):
+        if (role == 1): # if user is admin
             return signJWT(user.netid, True)
         else:
             return signJWT(user.netid, False)

@@ -1,16 +1,22 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import {  Link as RouterLink  } from 'react-router-dom';
 import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import { useNavigate } from "react-router-dom";
+import { AppContext } from '../App';
 
 const NavBar = () => {
     const [drawerOpen, setDrawerOpen] = useState(false);
+    const context = useContext(AppContext);
+
+    const handleLogout = () => {
+        console.log("Hello")
+    }
+
     return (
         <Box sx={{ flexGrow: 1 }}>
-            
             <AppBar position="static">
                 <Toolbar>
                 <IconButton
@@ -26,7 +32,10 @@ const NavBar = () => {
                 <Typography variant="h6" component="div" sx={{ flexGrow: 2 }}>
                     Campus Cache
                 </Typography>
-                <Button color="inherit" onClick={()=>window.location.href="/login"}>Login</Button>
+                {context.loggedIn ?
+                    <Button color="inherit" onClick={()=>handleLogout()}>Logout</Button>
+                    :<Button color="inherit" onClick={()=>window.location.href="/login"}>Login</Button>
+                }
                 </Toolbar>
             </AppBar>
             <Drawer anchor="left" open={drawerOpen} onClose={() => setDrawerOpen(false)}>
