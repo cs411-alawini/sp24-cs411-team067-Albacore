@@ -24,9 +24,7 @@ const InventoryModuleBase = () => {
   }
 
   useEffect(() => {
-    console.log("userisAdmin: " + context.state.isAdmin);
-
-    console.log(context.state.isAdmin);
+    // console.log("userisAdmin: " + context.state.isAdmin);
   }, []);
 
   return (

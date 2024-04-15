@@ -4,6 +4,7 @@ import Button from '@mui/material/Button';
 import {  Link as RouterLink  } from 'react-router-dom';
 import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import { useNavigate } from "react-router-dom";
 import { AppContext } from '../App';
 
@@ -12,7 +13,8 @@ const NavBar = () => {
     const context = useContext(AppContext);
 
     const handleLogout = () => {
-        console.log("Hello")
+        localStorage.removeItem("JWTToken");
+        window.location.href = "/"
     }
 
     return (
@@ -32,7 +34,11 @@ const NavBar = () => {
                 <Typography variant="h6" component="div" sx={{ flexGrow: 2 }}>
                     Campus Cache
                 </Typography>
-                {context.loggedIn ?
+                {context.state.loggedIn ? <Button color="inherit">{context.state.user}</Button>: <div/>}
+                 <IconButton color="inherit">
+                    <AccountBoxIcon />
+                </IconButton>
+                {context.state.loggedIn ?
                     <Button color="inherit" onClick={()=>handleLogout()}>Logout</Button>
                     :<Button color="inherit" onClick={()=>window.location.href="/login"}>Login</Button>
                 }
