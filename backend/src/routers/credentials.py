@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException, Body
+from fastapi import APIRouter, HTTPException, Body, Depends
 from fastapi.encoders import jsonable_encoder
 from typing import Any, Union, List
 from pydantic import BaseModel, SecretStr, validator, Field
@@ -7,29 +7,20 @@ from ..db.db_instance import get_cursor, get_db_conn
 from fastapi.responses import JSONResponse
 from mysql.connector import Error
 from ..auth_handler import signJWT
+from ..auth_bearer import JWTBearer
 
 router = APIRouter()
 
 class Credential(BaseModel):
     netid: str
-    password: SecretStr
+    password: SecretStr # Hides on display for frontend
     permission: int
 
 class CredentialLogin(BaseModel):
     netid: str = Field(...)
     password: str = Field(...)
 
-    class Config:
-        schema_extra = {
-            "example": {
-                "netid": "jdoe1",
-                "password": "seven"
-            }
-        }
-
-users = [{"netid": "jdoe1","password": "seven"}]
-
-@router.get("/api/credentials")
+@router.get("/api/credentials",  dependencies=[Depends(JWTBearer())])
 async def get_credentials():
     cursor = get_cursor()
     cursor.callproc("GetAllCredentials")
@@ -40,7 +31,7 @@ async def get_credentials():
             credentials.append(Credential(netid=record['netID'], password=record['password'], permission=record['permission']))
     return JSONResponse(content={"credentials": [jsonable_encoder(credential.dict()) for credential in credentials]})
 
-@router.put("/api/credentials/{netid}")
+@router.put("/api/credentials/{netid}",  dependencies=[Depends(JWTBearer())])
 async def update_credential(netid: str, user: Credential):
     cursor = get_cursor()
     conn = get_db_conn()
@@ -60,7 +51,7 @@ async def user_login(user: CredentialLogin = Body(...)):
     role = check_user(user)
     print("role: ", role)
     if role >= 0:
-        if (role == 1):
+        if (role == 1): # if user is admin
             return signJWT(user.netid, True)
         else:
             return signJWT(user.netid, False)

@@ -1,15 +1,17 @@
-import React,{useState} from 'react'
+import React,{useState, useContext, useEffect} from 'react'
 import {Grid,Paper,Avatar,TextField,Button,Typography,Link} from '@mui/material/'
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox'
 import { httpClient } from "../infra";
+import { AppContext} from '../App';
 // Inspired by: https://gist.github.com/vaish567/861e88d0e7f13cb00ef88767cd2f8d0f
 
 const Login = () => {
     const [usernameInput, setUsernameInput] = useState('');
     const [passwordInput, setPasswordInput] = useState('');
-    
+    const {state, dispatch} = useContext(AppContext);
+
     const handleUsernameField = (event) => {
         setUsernameInput(event.target.value);
     };
@@ -17,22 +19,32 @@ const Login = () => {
     const handlePasswordField = (event) => {
         setPasswordInput(event.target.value);
     }
+
+    useEffect(() => {
+        if (localStorage.getItem("JWTToken") !== null) {
+            window.location.href = "/";
+        }
+    })
     
     const userSignIn = (event) => {
         const body = {
             "netid": usernameInput,
             "password": passwordInput 
         }
-        
-        httpClient.post("/user/login", body).then((response) => {
-            const jwtToken = response["data"]["access_token"];
-            console.log("JWT response: ", jwtToken);
-            localStorage.setItem("JWTToken", jwtToken);
-            window.location.href="/"
-        })
-        .catch((error) => {
-
-        });
+        if (localStorage.getItem("JWTToken") === null) {
+            httpClient.post("/user/login", body).then((response) => {
+                const jwtToken = response["data"]["access_token"];
+                console.log("JWT response: ", jwtToken);
+                localStorage.setItem("JWTToken", jwtToken);
+                window.location.href = "/";
+            })
+            .catch((error) => {
+                console.log("Some error occurred")
+            });
+        } else {
+            console.log("User already logged in...")
+            window.location.href = "/";
+        }
     }
 
     const paperStyle={padding :20,height:'70vh',width:350, margin:"20px auto"}
