@@ -6,7 +6,7 @@ from ..db import db_instance
 from ..db.db_instance import get_cursor, get_db_conn
 from fastapi.responses import JSONResponse
 from mysql.connector import Error
-from ..auth_handler import signJWT
+from ..auth_handler import signJWT, decodeJWT
 from ..auth_bearer import JWTBearer
 
 router = APIRouter()
@@ -21,7 +21,10 @@ class CredentialLogin(BaseModel):
     password: str = Field(...)
 
 @router.get("/api/credentials",  dependencies=[Depends(JWTBearer())])
-async def get_credentials():
+async def get_credentials(token_payload: dict = Depends(JWTBearer())):
+    token = decodeJWT(token_payload)
+    if (token["role"] != "admin"):
+        raise HTTPException(status_code=401, detail="User is not authorized to perform this action")
     cursor = get_cursor()
     cursor.callproc("GetAllCredentials")
     credentials = []
@@ -47,9 +50,7 @@ async def update_credential(netid: str, user: Credential):
 
 @router.post("/api/user/login", tags=["user"])
 async def user_login(user: CredentialLogin = Body(...)):
-    print("This has been run")
     role = check_user(user)
-    print("role: ", role)
     if role >= 0:
         if (role == 1): # if user is admin
             return signJWT(user.netid, True)
@@ -59,15 +60,12 @@ async def user_login(user: CredentialLogin = Body(...)):
 # 0 = Student, 1 = Admin, -1 = Error
 def check_user(data: CredentialLogin):
     curr_user = data
-    print("currUser: ", curr_user)
     cursor = get_cursor()
     query = "SELECT * from Credentials WHERE netID = %s"
     params = (curr_user.netid,)
     cursor.execute(query, params)
-    rows = cursor.fetchall()
-    credentials = [Credential(netid=row['netID'], password=row['password'], permission=row['permission']) for row in rows]
-    for user in credentials:
-        if user.netid == curr_user.netid and user.password.get_secret_value() == curr_user.password:
-            print("User success...")
-            return user.permission
+    row = cursor.fetchone()
+    credential = Credential(netid=row['netID'], password=row['password'], permission=row['permission'])
+    if credential.netid == curr_user.netid and credential.password.get_secret_value() == curr_user.password:
+        return credential.permission
     return -1

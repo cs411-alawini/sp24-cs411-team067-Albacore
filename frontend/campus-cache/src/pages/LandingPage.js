@@ -7,7 +7,6 @@ const LandingPage = () => {
     const context = useContext(AppContext);
     const getWelcomeString = () => {
         var welcomeStr = "Welcome, ";
-        console.log("context: ")
         if (context.state.loggedIn) {
             if (context.state.isAdmin) {
                 welcomeStr += ("Admin " + context.state.user + "!");

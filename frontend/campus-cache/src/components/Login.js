@@ -14,7 +14,7 @@ const Login = () => {
     const [openSnackbar, setOpenSnackbar] = useState(false);
     const [errorMessage, setErrorMessage] = useState(null);
     const [loading, setLoading] = useState(false);
-    const {state, dispatch} = useContext(AppContext);
+    const context = useContext(AppContext);
 
     const handleUsernameField = (event) => {
         setUsernameInput(event.target.value);
@@ -57,8 +57,6 @@ const Login = () => {
                 
             });
         } else {
-            console.log("ggg");
-            console.log(localStorage.getItem("JWTToken"))
         }
     }
     // GPT-3.5 generated in-line CSS
