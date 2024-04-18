@@ -6,6 +6,7 @@ from ..db.db_instance import get_cursor
 from fastapi.responses import JSONResponse
 from ..auth_handler import decodeJWT
 from ..auth_bearer import JWTBearer
+from ..auth_handler import decodeJWT
 
 router = APIRouter()
 
@@ -19,11 +20,17 @@ class Inventory(BaseModel):
     duration: Optional[int] = None
 
 @router.get("/api/inventory", dependencies=[Depends(JWTBearer())], tags=["Inventory"])
-async def get_inventory():
+async def get_inventory(token_payload: dict = Depends(JWTBearer())):
+    jwt_info = decodeJWT(token_payload)
     cursor = get_cursor()
-    cursor.execute("SELECT * FROM Inventory JOIN Facilities ON Inventory.LocationID = Facilities.LocationID;")
-    rows = cursor.fetchall()
-    all_inventory = [Inventory(item_id=row['ItemID'], bldg_name=row['BldgName'], item_name=row['ItemName'], availability=row['Availability'], condition=translate_condition(row['Condition']), location_id=row["LocationID"], duration=row["Duration"]) for row in rows]
+    if (jwt_info['role'] == 'admin'):
+        cursor.callproc("GetAllItems")
+    else:
+        cursor.callproc("GetAllowedItems", (jwt_info['user_id'],))
+
+    for result in cursor.stored_results():
+        rows = result.fetchall()
+        all_inventory = [Inventory(item_id=row['ItemID'], bldg_name=row['BldgName'], item_name=row['ItemName'], availability=row['Availability'], condition=translate_condition(row['Condition']), location_id=row["LocationID"], duration=row["Duration"]) for row in rows]
     return JSONResponse(content={"Inventory": [inventory.dict() for inventory in all_inventory]})
 
 @router.put("/api/admin/inventory/{itemid}", dependencies=[Depends(JWTBearer())], tags=["Inventory"])
