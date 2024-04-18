@@ -1,6 +1,0 @@
-{
-    "accessibility.signals.sounds.volume": 50,
-    "accessibility.signals.lineHasError": {
-        "sound": "off"
-    }
-}
