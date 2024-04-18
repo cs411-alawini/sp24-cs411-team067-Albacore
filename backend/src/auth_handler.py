@@ -23,7 +23,6 @@ def signJWT(user_id: str, isAdmin: bool=False):
         "expires": expirary_date_str,
         "role": "admin" if isAdmin else "student" # TODO: change this
     }
-    print("payload: ", payload)
     token = jwt.encode(payload, JWT_SECRET, algorithm=JWT_ALGORITHM)
     return token_response(token)
 

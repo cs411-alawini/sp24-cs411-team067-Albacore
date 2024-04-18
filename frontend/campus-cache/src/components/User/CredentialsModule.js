@@ -28,9 +28,7 @@ const CredentialsModule = () => {
     }, []);
 
     return (
-        <div>
-          <TabularViewerAdmin title={"credentials"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"netid"}/>
-        </div>
+      <TabularViewerAdmin title={"credentials"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"netid"}/>
     );
 }
 export default CredentialsModule;

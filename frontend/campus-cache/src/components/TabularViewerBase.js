@@ -19,7 +19,6 @@ const TabularViewerBase = ({title, grabData, updateData, tableHeaders, uniqueIde
 
     const [tableData, setTableData] = useState([]);
     const [rowModesModel, setRowModesModel] = useState({});
-    // Below is not an ideal use case for memoization, but an example of how one would do this
     // Code used from MUI docs: https://mui.com/x/react-data-grid/editing/
     
     // TODO: Remove reserve button for non-active reservations or make a query that removes them 
@@ -47,18 +46,6 @@ const TabularViewerBase = ({title, grabData, updateData, tableHeaders, uniqueIde
 
     const processRowUpdate = () => {}
 
-    const checkLocalStorageItem = (key) => {
-      // Try to get the item from local storage
-      const item = localStorage.getItem(key);
-      if (item === null) {
-        console.log(`${key} does not exist in local storage.`);
-        return false;
-      } else {
-        console.log(`${key} exists in local storage.`);
-        return true;
-      }
-    }
-
     useEffect(() => {
       grabData().then((response) => {
           setTableData(response.data[title]);
@@ -69,8 +56,6 @@ const TabularViewerBase = ({title, grabData, updateData, tableHeaders, uniqueIde
     }, []);
     
     return (
-      <div>
-        <div style={{ flexGrow: 1, maxWidth: '95%' }}>
           <DataGrid
             autoHeight
             getRowId={row=>row[uniqueIdentifier]}
@@ -83,9 +68,6 @@ const TabularViewerBase = ({title, grabData, updateData, tableHeaders, uniqueIde
             processRowUpdate={processRowUpdate}
             pagination
           />
-        </div>
-      </div>
-        
     );
 }
 

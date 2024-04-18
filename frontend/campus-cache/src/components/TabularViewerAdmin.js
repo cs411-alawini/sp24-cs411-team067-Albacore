@@ -121,18 +121,6 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
       }
     };
 
-    const checkLocalStorageItem = (key) => {
-      // Try to get the item from local storage
-      const item = localStorage.getItem(key);
-      if (item === null) {
-        console.log(`${key} does not exist in local storage.`);
-        return false;
-      } else {
-        console.log(`${key} exists in local storage.`);
-        return true;
-      }
-    }
-
     useEffect(() => {
       grabData().then((response) => {
           setTableData(response.data[title]);
@@ -143,8 +131,6 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
     }, []);
     
     return (
-      <div>
-        <div style={{ flexGrow: 1, maxWidth: '95%' }}>
           <DataGrid
             autoHeight
             getRowId={row=>row[uniqueIdentifier]}
@@ -160,9 +146,6 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
             checkboxSelection
             pagination
           />
-        </div>
-      </div>
-        
     );
 }
 

@@ -1,14 +1,18 @@
 import os
 from fastapi import FastAPI
-from .routers import credentials, inventory, facilities
+from .routers import credentials, inventory, facilities, computers, reservations
 from fastapi.middleware.cors import CORSMiddleware
 import jwt
 
 app = FastAPI()
 
 app.include_router(credentials.router)
+app.include_router(computers.router)
 app.include_router(inventory.router)
+app.include_router(reservations.router)
 app.include_router(facilities.router)
+
+
 
 origins = ["*"]
 app.add_middleware(

@@ -7,16 +7,16 @@ const LandingPage = () => {
     const context = useContext(AppContext);
     const getWelcomeString = () => {
         var welcomeStr = "Welcome, ";
-        console.log("context: ")
         if (context.state.loggedIn) {
             if (context.state.isAdmin) {
-                welcomeStr += ("Admin " + context.state.user);
+                welcomeStr += ("Admin " + context.state.user + "!");
             } else {
-                welcomeStr += ("User " + context.state.user);
+                welcomeStr += ("User " + context.state.user + "!");
             }
             return welcomeStr;
         } else {
             window.location.href = "/login"
+            return ""
         }
         
     }
@@ -24,7 +24,7 @@ const LandingPage = () => {
         <>
             <NavBar/>
             <p>
-                {getWelcomeString()}!
+                {getWelcomeString()}
             </p>
         </>
         
