@@ -6,7 +6,6 @@ from ..db.db_instance import get_cursor
 from fastapi.responses import JSONResponse
 from ..auth_handler import decodeJWT
 from ..auth_bearer import JWTBearer
-from ..auth_handler import decodeJWT
 
 router = APIRouter()
 
