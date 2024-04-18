@@ -4,6 +4,7 @@ import { jwtDecode } from "jwt-decode";
 import InventoryModuleAdmin from "../components/Inventory/InventoryModuleAdmin";
 import InventoryModuleBase from "../components/Inventory/InventoryModuleBase";
 import { AppContext } from "../App";
+import { Box, Container } from "@mui/material";
 // Created separate directory to prevent circular dependency
 
 const InventoryPage = () => {
@@ -17,8 +18,11 @@ const InventoryPage = () => {
     return (
         <>
             <LoginBar/>
-            {context.state.isAdmin ? <InventoryModuleAdmin/> : <InventoryModuleBase/>}
-            
+            <Box display="flex" justifyContent="center" alignItems="center">
+                <div style={{ height: 400, width: '100%' }}>
+                    {context.state.isAdmin ? <InventoryModuleAdmin/> : <InventoryModuleBase/>}
+                </div>
+            </Box>
         </>
     );
 };

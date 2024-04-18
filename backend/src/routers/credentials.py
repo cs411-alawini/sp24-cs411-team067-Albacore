@@ -20,7 +20,7 @@ class CredentialLogin(BaseModel):
     netid: str = Field(...)
     password: str = Field(...)
 
-@router.get("/api/credentials",  dependencies=[Depends(JWTBearer())])
+@router.get("/api/credentials",  dependencies=[Depends(JWTBearer())], tags=["Credentials"])
 async def get_credentials(token_payload: dict = Depends(JWTBearer())):
     token = decodeJWT(token_payload)
     if (token["role"] != "admin"):
@@ -34,8 +34,8 @@ async def get_credentials(token_payload: dict = Depends(JWTBearer())):
             credentials.append(Credential(netid=record['netID'], password=record['password'], permission=record['permission']))
     return JSONResponse(content={"credentials": [jsonable_encoder(credential.dict()) for credential in credentials]})
 
-@router.put("/api/credentials/{netid}",  dependencies=[Depends(JWTBearer())])
-async def update_credential(netid: str, user: Credential):
+@router.put("/api/admin/credentials/{netid}",  dependencies=[Depends(JWTBearer())], tags=["Credentials"])
+async def update_credential(netid: str, user: Credential, token_payload: dict = Depends(JWTBearer())):
     cursor = get_cursor()
     conn = get_db_conn()
     update_cmd = ("UPDATE students SET password = %s, majorid = %s WHERE netid = %s;")
@@ -48,7 +48,7 @@ async def update_credential(netid: str, user: Credential):
         conn.rollback()
         raise HTTPException(status_code=500, detail=f"Failed to update user: {e}")
 
-@router.post("/api/user/login", tags=["user"])
+@router.post("/api/user/login", tags=["Login"])
 async def user_login(user: CredentialLogin = Body(...)):
     role = check_user(user)
     if role >= 0:

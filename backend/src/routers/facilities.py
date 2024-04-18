@@ -1,9 +1,10 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 from typing import Any, Union, List
 from pydantic import BaseModel
 from ..db import db_instance
 from ..db.db_instance import get_cursor
 from fastapi.responses import JSONResponse
+from ..auth_bearer import JWTBearer
 
 router = APIRouter()
 
@@ -15,7 +16,7 @@ class Facility(BaseModel):
     latitude: float
     map_url: str
 
-@router.get("/api/facilities")
+@router.get("/api/facilities", tags=["Facilities"], dependencies=[Depends(JWTBearer())])
 async def get_facilities():
     cursor = get_cursor()
     cursor.execute("SELECT * from Facilities")
