@@ -2,13 +2,12 @@ from fastapi import APIRouter, HTTPException, Depends
 from typing import Any, Union, List, Optional
 from pydantic import BaseModel
 from ..db import db_instance
-from ..db.db_instance import get_cursor
+from ..db.db_instance import get_cursor, ResultSets
 from fastapi.responses import JSONResponse
 from ..auth_handler import decodeJWT
 from ..auth_bearer import JWTBearer
 
 router = APIRouter()
-
 class Inventory(BaseModel):
     item_id: int
     bldg_name: str
@@ -21,16 +20,23 @@ class Inventory(BaseModel):
 @router.get("/api/inventory", dependencies=[Depends(JWTBearer())], tags=["Inventory"])
 async def get_inventory(token_payload: dict = Depends(JWTBearer())):
     jwt_info = decodeJWT(token_payload)
-    cursor = get_cursor()
-    if (jwt_info['role'] == 'admin'):
-        cursor.callproc("GetAllItems")
-    else:
-        cursor.callproc("GetAllowedItems", (jwt_info['user_id'],))
-
-    for result in cursor.stored_results():
-        rows = result.fetchall()
-        all_inventory = [Inventory(item_id=row['ItemID'], bldg_name=row['BldgName'], item_name=row['ItemName'], availability=row['Availability'], condition=translate_condition(row['Condition']), location_id=row["LocationID"], duration=row["Duration"]) for row in rows]
-    return JSONResponse(content={"Inventory": [inventory.dict() for inventory in all_inventory]})
+    try:
+        async with get_cursor() as cursor:
+            if (jwt_info['role'] == 'admin'):
+                await cursor.callproc("GetAllItems")
+            else:
+                await cursor.callproc("GetAllowedItems", (jwt_info['user_id'],))
+            results = []
+            initial_results = await cursor.fetchall() # Async connector does not have stored results
+            results.append(initial_results)
+            async for result_set in ResultSets(cursor):
+                results.append(result_set)
+            results = results[0]
+            all_inventory = [Inventory(item_id=row['ItemID'], bldg_name=row['BldgName'], item_name=row['ItemName'], availability=row['Availability'], condition=translate_condition(row['Condition']), location_id=row["LocationID"], duration=row["Duration"]) for row in results]
+            return JSONResponse(content={"Inventory": [inventory.dict() for inventory in all_inventory]})
+    except Exception as error:
+        print("error occurred: ", error)
+        raise HTTPException(status_code=500, detail="Failed to execute stored procedure for Inventory")
 
 @router.put("/api/admin/inventory/{itemid}", dependencies=[Depends(JWTBearer())], tags=["Inventory"])
 async def update_inventory(itemid: int, token_payload: dict = Depends(JWTBearer())):
