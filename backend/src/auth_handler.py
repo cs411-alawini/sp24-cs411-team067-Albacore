@@ -5,6 +5,7 @@ from typing import Dict
 from datetime import datetime, timedelta
 import jwt
 from decouple import config
+from fastapi import HTTPException
 JWT_SECRET = config("SECRET")
 JWT_ALGORITHM = config("ALGO")
 
@@ -32,5 +33,9 @@ def decodeJWT(token: str) -> dict:
         decoded_token = jwt.decode(token, JWT_SECRET, algorithms=[JWT_ALGORITHM])
         current_time_str = current_time.strftime("%Y-%m-%d %H:%M:%S")
         return decoded_token if decoded_token["expires"] >= current_time_str else None
+    except jwt.ExpiredSignatureError:
+        raise HTTPException(status_code=401, detail="Token is expired")
+    except jwt.InvalidTokenError:
+        raise HTTPException(status_code=401, detail="Invalid token")
     except:
-        return None
+        raise HTTPException(status_code=401, detail="Error occurred decoding JWT")

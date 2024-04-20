@@ -1,4 +1,5 @@
 fastapi
+aiomysql
 uvicorn
 pydantic
 python-dotenv
