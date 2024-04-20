@@ -45,7 +45,7 @@ async def update_credential(netid: str, user: Credential, token_payload: dict = 
 
 @router.post("/api/user/login", tags=["Login"])
 async def user_login(user: CredentialLogin = Body(...)):
-    role = check_user(user)
+    role = await check_user(user)
     if role >= 0:
         if (role == 1): # if user is admin
             return signJWT(user.netid, True)
@@ -55,12 +55,12 @@ async def user_login(user: CredentialLogin = Body(...)):
 # 0 = Student, 1 = Admin, -1 = Error
 async def check_user(data: CredentialLogin):
     curr_user = data
-    cursor = get_cursor()
-    query = "SELECT * from Credentials WHERE netID = %s"
-    params = (curr_user.netid,)
-    cursor.execute(query, params)
-    row = cursor.fetchone()
-    credential = Credential(netid=row['netID'], password=row['password'], permission=row['permission'])
-    if credential.netid == curr_user.netid and credential.password.get_secret_value() == curr_user.password:
-        return credential.permission
-    return -1
+    async with get_cursor() as cursor:
+        query = "SELECT * from Credentials WHERE netID = %s"
+        params = (curr_user.netid,)
+        await cursor.execute(query, params)
+        row = await cursor.fetchone()
+        credential = Credential(netid=row['netID'], password=row['password'], permission=row['permission'])
+        if credential.netid == curr_user.netid and credential.password.get_secret_value() == curr_user.password:
+            return credential.permission
+        return -1
