@@ -51,6 +51,8 @@ async def user_login(user: CredentialLogin = Body(...)):
             return signJWT(user.netid, True)
         else:
             return signJWT(user.netid, False)
+    else:
+        raise HTTPException(status_code=401, detail="Failed to login user")
 
 # 0 = Student, 1 = Admin, -1 = Error
 async def check_user(data: CredentialLogin):

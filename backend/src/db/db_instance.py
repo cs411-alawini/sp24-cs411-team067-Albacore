@@ -45,7 +45,7 @@ async def get_db_conn():
         user=dbuser,
         password=dbpswd,
         cursorclass=aiomysql.DictCursor,
-        db=dbname) # Try to CPU usage (b/c low compute GCP instance)
+        db=dbname)
         return dbconn
     except mysql.connector.Error as error:
         print("MySQLError: ", error)
