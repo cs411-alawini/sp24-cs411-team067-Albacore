@@ -21,7 +21,7 @@ def signJWT(user_id: str, isAdmin: bool=False):
     payload = {
         "user_id": user_id,
         "expires": expirary_date_str,
-        "role": "admin" if isAdmin else "student" # TODO: change this
+        "role": "admin" if isAdmin else "student"
     }
     token = jwt.encode(payload, JWT_SECRET, algorithm=JWT_ALGORITHM)
     return token_response(token)
@@ -33,5 +33,4 @@ def decodeJWT(token: str) -> dict:
         current_time_str = current_time.strftime("%Y-%m-%d %H:%M:%S")
         return decoded_token if decoded_token["expires"] >= current_time_str else None
     except:
-        print("Invalid Token w/ JWT") # TODO: Raise HTTP exception
         return None

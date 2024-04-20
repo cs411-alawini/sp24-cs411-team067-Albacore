@@ -32,7 +32,7 @@ def generate_main_library():
         csv_writer.writerow(header)
         csv_writer.writerows(data)
 
-def generate_BIF(): #TODO: update this function to fit with our design. make same as main library function above
+def generate_BIF():
     items = ["White paper",
              "Blue pen",
              "Black pen",
