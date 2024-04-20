@@ -23,6 +23,6 @@ async def get_computers():
 @router.put("/api/admin/computers/{itemid}", tags=["Computers"], dependencies=[Depends(JWTBearer())])
 async def update_computers(token_payload: dict = Depends(JWTBearer())):
     token = decodeJWT(token_payload)
-    if (token["role"] != "admin"):
+    if (token["role"] == "user"):
         raise HTTPException(status_code=401, detail="User is not authorized to perform this action")
     pass

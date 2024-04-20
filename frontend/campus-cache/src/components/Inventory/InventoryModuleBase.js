@@ -1,7 +1,7 @@
 import React, { useContext, useEffect} from "react";
 import { httpClient } from "../../infra";
-import TabularViewerBase from "../TabularViewerBase";
 import { AppContext } from "../../App";
+import TabularViewerUserReserve from "../TabularViewerUserReserve";
 
 const InventoryModuleBase = () => {
   const context = useContext(AppContext);
@@ -26,7 +26,7 @@ const InventoryModuleBase = () => {
   return (
       <div>
           <p>Student</p>
-          <TabularViewerBase title={"Inventory"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
+          <TabularViewerUserReserve title={"Inventory"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
       </div>
   );
 }

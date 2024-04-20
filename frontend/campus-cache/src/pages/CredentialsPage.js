@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 // Created separate directory to prevent circular dependency
 import CredentialsModule from "../components/User/CredentialsModule";
 import LoginBar from "../components/NavBar";
@@ -8,13 +8,16 @@ import { AppContext } from "../App";
 import UnauthorizedPage from "./UnauthorizedPage";
 const CredentialsPage = () => {
     const context = useContext(AppContext);
-    
+    useEffect(() => {
+        if (!context.state.isAdmin) {
+            window.location.href = "/unauthorized"
+        }
+      }, []);
     return (
         <>
             <LoginBar/>
             <Divider/>
-            {context.state.isAdmin ? <CredentialsModule/> : <UnauthorizedPage/>}
-            
+            <CredentialsModule/>
         </>
     );
 };
