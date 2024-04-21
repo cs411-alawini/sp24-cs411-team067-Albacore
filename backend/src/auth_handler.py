@@ -9,7 +9,6 @@ from fastapi import HTTPException
 JWT_SECRET = config("SECRET")
 JWT_ALGORITHM = config("ALGO")
 
-
 def token_response(token: str):
     return {
         "access_token": token
