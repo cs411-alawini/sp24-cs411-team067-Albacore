@@ -16,7 +16,7 @@ class Facility(BaseModel):
     latitude: float
     map_url: str
 
-@router.get("/api/facilities", tags=["Facilities"], dependencies=[Depends(JWTBearer())])
+@router.get("/api/facilities", tags=["Facilities"])
 async def get_facilities():
     cursor = get_cursor()
     cursor.execute("SELECT * from Facilities")
