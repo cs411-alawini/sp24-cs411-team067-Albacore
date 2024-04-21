@@ -30,7 +30,7 @@ jobs:
         context: ./frontend
         file: ./frontend/Dockerfile
         push: true
-        tags: lukealbarracin/frontend:latest
+        tags: lukealbarracin/campus-cache-frontend:latest
 
     - name: Build and push FastAPI Backend Docker image
       uses: docker/build-push-action@v5
@@ -38,4 +38,4 @@ jobs:
         context: ./backend
         file: ./backend/Dockerfile
         push: true
-        tags: lukealbarracin/backend:latest
+        tags: lukealbarracin/campus-cache-backend:latest
