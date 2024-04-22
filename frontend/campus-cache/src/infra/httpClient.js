@@ -1,7 +1,4 @@
 import axios from "axios";
-
-// This is pure javascript
-require('dotenv').config();
 // If .env set, other default to local
 const HTTPCLIENT_BASE_URL = process.env.HTTPCLIENT_BASE_URL || "http://localhost:8000/api";
 
