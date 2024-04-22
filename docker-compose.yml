@@ -1,6 +1,7 @@
 services:
   backend:
     image: lukealbarracin/campus-cache-backend:latest
+    platform: linux/amd64
     ports:
       - "8000:8000"
     volumes:
@@ -12,6 +13,7 @@ services:
 
   frontend:
     image: lukealbarracin/campus-cache-frontend:latest
+    platform: linux/amd64
     ports:
       - "3000:3000"
     volumes:
@@ -21,3 +23,15 @@ services:
       - CHOKIDAR_USEPOLLING=true
     depends_on:
       - backend
+    
+  nginx:
+    build:
+      context: nginx/
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - backend
+      - frontend
