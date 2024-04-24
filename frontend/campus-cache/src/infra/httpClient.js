@@ -1,7 +1,7 @@
 import axios from "axios";
 // If .env set, other default to local
 // const REACT_APP_BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:8000/api";
-const REACT_APP_BASE_URL = "http://3.134.206.45:8000/api";
+const REACT_APP_BASE_URL = "https://campuscache.com:8000/api";
 console.log("HTTPCLIENT_BASE_URL: " + REACT_APP_BASE_URL);
 
 const httpClient = axios.create({
