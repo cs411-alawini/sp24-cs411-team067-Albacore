@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useMemo} from "react";
 import PropTypes from "prop-types";
-import {DataGrid,GridRowModes,GridActionsCellItem,GridRowEditStopReasons, GridToolbar, GridToolbarContainer, GridToolbarExport, GridToolbarColumnsButton, GridToolbarFilterButton, GridToolbarDensitySelector} from '@mui/x-data-grid';
+import {DataGrid,GridRowModes,GridActionsCellItem,GridRowEditStopReasons, GridToolbar, GridToolbarContainer, GridToolbarExport, GridToolbarColumnsButton, GridToolbarFilterButton, GridToolbarDensitySelector, GridToolbarQuickFilter} from '@mui/x-data-grid';
 import EmptyRowDisplay from "./EmptyRowDisplay";
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import { Button, Checkbox } from "@mui/material";
@@ -9,6 +9,13 @@ import ReservationButton from "./ReservationButton";
 const CustomToolbar = () => {
   return (
     <GridToolbarContainer>
+      <GridToolbarQuickFilter
+        quickFilterParser={(searchInput) =>
+          searchInput.split(',').map((value) => value.trim())
+        }
+        quickFilterFormatter={(quickFilterValues) => quickFilterValues.join(', ')}
+        debounceMs={200} // time before applying the new quick filter value
+      />
       <GridToolbarFilterButton/>
       <GridToolbarDensitySelector/>
       <GridToolbarExport/>
