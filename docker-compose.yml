@@ -1,7 +1,9 @@
+version: "2"
+
 services:
   backend:
     image: lukealbarracin/campus-cache-backend:latest
-    platform: linux/amd64
+    # platform: linux/amd64
     ports:
       - "8000:8000"
     volumes:
@@ -13,7 +15,7 @@ services:
 
   frontend:
     image: lukealbarracin/campus-cache-frontend:latest
-    platform: linux/amd64
+    # platform: linux/amd64  
     ports:
       - "3000:3000"
     volumes:

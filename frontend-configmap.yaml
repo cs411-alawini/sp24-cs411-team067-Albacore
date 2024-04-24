@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-env
+data:
+  CHOKIDAR_USEPOLLING: "true"
+  # Add other .env file variables here
