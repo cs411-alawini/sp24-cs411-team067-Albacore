@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: frontend
+        image: lukealbarracin/campus-cache-frontend:latest
+        ports:
+        - containerPort: 3000
+        envFrom:
+        - configMapRef:
+            name: frontend-env
+        volumeMounts:
+        - name: source-volume
+          mountPath: /app/src
+        - name: public-volume
+          mountPath: /app/public
+      volumes:
+      - name: source-volume
+        hostPath:
+          path: /home/ubuntu/sp24-cs411-team067-Albacore/frontend/campus-cache/src
+          type: Directory
+      - name: public-volume
+        hostPath:
+          path: /home/ubuntu/sp24-cs411-team067-Albacore/frontend/campus-cache/public
+          type: Directory
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend
+spec:
+  type: NodePort
+  ports:
+  - port: 3000
+    targetPort: 3000
+    nodePort: 30001
+  selector:
+    app: frontend
