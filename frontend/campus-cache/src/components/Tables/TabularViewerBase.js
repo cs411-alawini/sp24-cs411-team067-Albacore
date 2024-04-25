@@ -1,21 +1,13 @@
 import React, {useState, useEffect, useMemo} from "react";
 import PropTypes from "prop-types";
-import {DataGrid,GridRowModes,GridActionsCellItem,GridRowEditStopReasons, GridToolbar, GridToolbarContainer, GridToolbarExport, GridToolbarColumnsButton, GridToolbarFilterButton, GridToolbarDensitySelector, GridToolbarQuickFilter} from '@mui/x-data-grid';
+import {DataGrid,GridToolbarContainer, GridToolbarExport, GridToolbarFilterButton, GridToolbarDensitySelector} from '@mui/x-data-grid';
 import EmptyRowDisplay from "./EmptyRowDisplay";
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
-import { Button, Checkbox } from "@mui/material";
-import ReservationButton from "./ReservationButton";
+import { Button} from "@mui/material";
 
 const CustomToolbar = () => {
   return (
     <GridToolbarContainer>
-      <GridToolbarQuickFilter
-        quickFilterParser={(searchInput) =>
-          searchInput.split(',').map((value) => value.trim())
-        }
-        quickFilterFormatter={(quickFilterValues) => quickFilterValues.join(', ')}
-        debounceMs={200} // time before applying the new quick filter value
-      />
       <GridToolbarFilterButton/>
       <GridToolbarDensitySelector/>
       <GridToolbarExport/>
@@ -23,12 +15,13 @@ const CustomToolbar = () => {
   );
 }
 
-const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, uniqueIdentifier}) => {
+const TabularViewerBase = ({title, grabData, updateData, tableHeaders, uniqueIdentifier}) => {
 
     const [tableData, setTableData] = useState([]);
     const [rowModesModel, setRowModesModel] = useState({});
     // Code used from MUI docs: https://mui.com/x/react-data-grid/editing/
     
+    // TODO: Remove reserve button for non-active reservations or make a query that removes them 
     const columns = useMemo(() => tableHeaders.concat(
       {
         field: 'action',
@@ -37,7 +30,15 @@ const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, un
         headerAlign: 'center',
         align: 'right',
         renderCell: (params) => (
-          <ReservationButton params={params.row.availability}/>
+          
+          <Button 
+            variant="contained" 
+            color="primary"
+            size="small"
+            sx={{ fontSize: '0.60rem' }}
+            startIcon={<AddCircleOutlineIcon/>}>
+            Reserve
+          </Button>
         ),
       }
       )
@@ -70,7 +71,7 @@ const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, un
     );
 }
 
-TabularViewerUserReserve.propTypes = {
+TabularViewerBase.propTypes = {
     title: PropTypes.string,
     grabData: PropTypes.func,
     updateData: PropTypes.func,
@@ -78,4 +79,4 @@ TabularViewerUserReserve.propTypes = {
     uniqueIdentifier: PropTypes.string
 };
 
-export default TabularViewerUserReserve;
+export default TabularViewerBase;

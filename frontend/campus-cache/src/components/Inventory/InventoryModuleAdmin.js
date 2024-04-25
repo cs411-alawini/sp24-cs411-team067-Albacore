@@ -1,6 +1,6 @@
 import React, { useEffect} from "react";
 import { httpClient } from "../../infra";
-import TabularViewerAdmin from "../TabularViewerAdmin";
+import TabularViewerAdmin from "../Tables/TabularViewerAdmin";
 
 const InventoryModuleAdmin = () => {
 

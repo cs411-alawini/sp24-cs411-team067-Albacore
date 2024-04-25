@@ -1,5 +1,5 @@
 import React, { useEffect} from "react";
-import TabularViewer from "../TabularViewerAdmin";
+import TabularViewer from "../Tables/TabularViewerAdmin";
 import { httpClient } from "../../infra";
 
 const FacilityModule = () => {

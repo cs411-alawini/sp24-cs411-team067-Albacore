@@ -1,11 +1,9 @@
 import React, { useContext, useEffect } from "react";
 // Created separate directory to prevent circular dependency
-import CredentialsModule from "../components/User/CredentialsModule";
+import CredentialsModule from "../components/Credentials/CredentialsModule";
 import LoginBar from "../components/NavBar";
-import FileUploadButton from "../components/FileUploadButton";
 import { Divider } from "@mui/material";
 import { AppContext } from "../App";
-import UnauthorizedPage from "./UnauthorizedPage";
 const CredentialsPage = () => {
     const context = useContext(AppContext);
     useEffect(() => {

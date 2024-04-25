@@ -5,8 +5,8 @@ from pydantic import BaseModel, SecretStr, validator, Field
 from ..db.db_instance import get_cursor, get_db_conn, ResultSets
 from fastapi.responses import JSONResponse
 from mysql.connector import Error
-from ..auth_handler import signJWT, decodeJWT
-from ..auth_bearer import JWTBearer
+from ..auth.auth_handler import signJWT, decodeJWT
+from ..auth.auth_bearer import JWTBearer
 
 router = APIRouter()
 

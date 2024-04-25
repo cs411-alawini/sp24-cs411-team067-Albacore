@@ -25,15 +25,3 @@ services:
       - ./frontend/.env
     depends_on:
       - backend
-    
-  nginx:
-    build:
-      context: nginx/
-      dockerfile: Dockerfile
-    ports:
-      - "80:80"
-    volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-    depends_on:
-      - backend
-      - frontend
