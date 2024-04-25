@@ -5,7 +5,6 @@ import {  Link as RouterLink  } from 'react-router-dom';
 import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
-import { useNavigate } from "react-router-dom";
 import { AppContext } from '../App';
 
 const NavBar = () => {

@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from ..db import db_instance
 from ..db.db_instance import get_cursor
 from fastapi.responses import JSONResponse
-from ..auth_bearer import JWTBearer
+from ..auth.auth_bearer import JWTBearer
 import logging
 
 router = APIRouter()

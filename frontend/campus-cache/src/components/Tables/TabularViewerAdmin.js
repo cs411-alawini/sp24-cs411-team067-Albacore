@@ -1,12 +1,11 @@
-import React, {useState, useEffect, useMemo} from "react";
+import React, {useState, useEffect} from "react";
 import PropTypes from "prop-types";
-import {DataGrid,GridRowModes,GridActionsCellItem,GridRowEditStopReasons, GridToolbar, GridToolbarContainer, GridToolbarExport, GridToolbarColumnsButton, GridToolbarFilterButton, GridToolbarDensitySelector} from '@mui/x-data-grid';
+import {DataGrid,GridRowModes,GridActionsCellItem,GridRowEditStopReasons,GridToolbarContainer, GridToolbarExport,GridToolbarFilterButton,GridToolbarDensitySelector} from '@mui/x-data-grid';
 import EmptyRowDisplay from "./EmptyRowDisplay";
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/DeleteOutlined';
 import SaveIcon from '@mui/icons-material/Save';
 import CancelIcon from '@mui/icons-material/Close';
-import FileUploadButton from "./FileUploadButton";
 
 const CustomToolbar = () => {
   return (
@@ -24,8 +23,7 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
     const [rowModesModel, setRowModesModel] = useState({});
     // Below is not an ideal use case for memoization, but an example of how one would do this
     // Code used from MUI docs: https://mui.com/x/react-data-grid/editing/
-    const columns = useMemo(() => tableHeaders.concat(
-      {
+    const columns = tableHeaders.concat({
         field: 'actions',
         type: 'actions',
         headerName: 'Actions',
@@ -70,8 +68,7 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
             />,
           ];
         },
-      })
-    )
+    })
 
     const handleRowModesModelChange = (newRowModesModel) => {
       setRowModesModel(newRowModesModel);

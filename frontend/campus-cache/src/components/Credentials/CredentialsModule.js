@@ -1,8 +1,7 @@
 
 import React, { useEffect} from "react";
-import TabularViewer from "../TabularViewerAdmin";
 import { httpClient } from "../../infra";
-import TabularViewerAdmin from "../TabularViewerAdmin";
+import TabularViewerAdmin from "../Tables/TabularViewerAdmin";
 
 const CredentialsModule = () => {
     // React Hook separated by getter + setter

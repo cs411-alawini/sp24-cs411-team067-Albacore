@@ -1,7 +1,7 @@
 import React, { useContext, useEffect} from "react";
 import { httpClient } from "../../infra";
 import { AppContext } from "../../App";
-import TabularViewerUserReserve from "../TabularViewerUserReserve";
+import TabularViewerUserReserve from "../Tables/TabularViewerUserReserve";
 
 const InventoryModuleBase = () => {
   const context = useContext(AppContext);
