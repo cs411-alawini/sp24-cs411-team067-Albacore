@@ -5,6 +5,14 @@ import { AppContext } from "../App";
 import ButtonBase from '@mui/material/ButtonBase';
 import { Box, Typography } from "@mui/material";
 
+const handleClick = (title) => {
+    if (title == "Credentials") {
+        window.location.href = "/credentials";
+    } else if (title == "Borrowable Inventory") {
+        window.location.href ="/inventory";
+    }
+}
+
 const images = [
     {
       url: 'https://burnham310.com/wp-content/uploads/2020/09/UIUC-Student-Union-1.jpg',
@@ -14,27 +22,27 @@ const images = [
     {
       url: 'https://will.illinois.edu/images/uploads/Illini-Union-voting-2022-768x440.png',
       title: 'My Reservations',
-      width: '33.33%',
+      width: '33.33%'
     },
     {
         url: 'https://www.library.illinois.edu/friends/wp-content/uploads/2021/02/ReadingRoomPainted-1024x752.jpg',
         title: 'Facilities',
-        width: '33.33%',
+        width: '33.33%'
     },
     {
         url: 'https://techservices.illinois.edu/wp-content/uploads/2021/08/EnglishLab.jpg',
         title: 'Computers',
-        width: '33.33%',
+        width: '33.33%'
     },
     {
         url: 'https://www.niss.org/sites/default/files/UIL-UCham.jpg',
         title: 'Departments',
-        width: '33.33%',
+        width: '33.33%'
     },
     {
         url: 'https://cdn1.lib.jmu.edu/wp-content/uploads/equipment-loans-700x467.jpg',
         title: 'Borrowable Inventory',
-        width: '33.33%',
+        width: '33.33%'
     }
   ];
 
@@ -132,6 +140,7 @@ const LandingPage = () => {
                     style={{
                         width: image.width,
                     }}
+                    onClick={()=>handleClick(image.title)}
                     >
                 <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
                 <ImageBackdrop className="MuiImageBackdrop-root" />
