@@ -2,6 +2,7 @@ import React, { useContext, useEffect} from "react";
 import { httpClient } from "../../infra";
 import { AppContext } from "../../App";
 import TabularViewerUserReserve from "../Tables/TabularViewerUserReserve";
+import { Box } from "@mui/material";
 
 const InventoryModuleBase = () => {
   const context = useContext(AppContext);
@@ -24,10 +25,7 @@ const InventoryModuleBase = () => {
   }
 
   return (
-      <div>
-          <p>Student</p>
-          <TabularViewerUserReserve title={"Inventory"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
-      </div>
+      <TabularViewerUserReserve title={"Inventory"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
   );
 }
 export default InventoryModuleBase;

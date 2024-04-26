@@ -1,19 +1,29 @@
 import React, {useState, useEffect} from "react";
 import PropTypes from "prop-types";
-import {DataGrid,GridRowModes,GridActionsCellItem,GridRowEditStopReasons,GridToolbarContainer, GridToolbarExport,GridToolbarFilterButton,GridToolbarDensitySelector} from '@mui/x-data-grid';
+import {DataGrid,GridRowModes,GridActionsCellItem,GridRowEditStopReasons,GridToolbarContainer, GridToolbarExport,GridToolbarFilterButton,GridToolbarDensitySelector, GridToolbarQuickFilter} from '@mui/x-data-grid';
 import EmptyRowDisplay from "./EmptyRowDisplay";
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/DeleteOutlined';
 import SaveIcon from '@mui/icons-material/Save';
 import CancelIcon from '@mui/icons-material/Close';
+import { Box } from "@mui/material";
 
 const CustomToolbar = () => {
   return (
-    <GridToolbarContainer>
-      <GridToolbarFilterButton/>
-      <GridToolbarDensitySelector/>
-      <GridToolbarExport/>
-    </GridToolbarContainer>
+    <Box justifyContent="center" sx={{backgroundColor: '#1f2d3d', display: "flex",  width: '100%' }}>
+      <GridToolbarContainer>
+        <GridToolbarQuickFilter
+          quickFilterParser={(searchInput) =>
+            searchInput.split(',').map((value) => value.trim())
+          }
+          quickFilterFormatter={(quickFilterValues) => quickFilterValues.join(', ')}
+          debounceMs={200} // time before applying the new quick filter value
+        />
+        <GridToolbarFilterButton/>
+        <GridToolbarDensitySelector/>
+        <GridToolbarExport/>
+      </GridToolbarContainer>
+    </Box>
   );
 }
 
@@ -128,8 +138,10 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
     }, []);
     
     return (
-          <DataGrid
+      <Box justifyContent="center" sx={{backgroundColor: '#1f2d3d', display: "flex",  width: '100%' }}>
+        <DataGrid
             autoHeight
+            style={{position: "absolute"}}
             getRowId={row=>row[uniqueIdentifier]}
             rows={tableData}
             editMode="row"
@@ -143,6 +155,7 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
             checkboxSelection
             pagination
           />
+      </Box>  
     );
 }
 
