@@ -142,6 +142,7 @@ const LandingPage = () => {
                     }}
                     onClick={()=>handleClick(image.title)}
                     >
+                    
                 <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
                 <ImageBackdrop className="MuiImageBackdrop-root" />
                 <Image>

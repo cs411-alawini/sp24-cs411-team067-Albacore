@@ -18,11 +18,7 @@ const InventoryPage = () => {
     return (
         <>
             <LoginBar/>
-            <Box display="flex" justifyContent="center" alignItems="center">
-                <div style={{ height: 400, width: '100%' }}>
-                    {context.state.isAdmin ? <InventoryModuleAdmin/> : <InventoryModuleBase/>}
-                </div>
-            </Box>
+            {context.state.isAdmin ? <InventoryModuleAdmin/> : <InventoryModuleBase/>}
         </>
     );
 };

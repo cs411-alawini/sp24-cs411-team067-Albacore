@@ -4,6 +4,14 @@ import './App.css';
 import axios from "axios";
 import AuthenticationRouter from "./components/AuthenticationRouter";
 import { jwtDecode } from "jwt-decode";
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+
+const darkTheme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
 
 const initialState = {
   loggedIn: false,
@@ -52,12 +60,13 @@ const App = () => {
   
     return (
       <div className="App">
-          <div>
-            <AppContext.Provider value={{state}}>
-              <AuthenticationRouter>
-              </AuthenticationRouter>
-            </AppContext.Provider>
-          </div>
+            <ThemeProvider theme={darkTheme}>
+            <CssBaseline />
+              <AppContext.Provider value={{state}}>
+                <AuthenticationRouter>
+                </AuthenticationRouter>
+              </AppContext.Provider>
+            </ThemeProvider>
       </div>
     );
 }
