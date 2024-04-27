@@ -18,6 +18,7 @@ const AuthenticationRouter = () => {
                 <Route path="/facilities" element={<FacilitiesPage/>}/>
                 <Route path="/login" element={<LoginPage/>}/>
                 <Route path="/unauthorized" element={<UnauthorizedPage/>}/>
+                <Route path="/computers" element={<FacilitiesPage/>}/>
             </Routes>
         </Router>
         
