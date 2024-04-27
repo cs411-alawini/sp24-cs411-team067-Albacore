@@ -9,8 +9,8 @@ const CredentialsModule = () => {
 
     const headers = [
       {"field": "netid", "headerName": "NetID", "editable": false, minWidth: 250 },
-      {"field": "password", "headerName": "Password",  "editable": true, minWidth: 250 },
-      {"field": "permission", "headerName" : "Permission", "editable": false, minWidth: 250}]
+      {"field": "password", "headerName": "Password",  "editable": false, minWidth: 250 },
+      {"field": "permission", "headerName" : "Permission", "editable": true, "type": "counter", minWidth: 250}]
   
     const getRequest = () => {
       const jwtToken = localStorage.getItem("JWTToken");

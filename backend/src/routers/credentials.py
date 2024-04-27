@@ -40,7 +40,7 @@ async def get_credentials(token_payload: dict = Depends(JWTBearer())):
         raise HTTPException(status_code=500, detail="Failed to execute stored procedure for Credentials")
 
 @router.put("/api/admin/credentials/{netid}",  dependencies=[Depends(JWTBearer())], tags=["Credentials"])
-async def update_credential(netid: str, user: Credential, token_payload: dict = Depends(JWTBearer())):
+async def update_credential( user: Credential, token_payload: dict = Depends(JWTBearer())):
     try:
         async with get_cursor() as cursor:
             await cursor.callproc("UpdateCredential", (user.netid, user.password, user.permission))

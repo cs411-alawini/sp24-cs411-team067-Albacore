@@ -10,12 +10,13 @@ from ..auth.auth_bearer import JWTBearer
 router = APIRouter()
 class Inventory(BaseModel):
     item_id: int
-    bldg_name: str
+    bldg_name: Optional[str] = None
     item_name: str
-    availability: bool
+    availability: bool = None
     condition: Optional[str] = None
     location_id: int
     duration: Optional[int] = None
+
 
 @router.get("/api/inventory", dependencies=[Depends(JWTBearer())], tags=["Inventory"])
 async def get_inventory(token_payload: dict = Depends(JWTBearer())):
@@ -40,12 +41,14 @@ async def get_inventory(token_payload: dict = Depends(JWTBearer())):
 
 @router.put("/api/admin/inventory/{itemid}", dependencies=[Depends(JWTBearer())], tags=["Inventory"])
 async def update_inventory(itemid: int, item: Inventory, token_payload: dict = Depends(JWTBearer())):
+    print("item: ", item)
     token = decodeJWT(token_payload)
     if (token["role"] != "admin"):
         raise HTTPException(status_code=401, detail="User is not authorized to perform this action")
     try:
         async with get_cursor() as cursor:
-            await cursor.callproc("UpdateItem", (item.item_id, item.item_name, item.availability, item.condition, item.location_id, item.duration,))
+            await cursor.callproc("UpdateItem", (item.item_id, item.item_name, item.availability, translate_condition_reverse(item.condition), item.location_id, item.duration,))
+            await cursor.connection.commit()
     except Exception as error:
         print("error occured: ", error)
         raise HTTPException(status_code=500, detail="Failed to execute stored procedure for Inventory")
@@ -59,3 +62,14 @@ def translate_condition(condition):
         return "Excellent"
     else:
         return "Unknown"
+    
+def translate_condition_reverse(condition):
+    print("reverse called!")
+    if condition == "Poor":
+        return 0
+    elif condition == "Good":
+        return 1
+    elif condition == "Excellent":
+        return 2
+    else:
+        return -1
