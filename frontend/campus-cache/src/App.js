@@ -9,7 +9,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 
 const darkTheme = createTheme({
   palette: {
-    mode: 'dark',
+    mode: 'light',
   },
 });
 
@@ -60,13 +60,11 @@ const App = () => {
   
     return (
       <div className="App">
-            <ThemeProvider theme={darkTheme}>
-            <CssBaseline />
               <AppContext.Provider value={{state}}>
                 <AuthenticationRouter>
                 </AuthenticationRouter>
               </AppContext.Provider>
-            </ThemeProvider>
+
       </div>
     );
 }
