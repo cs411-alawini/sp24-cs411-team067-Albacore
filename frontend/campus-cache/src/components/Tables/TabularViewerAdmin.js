@@ -10,7 +10,7 @@ import { Box } from "@mui/material";
 
 const CustomToolbar = () => {
   return (
-    <Box justifyContent="center" sx={{backgroundColor: '#1f2d3d', display: "flex",  width: '100%' }}>
+    <Box justifyContent="center" sx={{ display: "flex",  width: '100%' }}>
       <GridToolbarContainer>
         <GridToolbarQuickFilter
           quickFilterParser={(searchInput) =>

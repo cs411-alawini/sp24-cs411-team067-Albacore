@@ -5,29 +5,25 @@ import { httpClient } from "../../infra";
 const FacilityModule = () => {
 
     const headers = [
-      {field: "location_id", headerName: "LocationID", editable: false, type: 'number'},
-      {field: "bldg_name", headerName: "Building", editable: true, type: 'singleSelect',
-        valueOptions: ['Sidney Lu', 'SCD', 'English Building','Music & Arts Library']},
-      {field: "floor_section", headerName : "Floor/Section", editable: true},
-      {field: "longitude", headerName: "Condition", editable: true, type: 'singleSelect',
-      valueOptions: ['Excellent', 'Good', 'Poor']},
-      {field: "bldg_name", headerName: "Building", editable: true, type: 'singleSelect',
-         valueOptions: ['Sidney Lu', 'SCD', 'English Building','Music & Arts Library']}, // should query from facilities
-      {field: "duration", headerName: "Duration", editable: true}
+      {field: "location_id", headerName: "LocationID",type: 'number'},
+      {field: "bldg_name", headerName: "Building", type: 'singleSelect'},
+      {field: "floor_section", headerName : "Floor/Section"},
+      {field: "longitude", headerName: "Latitude", type: 'singleSelect'},
+      {field: "latitude", headerName: "Latitude", type: "singleSelect"},
+      {field: "MapURL", headerName: "MapURL"}
     ]
   
     const getRequest = () => {
+      const jwtToken = localStorage.getItem("JWTToken");
       return httpClient
-        .get("/facilities", {headers: {}})
+        .get("/facilities", {headers: {Authorization: "Bearer " + jwtToken}})
     }
 
     useEffect(() => {
     }, []);
 
     return (
-        <div>
-          <TabularViewer title={"Facilities"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
-        </div>
+        <TabularViewer title={"Facilities"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"location_id"}/>
     );
 }
 export default FacilityModule;
