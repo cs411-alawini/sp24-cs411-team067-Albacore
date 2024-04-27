@@ -35,9 +35,10 @@ const NavBar = () => {
                 >
                     <MenuIcon />
                 </IconButton>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 2 }}>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 2, marginLeft: "200px"}}>
                     Campus Cache
                 </Typography>
+                
                 {context.state.loggedIn ? <Button color="inherit">{context.state.user}</Button>: <div/>}
                 <IconButton color="inherit">
                     <AccountBoxIcon />
