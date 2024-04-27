@@ -39,12 +39,16 @@ async def get_inventory(token_payload: dict = Depends(JWTBearer())):
         raise HTTPException(status_code=500, detail="Failed to execute stored procedure for Inventory")
 
 @router.put("/api/admin/inventory/{itemid}", dependencies=[Depends(JWTBearer())], tags=["Inventory"])
-async def update_inventory(itemid: int, token_payload: dict = Depends(JWTBearer())):
+async def update_inventory(itemid: int, item: Inventory, token_payload: dict = Depends(JWTBearer())):
     token = decodeJWT(token_payload)
     if (token["role"] != "admin"):
         raise HTTPException(status_code=401, detail="User is not authorized to perform this action")
-    pass
-    # TODO: Finish SQL
+    try:
+        async with get_cursor() as cursor:
+            await cursor.callproc("UpdateItem", (item.item_id, item.item_name, item.availability, item.condition, item.location_id, item.duration,))
+    except Exception as error:
+        print("error occured: ", error)
+        raise HTTPException(status_code=500, detail="Failed to execute stored procedure for Inventory")
 
 def translate_condition(condition):
     if condition == 0:

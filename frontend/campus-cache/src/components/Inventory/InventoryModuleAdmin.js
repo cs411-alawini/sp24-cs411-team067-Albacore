@@ -21,13 +21,18 @@ const InventoryModuleAdmin = () => {
         .get("/inventory",{headers: {Authorization: "Bearer " + jwtToken}})
     }
 
+    const putRequest = (id, body) => { // Remember 'Put' is idempotent
+      return httpClient
+        .put("/inventory/" + id , body);
+    }
+
     useEffect(() => {
     }, []);
 
     return (
         <div>
           <p>Admin</p>
-          <TabularViewerAdmin title={"Inventory"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
+          <TabularViewerAdmin title={"Inventory"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
         </div>
     );
 }
