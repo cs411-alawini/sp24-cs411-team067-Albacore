@@ -2,7 +2,7 @@ import React, { useEffect} from "react";
 import TabularViewer from "../Tables/TabularViewerAdmin";
 import { httpClient } from "../../infra";
 
-const ComputerModule = () => {
+const ReservationModule = () => {
 
     const headers = [
       {field: "location_id", headerName: "LocationID",type: 'number'},
@@ -12,14 +12,14 @@ const ComputerModule = () => {
     const getRequest = () => {
       const jwtToken = localStorage.getItem("JWTToken");
       return httpClient
-        .get("/computers", {headers: {Authorization: "Bearer " + jwtToken}})
+        .get("/reservations", {headers: {Authorization: "Bearer " + jwtToken}})
     }
 
     useEffect(() => {
     }, []);
 
     return (
-        <TabularViewer title={"Computers"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"location_id"}/>
+        <TabularViewer title={"Reservations"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"location_id"}/>
     );
 }
-export default ComputerModule;
+export default ReservationModule;
