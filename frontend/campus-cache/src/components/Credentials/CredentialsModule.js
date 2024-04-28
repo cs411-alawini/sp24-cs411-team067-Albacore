@@ -1,16 +1,19 @@
 
-import React, { useEffect} from "react";
+import React, { useEffect, useState} from "react";
 import { httpClient } from "../../infra";
 import TabularViewerAdmin from "../Tables/TabularViewerAdmin";
+import DialogForm from "../DialogForm";
 
 const CredentialsModule = () => {
+    const [dialogOpen, setDialogOpen] = useState(true);
+
     // React Hook separated by getter + setter
     // Axios is a simple http client library
 
     const headers = [
       {"field": "netid", "headerName": "NetID", "editable": false, minWidth: 250 },
-      {"field": "password", "headerName": "Password",  "editable": true, minWidth: 250 },
-      {"field": "permission", "headerName" : "Permission", "editable": false, minWidth: 250}]
+      {"field": "password", "headerName": "Password",  "editable": false, minWidth: 250 },
+      {"field": "permission", "headerName" : "Permission", "editable": true, "type": "counter", minWidth: 250}]
   
     const getRequest = () => {
       const jwtToken = localStorage.getItem("JWTToken");
@@ -27,7 +30,10 @@ const CredentialsModule = () => {
     }, []);
 
     return (
-      <TabularViewerAdmin title={"credentials"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"netid"}/>
+      <>
+        <TabularViewerAdmin title={"credentials"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"netid"} credentialsMode={true}/>
+        
+      </>
     );
 }
 export default CredentialsModule;

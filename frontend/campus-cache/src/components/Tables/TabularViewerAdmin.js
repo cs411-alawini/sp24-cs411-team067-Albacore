@@ -6,11 +6,18 @@ import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/DeleteOutlined';
 import SaveIcon from '@mui/icons-material/Save';
 import CancelIcon from '@mui/icons-material/Close';
-import { Box } from "@mui/material";
+import { Box, IconButton, Snackbar, Typography } from "@mui/material";
+import AddBoxIcon from '@mui/icons-material/AddBox';
+import DialogForm from "../DialogForm";
 
-const CustomToolbar = () => {
+const CustomToolbarAdmin = ({CredentialsMode}) => {
+  const [dialogOpen, setDialogOpen] = useState(false);
+  const handleClickAddIcon = () => {
+    setDialogOpen(true);
+  }
   return (
     <Box justifyContent="center" sx={{ display: "flex",  width: '100%' }}>
+      <DialogForm dialogOpen={dialogOpen} setDialogOpen={setDialogOpen} />
       <GridToolbarContainer>
         <GridToolbarQuickFilter
           quickFilterParser={(searchInput) =>
@@ -19,6 +26,13 @@ const CustomToolbar = () => {
           quickFilterFormatter={(quickFilterValues) => quickFilterValues.join(', ')}
           debounceMs={200} // time before applying the new quick filter value
         />
+        { CredentialsMode ? 
+        <IconButton size="small" color="primary" onClick={handleClickAddIcon}
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary css-1knaqv7-MuiButtonBase-root-MuiButton-root">
+          <AddBoxIcon/>
+          Add
+        </IconButton> : <div/>
+        }
         <GridToolbarFilterButton/>
         <GridToolbarDensitySelector/>
         <GridToolbarExport/>
@@ -27,8 +41,12 @@ const CustomToolbar = () => {
   );
 }
 
-const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueIdentifier}) => {
+CustomToolbarAdmin.propTypes = {
+  CredentialsMode: PropTypes.bool
+};
 
+const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueIdentifier, credentialsMode}) => {
+    const [openSnackbar, setOpenSnackbar] = useState(false);
     const [tableData, setTableData] = useState([]);
     const [rowModesModel, setRowModesModel] = useState({});
     // Below is not an ideal use case for memoization, but an example of how one would do this
@@ -70,15 +88,19 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
               onClick={handleEditClick(id)}
               color="inherit"
             />,
-            <GridActionsCellItem
-              icon={<DeleteIcon />}
-              label="Delete"
-              onClick={handleDeleteClick(id)}
-              color="inherit"
-            />,
+            // <GridActionsCellItem
+            //   icon={<DeleteIcon />}
+            //   label="Delete"
+            //   onClick={handleDeleteClick(id)}
+            //   color="inherit"
+            // />,
           ];
         },
     })
+
+    const handleCloseSnackbar = () => {
+      setOpenSnackbar(false);
+    };
 
     const handleRowModesModelChange = (newRowModesModel) => {
       setRowModesModel(newRowModesModel);
@@ -98,11 +120,15 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
       const updatedRow = { ...newRow, isNew: false };
       const idToUpdate = tableData.findIndex((row) => row.id === newRow.id);
       const rowToUpdate = tableData[idToUpdate];
+      const jwtToken = localStorage.getItem("JWTToken");
+      const updateHeaders = {headers: {Authorization: "Bearer " + jwtToken}}
       var body = {};
       for (const cell in updatedRow) {
         body[cell] = updatedRow[cell];
       }
-      updateData(idToUpdate, body).then((response) => {})
+      updateData(idToUpdate, body, updateHeaders).then((response) => {
+        setOpenSnackbar(true);
+      })
       .catch((error) => {
       });
       return updatedRow;
@@ -147,13 +173,21 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
             editMode="row"
             columns={columns}
             pageSizeOptions={[5, 10]}
-            slots={{ noRowsOverlay: EmptyRowDisplay,  toolbar: CustomToolbar }}
+            slots={{ noRowsOverlay: EmptyRowDisplay,  toolbar: CustomToolbarAdmin }}
+            slotProps={{toolbar: {CredentialsMode: credentialsMode}}}
             rowModesModel={rowModesModel}
             processRowUpdate={processRowUpdate}
             onRowEditStop={handleRowEditStop}
             onRowModesModelChange={handleRowModesModelChange}
             checkboxSelection
             pagination
+          />
+          <Snackbar
+            open={openSnackbar}
+            autoHideDuration={2500}
+            onClose={handleCloseSnackbar}
+            message="Row successfully changed."
+            anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
           />
       </Box>  
     );
@@ -164,7 +198,8 @@ TabularViewerAdmin.propTypes = {
     grabData: PropTypes.func,
     updateData: PropTypes.func,
     tableHeaders: PropTypes.array,
-    uniqueIdentifier: PropTypes.string
+    uniqueIdentifier: PropTypes.string,
+    credentialsMode: PropTypes.bool
 };
 
 export default TabularViewerAdmin;
