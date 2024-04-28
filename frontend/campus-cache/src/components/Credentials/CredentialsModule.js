@@ -1,9 +1,12 @@
 
-import React, { useEffect} from "react";
+import React, { useEffect, useState} from "react";
 import { httpClient } from "../../infra";
 import TabularViewerAdmin from "../Tables/TabularViewerAdmin";
+import DialogForm from "../DialogForm";
 
 const CredentialsModule = () => {
+    const [dialogOpen, setDialogOpen] = useState(true);
+
     // React Hook separated by getter + setter
     // Axios is a simple http client library
 
@@ -27,7 +30,10 @@ const CredentialsModule = () => {
     }, []);
 
     return (
-      <TabularViewerAdmin title={"credentials"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"netid"}/>
+      <>
+        <TabularViewerAdmin title={"credentials"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"netid"} credentialsMode={true}/>
+        
+      </>
     );
 }
 export default CredentialsModule;

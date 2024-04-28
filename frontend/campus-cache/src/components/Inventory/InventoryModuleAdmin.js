@@ -22,8 +22,9 @@ const InventoryModuleAdmin = () => {
     }
 
     const putRequest = (id, body) => { // Remember 'Put' is idempotent
+      const jwtToken = localStorage.getItem("JWTToken");
       return httpClient
-        .put("/inventory/" + id , body);
+        .put("/admin/inventory/" + id , body, {headers: {Authorization: "Bearer " + jwtToken}});
     }
 
     useEffect(() => {

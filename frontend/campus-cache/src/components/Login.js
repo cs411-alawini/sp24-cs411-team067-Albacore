@@ -97,7 +97,7 @@ const Login = () => {
                     autoHideDuration={6000}
                     onClose={handleCloseSnackbar}
                     message="Login successful!"
-                    anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+                    anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
                 />
                  {loading ? <CircularProgress size={24} /> : <div/>}
             </Paper>

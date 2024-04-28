@@ -64,7 +64,6 @@ def translate_condition(condition):
         return "Unknown"
     
 def translate_condition_reverse(condition):
-    print("reverse called!")
     if condition == "Poor":
         return 0
     elif condition == "Good":
