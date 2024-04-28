@@ -2,7 +2,6 @@
 import React, { useEffect, useState} from "react";
 import { httpClient } from "../../infra";
 import TabularViewerAdmin from "../Tables/TabularViewerAdmin";
-import DialogForm from "../DialogForm";
 
 const CredentialsModule = () => {
     const [dialogOpen, setDialogOpen] = useState(true);
