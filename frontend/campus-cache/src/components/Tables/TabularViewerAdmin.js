@@ -6,17 +6,22 @@ import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/DeleteOutlined';
 import SaveIcon from '@mui/icons-material/Save';
 import CancelIcon from '@mui/icons-material/Close';
-import { Box, IconButton, Snackbar, Typography } from "@mui/material";
+import { Box, Divider, IconButton, Snackbar, Typography } from "@mui/material";
 import AddBoxIcon from '@mui/icons-material/AddBox';
 import DialogForm from "../DialogForm";
 
-const CustomToolbarAdmin = ({CredentialsMode}) => {
+const CustomToolbarAdmin = ({CredentialsMode, title}) => {
   const [dialogOpen, setDialogOpen] = useState(false);
   const handleClickAddIcon = () => {
     setDialogOpen(true);
   }
   return (
-    <Box justifyContent="center" sx={{ display: "flex",  width: '100%' }}>
+    <>
+    <Typography variant="h5" color="primary" fontSize={30}>
+      {title}
+    </Typography>
+    <Divider/>
+      <Box justifyContent="center" sx={{ display: "flex",  width: '100%' }}>
       <DialogForm dialogOpen={dialogOpen} setDialogOpen={setDialogOpen} />
       <GridToolbarContainer>
         <GridToolbarQuickFilter
@@ -30,7 +35,8 @@ const CustomToolbarAdmin = ({CredentialsMode}) => {
         <IconButton size="small" color="primary" onClick={handleClickAddIcon}
           className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary css-1knaqv7-MuiButtonBase-root-MuiButton-root">
           <AddBoxIcon/>
-          Add
+          <div style={{paddingLeft: "4px"}}/>
+          {"Add"}
         </IconButton> : <div/>
         }
         <GridToolbarFilterButton/>
@@ -38,6 +44,8 @@ const CustomToolbarAdmin = ({CredentialsMode}) => {
         <GridToolbarExport/>
       </GridToolbarContainer>
     </Box>
+    </>
+    
   );
 }
 
@@ -148,10 +156,10 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
         [id]: { mode: GridRowModes.View, ignoreModifications: true },
       });
   
-      const editedRow = tableData.find((row) => row.netid === id);
-      if (editedRow.isNew) {
-        setTableData(tableData.filter((row) => row.netid !== id));
-      }
+      // const editedRow = tableData.find((row) => row.netid === id);
+      // if (editedRow.isNew) {
+      //   setTableData(tableData.filter((row) => row.netid !== id));
+      // }
     };
 
     useEffect(() => {
@@ -164,7 +172,9 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
     }, []);
     
     return (
-      <Box justifyContent="center" sx={{backgroundColor: '#1f2d3d', display: "flex",  width: '100%' }}>
+      <>
+        <div style={{paddingTop: "10px"}}/>
+        <Box justifyContent="center" sx={{ display: "flex",  width: '100%' }}>
         <DataGrid
             autoHeight
             style={{position: "absolute"}}
@@ -174,7 +184,7 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
             columns={columns}
             pageSizeOptions={[5, 10]}
             slots={{ noRowsOverlay: EmptyRowDisplay,  toolbar: CustomToolbarAdmin }}
-            slotProps={{toolbar: {CredentialsMode: credentialsMode}}}
+            slotProps={{toolbar: {CredentialsMode: credentialsMode, title: title}}}
             rowModesModel={rowModesModel}
             processRowUpdate={processRowUpdate}
             onRowEditStop={handleRowEditStop}
@@ -190,6 +200,8 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
             anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
           />
       </Box>  
+      </>
+      
     );
 }
 

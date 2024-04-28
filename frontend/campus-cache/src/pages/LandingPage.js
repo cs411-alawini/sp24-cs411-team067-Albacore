@@ -4,6 +4,9 @@ import NavBar from "../components/NavBar";
 import { AppContext } from "../App";
 import ButtonBase from '@mui/material/ButtonBase';
 import { Box, Typography } from "@mui/material";
+import ImageBackdrop from "../components/Styles/ImageBackdrop";
+import ImageMarked from "../components/Styles/ImageMarked";
+import ImageOutline from "../components/Styles/ImageOutline";
 
 const handleClick = (title) => {
     if (title == "Credentials") {
@@ -77,39 +80,6 @@ const ImageButton = styled(ButtonBase)(({ theme }) => ({
     backgroundPosition: 'center 40%',
   });
   
-  const Image = styled('span')(({ theme }) => ({
-    position: 'absolute',
-    left: 0,
-    right: 0,
-    top: 0,
-    bottom: 0,
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    color: theme.palette.common.white,
-  }));
-  
-  const ImageBackdrop = styled('span')(({ theme }) => ({
-    position: 'absolute',
-    left: 0,
-    right: 0,
-    top: 0,
-    bottom: 0,
-    backgroundColor: theme.palette.common.black,
-    opacity: 0.4,
-    transition: theme.transitions.create('opacity'),
-  }));
-
-  const ImageMarked = styled('span')(({ theme }) => ({
-    height: 3,
-    width: 18,
-    backgroundColor: theme.palette.common.white,
-    position: 'absolute',
-    bottom: -2,
-    left: 'calc(50% - 9px)',
-    transition: theme.transitions.create('opacity'),
-  }));
-
 const LandingPage = () => {
     const context = useContext(AppContext);
     const getWelcomeString = () => {
@@ -145,7 +115,7 @@ const LandingPage = () => {
                     
                 <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
                 <ImageBackdrop className="MuiImageBackdrop-root" />
-                <Image>
+                <ImageOutline outlineColor="white">
                     <Typography
                     component="span"
                     variant="subtitle1"
@@ -160,7 +130,7 @@ const LandingPage = () => {
                     {image.title}
                     <ImageMarked className="MuiImageMarked-root" />
                     </Typography>
-                </Image>
+                </ImageOutline>
                 </ImageButton>
       ))}
     </Box>

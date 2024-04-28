@@ -1,6 +1,7 @@
 import React, { useEffect} from "react";
 import { httpClient } from "../../infra";
 import TabularViewerAdmin from "../Tables/TabularViewerAdmin";
+import { Typography } from "@mui/material";
 
 const InventoryModuleAdmin = () => {
 
@@ -32,7 +33,6 @@ const InventoryModuleAdmin = () => {
 
     return (
         <div>
-          <p>Admin</p>
           <TabularViewerAdmin title={"Inventory"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
         </div>
     );
