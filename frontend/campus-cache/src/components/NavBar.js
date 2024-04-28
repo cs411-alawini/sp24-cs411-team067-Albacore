@@ -36,7 +36,7 @@ const NavBar = () => {
                     <MenuIcon />
                 </IconButton>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 2, marginLeft: "200px"}}>
-                    Campus Cache
+                    {context.state.isAdmin ? "Campus Cache - Administrator Mode" : "Campus Cache"}
                 </Typography>
                 
                 {context.state.loggedIn ? <Button color="inherit">{context.state.user}</Button>: <div/>}

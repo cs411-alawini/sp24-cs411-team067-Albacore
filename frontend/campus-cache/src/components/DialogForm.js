@@ -81,7 +81,7 @@ const DialogForm = ({dialogOpen, setDialogOpen}) => {
           </FormControl>
           <Divider/>
           <FormControl required sx={{ m: 1, width: '25ch' }} >
-            <InputLabel id="demo-simple-select-label">Age</InputLabel>
+            <InputLabel id="demo-simple-select-label">Role</InputLabel>
                 <Select label="isAdmin" labelId="demo-simple-select-label" 
                     id="demo-simple-select" value={role} onChange={handleSelectRole}>
                     <MenuItem value={"Admin"}>Admin</MenuItem>

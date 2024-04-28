@@ -3,6 +3,7 @@ import React, { useEffect, useState} from "react";
 import { httpClient } from "../../infra";
 import TabularViewerAdmin from "../Tables/TabularViewerAdmin";
 import DialogForm from "../DialogForm";
+import { TabularViewerBase } from "../Tables/TabularViewerBase";
 
 const CredentialsModule = () => {
     const [dialogOpen, setDialogOpen] = useState(true);
@@ -31,7 +32,7 @@ const CredentialsModule = () => {
 
     return (
       <>
-        <TabularViewerAdmin title={"credentials"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"netid"} credentialsMode={true}/>
+        <TabularViewerBase title={"Credentials"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"netid"} />
         
       </>
     );
