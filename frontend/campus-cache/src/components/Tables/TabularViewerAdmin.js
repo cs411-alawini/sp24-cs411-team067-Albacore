@@ -179,7 +179,6 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
             processRowUpdate={processRowUpdate}
             onRowEditStop={handleRowEditStop}
             onRowModesModelChange={handleRowModesModelChange}
-            checkboxSelection
             pagination
           />
           <Snackbar

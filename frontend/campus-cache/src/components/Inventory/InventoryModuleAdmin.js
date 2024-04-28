@@ -31,10 +31,7 @@ const InventoryModuleAdmin = () => {
     }, []);
 
     return (
-        <div>
-          <p>Admin</p>
           <TabularViewerAdmin title={"Inventory"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"item_id"}/>
-        </div>
     );
 }
 export default InventoryModuleAdmin;
