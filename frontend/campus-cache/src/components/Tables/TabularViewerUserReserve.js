@@ -30,7 +30,7 @@ const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, un
     const [rowModesModel, setRowModesModel] = useState({});
     // Code used from MUI docs: https://mui.com/x/react-data-grid/editing/
     
-    const columns = useMemo(() => tableHeaders.concat(
+    const columns = tableHeaders.concat(
       {
         field: 'action',
         headerName: 'Action',
@@ -41,8 +41,7 @@ const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, un
           <ReservationButton params={params.row.availability} setDialog={setDialogOpen}/>
         ),
       }
-      )
-    );
+    )
 
     const processRowUpdate = () => {}
 
