@@ -4,8 +4,9 @@ import {DataGrid,GridToolbarContainer, GridToolbarExport, GridToolbarFilterButto
 import EmptyRowDisplay from "./EmptyRowDisplay";
 import ReservationButton from "./ReservationButton";
 import { Box, Container } from "@mui/material";
+import DialogueReserveItemForm from "../Inventory/DialogueReserveItemForm";
 
-const CustomToolbar = () => {
+const CustomToolbarUserReserve = () => {
   return (
     <Box justifyContent="center" sx={{display: "flex",  width: '100%' }}>
       <GridToolbarContainer>
@@ -24,7 +25,7 @@ const CustomToolbar = () => {
 }
 
 const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, uniqueIdentifier}) => {
-
+    const [dialogOpen, setDialogOpen] = useState(false);
     const [tableData, setTableData] = useState([]);
     const [rowModesModel, setRowModesModel] = useState({});
     // Code used from MUI docs: https://mui.com/x/react-data-grid/editing/
@@ -37,7 +38,7 @@ const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, un
         headerAlign: 'center',
         align: 'right',
         renderCell: (params) => (
-          <ReservationButton params={params.row.availability}/>
+          <ReservationButton params={params.row.availability} setDialog={setDialogOpen}/>
         ),
       }
       )
@@ -56,6 +57,7 @@ const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, un
     
     return (
       <Box justifyContent="center" sx={{display: "flex",  width: '100%', bgcolor: 'error.light'}}>
+        <DialogueReserveItemForm dialogOpen={dialogOpen} setDialogOpen={setDialogOpen}/>
         <DataGrid
           autoHeight
           style={{position: "absolute"}}
@@ -64,7 +66,7 @@ const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, un
           editMode="row"
           columns={columns}
           pageSizeOptions={[5, 10]}
-          slots={{ noRowsOverlay: EmptyRowDisplay,  toolbar: CustomToolbar }}
+          slots={{ noRowsOverlay: EmptyRowDisplay,  toolbar: CustomToolbarUserReserve }}
           rowModesModel={rowModesModel}
           processRowUpdate={processRowUpdate}
           pagination

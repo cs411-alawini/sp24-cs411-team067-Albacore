@@ -1,9 +1,9 @@
 import React, {useState, useEffect, useMemo} from "react";
 import PropTypes from "prop-types";
-import {DataGrid,GridToolbarContainer, GridToolbarExport, GridToolbarFilterButton, GridToolbarDensitySelector} from '@mui/x-data-grid';
-import EmptyRowDisplay from "../EmptyRowDisplay";
+import {DataGrid,GridToolbarContainer, GridToolbarExport, GridToolbarQuickFilter, GridToolbarFilterButton, GridToolbarDensitySelector} from '@mui/x-data-grid';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
-import { Button} from "@mui/material";
+import { Box, Button} from "@mui/material";
+import EmptyRowDisplay from "./EmptyRowDisplay";
 
 const CustomToolbar = () => {
   return (
@@ -31,27 +31,8 @@ const TabularViewerBase = ({title, grabData, updateData, tableHeaders, uniqueIde
     // Code used from MUI docs: https://mui.com/x/react-data-grid/editing/
     
     // TODO: Remove reserve button for non-active reservations or make a query that removes them 
-    const columns = useMemo(() => tableHeaders.concat(
-      {
-        field: 'action',
-        headerName: 'Action',
-        sortable: false,
-        headerAlign: 'center',
-        align: 'right',
-        renderCell: (params) => (
-          
-          <Button 
-            variant="contained" 
-            color="primary"
-            size="small"
-            sx={{ fontSize: '0.60rem' }}
-            startIcon={<AddCircleOutlineIcon/>}>
-            Reserve
-          </Button>
-        ),
-      }
-      )
-    );
+    const columns = tableHeaders;
+
 
     const processRowUpdate = () => {}
 

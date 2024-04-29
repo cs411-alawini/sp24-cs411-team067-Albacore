@@ -4,7 +4,7 @@ import { Button } from "@mui/material";
 import PropTypes from "prop-types";
 import React, {useEffect} from "react";
 
-const ReservationButton = ({params, params2}) => {
+const ReservationButton = ({params, setDialog}) => {
     useEffect(()=> {})
     return (params ? 
     <Button 
@@ -12,26 +12,27 @@ const ReservationButton = ({params, params2}) => {
         color="primary"
         size="small"
         sx={{ fontSize: '0.50rem'}}
-        startIcon={<AddCircleOutline/>}>
+        onClick={setDialog}
+        endIcon={<AddCircleOutline/>}>
         Reserve
     </Button> : 
     <Button 
+        disabled
         variant="contained" 
-        color="primary"
+        color="error"
         size="small"
         sx={{ 
-            fontSize: '0.50rem', 
-            backgroundColor: 'red', '&:hover': {
-            backgroundColor: 'darkred'
-        }}}
-        startIcon={<BlockIcon/>}>
-        Reserved
+            fontSize: '0.50rem'
+        }}
+        endIcon={<AddCircleOutline/>}>
+        Reserve
   </Button>);
   
 };
 
 ReservationButton.propTypes = {
-    params: PropTypes.bool
+    params: PropTypes.bool,
+    setDialog: PropTypes.func
 };
 
 export default ReservationButton;

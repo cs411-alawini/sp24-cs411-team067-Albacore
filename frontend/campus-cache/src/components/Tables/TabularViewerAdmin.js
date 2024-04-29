@@ -8,7 +8,7 @@ import SaveIcon from '@mui/icons-material/Save';
 import CancelIcon from '@mui/icons-material/Close';
 import { Box, IconButton, Snackbar, Typography } from "@mui/material";
 import AddBoxIcon from '@mui/icons-material/AddBox';
-import DialogForm from "../DialogForm";
+import DialogCredentialForm from "../Credentials/DialogueCredentialForm";
 
 const CustomToolbarAdmin = ({CredentialsMode}) => {
   const [dialogOpen, setDialogOpen] = useState(false);
@@ -17,7 +17,7 @@ const CustomToolbarAdmin = ({CredentialsMode}) => {
   }
   return (
     <Box justifyContent="center" sx={{ display: "flex",  width: '100%' }}>
-      <DialogForm dialogOpen={dialogOpen} setDialogOpen={setDialogOpen} />
+      <DialogCredentialForm dialogOpen={dialogOpen} setDialogOpen={setDialogOpen} />
       <GridToolbarContainer>
         <GridToolbarQuickFilter
           quickFilterParser={(searchInput) =>
