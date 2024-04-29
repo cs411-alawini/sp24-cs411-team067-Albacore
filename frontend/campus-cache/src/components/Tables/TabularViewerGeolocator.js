@@ -2,7 +2,7 @@ import React, {useState, useEffect, useMemo} from "react";
 import PropTypes from "prop-types";
 import {DataGrid,GridToolbarContainer, GridToolbarExport, GridToolbarQuickFilter, GridToolbarFilterButton, GridToolbarDensitySelector} from '@mui/x-data-grid';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
-import { Box, Button, Typography} from "@mui/material";
+import { Box, Button, Dialog,DialogActions, DialogTitle, Typography} from "@mui/material";
 import EmptyRowDisplay from "./EmptyRowDisplay";
 import * as GeoLib from 'geolib';
 
@@ -66,8 +66,7 @@ const TabularViewerGeolocator = ({title, grabData, updateData, tableHeaders, uni
                 setLatitude(position.coords.latitude);
                 setLongitude(position.coords.longitude);
             },
-            (error) => { console.error('Error getting current location:', error); }
-            );
+            (error) => { console.error('Error getting current location:', error); });
             setDistanceColEnabled(true);
         } else {
             setDistanceColEnabled(false);
@@ -87,21 +86,36 @@ const TabularViewerGeolocator = ({title, grabData, updateData, tableHeaders, uni
     }, []);
     
     return (
-        <Box justifyContent="center" sx={{display: "flex",  width: '100%' }}>
-          <DataGrid
-            autoHeight
-            style={{position: "absolute"}}
-            getRowId={row=>row[uniqueIdentifier]}
-            rows={tableData}
-            editMode="row"
-            columns={columns}
-            pageSizeOptions={[5, 10]}
-            slots={{ noRowsOverlay: EmptyRowDisplay,  toolbar: CustomToolbar }}
-            rowModesModel={rowModesModel}
-            processRowUpdate={processRowUpdate}
-            pagination
-          />
-        </Box>
+        <>
+            {/* <Dialog open={true}>
+            <Box justifyContent="center" sx={{display: "flex",  width: '100%' }}>
+                <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDLrIBIQYj8WU8W5nT8u3fZlidMWz_jdRc
+            &q=Space+Needle,Seattle+WA" loading="lazy"
+            allowfullscreen>
+                </iframe>
+                <DialogActions>
+                    <Button>
+                        Hi
+                    </Button>
+                </DialogActions>
+            </Box>
+            </Dialog> */}
+            <Box justifyContent="center" sx={{display: "flex",  width: '100%' }}>
+                <DataGrid
+                    autoHeight
+                    style={{position: "absolute"}}
+                    getRowId={row=>row[uniqueIdentifier]}
+                    rows={tableData}
+                    editMode="row"
+                    columns={columns}
+                    pageSizeOptions={[5, 10]}
+                    slots={{ noRowsOverlay: EmptyRowDisplay,  toolbar: CustomToolbar }}
+                    rowModesModel={rowModesModel}
+                    processRowUpdate={processRowUpdate}
+                    pagination
+                />
+            </Box>
+        </>
     );
 }
 

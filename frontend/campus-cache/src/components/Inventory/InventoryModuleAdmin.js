@@ -10,9 +10,9 @@ const InventoryModuleAdmin = () => {
       {field: "availability", headerName : "Availability", editable: true, type: 'boolean'},
       {field: "condition", headerName: "Condition", editable: true, type: 'singleSelect',
       valueOptions: ['Excellent', 'Good', 'Poor']},
-      {field: "bldg_name", headerName: "Building", editable: true, type: 'singleSelect',
+      {field: "bldg_name", headerName: "Building", editable: false, type: 'singleSelect',
       valueOptions: ['Sidney Lu', 'SCD', 'English Building','Music & Arts Library']}, // should query from facilities
-      {field: "duration", headerName: "Duration (Hrs)", editable: true, type: 'number'}
+      {field: "duration", headerName: "Duration (Hrs)", editable: true, type: 'number', align: 'center'}
     ]
   
     const getRequest = () => {

@@ -2,7 +2,7 @@ import React, { useEffect} from "react";
 import TabularViewerBase from "../Tables/TabularViewerBase";
 import { httpClient } from "../../infra";
 
-const ReservationModule = () => {
+const ReservationModuleBase = () => {
 
     const headers = [
       {field: "reservation_id", headerName: "ReservationID", type: 'counter', minWidth: 125},
@@ -25,4 +25,4 @@ const ReservationModule = () => {
         <TabularViewerBase title={"Reservations"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"reservation_id"}/>
     );
 }
-export default ReservationModule;
+export default ReservationModuleBase;
