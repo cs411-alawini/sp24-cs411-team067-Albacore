@@ -6,11 +6,13 @@ import { Divider, Typography } from "@mui/material";
 import { AppContext } from "../App";
 const CredentialsPage = () => {
     const context = useContext(AppContext);
+
     useEffect(() => {
         if (!context.state.isAdmin) {
             window.location.href = "/unauthorized"
         }
       }, []);
+      
     return (
         <>
             <LoginBar/>

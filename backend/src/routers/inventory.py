@@ -41,7 +41,6 @@ async def get_inventory(token_payload: dict = Depends(JWTBearer())):
 
 @router.put("/api/admin/inventory/{itemid}", dependencies=[Depends(JWTBearer())], tags=["Inventory"])
 async def update_inventory(itemid: int, item: Inventory, token_payload: dict = Depends(JWTBearer())):
-    print("item: ", item)
     token = decodeJWT(token_payload)
     if (token["role"] != "admin"):
         raise HTTPException(status_code=401, detail="User is not authorized to perform this action")

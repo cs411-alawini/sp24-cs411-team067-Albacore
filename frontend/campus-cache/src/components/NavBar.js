@@ -23,7 +23,7 @@ const NavBar = () => {
 
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
+            <AppBar position="static" color="primary">
                 <Toolbar>
                 <IconButton
                     size="large"
@@ -35,8 +35,8 @@ const NavBar = () => {
                 >
                     <MenuIcon />
                 </IconButton>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 2, marginLeft: "200px"}}>
-                    Campus Cache
+                <Typography variant="h5" component="div" sx={{ flexGrow: 2, marginLeft: "200px"}}>
+                    {context.state.isAdmin ? "Campus Cache - Administrator Mode" : "Campus Cache"}
                 </Typography>
                 
                 {context.state.loggedIn ? <Button color="inherit">{context.state.user}</Button>: <div/>}
@@ -84,14 +84,6 @@ const NavBar = () => {
                                 <ComputerIcon/>
                             </ListItemIcon>
                             Computers  
-                        </ListItemButton>
-                    </ListItem>
-                    <ListItem onClick={()=>window.location.href="/departments"}>
-                        <ListItemButton>
-                            <ListItemIcon>
-                                <DomainIcon/>
-                            </ListItemIcon>
-                            Departments 
                         </ListItemButton>
                     </ListItem>
                     <ListItem onClick={()=>window.location.href="/reservations"}>

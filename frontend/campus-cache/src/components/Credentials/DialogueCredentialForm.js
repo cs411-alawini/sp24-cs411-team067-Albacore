@@ -4,7 +4,7 @@ import React, {useState, useEffect} from "react";
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 
-const DialogForm = ({dialogOpen, setDialogOpen}) => {
+const DialogCredentialForm = ({dialogOpen, setDialogOpen}) => {
     // Utilized: https://mui.com/material-ui/react-text-field/ for password
     // Also, utilized:  https://mui.com/material-ui/react-dialog/
     const [showPassword, setShowPassword] = useState(false);
@@ -22,7 +22,7 @@ const DialogForm = ({dialogOpen, setDialogOpen}) => {
     };
 
     const handleClose = (event) => {
-        console.log(event);
+        console.log("handle close: ", event);
         setDialogOpen(false)
     };
 
@@ -81,7 +81,7 @@ const DialogForm = ({dialogOpen, setDialogOpen}) => {
           </FormControl>
           <Divider/>
           <FormControl required sx={{ m: 1, width: '25ch' }} >
-            <InputLabel id="demo-simple-select-label">Age</InputLabel>
+            <InputLabel id="demo-simple-select-label">Role</InputLabel>
                 <Select label="isAdmin" labelId="demo-simple-select-label" 
                     id="demo-simple-select" value={role} onChange={handleSelectRole}>
                     <MenuItem value={"Admin"}>Admin</MenuItem>
@@ -90,16 +90,16 @@ const DialogForm = ({dialogOpen, setDialogOpen}) => {
           </FormControl>
         </DialogContent>
         <DialogActions>
-          <Button color="error" onClick={handleClose}>Cancel</Button>
+          <Button color="error" onClick={(e)=>handleClose(e)}>Cancel</Button>
           <Button type="submit" >Create User</Button>
         </DialogActions>
       </Dialog>
     )
 }
 
-DialogForm.propTypes = {
+DialogCredentialForm.propTypes = {
     dialogOpen: PropTypes.bool,
     setDialogOpen: PropTypes.func
 }
 
-export default DialogForm;
+export default DialogCredentialForm;

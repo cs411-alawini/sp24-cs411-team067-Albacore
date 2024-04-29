@@ -3,7 +3,7 @@ import LoginBar from "../components/NavBar";
 import ReservationModule from "../components/Reservations/ReservationModule";
 // Created separate directory to prevent circular dependency
 
-const ReservationModule = () => {
+const ReservationsPage = () => {
     
     return (
         <>
@@ -13,4 +13,4 @@ const ReservationModule = () => {
     );
 };
 
-export default ReservationModule;
+export default ReservationsPage;

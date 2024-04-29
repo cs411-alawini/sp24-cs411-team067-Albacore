@@ -6,6 +6,9 @@ import LandingPage from "../pages/LandingPage";
 import LoginPage from "../pages/LoginPage";
 import UnauthorizedPage from "../pages/UnauthorizedPage";
 import FacilitiesPage from "../pages/FacilitiesPage";
+import ComputersPage from "../pages/ComputersPage";
+import ReservationModule from "./Reservations/ReservationModule";
+import ReservationsPage from "../pages/ReservationsPage";
 
 // DECLARE ROUTES HERE
 const AuthenticationRouter = () => {
@@ -13,12 +16,13 @@ const AuthenticationRouter = () => {
         <Router>
             <Routes>
                 <Route path="/" element={<LandingPage/>}/>
+                <Route path="/reservations" element={<ReservationsPage/>}/>
                 <Route path="/credentials" element={<CredentialsPage/>}/>
                 <Route path="/inventory" element={<InventoryPage/>}/>
                 <Route path="/facilities" element={<FacilitiesPage/>}/>
                 <Route path="/login" element={<LoginPage/>}/>
                 <Route path="/unauthorized" element={<UnauthorizedPage/>}/>
-                <Route path="/computers" element={<FacilitiesPage/>}/>
+                <Route path="/computers" element={<ComputersPage/>}/>
             </Routes>
         </Router>
         
