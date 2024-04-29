@@ -1,16 +1,16 @@
 import React from "react";
 import LoginBar from "../components/NavBar";
-import ComputerModule from "../components/Computers/ComputerModule";
+import FloorPlanMapModule from "../components/Computers/FloorPlanMapModule";
 // Created separate directory to prevent circular dependency
 
-const ComputersPage = () => {
+const ComputerPage = () => {
     
     return (
         <>
             <LoginBar/>
-            <ComputerModule/>
+            <ParentModule/>
         </>
     );
 };
 
-export default ComputersPage;
+export default ComputerPage;

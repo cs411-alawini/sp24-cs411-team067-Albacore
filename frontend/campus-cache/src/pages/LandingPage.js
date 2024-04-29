@@ -10,6 +10,8 @@ const handleClick = (title) => {
         window.location.href = "/credentials";
     } else if (title == "Borrowable Inventory") {
         window.location.href ="/inventory";
+    } else if (title=="Computers") {
+        window.location.href="/floorplan"
     }
 }
 

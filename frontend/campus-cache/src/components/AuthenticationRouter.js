@@ -4,8 +4,9 @@ import CredentialsPage from "../pages/CredentialsPage";
 import InventoryPage from "../pages/InventoryPage";
 import LandingPage from "../pages/LandingPage";
 import LoginPage from "../pages/LoginPage";
-import UnauthorizedPage from "../pages/UnauthorizedPage";
-import FacilitiesPage from "../pages/FacilitiesPage";
+
+//creative component import
+import FloorPlanMapPage from "../pages/FloorPlanMapPage"
 
 // DECLARE ROUTES HERE
 const AuthenticationRouter = () => {
@@ -15,10 +16,11 @@ const AuthenticationRouter = () => {
                 <Route path="/" element={<LandingPage/>}/>
                 <Route path="/credentials" element={<CredentialsPage/>}/>
                 <Route path="/inventory" element={<InventoryPage/>}/>
-                <Route path="/facilities" element={<FacilitiesPage/>}/>
+                <Route path="/facilities" element={<CredentialsPage/>}/>
                 <Route path="/login" element={<LoginPage/>}/>
-                <Route path="/unauthorized" element={<UnauthorizedPage/>}/>
-                <Route path="/computers" element={<FacilitiesPage/>}/>
+
+                {/* Creative Component Page */}
+                <Route path="/floorplan" element={<FloorPlanMapPage/>}/>
             </Routes>
         </Router>
         
