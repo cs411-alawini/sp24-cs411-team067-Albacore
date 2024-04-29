@@ -18,9 +18,23 @@ class Reservations(BaseModel):
     item_id: int
 
 
-@router.post("/api/reservations", tags=["Reservations"], dependencies=[Depends(JWTBearer())])
-async def create_reservation():    
-    pass
+@router.post("/api/reservations/{reservationid}", tags=["Reservations"], dependencies=[Depends(JWTBearer())])
+async def create_reservation(reservationid: int, reservation: Reservations, token_payload: dict = Depends(JWTBearer())):    
+    jwt_info = decodeJWT(token_payload)
+    try:
+        async with get_cursor() as cursor:
+            # NOTE: Stored Procedure: create_reservation(StartTime, ReturnTime, Deadline, NetID, ItemID)
+            reservation_id = reservation.reservation_id
+            start_time = reservation.start_time
+            return_time = reservation.return_time
+            item_id = reservation.item_id
+            deadline = datetime.strptime(reservation.deadline.strip("'\""), "%Y-%m-%d %H:%M:%S")
+            netid = jwt_info['user_id']
+            await cursor.callproc("create_reservation", (start_time, None, deadline, netid, item_id))
+            await cursor.connection.commit()
+    except Exception as error:
+        print("error occured: ", error)
+        raise HTTPException(status_code=500, detail="Failed to execute stored procedure for updating reservations")
 
 @router.get("/api/reservations", tags=["Reservations"], dependencies=[Depends(JWTBearer())])
 async def get_reservations(token_payload: dict = Depends(JWTBearer())):
@@ -46,11 +60,12 @@ async def get_reservations(token_payload: dict = Depends(JWTBearer())):
         raise HTTPException(status_code=500, detail="Failed to execute stored procedure for reservations")
 
 
-@router.put("/api/reservations/{reservationid}", tags=["Reservations"], dependencies=[Depends(JWTBearer())])
+@router.put("/api/admin/reservations/{reservationid}", tags=["Reservations", "Admin"], dependencies=[Depends(JWTBearer())])
 async def update_reservations(reservationid: int, reservation: Reservations, token_payload: dict = Depends(JWTBearer())):
+    # TODO: Require admin
     try:
         async with get_cursor() as cursor:
-            # update_reservation(ReservationID, StartTime, ReturnTime, Deadline, NetID)
+            # NOTE: Stored Procedure: update_reservation(ReservationID, StartTime, ReturnTime, Deadline, NetID)
             reservation_id = reservation.reservation_id
             start_time = reservation.start_time
             return_time = reservation.return_time
@@ -58,6 +73,22 @@ async def update_reservations(reservationid: int, reservation: Reservations, tok
             netid = reservation.netid
 
             await cursor.callproc("update_reservation", (reservation_id, start_time, return_time, deadline, netid))
+            await cursor.connection.commit()
+    except Exception as error:
+        print("error occured: ", error)
+        raise HTTPException(status_code=500, detail="Failed to execute stored procedure for updating reservations")
+
+@router.put("/api/reservations/{reservationid}", tags=["Reservations"], dependencies=[Depends(JWTBearer())])
+async def return_item(reservationid: int, reservation: Reservations, token_payload: dict = Depends(JWTBearer())):
+    try:
+        async with get_cursor() as cursor:
+            """NOTE: Stored Procedure: user_return_item(ReservationID, NetID, ReturnTime)
+            # will update the return time for a given reservationID and netID. 
+            # This is for the user side when they return an item"""
+            reservation_id = reservation.reservation_id
+            return_time = reservation.return_time
+            netid = reservation.netid
+            await cursor.callproc("user_return_item", (reservation_id, netid, return_time))
             await cursor.connection.commit()
     except Exception as error:
         print("error occured: ", error)

@@ -5,11 +5,11 @@ import { httpClient } from "../../infra";
 const ReservationModule = () => {
 
     const headers = [
-      {field: "reservationid", headerName: "ReservationID", type: 'counter'},
-      {field: "start_time", headerName: "StartTime", type: 'datefield'},
-      {field: "return_time", headerName: "ReturnTime",type: 'datefield'},
-      {field: "deadline", headerName: "Deadline", type: 'datefield'},
-      {field: "netid", headerName: "NetID"}
+      {field: "reservation_id", headerName: "ReservationID", type: 'counter', minWidth: 125},
+      {field: "start_time", headerName: "StartTime", type: 'datefield', minWidth: 165},
+      {field: "return_time", headerName: "ReturnTime",type: 'datefield', minWidth: 175},
+      {field: "deadline", headerName: "Deadline", type: 'datefield', minWidth: 175},
+      {field: "netid", headerName: "NetID",  minWidth: 125}
     ]
   
     const getRequest = () => {
@@ -22,7 +22,7 @@ const ReservationModule = () => {
     }, []);
 
     return (
-        <TabularViewerBase title={"Reservations"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"location_id"}/>
+        <TabularViewerBase title={"Reservations"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"reservation_id"}/>
     );
 }
 export default ReservationModule;
