@@ -7,7 +7,7 @@ import LoginPage from "../pages/LoginPage";
 import UnauthorizedPage from "../pages/UnauthorizedPage";
 import FacilitiesPage from "../pages/FacilitiesPage";
 import ComputersPage from "../pages/ComputersPage";
-import ReservationModule from "./Reservations/ReservationModule";
+import ReservationModule from "./Reservations/ReservationModuleBase";
 import ReservationsPage from "../pages/ReservationsPage";
 
 // DECLARE ROUTES HERE
