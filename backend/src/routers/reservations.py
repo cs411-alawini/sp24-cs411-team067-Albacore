@@ -17,20 +17,28 @@ class Reservations(BaseModel):
     netid: str
     item_id: int
 
+class ReservationAdminCreate(BaseModel):
+    reservation_id: int
+    start_time: Optional[str] = None
+    return_time: Optional[str] = None
+    deadline: Optional[str] = None
+    netid: Optional[str] = None
+    item_id: Optional[int] = None
+
 
 @router.post("/api/reservations/{reservationid}", tags=["Reservations"], dependencies=[Depends(JWTBearer())])
 async def create_reservation(reservationid: int, reservation: Reservations, token_payload: dict = Depends(JWTBearer())):    
     jwt_info = decodeJWT(token_payload)
     try:
         async with get_cursor() as cursor:
-            # NOTE: Stored Procedure: create_reservation(StartTime, ReturnTime, Deadline, NetID, ItemID)
+            # NOTE: Stored Procedure: create_reservation(StartTime, ReturnTime, NetID, ItemID)
             reservation_id = reservation.reservation_id
             start_time = reservation.start_time
             return_time = reservation.return_time
             item_id = reservation.item_id
-            deadline = datetime.strptime(reservation.deadline.strip("'\""), "%Y-%m-%d %H:%M:%S")
+            #deadline = datetime.strptime(reservation.deadline.strip("'\""), "%Y-%m-%d %H:%M:%S")
             netid = jwt_info['user_id']
-            await cursor.callproc("create_reservation", (start_time, None, deadline, netid, item_id))
+            await cursor.callproc("create_reservation", (start_time, None, netid, item_id))
             await cursor.connection.commit()
     except Exception as error:
         print("error occured: ", error)
@@ -61,19 +69,24 @@ async def get_reservations(token_payload: dict = Depends(JWTBearer())):
 
 
 @router.put("/api/admin/reservations/{reservationid}", tags=["Reservations", "Admin"], dependencies=[Depends(JWTBearer())])
-async def update_reservations(reservationid: int, reservation: Reservations, token_payload: dict = Depends(JWTBearer())):
+async def update_reservations(reservationid: int, reservation: ReservationAdminCreate, token_payload: dict = Depends(JWTBearer())): # ADMIN UPDATE
     # TODO: Require admin
+    jwt_info = decodeJWT(token_payload)
     try:
         async with get_cursor() as cursor:
             # NOTE: Stored Procedure: update_reservation(ReservationID, StartTime, ReturnTime, Deadline, NetID)
-            reservation_id = reservation.reservation_id
-            start_time = reservation.start_time
-            return_time = reservation.return_time
-            deadline = datetime.strptime(reservation.deadline.strip("'\""), "%Y-%m-%d %H:%M:%S")
-            netid = reservation.netid
+            if (jwt_info['role'] == 'admin'):
+                reservation_id = reservation.reservation_id
+                start_time = reservation.start_time
+                return_time = reservation.return_time
+                deadline = reservation.deadline
+                netid = reservation.netid
 
-            await cursor.callproc("update_reservation", (reservation_id, start_time, return_time, deadline, netid))
-            await cursor.connection.commit()
+                await cursor.callproc("update_reservation", (reservation_id, start_time, return_time, deadline, netid))
+                await cursor.connection.commit()
+            else:
+                print("user isn't admin, not allowed to form this action")
+                raise HTTPException(status_code=403, detail="not allowed to perform admin action")
     except Exception as error:
         print("error occured: ", error)
         raise HTTPException(status_code=500, detail="Failed to execute stored procedure for updating reservations")
@@ -99,6 +112,19 @@ async def return_item(reservationid: int, reservation: Reservations, token_paylo
 #     pass
 
 @router.delete("/api/reservations/{reservationid}", tags=["Reservations"], dependencies=[Depends(JWTBearer())])
-async def remove_reservations():
-    pass
-
+async def remove_reservations(reservationid: int, token_payload: dict = Depends(JWTBearer())):
+    # stored procedure: delete_reservation(p_ReservationID)
+    jwt_info = decodeJWT(token_payload)
+    try:
+        async with get_cursor() as cursor:
+            if (jwt_info['role'] == 'admin'):
+                print("here")
+                await cursor.callproc("delete_reservation", (reservationid,))
+                await cursor.connection.commit()
+                # delete this shit
+            else:
+                print("user is not admin, not allowed to perform this action")
+                raise HTTPException(status_code=403, detail="not allowed to perform admin action")
+    except Exception as error:
+        print("error occured ", error)
+        raise HTTPException(status_code=500, detail="Failed to execute stored procedure for removing reservations")
