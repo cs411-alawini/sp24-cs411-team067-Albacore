@@ -147,11 +147,6 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
         ...rowModesModel,
         [id]: { mode: GridRowModes.View, ignoreModifications: true },
       });
-  
-      const editedRow = tableData.find((row) => row.netid === id);
-      if (editedRow.isNew) {
-        setTableData(tableData.filter((row) => row.netid !== id));
-      }
     };
 
     useEffect(() => {
