@@ -5,9 +5,8 @@ import TabularViewerGeolocator from "../Tables/TabularViewerGeolocator";
 const FacilityModule = () => {
 
   const headers = [
-    {field: "bldg_name", headerName: "Building", type: 'singleSelect', minWidth: 175},
-    {field: "floor_section", headerName : "Floor/Section", minWidth: 150},
-    {field: "MapURL", headerName: "MapURL"}
+    {field: "bldg_name", headerName: "Building", type: 'singleSelect', minWidth: 250},
+    {field: "floor_section", headerName : "Floor/Section", minWidth: 250}
   ]
   
   const getRequest = () => {

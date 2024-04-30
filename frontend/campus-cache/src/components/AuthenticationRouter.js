@@ -24,7 +24,6 @@ const AuthenticationRouter = () => {
                 <Route path="/facilities" element={<FacilitiesPage/>}/>
                 <Route path="/login" element={<LoginPage/>}/>
                 <Route path="/unauthorized" element={<UnauthorizedPage/>}/>
-                <Route path="/computers" element={<ComputersPage/>}/>
                 <Route path="/stats" element={<AdminStatPage/>}/>
                 <Route path="/floorplan" element={<FloorPlanMapPage/>}/>
 

@@ -25,8 +25,12 @@ class ReservationAdminCreate(BaseModel):
     netid: Optional[str] = None
     item_id: Optional[int] = None
 
-@router.post("/api/reservations/{itemid}", tags=["Reservations"], status_code=201)
-async def create_reservation(itemid: int, token_payload: dict = Depends(JWTBearer())):    
+class BlankModel(BaseModel):
+    itemid: Optional[int] = None
+
+
+@router.post("/api/reservations/{itemid}", tags=["Reservations"], status_code=201, dependencies=[Depends(JWTBearer())])
+async def create_reservation(itemid: int, reservation: BlankModel, token_payload: dict = Depends(JWTBearer())):    
     try:
         print("before")
         jwt_info = decodeJWT(token_payload)
@@ -38,7 +42,6 @@ async def create_reservation(itemid: int, token_payload: dict = Depends(JWTBeare
             start_time = central_time
             item_id = itemid
             netid = jwt_info['user_id']
-            print("netid: ", netid)
             await cursor.callproc("create_reservation", (start_time, None, netid, item_id))
             await cursor.connection.commit()
     except Exception as error:
@@ -67,21 +70,24 @@ async def get_reservations(token_payload: dict = Depends(JWTBearer())):
         print("error occured: ", error)
         raise HTTPException(status_code=500, detail="Failed to execute stored procedure for reservations")
 
+def convertDatetime(datestr):
+    return datetime.fromisoformat(datestr.rstrip('Z')) - timedelta(hours=6)
 
 @router.put("/api/admin/reservations/{reservationid}", tags=["Reservations", "Admin"], dependencies=[Depends(JWTBearer())])
 async def update_reservations(reservationid: int, reservation: ReservationAdminCreate, token_payload: dict = Depends(JWTBearer())): # ADMIN UPDATE
     # TODO: Require admin
     jwt_info = decodeJWT(token_payload)
+    print("reservation", convertDatetime(reservation.return_time))
     try:
         async with get_cursor() as cursor:
+            
             # NOTE: Stored Procedure: update_reservation(ReservationID, StartTime, ReturnTime, Deadline, NetID)
             if (jwt_info['role'] == 'admin'):
-                reservation_id = reservation.reservation_id
-                start_time = reservation.start_time
-                return_time = reservation.return_time
-                deadline = reservation.deadline
+                reservation_id = reservationid
+                start_time = convertDatetime(reservation.start_time)
+                return_time = convertDatetime(reservation.return_time)
+                deadline = convertDatetime(reservation.deadline)
                 netid = reservation.netid
-
                 await cursor.callproc("update_reservation", (reservation_id, start_time, return_time, deadline, netid))
                 await cursor.connection.commit()
             else:

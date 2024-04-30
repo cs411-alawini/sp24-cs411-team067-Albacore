@@ -21,6 +21,13 @@ const ReservationModuleAdmin = () => {
             console.error("datestr parse failed", e)
         }
     }
+
+    const putRequest = (id, body) => { // Remember 'Put' is idempotent
+        const jwtToken = localStorage.getItem("JWTToken");
+        return httpClient
+          .put("/admin/reservations/" + id , body, 
+          {headers: {Authorization: "Bearer " + jwtToken}});
+    } 
   
     const getRequest = () => {
       const jwtToken = localStorage.getItem("JWTToken");
@@ -40,7 +47,7 @@ const ReservationModuleAdmin = () => {
     }, []);
 
     return (
-        <TabularViewerAdmin title={"Reservations"} grabData={getRequest} tableHeaders={headers} uniqueIdentifier={"reservation_id"}/>
+        <TabularViewerAdmin title={"Reservations"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"reservation_id"}/>
     );
 }
 export default ReservationModuleAdmin;

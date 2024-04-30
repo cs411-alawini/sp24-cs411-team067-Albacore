@@ -80,14 +80,6 @@ const NavBar = () => {
                             Inventory  
                         </ListItemButton>
                     </ListItem>
-                    <ListItem onClick={()=>window.location.href="/computers"}>
-                        <ListItemButton>
-                            <ListItemIcon>
-                                <ComputerIcon/>
-                            </ListItemIcon>
-                            Computers  
-                        </ListItemButton>
-                    </ListItem>
                     <ListItem onClick={()=>window.location.href="/reservations"}>
                         <ListItemButton>
                             <ListItemIcon>
