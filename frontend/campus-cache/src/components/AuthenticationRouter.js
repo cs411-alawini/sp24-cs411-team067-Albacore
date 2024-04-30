@@ -9,6 +9,8 @@ import FacilitiesPage from "../pages/FacilitiesPage";
 import ComputersPage from "../pages/ComputersPage";
 import ReservationModule from "./Reservations/ReservationModuleBase";
 import ReservationsPage from "../pages/ReservationsPage";
+import AdminStatPage from "../pages/AdminStatPage";
+import FloorPlanMapPage from "../pages/FloorPlanMapPage";
 
 // DECLARE ROUTES HERE
 const AuthenticationRouter = () => {
@@ -23,6 +25,9 @@ const AuthenticationRouter = () => {
                 <Route path="/login" element={<LoginPage/>}/>
                 <Route path="/unauthorized" element={<UnauthorizedPage/>}/>
                 <Route path="/computers" element={<ComputersPage/>}/>
+                <Route path="/stats" element={<AdminStatPage/>}/>
+                <Route path="/floorplan" element={<FloorPlanMapPage/>}/>
+
             </Routes>
         </Router>
         

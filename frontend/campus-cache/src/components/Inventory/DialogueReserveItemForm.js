@@ -8,71 +8,48 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { DesktopDateTimePicker } from '@mui/x-date-pickers/DesktopDateTimePicker';
+import { httpClient } from "../../infra";
+import moment from "moment";
 
-const today = dayjs();
-const monthahead = dayjs().add(1, 'month');
-
-const DialogueReserveItemForm = ({dialogOpen, setDialogOpen}) => {
+const DialogueReserveItemForm = ({dialogOpen, setDialogOpen, rowID}) => {
     // Also, utilized:  https://mui.com/material-ui/react-dialog/
-    const [showPassword, setShowPassword] = useState(false);
-    const handleClickShowPassword = () => setShowPassword((show) => !show);
-
- 
 
     const handleClose = (event) => {
         console.log(event);
-        setDialogOpen(false)
+        setDialogOpen(false);
     };
+
+    const handleSubmit = () => {
+        const jwtToken = localStorage.getItem("JWTToken");
+        console.log("type rowid", typeof(rowID))
+        httpClient.post("/reservations/" + rowID,
+        {headers: {Authorization: "Bearer " + jwtToken}}).then((response)=> {
+
+        })
+        .catch((error) => {
+            console.error("dialogue reserve item form error", error)
+        })
+    }
 
     return (
         <Dialog
         open={dialogOpen}
         PaperProps={{
           component: 'form',
-          onSubmit: (event) => {},
+          onSubmit: (event) => {handleSubmit()},
         }}
       >
         <DialogTitle>Create a Reservation</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            Each user must be assigned a netid, password, and role.
+            Please confirm this action
           </DialogContentText>
-          
-          <FormControl required sx={{ m: 1, width: '25ch' }} variant="outlined" >
-          <InputLabel htmlFor="outlined-adornment-password" >NetID</InputLabel>
-            <OutlinedInput
-                disabled
-                value={"nla3"}
-                id="outlined-adornment-password"
-                type={'text'}
-            />
-          </FormControl>
-          <br/>
-          <FormControl required sx={{ m: 1, width: '25ch' }} variant="outlined" >
-          <InputLabel htmlFor="outlined-adornment-password" >Item Name</InputLabel>
-            <OutlinedInput
-                disabled
-                value={"3D Printer"}
-                id="outlined-adornment-password"
-                type={'text'}
-            />
-          </FormControl>
-        <br/>
-        <FormControl  required sx={{ m: 1, width: '25ch' }} variant="outlined" >
-            <LocalizationProvider dateAdapter={AdapterDayjs}>
-               <DesktopDateTimePicker disablePast maxDate={monthahead}
-               shouldDisableTime={(value, view) =>
-                view === 'hours' && value.hour() > 20 || value.hour() < 6
-              }
-               />
-            </LocalizationProvider>
-        </FormControl>
-          
+        
           <Divider/>
         </DialogContent>
         <DialogActions>
           <Button color="error" onClick={handleClose}>Cancel</Button>
-          <Button type="submit" >Create User</Button>
+          <Button type="submit" >Confirm</Button>
         </DialogActions>
       </Dialog>
     )
@@ -80,7 +57,8 @@ const DialogueReserveItemForm = ({dialogOpen, setDialogOpen}) => {
 
 DialogueReserveItemForm.propTypes = {
     dialogOpen: PropTypes.bool,
-    setDialogOpen: PropTypes.func
+    setDialogOpen: PropTypes.func,
+    rowID: PropTypes.number
 }
 
 export default DialogueReserveItemForm;

@@ -24,7 +24,7 @@ const CustomToolbar = () => {
   );
 }
 
-const TabularViewerBase = ({title, grabData, updateData, tableHeaders, uniqueIdentifier, positionNotAbsolute}) => {
+const TabularViewerAdminStat = ({title, grabData, updateData, tableHeaders, uniqueIdentifier}) => {
 
     const [tableData, setTableData] = useState([]);
     const [rowModesModel, setRowModesModel] = useState({});
@@ -36,34 +36,20 @@ const TabularViewerBase = ({title, grabData, updateData, tableHeaders, uniqueIde
 
     const processRowUpdate = () => {}
 
-    // const tempFunction = (val) => {
-    //   console.log("rowidentifier", row[uniqueIdentifier]);
-    //   return row[uniqueIdentifier];
-    // }
-
     useEffect(() => {
       grabData().then((response) => {
           setTableData(response.data[title]);
-          console.log("response stuff", response.data[title])
-          console.log("response data unique", response.data[title][uniqueIdentifier]);
+          console.log(response.data);
       })
       .catch((error) => {
       });
     }, []);
-
-    const getPosition = () => {
-      if (positionNotAbsolute) {
-        return "relative"
-      } else {
-        return "absolute"
-      }
-    }
     
     return (
         <Box justifyContent="center" sx={{display: "flex",  width: '100%' }}>
           <DataGrid
             autoHeight
-            style={{position: getPosition()}}
+            style={{position: "absolute"}}
             getRowId={row=>row[uniqueIdentifier]}
             rows={tableData}
             editMode="row"
@@ -78,13 +64,12 @@ const TabularViewerBase = ({title, grabData, updateData, tableHeaders, uniqueIde
     );
 }
 
-TabularViewerBase.propTypes = {
+TabularViewerAdminStat.propTypes = {
     title: PropTypes.string,
     grabData: PropTypes.func,
     updateData: PropTypes.func,
     tableHeaders: PropTypes.array,
-    uniqueIdentifier: PropTypes.string,
-    positionNotAbsolute: PropTypes.bool
+    uniqueIdentifier: PropTypes.string
 };
 
-export default TabularViewerBase;
+export default TabularViewerAdminStat;

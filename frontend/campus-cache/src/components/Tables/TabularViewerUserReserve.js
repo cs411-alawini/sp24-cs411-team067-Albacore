@@ -26,6 +26,7 @@ const CustomToolbarUserReserve = () => {
 
 const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, uniqueIdentifier}) => {
     const [dialogOpen, setDialogOpen] = useState(false);
+    const [item, setItem] = useState();
     const [tableData, setTableData] = useState([]);
     const [rowModesModel, setRowModesModel] = useState({});
     // Code used from MUI docs: https://mui.com/x/react-data-grid/editing/
@@ -38,10 +39,11 @@ const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, un
         headerAlign: 'center',
         align: 'right',
         renderCell: (params) => (
-          <ReservationButton params={params.row.availability} setDialog={setDialogOpen}/>
+          <ReservationButton availability={params.row.availability} setDialog={setDialogOpen} setItem={setItem} params={params} />
         ),
       }
     )
+
 
     const processRowUpdate = () => {}
 
@@ -56,7 +58,7 @@ const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, un
     
     return (
       <Box justifyContent="center" sx={{display: "flex",  width: '100%', bgcolor: 'error.light'}}>
-        <DialogueReserveItemForm dialogOpen={dialogOpen} setDialogOpen={setDialogOpen}/>
+        <DialogueReserveItemForm dialogOpen={dialogOpen} setDialogOpen={setDialogOpen} rowID={item}/>
         <DataGrid
           autoHeight
           style={{position: "absolute"}}

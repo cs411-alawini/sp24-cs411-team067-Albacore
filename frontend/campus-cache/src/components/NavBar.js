@@ -12,7 +12,9 @@ import DeskIcon from '@mui/icons-material/Desk';
 import ComputerIcon from '@mui/icons-material/Computer';
 import DomainIcon from '@mui/icons-material/Domain';
 import EventSeatIcon from '@mui/icons-material/EventSeat';
+import MapIcon from '@mui/icons-material/Map';
 const NavBar = () => {
+
     const [drawerOpen, setDrawerOpen] = useState(false);
     const context = useContext(AppContext);
 
@@ -92,6 +94,14 @@ const NavBar = () => {
                                 <EventSeatIcon/>
                             </ListItemIcon>
                             Reservations  
+                        </ListItemButton>
+                    </ListItem>
+                    <ListItem onClick={()=>window.location.href="/floorplan"}>
+                        <ListItemButton>
+                            <ListItemIcon>
+                                <MapIcon/>
+                            </ListItemIcon>
+                            Grainger Computers  
                         </ListItemButton>
                     </ListItem>
                 </List>

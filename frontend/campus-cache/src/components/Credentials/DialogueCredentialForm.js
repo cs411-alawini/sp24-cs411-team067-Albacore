@@ -88,6 +88,14 @@ const DialogCredentialForm = ({dialogOpen, setDialogOpen}) => {
                     <MenuItem value={"Student"}>Student</MenuItem>
                 </Select>
           </FormControl>
+          <Divider/>
+          <FormControl required sx={{ m: 1, width: '25ch' }}>
+            <InputLabel htmlFor="outlined-adornment-password" >Major</InputLabel>
+                <OutlinedInput
+                    id="outlined-adornment-password"
+                    type={'text'}
+                />
+        </FormControl>
         </DialogContent>
         <DialogActions>
           <Button color="error" onClick={(e)=>handleClose(e)}>Cancel</Button>
