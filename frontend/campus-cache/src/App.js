@@ -64,7 +64,6 @@ const App = () => {
                 <AuthenticationRouter>
                 </AuthenticationRouter>
               </AppContext.Provider>
-
       </div>
     );
 }

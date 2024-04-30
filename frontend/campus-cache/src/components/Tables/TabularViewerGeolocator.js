@@ -43,7 +43,7 @@ const TabularViewerGeolocator = ({title, grabData, updateData, tableHeaders, uni
 
     const getDistanceString = (params) => {
         try {
-            return String(calculateDistance(params["row"]["latitude"], params["row"]["longitude"])) + " miles";
+            return calculateDistance(params["row"]["latitude"], params["row"]["longitude"]) + " miles";
         } catch (e) {
             setDistanceColEnabled(false);
             return "Error loading distance"
@@ -94,19 +94,6 @@ const TabularViewerGeolocator = ({title, grabData, updateData, tableHeaders, uni
     
     return (
         <>
-            {/* <Dialog open={true}>
-            <Box justifyContent="center" sx={{display: "flex",  width: '100%' }}>
-                <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDLrIBIQYj8WU8W5nT8u3fZlidMWz_jdRc
-            &q=Space+Needle,Seattle+WA" loading="lazy"
-            allowfullscreen>
-                </iframe>
-                <DialogActions>
-                    <Button>
-                        Hi
-                    </Button>
-                </DialogActions>
-            </Box>
-            </Dialog> */}
             <Box justifyContent="center" sx={{display: "flex",  width: '100%' }}>
                 <DataGrid
                     autoHeight

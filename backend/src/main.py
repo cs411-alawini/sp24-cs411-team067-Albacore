@@ -26,15 +26,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
-
-
 # inspired by docs: https://techwasti.com/fastapi-mysql-simple-rest-api-example
 
 @app.get("/")
 async def root():
-    # cursor = mydb.cursor()
-    # cursor.execute("SELECT * from Student")
-    # result = cursor.fetchall()
-    # return {"student": result}
     return "root"

@@ -19,6 +19,27 @@ class CredentialLogin(BaseModel):
     netid: str = Field(...)
     password: str = Field(...)
 
+class Major(BaseModel):
+    majorid: int
+    label: str # Major Name
+
+
+@router.get("/api/majors", dependencies=[Depends(JWTBearer)], tags=["Majors"])
+async def get_majors(token_payload: dict = Depends(JWTBearer())):
+    try:
+        async with get_cursor() as cursor:
+            query = "SELECT * FROM Majors"
+            await cursor.execute(query,)
+            rows = await cursor.fetchall()
+            majors = [Major(majorid=row["MajorID"], label=row["MajorName"]) for row in rows]
+            print(majors)
+            return JSONResponse(content={"Facilities": [major.dict() for major in majors]})
+
+    except Exception as error:
+        print("error occurred: ", error)
+        raise HTTPException(status_code=500, detail="Failed to execute query for majors")
+
+
 @router.get("/api/credentials",  dependencies=[Depends(JWTBearer())], tags=["Credentials"])
 async def get_credentials(token_payload: dict = Depends(JWTBearer())):
     try:
@@ -63,7 +84,7 @@ async def user_login(user: CredentialLogin = Body(...)):
 async def check_user(data: CredentialLogin):
     curr_user = data
     async with get_cursor() as cursor:
-        query = "SELECT * from Credentials WHERE netID = %s"
+        query = "SELECT * FROM Credentials WHERE netID = %s"
         params = (curr_user.netid,)
         await cursor.execute(query, params)
         row = await cursor.fetchone()

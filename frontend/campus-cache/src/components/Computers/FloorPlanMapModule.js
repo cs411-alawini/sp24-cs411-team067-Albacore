@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { httpClient } from "../../infra";
 import PropTypes from "prop-types";
 
 import TabularViewerUserReserve from "../Tables/TabularViewerUserReserve";
 import { TabularViewerBase } from '../Tables';
+import { Box, Divider, Grid, MenuItem, Select, Typography } from '@mui/material';
 
 
 const imagesData = {
@@ -36,7 +37,7 @@ const headers = [
   const [selectedImageID, setSelectedImageID] = useState('G1');
   const [computerData, setComputerData] = useState([]);
   const { src, areas } = imagesData[selectedImageID];
-  const [locationID, setLocationID] = useState(9);
+  const [locationID, setLocationID] = useState();
 
 
   const handleImageChange = (event) => {
@@ -56,37 +57,55 @@ const headers = [
         console.log(response.data["ComputerStat"])
         setComputerData(response.data["ComputerStat"]);
         console.log(computerData)
-        // setLocationID(locID);
+        setLocationID(locID);
+        console.log(locationID)
     }).catch((error) => {
         console.log(error)
     }
     );
   };
 
+  useEffect(()=> {
+  })
+
   return (
     <>
+      
+      <Grid align='center'>
       <label htmlFor="image-select">Select a Facility:</label>
-      <select id="image-select" value={selectedImageID} onChange={handleImageChange}>
-        <option value="G1">Grainger Library Floor 1</option>
-        <option value="G4">Grainger Library Floor 4</option>
+      <Select id="image-select" value={selectedImageID} onChange={handleImageChange}>
+        <MenuItem value="G1">Grainger Library Floor 1</MenuItem>
+        <MenuItem value="G4">Grainger Library Floor 4</MenuItem>
         {/* Add more options for additional images */}
-      </select>
-
+      </Select>
+        <Divider/>
         <img src={src} useMap="#floorplan-map" alt="Floor Plan" />
-        <map name="floorplan-map">
-            {areas.map((area, index) => (
-            <area
-                key={index}
-                shape={area.shape}
-                coords={area.coords}
-                alt={area.alt}
-                href="#"
-                onClick={(e) => { e.preventDefault(); handleAreaClick(area.locationID); }}
-            />
-            ))}
-        </map>
-
-        <TabularViewerBase title={"ComputerStat"} grabData={() => getRequest(locationID)} tableHeaders={headers} uniqueIdentifier={"id"}/>
+            <map name="floorplan-map">
+                {areas.map((area, index) => (
+                <area
+                    key={index}
+                    shape={area.shape}
+                    coords={area.coords}
+                    alt={area.alt}
+                    href="#"
+                    onClick={(e) => { e.preventDefault(); handleAreaClick(area.locationID); }}
+                />
+                ))}
+            </map>
+        </Grid>
+        {(locationID === 9)?
+            <Grid align={"center"} >
+                <Typography variant="h5" color="primary" fontSize={30}>
+                    {"Grainger Floor 1"}
+                </Typography>
+                <TabularViewerBase title={"ComputerStat"} grabData={()=> getRequest(9)} tableHeaders={headers} uniqueIdentifier={"id"}/>
+            </Grid> :
+            <Grid align={"center"} >
+            <Typography variant="h5" color="primary" fontSize={30}>
+                    {"Grainger Floor 4"}
+            </Typography>
+            <TabularViewerBase title={"ComputerStat"} grabData={()=> getRequest(10)} tableHeaders={headers} uniqueIdentifier={"id"}/>
+            </Grid>}   
     </>
   );
 };
