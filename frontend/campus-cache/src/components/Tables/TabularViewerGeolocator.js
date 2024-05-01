@@ -86,7 +86,6 @@ const TabularViewerGeolocator = ({title, grabData, updateData, tableHeaders, uni
         }
         grabData().then((response) => {
             setTableData(response.data[title]);
-            console.log(response.data);
         })
         .catch((error) => {
         });
