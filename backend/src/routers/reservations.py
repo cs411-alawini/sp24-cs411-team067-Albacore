@@ -6,6 +6,7 @@ from ..db.db_instance import get_cursor, ResultSets
 from fastapi.responses import JSONResponse
 from ..auth.auth_bearer import JWTBearer, decodeJWT
 from datetime import datetime, timedelta
+import pytz
 
 router = APIRouter()
 
@@ -34,15 +35,11 @@ async def create_reservation(itemid: int, reservation: BlankModel, token_payload
         print("before")
         jwt_info = decodeJWT(token_payload)
         async with get_cursor() as cursor:
-            # NOTE: Stored Procedure: create_reservation(StartTime, ReturnTime, NetID, ItemID)
-            utc_now = datetime.utcnow()
-            offset = timedelta(hours=6)  
-            central_time = utc_now - offset
-            start_time = central_time
-            item_id = itemid
+            # NOTE: Stored Procedure: CreateReservation(<NetID>, <StartTime>, <ItemID>)
+            central_time_zone = pytz.timezone('America/Chicago')
+            start_time = datetime.now(central_time_zone)
             netid = jwt_info['user_id']
-            await cursor.callproc("create_reservation", (start_time, None, netid, item_id))
-            await cursor.connection.commit()
+            await cursor.callproc("CreateReservation", (netid, start_time, itemid))
     except Exception as error:
         print("error occured: ", error)
         raise HTTPException(status_code=500, detail="Failed to execute stored procedure for updating reservations")
@@ -70,7 +67,9 @@ async def get_reservations(token_payload: dict = Depends(JWTBearer())):
         raise HTTPException(status_code=500, detail="Failed to execute stored procedure for reservations")
 
 def convertDatetime(datestr):
-    return datetime.fromisoformat(datestr.rstrip('Z')) - timedelta(hours=6)
+    central_time_zone = pytz.timezone('America/Chicago')
+    dt = datetime.fromisoformat(datestr.rstrip('Z'))
+    return dt.replace(tzinfo=pytz.utc).astimezone(central_time_zone)
 
 @router.put("/api/admin/reservations/{reservationid}", tags=["Reservations", "Admin"], dependencies=[Depends(JWTBearer())])
 async def update_reservations(reservationid: int, reservation: ReservationAdminCreate, token_payload: dict = Depends(JWTBearer())): # ADMIN UPDATE
