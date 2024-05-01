@@ -1,8 +1,9 @@
-import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Divider, FormControl, IconButton, InputAdornment, InputLabel, MenuItem, OutlinedInput, Select, TextField } from "@mui/material";
+import { Autocomplete, Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Divider, FormControl, IconButton, InputAdornment, InputLabel, MenuItem, OutlinedInput, Select, TextField } from "@mui/material";
 import PropTypes from "prop-types";
 import React, {useState, useEffect} from "react";
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
+import { httpClient } from "../../infra";
 
 const DialogCredentialForm = ({dialogOpen, setDialogOpen}) => {
     // Utilized: https://mui.com/material-ui/react-text-field/ for password
@@ -10,8 +11,19 @@ const DialogCredentialForm = ({dialogOpen, setDialogOpen}) => {
     const [showPassword, setShowPassword] = useState(false);
     const [password, setPassword] = useState("");
     const [netID, setNetID] = useState("");
+    const [majors, setMajors] = useState([])
     const [role, setRole] = useState("")
     const handleClickShowPassword = () => setShowPassword((show) => !show);
+
+    const getMajors = () => {
+      const jwtToken = localStorage.getItem("JWTToken");
+      return httpClient
+        .get("/majors", {headers: {Authorization: "Bearer " + jwtToken}})
+        .then((response) => {
+          console.log("majors", response.data["Majors"])
+          setMajors(response.data["Majors"])
+        }).catch((error)=> {})
+    }
 
     const handleSelectRole = (e) => {
         setRole(e.target.value)
@@ -25,6 +37,10 @@ const DialogCredentialForm = ({dialogOpen, setDialogOpen}) => {
         console.log("handle close: ", event);
         setDialogOpen(false)
     };
+
+    useEffect(()=> {
+      getMajors()
+    }, [])
 
     return (
         <Dialog
@@ -90,11 +106,12 @@ const DialogCredentialForm = ({dialogOpen, setDialogOpen}) => {
           </FormControl>
           <Divider/>
           <FormControl required sx={{ m: 1, width: '25ch' }}>
-            <InputLabel htmlFor="outlined-adornment-password" >Major</InputLabel>
-                <OutlinedInput
-                    id="outlined-adornment-password"
-                    type={'text'}
-                />
+          <Autocomplete
+            disablePortal
+            id="combo-box-demo"
+            options={majors}
+            renderInput={(params) => <TextField {...params} label="Movie" />}
+          />
         </FormControl>
         </DialogContent>
         <DialogActions>
