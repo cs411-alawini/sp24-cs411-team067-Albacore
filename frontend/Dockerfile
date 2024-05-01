@@ -13,6 +13,8 @@ COPY **/package-lock.json ./
 
 # install deps
 RUN npm install
+RUN npm install geolib
+RUN npm install 
 
 COPY **/ ./
 
