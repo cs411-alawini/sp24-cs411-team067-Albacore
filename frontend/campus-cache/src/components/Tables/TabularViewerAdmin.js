@@ -8,7 +8,7 @@ import SaveIcon from '@mui/icons-material/Save';
 import CancelIcon from '@mui/icons-material/Close';
 import { Box, IconButton, Snackbar, Typography } from "@mui/material";
 import AddBoxIcon from '@mui/icons-material/AddBox';
-import DialogCredentialForm from "../Credentials/DialogueCredentialForm";
+import DialogCredentialForm from "../Credentials/DialogCredentialForm";
 import DialogDeleteItemConfirm from "../Reservations/DialogDeleteItemConfirm";
 
 const CustomToolbarAdmin = ({CredentialsMode}) => {
