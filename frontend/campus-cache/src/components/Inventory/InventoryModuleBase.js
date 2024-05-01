@@ -15,7 +15,8 @@ const InventoryModuleBase = () => {
     valueOptions: ['Excellent', 'Good', 'Poor']},
     {field: "bldg_name", headerName: "Building", editable: true, type: 'singleSelect',
     valueOptions: ['Sidney Lu', 'SCD', 'English Building','Music & Arts Library']}, // should query from facilities
-    {field: "duration", headerName: "Duration", editable: true, type: 'number', align: 'center', headerAlign: 'center'}
+    {field: "duration", headerName: "Duration", editable: true, type: 'number', align: 'center', headerAlign: 'center'},
+    {field:"AverageTime", headerName: "Average Rental Time"}
   ]
 
   const getRequest = () => {

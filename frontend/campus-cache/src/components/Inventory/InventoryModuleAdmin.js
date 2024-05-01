@@ -12,7 +12,8 @@ const InventoryModuleAdmin = () => {
       valueOptions: ['Excellent', 'Good', 'Poor']},
       {field: "bldg_name", headerName: "Building", editable: false, type: 'singleSelect',
       valueOptions: ['Sidney Lu', 'SCD', 'English Building','Music & Arts Library']}, // should query from facilities
-      {field: "duration", headerName: "Duration (Hrs)", editable: true, type: 'number', align: 'center'}
+      {field: "duration", headerName: "Duration (Hrs)", editable: true, type: 'number', align: 'center'},
+      {field:"AverageTime", headerName: "Average Rental Time"}
     ]
   
     const getRequest = () => {
