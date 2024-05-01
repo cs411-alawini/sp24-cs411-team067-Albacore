@@ -6,7 +6,7 @@ from ..db.db_instance import get_cursor, ResultSets
 from fastapi.responses import JSONResponse
 from ..auth.auth_handler import decodeJWT
 from ..auth.auth_bearer import JWTBearer
-
+import logging
 router = APIRouter()
 class Inventory(BaseModel):
     item_id: int
@@ -16,6 +16,7 @@ class Inventory(BaseModel):
     condition: Optional[str] = None
     location_id: int
     duration: Optional[int] = None
+    AverageTime: float =None
 
 class LateCountTableMajor(BaseModel):
     major_id: int
@@ -25,6 +26,10 @@ class LateCountTableMajor(BaseModel):
 class BrokenInFacility(BaseModel):
     bldg_name: str
     num_broken: int
+
+logging.basicConfig(level=logging.INFO)  # Adjust the logging level as needed
+
+
 
 
 @router.get("/api/admin/stats", dependencies=[Depends(JWTBearer())], tags=["AdminStats"])
@@ -58,16 +63,22 @@ async def get_inventory(token_payload: dict = Depends(JWTBearer())):
     try:
         async with get_cursor() as cursor:
             if (jwt_info['role'] == 'admin'):
-                await cursor.callproc("GetAllItems")
+                # await cursor.callproc("GetAllItems")
+                await cursor.callproc("GetInventoryDetailsAdmin")
             else:
-                await cursor.callproc("GetAllowedItems", (jwt_info['user_id'],))
+                # await cursor.callproc("GetAllowedItems", (jwt_info['user_id'],))
+                logging.info("HERE")
+                await cursor.callproc("GetInventoryDetails", (jwt_info['user_id'],))
             results = []
             initial_results = await cursor.fetchall() # Async connector does not have stored results
             results.append(initial_results)
             async for result_set in ResultSets(cursor):
                 results.append(result_set)
             results = results[0]
-            all_inventory = [Inventory(item_id=row['ItemID'], bldg_name=row['BldgName'], item_name=row['ItemName'], availability=row['Availability'], condition=translate_condition(row['Condition']), location_id=row["LocationID"], duration=row["Duration"]) for row in results]
+            print(results[0]["AverageTime"])
+            # logging.info(results)
+            all_inventory = [Inventory(item_id=row['ItemID'], bldg_name=row['BldgName'], item_name=row['ItemName'], availability=row['Availability'], condition=translate_condition(row['Condition']), location_id=row["LocationID"], duration=row["Duration"], AverageTime=row["AverageTime"]) for row in results]
+            print(all_inventory[0])
             return JSONResponse(content={"Inventory": [inventory.dict() for inventory in all_inventory]})
     except Exception as error:
         print("error occurred: ", error)
