@@ -39,15 +39,17 @@ const TabularViewerBase = ({title, grabData, updateData, tableHeaders, uniqueIde
 
     useEffect(() => {
       grabData().then((response) => {
-          setTableData(response.data[title]);
-          setLoading(false);
+        setTableData(response.data[title]);
+        setLoading(false);
       })
       .catch((error) => {
+        setLoading(false);
       });
     }, []);
 
     const getPosition = () => {
-      if (positionNotAbsolute) {
+      if (positionNotAbsolute) { 
+        // TODO: Clean up this hack, use grid
         return "relative"
       } else {
         return "absolute"

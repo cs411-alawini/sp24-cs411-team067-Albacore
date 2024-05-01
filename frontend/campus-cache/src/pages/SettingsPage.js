@@ -1,9 +1,17 @@
 import { Divider, ToggleButton, ToggleButtonGroup, Typography } from "@mui/material";
-import React, {useEffect, useState} from "react";
+import React, {useContext, useEffect, useState} from "react";
 import NavBar from "../components/NavBar";
+import { AppContext } from "../App";
 
 const SettingsPage = () => {
     const [alignment, setAlignment] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme")  : "light");
+    const context = useContext(AppContext);   
+    
+    useEffect(() => {
+        if (!context.state.loggedIn) {
+            window.location.href = "/unauthorized"
+        }
+    }, []);
 
     const handleChange = (event, newAlignment) => {
         setAlignment(newAlignment);

@@ -57,7 +57,6 @@ const App = () => {
   useEffect(() => {
   })
   
-  
     return (
       <div className="App">
               <AppContext.Provider value={{state}}>
