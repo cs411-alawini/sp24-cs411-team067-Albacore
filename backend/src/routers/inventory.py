@@ -27,7 +27,7 @@ class BrokenInFacility(BaseModel):
     num_broken: int
 
 
-@router.get("/api/admin/stats/", dependencies=[Depends(JWTBearer())], tags=["AdminStats"])
+@router.get("/api/admin/stats", dependencies=[Depends(JWTBearer())], tags=["AdminStats"])
 async def get_admin_stats(token_payload: dict = Depends(JWTBearer())):
     jwt_info = decodeJWT(token_payload)
     try:
