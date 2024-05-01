@@ -53,6 +53,7 @@ const Login = () => {
             .catch((error) => {
                 setError(true);
                 setTimeout(() => setError(false), 500);
+                localStorage.clear()
                 setErrorMessage("Incorrect username or password")
             });
         } else {
