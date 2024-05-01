@@ -50,11 +50,11 @@ const AdminStatPage = () => {
                         <TabularViewerBase title={"LateCount"} grabData={getRequest} tableHeaders={lateHeaders} uniqueIdentifier={"major_name"} positionNotAbsolute/>
                     </Item>
                 </Grid>
-                {/* <Grid item xs={6}>
+                <Grid item xs={6}>
                     <Item>
                         <TabularViewerBase title={"BrokenStat"} grabData={getRequest} tableHeaders={brokenHeaders} uniqueIdentifier={"bldg_name"} positionNotAbsolute/>
                     </Item>
-                </Grid> */}
+                </Grid>
             </Grid>
         </>
     )
