@@ -1,7 +1,13 @@
-### Transaction for creating reservations
+# DB Features for Requirements
+
+## Transactions
+### Another Transaction With Advanced Query:
 ```SQL
-DELIMITER //
-CREATE PROCEDURE CreateReservation(
+```
+
+### Create Reservations:
+```SQL
+CREATE DEFINER=`albacore`@`%` PROCEDURE `CreateReservation`(
 	IN userNetID VARCHAR(100),
     IN reservationStartTime DATETIME,
     IN reservationItemID INT
@@ -50,6 +56,49 @@ BEGIN
     ELSE
 		ROLLBACK;
     END IF;
+END
+```
+## Stored Procedure
+## TODO:
+### Insert stored procedures with 2 advanced queries
+
+## Triggers
+### Update Computer After Inventory is Updated
+```SQL
+DELIMITER //
+CREATE TRIGGER inventoryUpdated AFTER UPDATE ON Inventory
+FOR EACH ROW
+BEGIN
+	IF NEW.Availability <> OLD.Availability OR NEW.`Condition` <> OLD.`Condition` THEN
+    IF @updating IS NULL THEN
+		SET @updating = TRUE;
+		UPDATE Computers
+		SET Availability = NEW.Availability, `Condition` = NEW.`Condition`
+		WHERE ItemID = New.ItemID;
+        SET @updating = NULL;
+	END IF;
+	END IF;
+END//
+DELIMITER ;    
+```
+
+### Update Inventory After Computer is Updated
+```SQL
+DELIMITER //
+CREATE TRIGGER computerUpdated AFTER UPDATE ON Computers
+FOR EACH ROW
+BEGIN
+	IF NEW.Availability <> OLD.Availability OR NEW.`Condition` <> OLD.`Condition` THEN
+    IF @updating IS NULL THEN
+		SET @updating = TRUE;
+		UPDATE Inventory
+		SET Availability = NEW.Availability, `Condition` = NEW.`Condition`
+		WHERE ItemID = New.ItemID;
+        SET @updating = NULL;
+	END IF;
+	END IF;
 END//
 DELIMITER ;
 ```
+## Constraints
+### We used the primary and foreign keys as our constraints

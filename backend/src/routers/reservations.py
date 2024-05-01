@@ -67,7 +67,9 @@ async def get_reservations(token_payload: dict = Depends(JWTBearer())):
         raise HTTPException(status_code=500, detail="Failed to execute stored procedure for reservations")
 
 def convertDatetime(datestr):
-    return datetime.fromisoformat(datestr.rstrip('Z')) - timedelta(hours=6)
+    central_time_zone = pytz.timezone('America/Chicago')
+    dt = datetime.fromisoformat(datestr.rstrip('Z'))
+    return dt.replace(tzinfo=pytz.utc).astimezone(central_time_zone)
 
 @router.put("/api/admin/reservations/{reservationid}", tags=["Reservations", "Admin"], dependencies=[Depends(JWTBearer())])
 async def update_reservations(reservationid: int, reservation: ReservationAdminCreate, token_payload: dict = Depends(JWTBearer())): # ADMIN UPDATE
