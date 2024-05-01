@@ -7,9 +7,10 @@ import { jwtDecode } from "jwt-decode";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
-const darkTheme = createTheme({
+const theme = localStorage.getItem("theme");
+const appTheme = createTheme({
   palette: {
-    mode: 'light',
+    mode: (theme == "light" || theme == "dark") ? theme : "light",
   },
 });
 
@@ -51,7 +52,6 @@ export const AppContext = React.createContext({
 })
 
 const App = () => {
-
   const [state, setState] = useState(getLoggedInState());
 
   useEffect(() => {
@@ -61,8 +61,11 @@ const App = () => {
     return (
       <div className="App">
               <AppContext.Provider value={{state}}>
-                <AuthenticationRouter>
-                </AuthenticationRouter>
+                <ThemeProvider theme={appTheme}>
+                  <CssBaseline />
+                  <AuthenticationRouter>
+                  </AuthenticationRouter>
+                </ThemeProvider>
               </AppContext.Provider>
       </div>
     );

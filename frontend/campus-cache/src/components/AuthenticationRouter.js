@@ -11,6 +11,7 @@ import ReservationModule from "./Reservations/ReservationModuleBase";
 import ReservationsPage from "../pages/ReservationsPage";
 import AdminStatPage from "../pages/AdminStatPage";
 import FloorPlanMapPage from "../pages/FloorPlanMapPage";
+import SettingsPage from "../pages/SettingsPage";
 
 // DECLARE ROUTES HERE
 const AuthenticationRouter = () => {
@@ -26,7 +27,7 @@ const AuthenticationRouter = () => {
                 <Route path="/unauthorized" element={<UnauthorizedPage/>}/>
                 <Route path="/stats" element={<AdminStatPage/>}/>
                 <Route path="/floorplan" element={<FloorPlanMapPage/>}/>
-
+                <Route path="/settings" element={<SettingsPage/>}/>
             </Routes>
         </Router>
         

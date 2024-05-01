@@ -110,7 +110,7 @@ const DialogCredentialForm = ({dialogOpen, setDialogOpen}) => {
             disablePortal
             id="combo-box-demo"
             options={majors}
-            renderInput={(params) => <TextField {...params} label="Movie" />}
+            renderInput={(params) => <TextField {...params} label="Major" />}
           />
         </FormControl>
         </DialogContent>

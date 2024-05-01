@@ -41,7 +41,11 @@ const NavBar = () => {
                     {context.state.isAdmin ? "Campus Cache - Administrator Mode" : "Campus Cache"}
                 </Typography>
                 
-                {context.state.loggedIn ? <Button color="inherit" startIcon={<AccountBoxIcon/>}>{context.state.user}</Button>: <div/>}
+                {context.state.loggedIn ? 
+                    <Button color="inherit" startIcon={<AccountBoxIcon/>} onClick={()=>window.location.href="/settings"}>
+                        {context.state.user}
+                    </Button>
+                    : <div/>}
                 <Typography>
                     {"|"}
                 </Typography>

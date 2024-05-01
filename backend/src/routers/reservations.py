@@ -80,7 +80,6 @@ async def update_reservations(reservationid: int, reservation: ReservationAdminC
     print("reservation", convertDatetime(reservation.return_time))
     try:
         async with get_cursor() as cursor:
-            
             # NOTE: Stored Procedure: update_reservation(ReservationID, StartTime, ReturnTime, Deadline, NetID)
             if (jwt_info['role'] == 'admin'):
                 reservation_id = reservationid
@@ -88,6 +87,7 @@ async def update_reservations(reservationid: int, reservation: ReservationAdminC
                 return_time = convertDatetime(reservation.return_time)
                 deadline = convertDatetime(reservation.deadline)
                 netid = reservation.netid
+                print("reservation model:",reservation)
                 await cursor.callproc("update_reservation", (reservation_id, start_time, return_time, deadline, netid))
                 await cursor.connection.commit()
             else:
