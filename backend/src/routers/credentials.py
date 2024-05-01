@@ -33,7 +33,7 @@ async def get_majors(token_payload: dict = Depends(JWTBearer())):
             rows = await cursor.fetchall()
             majors = [Major(majorid=row["MajorID"], label=row["MajorName"]) for row in rows]
             print(majors)
-            return JSONResponse(content={"Facilities": [major.dict() for major in majors]})
+            return JSONResponse(content={"Majors": [major.dict() for major in majors]})
 
     except Exception as error:
         print("error occurred: ", error)
