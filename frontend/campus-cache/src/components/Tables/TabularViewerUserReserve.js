@@ -50,10 +50,11 @@ const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, un
 
     useEffect(() => {
       grabData().then((response) => {
-          setTableData(response.data[title]);
-          setLoading(false);
+        setTableData(response.data[title]);
+        setLoading(false);
       })
       .catch((error) => {
+        setLoading(false);
       });
     }, []);
     

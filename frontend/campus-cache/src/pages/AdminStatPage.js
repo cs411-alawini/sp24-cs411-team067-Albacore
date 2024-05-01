@@ -31,7 +31,7 @@ const AdminStatPage = () => {
     const getRequest = () => {
         const jwtToken = localStorage.getItem("JWTToken");
         return httpClient
-        .get("/admin/adminstats", {headers: {Authorization: "Bearer " + jwtToken}})
+        .get("/admin/stats", {headers: {Authorization: "Bearer " + jwtToken}})
     }
 
     useEffect(()=> {

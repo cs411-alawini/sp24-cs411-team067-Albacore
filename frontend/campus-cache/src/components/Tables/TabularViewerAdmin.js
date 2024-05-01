@@ -6,7 +6,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/DeleteOutlined';
 import SaveIcon from '@mui/icons-material/Save';
 import CancelIcon from '@mui/icons-material/Close';
-import { Box, IconButton, Snackbar, Typography } from "@mui/material";
+import { Box, Button, IconButton, Snackbar, Typography } from "@mui/material";
 import AddBoxIcon from '@mui/icons-material/AddBox';
 import DialogCredentialForm from "../Credentials/DialogCredentialForm";
 import DialogDeleteItemConfirm from "../Reservations/DialogDeleteItemConfirm";
@@ -28,11 +28,10 @@ const CustomToolbarAdmin = ({CredentialsMode}) => {
           debounceMs={200} // time before applying the new quick filter value
         />
         { CredentialsMode ? 
-        <IconButton size="small" color="primary" onClick={handleClickAddIcon}
+        <Button startIcon={<AddBoxIcon/>} size="small" color="primary" onClick={handleClickAddIcon}
           className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary css-1knaqv7-MuiButtonBase-root-MuiButton-root">
-          <AddBoxIcon/>
           Add
-        </IconButton> : <div/>
+        </Button> : <div/>
         }
         <GridToolbarFilterButton/>
         <GridToolbarDensitySelector/>
@@ -110,7 +109,10 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
             />,
           ]
         },
-    })
+    }).map((header, i) => ({
+      ...header,
+      hideable: false
+    }))
 
     const handleCloseSnackbar = () => {
       setOpenSnackbar(false);
@@ -172,7 +174,9 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
           setLoading(false);
       })
       .catch((error) => {
+        setLoading(false);
       });
+      console.log("columns", columns);
     }, []);
     
     return (
@@ -194,6 +198,7 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
             loading={loading}
             onRowModesModelChange={handleRowModesModelChange}
             pagination
+            disableColumnSelector
           />
           <Snackbar
             open={openSnackbar}
