@@ -10,7 +10,6 @@ const ReservationsPage = () => {
     const context = useContext(AppContext);   
     useEffect(() => {
         if (!context.state.loggedIn) {
-            console.log(context.state);
             window.location.href = "/unauthorized"
         }
       }, []);

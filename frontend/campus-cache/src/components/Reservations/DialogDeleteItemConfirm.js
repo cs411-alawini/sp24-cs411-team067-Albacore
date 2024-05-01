@@ -6,7 +6,6 @@ const DialogDeleteItemConfirm = ({dialogOpen, setDialogOpen, rowID, setOpenSnack
     // Also, utilized:  https://mui.com/material-ui/react-dialog/
 
     const handleClose = (event) => {
-        console.log(event);
         setDialogOpen(false);
     };
 

@@ -52,13 +52,9 @@ const headers = [
   }
 
   const handleAreaClick = (locID) => {
-    console.log(`Area clicked: ${locID}`);
     getRequest(locID).then((response) => {
-        console.log(response.data["ComputerStat"])
         setComputerData(response.data["ComputerStat"]);
-        console.log(computerData)
         setLocationID(locID);
-        console.log(locationID)
     }).catch((error) => {
         console.log(error)
     }
