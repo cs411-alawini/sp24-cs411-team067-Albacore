@@ -26,7 +26,7 @@ class SectionComputerStat(BaseModel):
 async def get_computers(location: int):
     try:
         async with get_cursor() as cursor:
-            await cursor.callproc("CountComputersByMonitorAndOS", (location,))
+            await cursor.callproc("CreativeCompMap", (location,))
             results = []
             initial_results = await cursor.fetchall() # Async connector does not have stored results
             results.append(initial_results)
