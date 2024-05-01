@@ -6,7 +6,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/DeleteOutlined';
 import SaveIcon from '@mui/icons-material/Save';
 import CancelIcon from '@mui/icons-material/Close';
-import { Box, IconButton, Snackbar, Typography } from "@mui/material";
+import { Box, Button, IconButton, Snackbar, Typography } from "@mui/material";
 import AddBoxIcon from '@mui/icons-material/AddBox';
 import DialogCredentialForm from "../Credentials/DialogCredentialForm";
 import DialogDeleteItemConfirm from "../Reservations/DialogDeleteItemConfirm";
@@ -28,11 +28,10 @@ const CustomToolbarAdmin = ({CredentialsMode}) => {
           debounceMs={200} // time before applying the new quick filter value
         />
         { CredentialsMode ? 
-        <IconButton size="small" color="primary" onClick={handleClickAddIcon}
+        <Button startIcon={<AddBoxIcon/>} size="small" color="primary" onClick={handleClickAddIcon}
           className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary css-1knaqv7-MuiButtonBase-root-MuiButton-root">
-          <AddBoxIcon/>
           Add
-        </IconButton> : <div/>
+        </Button> : <div/>
         }
         <GridToolbarFilterButton/>
         <GridToolbarDensitySelector/>
@@ -52,6 +51,7 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
     const [item, setItem] = useState();
     const [dialogOpen, setDialogOpen] = useState(false);
     const [rowModesModel, setRowModesModel] = useState({});
+    const [loading, setLoading] = useState(true);
     // Below is not an ideal use case for memoization, but an example of how one would do this
     // Code used from MUI docs: https://mui.com/x/react-data-grid/editing/
     const columns = tableHeaders.concat({
@@ -109,7 +109,10 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
             />,
           ]
         },
-    })
+    }).map((header, i) => ({
+      ...header,
+      hideable: false
+    }))
 
     const handleCloseSnackbar = () => {
       setOpenSnackbar(false);
@@ -140,9 +143,11 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
         body[cell] = updatedRow[cell];
       }
       updateData(newRow[uniqueIdentifier], body, updateHeaders).then((response) => {
-      setOpenSnackbar(true);
+        setOpenSnackbar(true);
+        setLoading(false);
       })
       .catch((error) => {
+        setLoading(false);
       });
       return updatedRow;
     };
@@ -166,9 +171,12 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
     useEffect(() => {
       grabData().then((response) => {
           setTableData(response.data[title]);
+          setLoading(false);
       })
       .catch((error) => {
+        setLoading(false);
       });
+      console.log("columns", columns);
     }, []);
     
     return (
@@ -187,8 +195,10 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
             rowModesModel={rowModesModel}
             processRowUpdate={processRowUpdate}
             onRowEditStop={handleRowEditStop}
+            loading={loading}
             onRowModesModelChange={handleRowModesModelChange}
             pagination
+            disableColumnSelector
           />
           <Snackbar
             open={openSnackbar}

@@ -11,7 +11,7 @@ const ReservationButton = ({availability, setDialog, setItem, params}) => {
     }
     useEffect(()=> {})
     return (availability ? 
-    <Button 
+    <Button
         variant="contained" 
         color="primary"
         size="small"

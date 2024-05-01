@@ -22,11 +22,12 @@ const TabularViewerGeolocator = ({title, grabData, updateData, tableHeaders, uni
     const [latitude, setLatitude] = useState('');
     const [longitude, setLongitude] = useState('');
     const [tableData, setTableData] = useState([]);
+    const [loading, setLoading] = useState(true);
     const [rowModesModel, setRowModesModel] = useState({});
     const [distanceColEnabled, setDistanceColEnabled] = useState(false);
     
     // TODO: Remove reserve button for non-active reservations or make a query that removes them 
-    const columns = distanceColEnabled? tableHeaders.concat(
+    const columns = distanceColEnabled ? tableHeaders.concat(
         {
             field: 'Distance Away',
             headerName: 'Distance Away',
@@ -58,20 +59,46 @@ const TabularViewerGeolocator = ({title, grabData, updateData, tableHeaders, uni
         return ((distance / 1000) * 0.621371).toFixed(2);
     };
 
-    // Recommended way to solve by GPT 3.5 although edited for custom use
+    // Recommended way to solve by GPT 3.5 although edited 
+    // to enforce blocking mechanism for lagging data
     const getCurrentLocation = () => {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(
             (position) => {
                 setLatitude(position.coords.latitude);
                 setLongitude(position.coords.longitude);
-                setDistanceColEnabled(true);
+                if (navigator.geolocation) {
+                    setDistanceColEnabled(true);
+                } else {
+                    setDistanceColEnabled(false);
+                }
+                grabData().then((response) => {
+                    setTableData(response.data[title]);
+                    setLoading(false);
+                })
+                .catch((error) => {
+                    setLoading(false);
+                });
             },
-            (error) => { 
+            (error) => {
                 setDistanceColEnabled(false)
+                grabData().then((response) => {
+                    setTableData(response.data[title]);
+                    setLoading(false);
+                })
+                .catch((error) => {
+                    setLoading(false);
+                });
                 console.error('Error getting current location:', error); });   
         } else {
             setDistanceColEnabled(false);
+            grabData().then((response) => {
+                setTableData(response.data[title]);
+                setLoading(false);
+            })
+            .catch((error) => {
+                setLoading(false);
+            });
             console.error('Geolocation is not supported by this browser.'); }
     };
 
@@ -79,16 +106,6 @@ const TabularViewerGeolocator = ({title, grabData, updateData, tableHeaders, uni
 
     useEffect(() => {
         getCurrentLocation();
-        if (navigator.geolocation) {
-            setDistanceColEnabled(true);
-        } else {
-            setDistanceColEnabled(false);
-        }
-        grabData().then((response) => {
-            setTableData(response.data[title]);
-        })
-        .catch((error) => {
-        });
     }, []);
     
     return (
@@ -96,6 +113,7 @@ const TabularViewerGeolocator = ({title, grabData, updateData, tableHeaders, uni
             <Box justifyContent="center" sx={{display: "flex",  width: '100%' }}>
                 <DataGrid
                     autoHeight
+                    loading={loading}
                     style={{position: "absolute"}}
                     getRowId={row=>row[uniqueIdentifier]}
                     rows={tableData}
