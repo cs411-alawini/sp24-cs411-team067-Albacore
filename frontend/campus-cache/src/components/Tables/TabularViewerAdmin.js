@@ -52,6 +52,7 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
     const [item, setItem] = useState();
     const [dialogOpen, setDialogOpen] = useState(false);
     const [rowModesModel, setRowModesModel] = useState({});
+    const [loading, setLoading] = useState(true);
     // Below is not an ideal use case for memoization, but an example of how one would do this
     // Code used from MUI docs: https://mui.com/x/react-data-grid/editing/
     const columns = tableHeaders.concat({
@@ -140,9 +141,11 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
         body[cell] = updatedRow[cell];
       }
       updateData(newRow[uniqueIdentifier], body, updateHeaders).then((response) => {
-      setOpenSnackbar(true);
+        setOpenSnackbar(true);
+        setLoading(false);
       })
       .catch((error) => {
+        setLoading(false);
       });
       return updatedRow;
     };
@@ -166,6 +169,7 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
     useEffect(() => {
       grabData().then((response) => {
           setTableData(response.data[title]);
+          setLoading(false);
       })
       .catch((error) => {
       });
@@ -187,6 +191,7 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
             rowModesModel={rowModesModel}
             processRowUpdate={processRowUpdate}
             onRowEditStop={handleRowEditStop}
+            loading={loading}
             onRowModesModelChange={handleRowModesModelChange}
             pagination
           />
