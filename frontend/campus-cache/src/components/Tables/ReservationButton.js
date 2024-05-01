@@ -6,7 +6,6 @@ import React, {useEffect} from "react";
 
 const ReservationButton = ({availability, setDialog, setItem, params}) => {
     const handleClick = () => {
-        console.log("params", params.row)
         setItem(params.row.item_id)
         setDialog(true);
     }

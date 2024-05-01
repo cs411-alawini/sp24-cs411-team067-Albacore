@@ -39,7 +39,6 @@ const TabularViewerAdminStat = ({title, grabData, updateData, tableHeaders, uniq
     useEffect(() => {
       grabData().then((response) => {
           setTableData(response.data[title]);
-          console.log(response.data);
       })
       .catch((error) => {
       });

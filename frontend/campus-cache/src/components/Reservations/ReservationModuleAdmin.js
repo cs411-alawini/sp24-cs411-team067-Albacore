@@ -36,14 +36,6 @@ const ReservationModuleAdmin = () => {
     }
 
     useEffect(() => {
-        try {
-            const temp = new Date(moment('2024-01-16 18:50:00', 'YYYY-MM-DD HH:mm:ss').toDate().toString());
-            console.log("module type: ", typeof(temp))
-            console.log("Moment stuff: ", temp)
-            
-        } catch (e) {
-            console.error("Error occurred module admin: ", e)
-        }
     }, []);
 
     return (

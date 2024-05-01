@@ -36,16 +36,9 @@ const TabularViewerBase = ({title, grabData, updateData, tableHeaders, uniqueIde
 
     const processRowUpdate = () => {}
 
-    // const tempFunction = (val) => {
-    //   console.log("rowidentifier", row[uniqueIdentifier]);
-    //   return row[uniqueIdentifier];
-    // }
-
     useEffect(() => {
       grabData().then((response) => {
           setTableData(response.data[title]);
-          console.log("response stuff", response.data[title])
-          console.log("response data unique", response.data[title][uniqueIdentifier]);
       })
       .catch((error) => {
       });

@@ -166,7 +166,6 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
     useEffect(() => {
       grabData().then((response) => {
           setTableData(response.data[title]);
-          console.log(response.data);
       })
       .catch((error) => {
       });
