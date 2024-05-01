@@ -139,7 +139,9 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
       for (const cell in updatedRow) {
         body[cell] = updatedRow[cell];
       }
-      updateData(idToUpdate, body, updateHeaders).then((response) => {
+      console.log("new_row", newRow[uniqueIdentifier])
+      updateData(newRow[uniqueIdentifier], body, updateHeaders).then((response) => {
+        console.log("idtoUpdatex", idToUpdate)
         setOpenSnackbar(true);
       })
       .catch((error) => {
