@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Body, Depends
 from fastapi.encoders import jsonable_encoder
-from typing import Any, Union, List
+from typing import Any, Union, List, Optional
 from pydantic import BaseModel, SecretStr, validator, Field
 from ..db.db_instance import get_cursor, get_db_conn, ResultSets
 from fastapi.responses import JSONResponse
@@ -23,6 +23,13 @@ class Major(BaseModel):
     majorid: int
     label: str # Major Name
 
+class CredentialCreate(BaseModel):
+    netid: str
+    password: str
+    permission: int
+    majorid: Optional[int] = None
+    majorid2: Optional[int] = None
+    majorid3: Optional[int] = None
 
 @router.get("/api/majors", dependencies=[Depends(JWTBearer)], tags=["Majors"])
 async def get_majors(token_payload: dict = Depends(JWTBearer())):
@@ -38,7 +45,27 @@ async def get_majors(token_payload: dict = Depends(JWTBearer())):
         print("error occurred: ", error)
         raise HTTPException(status_code=500, detail="Failed to execute query for majors")
 
-
+@router.post("/api/admin/credentials",  dependencies=[Depends(JWTBearer())], tags=["Credentials"])
+async def create_credentials(user: CredentialCreate, token_payload: dict = Depends(JWTBearer())):
+    print("user credential:", user)
+    try:
+        token = decodeJWT(token_payload)
+        if (token["role"] != "admin"):
+            raise HTTPException(status_code=401, detail="User is not authorized to perform this action")
+        netid = user.netid
+        password = user.password
+        permission = True if (user.permission == 1) else False
+        majorid1 = user.majorid if user.majorid else -1
+        majorid2 = user.majorid2 if user.majorid2 else -1
+        majorid3 = user.majorid3 if user.majorid3 else -1
+        async with get_cursor() as cursor:
+            await cursor.callproc("CreateUser", (netid, password, permission, majorid1, majorid2, majorid3))
+            await cursor.connection.commit()
+            return {"response": "success"}
+    except Exception as error:
+        print("error occurred: ", error)
+        raise HTTPException(status_code=500, detail="Failed to execute stored procedure for Credentials")
+    
 @router.get("/api/credentials",  dependencies=[Depends(JWTBearer())], tags=["Credentials"])
 async def get_credentials(token_payload: dict = Depends(JWTBearer())):
     try:

@@ -12,6 +12,9 @@ const DialogCredentialForm = ({dialogOpen, setDialogOpen}) => {
     const [password, setPassword] = useState("");
     const [netID, setNetID] = useState("");
     const [majors, setMajors] = useState([])
+    const [majorID, setMajorID] = useState(-1);
+    const [majorID2, setMajorID2] = useState(-1);
+    const [majorID3, setMajorID3] = useState(-1);
     const [role, setRole] = useState("")
     const handleClickShowPassword = () => setShowPassword((show) => !show);
 
@@ -20,9 +23,24 @@ const DialogCredentialForm = ({dialogOpen, setDialogOpen}) => {
       return httpClient
         .get("/majors", {headers: {Authorization: "Bearer " + jwtToken}})
         .then((response) => {
-          console.log("majors", response.data["Majors"])
           setMajors(response.data["Majors"])
         }).catch((error)=> {})
+    }
+
+    const createUserRequest = () => {
+      const jwtToken = localStorage.getItem("JWTToken");
+      const body = {};
+      body["netid"] = netID;
+      body["password"] = password;
+      body["permission"] = (role == "Admin") ? 1 : 0;
+      body["majorid"] = majorID;
+      body["majorid2"] = majorID2;
+      body["majorid3"] = majorID3;
+      return httpClient
+        .post("/admin/credentials", body, {headers: {Authorization: "Bearer " + jwtToken}})
+        .then((response) => {
+          window.location.reload(); 
+      }).catch((error)=> {})
     }
 
     const handleSelectRole = (e) => {
@@ -34,7 +52,6 @@ const DialogCredentialForm = ({dialogOpen, setDialogOpen}) => {
     };
 
     const handleClose = (event) => {
-        console.log("handle close: ", event);
         setDialogOpen(false)
     };
 
@@ -49,12 +66,8 @@ const DialogCredentialForm = ({dialogOpen, setDialogOpen}) => {
           component: 'form',
           onSubmit: (event) => {
             event.preventDefault();
-            console.log(event);
-            const formData = new FormData(event.currentTarget);
-            const formJson = Object.fromEntries(formData.entries());
-            const email = formJson.email;
-            console.log(formData);
             setDialogOpen(false);
+            createUserRequest();
           },
         }}
       >
@@ -105,14 +118,38 @@ const DialogCredentialForm = ({dialogOpen, setDialogOpen}) => {
                 </Select>
           </FormControl>
           <Divider/>
-          <FormControl required sx={{ m: 1, width: '25ch' }}>
-          <Autocomplete
-            disablePortal
-            id="combo-box-demo"
-            options={majors}
-            renderInput={(params) => <TextField {...params} label="Major" />}
-          />
-        </FormControl>
+          {(role === "Student") ? <>
+            <FormControl required sx={{ m: 1, width: '25ch' }}>
+              <Autocomplete
+                onChange={(e, val)=>{setMajorID(val["majorid"])}}
+                disablePortal
+                id="combo-box-demo"
+                options={majors}
+                renderInput={(params) => <TextField {...params} label="Major #1" />}
+              />
+            </FormControl>
+            <Divider/>
+            <FormControl required sx={{ m: 1, width: '25ch' }}>
+              <Autocomplete
+                onChange={(e, val)=>{setMajorID2(val["majorid"])}}
+                disablePortal
+                id="combo-box-demo"
+                options={majors}
+                renderInput={(params) => <TextField {...params} label="Major #2" />}
+              />
+            </FormControl>
+            <Divider/>
+            <FormControl required sx={{ m: 1, width: '25ch' }}>
+              <Autocomplete
+                onChange={(e, val)=>{setMajorID3(val["majorid"])}}
+                disablePortal
+                id="combo-box-demo"
+                options={majors}
+                
+                renderInput={(params) => <TextField {...params} label="Major #3" />}
+              />
+            </FormControl>
+          </>:<div/>}
         </DialogContent>
         <DialogActions>
           <Button color="error" onClick={(e)=>handleClose(e)}>Cancel</Button>
