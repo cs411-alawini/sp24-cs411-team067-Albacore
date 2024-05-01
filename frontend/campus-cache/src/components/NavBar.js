@@ -13,8 +13,8 @@ import ComputerIcon from '@mui/icons-material/Computer';
 import DomainIcon from '@mui/icons-material/Domain';
 import EventSeatIcon from '@mui/icons-material/EventSeat';
 import MapIcon from '@mui/icons-material/Map';
+import QueryStatsIcon from '@mui/icons-material/QueryStats';
 const NavBar = () => {
-
     const [drawerOpen, setDrawerOpen] = useState(false);
     const context = useContext(AppContext);
 
@@ -63,12 +63,12 @@ const NavBar = () => {
             </AppBar>
             <Drawer anchor="left" open={drawerOpen} onClose={() => setDrawerOpen(false)}>
                 <List>
-                    <ListItem onClick={()=>window.location.href="/credentials"}>
+                    <ListItem onClick={()=>window.location.href="/inventory"}>
                         <ListItemButton>
                             <ListItemIcon>
-                                <AccountBoxIcon/>
+                                <DeskIcon/>
                             </ListItemIcon>
-                            Credentials
+                            Inventory  
                         </ListItemButton>
                     </ListItem>
                     <ListItem onClick={()=>window.location.href="/facilities"}>
@@ -77,14 +77,6 @@ const NavBar = () => {
                                 <CorporateFareIcon/>
                             </ListItemIcon>
                             Facilities  
-                        </ListItemButton>
-                    </ListItem>
-                    <ListItem onClick={()=>window.location.href="/inventory"}>
-                        <ListItemButton>
-                            <ListItemIcon>
-                                <DeskIcon/>
-                            </ListItemIcon>
-                            Inventory  
                         </ListItemButton>
                     </ListItem>
                     <ListItem onClick={()=>window.location.href="/reservations"}>
@@ -103,6 +95,26 @@ const NavBar = () => {
                             Grainger Computers  
                         </ListItemButton>
                     </ListItem>
+                    {context.state.isAdmin? <>
+                        <ListItem onClick={()=>window.location.href="/stats"}>
+                            <ListItemButton>
+                                <ListItemIcon>
+                                    <QueryStatsIcon/>
+                                </ListItemIcon>
+                                Admin Stats 
+                            </ListItemButton>
+                        </ListItem>
+                        <ListItem onClick={()=>window.location.href="/credentials"}>
+                            <ListItemButton>
+                                <ListItemIcon>
+                                    <AccountBoxIcon/>
+                                </ListItemIcon>
+                                Credentials
+                            </ListItemButton>
+                        </ListItem>
+                    </>:
+                    <div/>}
+                    
                 </List>
         </Drawer>
         </Box>
