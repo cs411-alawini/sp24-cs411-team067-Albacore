@@ -31,6 +31,9 @@ jobs:
         file: ./frontend/Dockerfile
         push: true
         tags: lukealbarracin/campus-cache-frontend:latest
+        cache-from: type=registry,ref=lukealbarracin/campus-cache-frontend:latest
+        cache-to: type=inline
+        no-cache: true
 
     - name: Build and push FastAPI Backend Docker image
       uses: docker/build-push-action@v5
