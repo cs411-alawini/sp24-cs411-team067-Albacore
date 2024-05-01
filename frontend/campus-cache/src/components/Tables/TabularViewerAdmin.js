@@ -9,6 +9,7 @@ import CancelIcon from '@mui/icons-material/Close';
 import { Box, IconButton, Snackbar, Typography } from "@mui/material";
 import AddBoxIcon from '@mui/icons-material/AddBox';
 import DialogCredentialForm from "../Credentials/DialogueCredentialForm";
+import DialogDeleteItemConfirm from "../Reservations/DialogDeleteItemConfirm";
 
 const CustomToolbarAdmin = ({CredentialsMode}) => {
   const [dialogOpen, setDialogOpen] = useState(false);
@@ -45,9 +46,11 @@ CustomToolbarAdmin.propTypes = {
   CredentialsMode: PropTypes.bool
 };
 
-const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueIdentifier, credentialsMode}) => {
+const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueIdentifier, credentialsMode, deleteEnabled}) => {
     const [openSnackbar, setOpenSnackbar] = useState(false);
     const [tableData, setTableData] = useState([]);
+    const [item, setItem] = useState();
+    const [dialogOpen, setDialogOpen] = useState(false);
     const [rowModesModel, setRowModesModel] = useState({});
     // Below is not an ideal use case for memoization, but an example of how one would do this
     // Code used from MUI docs: https://mui.com/x/react-data-grid/editing/
@@ -80,7 +83,8 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
             ];
           }
   
-          return [
+          return deleteEnabled ? [
+            
             <GridActionsCellItem
               icon={<EditIcon />}
               label="Edit"
@@ -88,13 +92,22 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
               onClick={handleEditClick(id)}
               color="inherit"
             />,
-            // <GridActionsCellItem
-            //   icon={<DeleteIcon />}
-            //   label="Delete"
-            //   onClick={handleDeleteClick(id)}
-            //   color="inherit"
-            // />,
-          ];
+            <GridActionsCellItem
+              icon={<DeleteIcon />}
+              label="Delete"
+              onClick={handleDeleteClick(id)}
+              color="inherit"
+            />,
+          ] :
+          [
+            <GridActionsCellItem
+              icon={<EditIcon />}
+              label="Edit"
+              className="textPrimary"
+              onClick={handleEditClick(id)}
+              color="inherit"
+            />,
+          ]
         },
     })
 
@@ -139,7 +152,8 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
     };
       
     const handleDeleteClick = (id) => () => {
-      setTableData(tableData.filter((row) => row.id !== id));
+      setDialogOpen(true)
+      setItem(id);
     };
       
     const handleCancelClick = (id) => () => {
@@ -160,6 +174,7 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
     
     return (
       <Box justifyContent="center" sx={{backgroundColor: '#1f2d3d', display: "flex",  width: '100%' }}>
+        {deleteEnabled ? <DialogDeleteItemConfirm dialogOpen={dialogOpen} setDialogOpen={setDialogOpen} rowID={item}/> : <div/>}
         <DataGrid
             autoHeight
             style={{position: "absolute"}}
@@ -193,7 +208,8 @@ TabularViewerAdmin.propTypes = {
     updateData: PropTypes.func,
     tableHeaders: PropTypes.array,
     uniqueIdentifier: PropTypes.string,
-    credentialsMode: PropTypes.bool
+    credentialsMode: PropTypes.bool,
+    deleteEnabled: PropTypes.bool
 };
 
 export default TabularViewerAdmin;

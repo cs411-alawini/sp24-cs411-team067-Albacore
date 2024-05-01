@@ -47,7 +47,7 @@ const ReservationModuleAdmin = () => {
     }, []);
 
     return (
-        <TabularViewerAdmin title={"Reservations"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"reservation_id"}/>
+        <TabularViewerAdmin title={"Reservations"} grabData={getRequest} updateData={putRequest} tableHeaders={headers} uniqueIdentifier={"reservation_id"} deleteEnabled/>
     );
 }
 export default ReservationModuleAdmin;
