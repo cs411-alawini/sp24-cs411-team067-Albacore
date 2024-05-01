@@ -28,6 +28,7 @@ const TabularViewerBase = ({title, grabData, updateData, tableHeaders, uniqueIde
 
     const [tableData, setTableData] = useState([]);
     const [rowModesModel, setRowModesModel] = useState({});
+    const [loading, setLoading] = useState(true);
     // Code used from MUI docs: https://mui.com/x/react-data-grid/editing/
     
     // TODO: Remove reserve button for non-active reservations or make a query that removes them 
@@ -39,6 +40,7 @@ const TabularViewerBase = ({title, grabData, updateData, tableHeaders, uniqueIde
     useEffect(() => {
       grabData().then((response) => {
           setTableData(response.data[title]);
+          setLoading(false);
       })
       .catch((error) => {
       });
@@ -56,6 +58,7 @@ const TabularViewerBase = ({title, grabData, updateData, tableHeaders, uniqueIde
         <Box justifyContent="center" sx={{display: "flex",  width: '100%' }}>
           <DataGrid
             autoHeight
+            loading={loading}
             style={{position: getPosition()}}
             getRowId={row=>row[uniqueIdentifier]}
             rows={tableData}

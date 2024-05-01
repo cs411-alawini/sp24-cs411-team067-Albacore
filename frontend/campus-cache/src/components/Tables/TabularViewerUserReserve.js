@@ -28,6 +28,7 @@ const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, un
     const [dialogOpen, setDialogOpen] = useState(false);
     const [item, setItem] = useState();
     const [tableData, setTableData] = useState([]);
+    const [loading, setLoading] = useState(true);
     const [rowModesModel, setRowModesModel] = useState({});
     // Code used from MUI docs: https://mui.com/x/react-data-grid/editing/
     
@@ -50,6 +51,7 @@ const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, un
     useEffect(() => {
       grabData().then((response) => {
           setTableData(response.data[title]);
+          setLoading(false);
       })
       .catch((error) => {
       });
@@ -60,6 +62,7 @@ const TabularViewerUserReserve = ({title, grabData, updateData, tableHeaders, un
         <DialogueReserveItemForm dialogOpen={dialogOpen} setDialogOpen={setDialogOpen} rowID={item}/>
         <DataGrid
           autoHeight
+          loading={loading}
           style={{position: "absolute"}}
           getRowId={row=>row[uniqueIdentifier]}
           rows={tableData}
