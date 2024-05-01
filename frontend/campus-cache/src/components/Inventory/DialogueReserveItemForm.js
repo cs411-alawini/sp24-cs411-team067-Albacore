@@ -15,7 +15,7 @@ const DialogueReserveItemForm = ({dialogOpen, setDialogOpen, rowID}) => {
         const jwtToken = localStorage.getItem("JWTToken");
         const body = {}
         httpClient.post("/reservations/" + rowID, body,
-            {headers: {Authorization: "Bearer " + jwtToken}}).then((response)=> {})
+            {headers: {Authorization: "Bearer " + jwtToken}}).then((response)=> {window.location.reload();})
         .catch((error) => {
             console.error("dialogue reserve item form error", error)
         })
@@ -26,7 +26,7 @@ const DialogueReserveItemForm = ({dialogOpen, setDialogOpen, rowID}) => {
         open={dialogOpen}
         PaperProps={{
           component: 'form',
-          onSubmit: (event) => {handleSubmit()},
+          onSubmit: (event) => { event.preventDefault(); handleSubmit()},
         }}
       >
         <DialogTitle>Create a Reservation</DialogTitle>
