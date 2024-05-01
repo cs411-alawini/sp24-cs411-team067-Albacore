@@ -139,10 +139,8 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
       for (const cell in updatedRow) {
         body[cell] = updatedRow[cell];
       }
-      console.log("new_row", newRow[uniqueIdentifier])
       updateData(newRow[uniqueIdentifier], body, updateHeaders).then((response) => {
-        console.log("idtoUpdatex", idToUpdate)
-        setOpenSnackbar(true);
+      setOpenSnackbar(true);
       })
       .catch((error) => {
       });
@@ -176,7 +174,7 @@ const TabularViewerAdmin = ({title, grabData, updateData, tableHeaders, uniqueId
     
     return (
       <Box justifyContent="center" sx={{backgroundColor: '#1f2d3d', display: "flex",  width: '100%' }}>
-        {deleteEnabled ? <DialogDeleteItemConfirm dialogOpen={dialogOpen} setDialogOpen={setDialogOpen} rowID={item}/> : <div/>}
+        {deleteEnabled ? <DialogDeleteItemConfirm setOpenSnackbar={setOpenSnackbar} dialogOpen={dialogOpen} setDialogOpen={setDialogOpen} rowID={item}/> : <div/>}
         <DataGrid
             autoHeight
             style={{position: "absolute"}}

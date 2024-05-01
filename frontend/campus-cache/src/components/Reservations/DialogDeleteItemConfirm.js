@@ -2,7 +2,7 @@ import { Button, Dialog, DialogActions, DialogContent, DialogContentText, Dialog
 import { httpClient } from "../../infra";
 import PropTypes from "prop-types";
 
-const DialogDeleteItemConfirm = ({dialogOpen, setDialogOpen, rowID}) => {
+const DialogDeleteItemConfirm = ({dialogOpen, setDialogOpen, rowID, setOpenSnackbar}) => {
     // Also, utilized:  https://mui.com/material-ui/react-dialog/
 
     const handleClose = (event) => {
@@ -14,7 +14,9 @@ const DialogDeleteItemConfirm = ({dialogOpen, setDialogOpen, rowID}) => {
         const jwtToken = localStorage.getItem("JWTToken");
         const body = {}
         httpClient.delete("/reservations/" + rowID,
-            {headers: {Authorization: "Bearer " + jwtToken}}).then((response)=> {})
+            {headers: {Authorization: "Bearer " + jwtToken}}).then((response)=> {
+                setOpenSnackbar(true);
+            })
         .catch((error) => {
             console.error("dialogue reserve item form error", error)
         })
@@ -47,7 +49,8 @@ const DialogDeleteItemConfirm = ({dialogOpen, setDialogOpen, rowID}) => {
 DialogDeleteItemConfirm.propTypes = {
     dialogOpen: PropTypes.bool,
     setDialogOpen: PropTypes.func,
-    rowID: PropTypes.number
+    rowID: PropTypes.number,
+    setOpenSnackbar: PropTypes.func
 }
 
 export default DialogDeleteItemConfirm;
