@@ -116,7 +116,9 @@ async def return_item(reservationid: int, reservation: Reservations, token_paylo
 @router.delete("/api/reservations/{reservationid}", tags=["Reservations"], dependencies=[Depends(JWTBearer())])
 async def remove_reservations(reservationid: int, token_payload: dict = Depends(JWTBearer())):
     # stored procedure: delete_reservation(p_ReservationID)
+    print("running")
     jwt_info = decodeJWT(token_payload)
+    
     try:
         async with get_cursor() as cursor:
             if (jwt_info['role'] == 'admin'):
